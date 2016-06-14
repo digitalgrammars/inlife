@@ -1,0 +1,2035 @@
+0001	PrepP	above	sopra	över	über	nad
+0002	CN	account	conto	konto	das Konto	račun
+0003	CNH	actor	attore	skådespelare	der Schauspieler	igralec
+0004	CNH	actress	attrice	skådespelerska	die Schauspielerin	igralka
+0005	CN	adapted computer	computer adattato	anpassad dator	angepasster Computer	prilagojen računalnik
+0006	CN	adapted game	gioco adattato	anpassat spel	angepasstes Spiel	prilagojena igra
+0007	V2	address	indirizzare	adressera	Adresse 	naslov
+0008	CN	address	indirizzo	adress	Anschrift	nagovor
+0009	VP	adjust bed down	abbassare il letto	sänka sängen	das Bett anpassen	namestiti posteljo navzdol
+0010	AP	admirable	ammirabile	berömvärd	erstaunlich	čudovit
+0011	CNH	adult	adulto	vuxen	Erwachsener	odrasla oseba
+0011	CNH	baby	bambino	barn	Baby	otrok
+0012	V2	advice	consigliare	råda	der Rat	nasvet
+0013	Adv	aerial	aerea	via luften	luftig	zračen, antena
+0014	CNT	afternoon	pomeriggio	eftermiddag	der Nachmittag	popoldne
+0015	CN	after shave	dopo barba	rakvatten	nach der Rasur	po britju
+0016	CNP	airport	aereoporto	flygplats	der Flughafen	letališče
+0017	Interj	all done	tutto fatto	klart	alle getan	končano
+0018	AP	allergic	allergico	allergisk	allergisch	alergičen
+0019	CNP	alley	viale	gränd	die Gasse,die Allee,Weg	aleja
+0020	AdV	always	sempre	alltid	immer,ständig	vedno
+0021	CN	ambulance	ambulanza	ambulans	die Ambulanz	reševalno vozilo
+0022	CNM	analcolic beer	birra analcoolica	alkoholfri öl	alkoholfreies Bier	alkoholno pivo
+0023	CNM	ananas juice	succo d'ananas	ananasjuice	Ananas Saft	ananasov sok
+0024	Conj	and	e	och	und	in
+0025	NPH	somebody	qualsiasi persona	någon person	irgendwelche Leute	vsi ljudje
+0026	CNP	apartment	appartamento	lägenhet	die Wohnung	stanovanje
+0027	CNM	appetite	appetito	aptit	der Appetit	apetit
+0028	CNM	apple juice	succo di mela	äppeljuice	der Apfelsaft	jabolčni sok
+0029	CN	apple	mela	äpple	der Apfel	jabolko
+0030	CN	appointment	appuntamento	mötestid	geplanter Termin	sestanek (dogovorjen)
+0031	CN	apricot	albicocca	aprikos	die Aprikose,die Marille	marelica
+0032	Month	April	Aprile	april	der April	april
+0033	NP	April Fool's Day	pesce d'aprile	första april	Erster April	Prvoaprilski dan
+0034	QCl	are you in a hurry?	hai fretta	har du bråttom	bist du in Eile	ali se vam mudi?
+0035	CN	arm	braccio	arm	der Arm	roka
+0036	PrepP	around	intorno	omkring	um	okoli, približno
+0037	CNM	art	arte	konst	die Kunst	umetnost
+0038	Imp	ask me questions	fammi delle domande	fråga mig	stell mir Fragen	postavite vprašanje
+0039	Imp	ask me yes/no question	fammi una domanda chiusa	ställ ja- eller nejfrågor	frag mich ja/nein Fragen	tip vprašanja 'da-ne'
+0040	AP	attractive	attraente	attraktiv	attraktiv	privlačen
+0041	Month	August	Agosto	augusti	der August	avgust
+0042	CNH	author	scrittore	författare	der Autor	avtor
+0043	AdvP	away	via da	iväg	weg	daleč
+0044	AP	awful	orribile	hemsk	furchbar	grozen
+0045	AP	awful	terribile	hemsk	schrecklich	strašen
+0046	CN	back	dorso	rygg	zurück*	nazaj
+0047	AdvP	back	indietro	bakåt	wieder	zadaj
+0048	CN	back	schiena	rygg	retour	hrbet
+0049	AP	bad	cattivo	otäck	schlecht	slab
+0050	CNT	bad day	giornata storta	olycksdag	schlechter Tag	slab dan
+0051	Adv	badly	malissimo	dålig	schlecht	slabo
+0052	CNH	bad man	uomo cattivo	elak man	schlecher Mann	slab človek
+0053	AP	bad	pessimo	dålig	böse,schlimm	kvaren
+0054	CN	bag	sacchetto	påse	die Tasche	torba
+0055	CNH	baker	fornaio	bagare	der Bäker	pek
+0056	CNM	baking powder	lievito in polvere	bakpulver	das Backpulver	pecilni prašek
+0057	CNP	ball bath	piscina palline	badboll	Ballbad	kopalna kroglica (bombica)
+0058	CN	ball of wool	gomitolo di lana	garnnystan	Woolknäuel	volnena krogla
+0059	CN	ball	palla	boll	der Ball	žoga
+0060	CN	banana	banana	banan	die Banane	banana
+0061	CN	bandage	benda	bandage	die Bandage,der Verband	povoj
+0062	CN	band	banda	musikband 	die Band	skupina
+0063	CNH	band	gruppo musicale	orkester	die Gruppe	trak
+0064	CNP	bank	banca	bank	die Bank	banka
+0065	CNH	bank teller	banchiere	bankkassör	Bankangestellte	bankomat*
+0066	CNP	basin	vasca da bagno	handfat	das Becken	umivalnik
+0067	CNP	basin	vasca	kärl	die Schüssel	bazen
+0068	CN	bath cap	cuffia da bagno	badmössa	Badkappe	kopalna kapa
+0069	CNM	bathing		balneazione	bada utomhus	das Baden	kopanje
+0070	CN	bathing suit	costume da bagno	baddräkt	der Badeanzug	kopalke
+0071	CNP	bathroom	bagno	badrum	das Badezimmer	kopalnica
+0072	CN	battery	pila	batteri	die Batterie	baterija
+0073	CN	beach bag	borsa da spiaggia	strandväska	Strandtasche	torba za na plažo
+0074	CNP	beach	spiaggia	strand	der Strand	plaža
+0075	CN	beach towel	asciugamano da spiaggia	strandhandduk	Badetuch	brisača za na plažo
+0076	AP	beautiful	bello	vacker	schön	lep
+0077	CN	beautiful clothe	vestito bello	vacker klänning	schön kleiden	lepa obleka, tkanina
+0078	CN	beautiful show	bello spettacolo	vacker föreställning	schöne Show	lepa predstava
+0079	CN	bed for visit	lettino da visita	gästsäng	Bett für Besuch	postelja za goste
+0080	CNP	bedroom	stanza letto	sovrum	das Schlafzimmer	spalnica
+0081	CNT	bed time	ora di andare a letto	läggdags	Bettzeit,die Schlafenszeit	čas za spanje
+0082	CNM	beef	manzo	nötkött	das Rindfleisch	govedina
+0083	CNM	beer	birra	öl	das Bier	pivo
+0084	Copula	be	essere	vara	sein	biti
+0085	CN	belly	pancia	mage	der Bauch	trebuh
+0086	CN	belt	cintura	bälte	der Gürtel	pas
+0087	Interj	best wishes	auguri	lyckönskningar	die besten Wünsche	vse najboljše
+0088	AP	big	grande	stor	gross	velik
+0089	CNM	bird food	cibo per uccelli	fågelmat	Vogelfutter	ptičja hrana
+0090	CN	bird house	casetta per gli uccelli	fågelhus	das Vogelhaus	ptičja hiša
+0091	VP	bite an apple	mordere le mele	bita i äpplet	beissen einen Apfel	ugrizniti v jabolko
+0092	CNH	black cat	gatto nero	svart katt	schwarze Katze	črna mačka
+0093	CN	blender	frullatore	mixer	der Mixer	mešalnik
+0094	CNM	blood pressure	pressione sanguigna	blodtryck	der Blutdruck	krvni pritisk
+0095	CNM	blood	sangue	blod	das Blut	kri
+0096	VP	blow out a candle	spegnere una candela	blåsa ut ett ljus	schlag eine Kerze aus	upihniti svečo
+0097	CNM	blueberry juice	succo di mirtilli	blåbärssaft	Blaubeersaft	borovničev sok
+0098	AP	blue	blu	blå	blau	moder
+0099	AP	boiled	cotto	kokt	gekocht	kuhan
+0100	CN	book	libro	bok	das Buch	knjiga
+0101	CNP	book store	libreria	bokhandel	die Buchhandlung	knjigarna
+0102	CNM	boredom	noia	tristess	die Langeweile	dolgčas
+0103	Det	both	entrambi	bägge	beide	oba
+0104	CN	bottle	bottiglietta	flaska	Flasche	steklenice
+0104	CN	straw	cannuccia	sugrör	Stroh	slama
+0105	CNM	bottom ache	male al sedere	ont i stjärten	Bodenschmerzen	dno bolečine
+0106	CN	bowl	bacinella	diskbalja	die Schüssel	skleda
+0107	CN	bowl	ciotola	bunke	die Schale	posoda
+0108	CN	bowl	scodella	skål	der Bowl	krogla
+0109	CN	box	cassa	låda	die Box	škatla
+0110	CN	box drink	bevanda in cartone	dryck i tetrapack	Box Getränk	zaboj pijače
+0111	CN	box of chocolates	scatola di cioccolatini	chokladask	Schachtel Pralinen	škatla čokoladnih bonbonov
+0112	CN	box of legumi	legumi in scatola	grönsakskonserv	Box von Leguminosen	škatla stročnice
+0113	CNH	boy	bambino	pojke	der Junge	fant
+0114	CNH	boy	ragazzo	pojke	der Bub	deček
+0115	CN	bracelet	bracciale	armband	das Armband	zapestnica
+0116	CN	brain	cervello	hjärna	das Gehirn	možgani
+0117	CNM	bread	pane	bröd	das Brot	kruh
+0118	CN	bread slice	fetta di pane	brödskiva	Brotscheibe	rezina kruha
+0119	CN	breakfast	colazione	frukost	das Früstück	zajtrk
+0120	NP	breakfast time	ora di colazione	frukostdags	Früstückszeit	čas za zajtrk
+0121	CN	breast	seno	bröst	die Brust	dojka, prsi
+0122	CNH	bricklayer	muratore	murare	der Maurer	zidar
+0123	VP	bring back a book	restituire un libro	återlämna en bok	ein Buch zurück bringen	prinesti knjigo nazaj
+0124	CN	brochure	opuscolo	broschyr	die Broschüre	brošura
+0125	AP	broken	rotto	trasig	gebrochen	zdrobljen
+0126	VP	break the eggs	rompere le uova	ha sönder äggen	brach die Eier	zdrobiti jajca
+0127	CN	broom	scopa	sopborste	Besen	metla
+0127	CN	pail	secchio	skyffel	Eimer	vedro
+0128	CN	broom	scopa	sopborste	der Besen	metla
+0129	CNH	brother	fratello	bror	der bruder	brat
+0130	CNM	brown sugar	zucchero di canna	råsocker	brauner Zucker	rjavi sladkor
+0131	VP	brush hair	spazzolarsi i capelli	borsta håret	Haare bürsten	krtača
+0132	VP	brush tongue	spazzolare la lingua	borsta tungan	Pinselzunge	ščetka za jezik
+0133	CNP	building	palazzina	byggnad	das Gebäude	stavba
+0134	CNP	building	palazzo	hyreshus	der Bau	zgradba
+0135	CNH	bus driver	autista di autobus	busschaufför	der Busfahrer	voznik avtobusa
+0136	CN	business	affari	affärer	das Geschäft	posel
+0137	CNP	bus	pullman	buss	der Bus	avtobus
+0138	CNP	bus station	stazione bus	busstation	die Bushaltestelle	avtobusna postaja
+0139	CN	bus timetable	orario autobus	busstidtabell	Bus Zeit	čas  prihoda avtobusa
+0140	Interj	how lucky	che fortuna	vilken tur	aber*	vendar
+0141	CNP	butcher's shop	macelleria	charkuteri	die Metzgerei	mesnica
+0142	VP	butter a slice of bread	imburrare il pane	bre en smörgås	butter eine Scheibe Brot	maslo namazati na rezino kruha
+0143	CNM	butter	burro	smör	die Butter 	maslo
+0144	V2	button up	abbottonare	knäppa upp	zuknöpfen	zapni se
+0145	V2	buy	comprare	köpa	kaufen	kupiti
+0146	Interj	bye	ciao	hej då	tschüss	bye
+0147	V2	call	chiamare	ropa	der Anruf*	klic
+0148	VP	respond to telephone	rispondere al telefono	svara i telefonen	der Aufruf*	poziv
+0149	CN	call	telefonata	telefonsamtal	das Gespräch	povabilo
+0150	CN	camera	fotocamera	kamera	die Kamera	kamera
+0151	CN	candied pie	torta con canditi	tårta med glasyr	kandierte Kuchen	kandirana pita
+0152	CN	can opener	apriscatole	konservöppnare	der Dosenöffner	odpirač konzerv
+0153	CNP	car	automobile	bil	der Wagen	avto
+0154	CNM	care	cura	vård	die Pflege	nega
+0155	CNH	carpenter	falegname	snickare	der Zimmrmann*	tesar
+0156	CN	carpet	tappeto	matta	der Teppich	preproga
+0157	CN	carrot	carota	morot	die Karotte	korenje
+0158	CN	carton	scatola di cartone	kartong	der Karton	škatla
+0159	CNM	cash	contanti	kontanter	da Bargeld*	gotovina
+0160	CN	casual jacket	giacca casual	vardagsjacka	Freizeitjacke	športna jakna
+0161	CNM	cat food	cibo per gatti	kattmat	Katzenfutter	hrana za mačke
+0162	CN	cd player	lettore cd	cd-spelare	CD player	CD predvajalnik
+0163	CN	ceiling	soffitto	tak	die Decke	strop
+0164	CN	cellular	cellulare	mobil	zellular	celični
+0165	CN	certificate	diploma	intyg	das Zertifikat	potrdilo
+0166	CN	chair	sedia	stol	der Stuhl	stol
+0167	CNH	champion	campione	champion	der Champion	prvak
+0168	VP	change	cambiarsi d'abito	byta kläder	die Veränderung	sprememba
+0169	VP	change channel	cambia canale	byta kanal	Kanalwechsel	srememba kanala
+0170	VP	change diaper	cambiare pannolini	byta blöjor	Windel wechseln	sprememba plenic
+0171	Cl	changed my mind	ho cambiato idea	jag har ändrat mig	meine Meinung ändern	premislil sem si
+0172	V2	check	controllare	kontrollera	prüfen	preveriti
+0173	CN	cheek	guancia	kind	die Wange	lice
+0174	Interj	cheers	cin-cin	skål	Prost	razveseliti
+0175	CN	cheese cracker	salatino al formaggio	ostkex	Käse Cracker	sir cracker (keks)
+0176	CNM	cheese cream	crema di formaggio	mjukost	Käsecreme	sveži sir
+0177	CNM	cheese	formaggio	ost	der Käse	sir
+0178	CN	cheese snack	stuzzichini al formaggio	ostbågar	Käse Snack	sir prigrizek
+0179	CN	chemistry class	lezione di chimica	kemilektion	Chemie Unterricht	poučevanje kemije
+0180	CNM	chest pain	dolore al petto	bröstsmärtor	Brustschmerzen	bolečina v prsnem košu
+0181	CN	chest	petto	bröst	die Brust	prsi,prsni koš
+0182	CN	chicken croquette	crocchette di pollo	kycklingkrokett	Hänchen Kroketten	piščančji kroket
+0183	CN	chicken fillet	petto di pollo	kycklingfilÃ©	Hänchenfilet	piščančji file
+0184	CN	chicken fillet sandwich	panino al pollo	kycklingsmörgås	Hänchenfilet Sandwich	piščančji file sendvič
+0185	CN	chicken fry	pollo fritto	stekt kyckling	Hänchen braten	ocvrti piščanec
+0186	CN	chicken leg	coscia di pollo	kycklinglår	Hühnerbein	piščančje bedro
+0187	CN	chicken pieces	pollo a pezzi	kycklingbröst	Hänchenteile	piščančji kosi
+0188	CN	chicken	pollo	kyckling	das Huhn	piščanec
+0189	CN	chin	mento	haka	das Kinn	brada
+0190	CNM	chocolate	cioccolata	choklad	die Schokolade	čokolada
+0191	CN	chocolate cookie	biscotto al cioccolato	chokladkex	Schokoladenplätzchen	čokoladni piškot
+0192	CNPL	chocolate drop	gocce di cioccolato	chokladkarameller	Schokoladentropfen	čokoladne drobtinice
+0193	CNT	Christmas day	giorno di  natale	juldagen	Weihnachtstag	božični dan
+0194	CN	Christmas tree	albero di natale	julgran	Weihnachtsbaum	Božična jelka
+0195	CNP	church	chiesa	kyrka	die Kirche	cerkev
+0196	CNP	church courtyard	sagrato	kyrkogård	Kirchplatz	cerkveno dvorišče
+0197	CNP	circus	circo	cirkus	Zirkuszelt	cirkuški šotor
+0198	CNH	citizen	cittadino	medborgare	Bürger	državljan
+0199	CNP	city	città	stad	die Stadt	mesto
+0200	CN	class	classe	klass	die Klasse	razred
+0201	CNM	classical music	musica classica	klassisk musik	klassische Musik	klasična glasba
+0202	NP	clean hands	mani pulite	rena händer	saubere Hände	čiste roke
+0203	NP	clean house	casa pulita	rent hus	sauberes Haus	čista hiša
+0204	CN	clean	oggetti pulizia	städredskap	sauber	čist
+0205	V2	clean	pulire	städa	rein	čediti
+0206	AP	clean	pulito	ren	klar	počistiti
+0207	CN	clean	pulizia	rengöring, städning	glatt	čistiti 
+0208	VP	clean room	pulire la stanza	städa rummet	sauberes Zimmer*	čista soba
+0209	VP	clean the bath	pulire il bagno	städa badrummet	Bad reinigen	očistiti kopalno kad
+0210	VP	clean the kitchen	pulire la cucina	städa köket	die Küche sauber machen	očistiti kuhinjo
+0211	VP	clean the table	pulire il tavolo	torka bordet	den Tisch wischen	počistiti mizo
+0212	VP	clear the table	sparecchiare	duka av bordet	klarer Tisch*	čista miza
+0213	VP	close	chiudere documento	stänga dokument	schliessen	zapreti
+0214	V2	close	chiudere	stänga	nah	blizu
+0215	VP	close eyes	chiudere gli occhi	blunda	Augen schliessen	zapreti oči
+0216	CNP	closet	armadio	skåp	der Schrank	omara
+0217	VP	close the door	chiudere la porta	stänga dörren	die Tür schliessen	zapreti vrata
+0218	VP	close the window	chiudere la finestra	stänga fönstret	das Fenster schliessn	zapreti okno
+0219	CNPL	clothes	abbigliamento	klädsel	die Kleidung	blago
+0220	CNPL	clothes	vestiario	kläder	die Bekleidung	oblačila
+0221	CNPL	clothes	vestiti	kläder	die Kleider	oblačila
+0222	CNP	clothing store	negozio d'abbigliamento	klädaffär	das Bekleidungsgeschäft	trgovina z oblačili
+0223	AP	cloudy	nuvoloso	molnigt	bewölkt	oblačno
+0224	CN	coach door	porta dell'autobus	bussdörr	Trainer Tür	vrata vozila
+0225	CNCONJ	coat and gloves	cappotto e guanti	rock och handskar	Mantel und Handschuhe	plašč in rokavice	DUPLICATE 0226
+0226	CN	coat	cappotto	rock	der Mantel	plašč
+0227	CNM	coffee	caffè	kaffe	der Kaffee	kava
+0228	CN	cold drink	bevanda ghiacciata	kall dryck	kaltes Getränk	hladna pijača
+0229	AP	cold	freddo	kall	kalt	hladno
+0230	AP	cold	infreddolito	förkyld	kühl	mrzlo
+0231	CNM	cold	raffreddore	förkylning	ruhig	hladen
+0232	CNM	cold tea	té freddo	iste	kalter Tee	hladen čaj
+0233	CN	comb	pettine	kam	Kamm	glavnik
+0233	CN	brush	spazzola	borste	Bürste	krtača
+0234	VP	come back home	torniamo a casa	vi åker hem*	nach hause zurück kommen	priti nazaj domov
+0235	Imp	come here	vieni qui	kom hit	komm her	pridi sem
+0236	V	come	venire	komma	kommen	priti
+0237	CN	community	municipio	samhälle	die Gemeinschaft	skupnost
+0238	CN	company	compania	sällskap	die Firma	podjetje
+0239	CN	computer	computer	dator	der Computer	računalnik
+0240	CNP	concert	concerto	konsert	das Konzert	koncert
+0241	CNP	conference	conferenze	möte	die Konferenz	konferenca
+0242	CN	control	controllo	kontroll	kontrollieren*	nadzor
+0243	VP	cook	cucinare	laga mat	der Koch*	kuhar
+0244	VP	cook	cucinare	laga mat	der Cook*	kuharica	DUPLICATE 0243
+0245	CNH	cook	cuoco	kock	kochen*	kuhati
+0246	CN	cooking book	libro da cucina	kokbok	Kochbuch	knjiga za kuhanje
+0247	CN	cooking spoon	cucchiaio di legno	träslev	Kochlöffel	žlica za kuhanje
+0248	CN	copybook	quaderno	övningsbok	das Schönschreibheft	bilježnica
+0249	CN	cordless telephone	telefono senza fili	bärbar telefon	Schnurlostelefon	brezžični telefon
+0250	CNP	corner	angolo	hörn	die Ecke	kotiček
+0251	CNP	corridor	corridoio	korridor	der Korridor,der Flur	koridor,hodnik
+0252	CNM	cottage cheese	ricotta	keso	der Hüttenkäse	skuta
+0253	CN	cotton floc	cotton fioc	bomullspinne	Baumwolle floc	vatirana palčka
+0254	CNM	cotton flock	batuffoli di cotone	bomull 	Baumwollflocken	bombažne kroglice
+0255	VV?	could not	non potrei	jag kan inte*	konnte nicht	ne bi
+0256	NP	country	campagna	landsbygden	das Land	država
+0257	CNM	country music	musica country	countrymusik	Countrymusik	country glazba
+0258	CNP	country	paese	land	der Staat	država, dežela
+0259	CNP	course	corso	kurs	der Kurs	smer
+0260	CNM	cream	panna	grädde	die Creme	krema
+0261	CN	credit card	carta di credito	kreditkort	die Kreditkarte	kreditna kartica
+0262	CN	cucumber	cetriolo	gurka	die Gurke	kumara
+0263	CNP	cupboard	pensile da cucina	köksskåp	der Schrank	omara
+0264	CN	cup	tazza	kopp	die Tasse	skodelica
+0265	CNP	customs	dogana	tull	der Zoll	carina
+0266	VP	cut nails	tagliare le unghie	klippa naglarna	Nägel schneiden	rezati nohte
+0267	V2	cut	tagliare	klippa	schneiden	rez
+0268	CN	appointment	appuntamento	möte*	das Datum	datum	DUPLICATE 0030
+0269	CN	date	data	datum	der Termin*	dogovorjen sestanek
+0270	CNH	daughter	figlia	dotter	die Tochter	hčerka
+0271	CNT	day	giorno	dag	der Tag	dan
+0272	Month	December	Dicembre	december	der Dezember	december
+0273	VS	declare	dichiarare	uttala	erklären	izjaviti
+0274	VP	decorate pie	decorare la torta	dekorera tårtan	Kuchen dekorieren	okrasiti sladico
+0275	CN	degree	laurea	examen	der Grad	stopnja
+0276	AP	delicious	delizioso	läcker	köstlich	slasten
+0277	CNM	deodorant	deodorante	deodorant	das Deodorant	deodorant
+0278	CNP	department store	grande magazzino	varuhus	das Kaufhaus	veleblagovnica
+0279	CN	desk	scrivania	skrivbord	der Schreibtisch	pisalna miza
+0280	CNM	detergent	detergente	tvättmedel	das Waschmittel	pralno sredstvo
+0281	CN	dictionary	dizionario	ordbok	das Wörterbuch	slovar
+0282	AP	digital	digitale	digital	digital	digitalni
+0283	CN	dinner	cena	middag	das Abendessen	večerja
+0284	NP	dinner time	ora di cena	middagsdags	Essenzeit	čas za večerjo
+0285	CN	direction	direzione	riktning	die Richtung	smer
+0286	NP	dirty hands	mani sporche	smutsiga händer	schmutzige Hände	umazane roke
+0287	AP	dirty	sporco	smutsig	schmutzig	umazan
+0288	CN	disgrace	disgrazia	olycka	die Schande	sramota
+0289	CN	disgust	schifo	avsky	der Ekel	gnus
+0290	CNM	dishes detersive	detersivo piatti	diskmedel	waschaktive Gerichte	detergent za pomivanje posode
+0291	CN	dishwasher	lavapiatti	diskmaskin	die Geschierspüler	pomivalni stroj
+0292	CN	divorce	divorzio	skilsmässa	die Scheidung	ločitev
+0293	CNH	doctor	dottore	doktor	der Arzt	zdravnik
+0294	CNH	doctor	medico	läkare	der Doktor	raven izobrazbe
+0295	CNM	dog food	cibo per cani	hundmat	Hundefutter	pasja hrana
+0296	Imp	do not cross	non attraversare	gå inte över	überquere nicht	ne prečkaj (cesto)
+0297	VP	don't like	non piacere	inte tycka om	nicht mögen	ne maram
+0298	Imp	don't look	non guardare	titta inte	nicht schauen	ne glej
+0299	VP	don't speak	non parlante	icketalande	nicht sprechen	ne govori
+0300	VP	don't care	non mi interessa	intresserar mig inte	egal	me ne zanima
+0301	VP	don't want	non volere	inte vilja	nicht wollen	ne želim
+0302	CNP	donut shop,bakery	panetteria	bageri	donut shop	prodajalna krofov
+0303	VP	do the shopping	fare la spesa	handla	den Einkauf machen	narediti nakup
+0304	Det	a dozen	dozzina	dussin	da Dutzend*	ducat
+0305	CN	drawer	cassetto	låda	die Schublade	predal
+0306	CN	dress	vestito	klänning	das Kleid	obleka
+0307	CNM	dried fruit	frutta secca	torkad frukt	Trockenfrüchte	suho sadje
+0308	V2	drink	bere	dricka	das Getränk*	pijača
+0308	V	drink	bere	dricka	das Getränk*	pijača
+0309	CN	drink	bibita	dryck	der Drink	piti
+0310	V2	drive	guidare	köra	fahren	voziti
+0310	V	drive	guidare	köra	fahren	voziti
+0311	CNH	driver	pilota	chaufför	der Fahrer	voznik 
+0312	CN	dryer	asciugatrice	torktumlare	der Trockner	sušilec las
+0313	VP	dry face	asciugare il viso	torka ansiktet	trockene Gesicht	suh obraz
+0314	VP	dry hands	asciugare le mani	torka händerna	trockene Hände	suhe roke
+0315	NP	dry pants	pantaloni asciutti	torra byxor	trockene Hosen	suhe hlače
+0316	V2	earn	guadagnare	tjäna	verdienen	zaslužiti
+0317	CN	Easter egg	uova di pasqua	påskägg	Ostereier	velikonočna jajca
+0318	CN	easy chair	poltrona comoda	bekväm fåtölj	der Sessel	ležalnik
+0319	V2	eat	mangiare	äta	essen	jesti
+0319	V	eat	mangiare	äta	essen	jesti
+0032	AP	economic	economico	ekonomisk	wirtschaftlich	ekonomičen
+0321	NP	eggs on toast	uova sul toast	äggsmörgås	Eier auf Toast	jajca v opečenem kruhu 
+0322	NP	eggs on toast	uova sul toast	äggsmörgås	Eier auf Toast	jajca na toastu	DUPLICATE 0321
+0323	Numeral	eight	otto	åtta	acht	osem
+0324	CN	elbow	gomito	armbåge	der Ellbogen	komolec
+0325	AP	electric	elettrica*	elektrisk	elektrisch	električen
+0326	CN	email	email	e-post	die email	E-naslov
+0327	CN	emery board	limetta per unghie	nagelfil	Nagelfeile	pilica za nohte
+0328	CNH	employee	impegnato	anställd	 der Arbeitnehmer	zaposleni (nameščenec)
+0329	CNH	employee	impiegato	anställd	der Beschäftigte	zaposlena (nameščenka)
+0330	VP	empty trash can	svuotare sacco dell'immondizia	tömma soppåsen	leere Mülleimer*	prazen koš za smeti
+0331	VP	end a walk	terminare una passeggiata	avsluta en promenad	Ende einen Spaziergang*	končati sprehod
+0332	CN	end	fine	slut	das Ende	konec
+0333	NP	end of the sentence	fine della frase	slutet på meningen	Ende des Satzes	konec stavka
+0334	NP	end of the word	fine della parola	slutet på ordet	Ende des Wortes	konec besede
+0335	CNT	evening	sera	kväll	der Abend	večer
+0336	CN	exam	esame	examen*	die Prüfung	izpit
+0337	AP	excellent	eccellente	utmärkt	ausgezeichnet	odličen
+0338	Prep	except	salve	utom	ausser	razen
+0339	CNM	exchange	cambio	växel	der Austausch	zamenjava
+0340	Interj	excuse me	scusa	förlåt mig	Entschuldigen Sie	oprostite
+0341	VP	exit	andare via da	gå ifrån	der Ausgang*	izhod
+0342	VP	exit	uscire	gå ut	die Ausfahrt*	oditi (ven)
+0343	CNP	exit	uscita	utgång	die Abfahrt	odhajanje
+0344	CN	eye	occhio	öga	das Auge	oko
+0345	CN	eye socket	orbita	ögonhåla	die Augenhöhle	očnica
+0346	CN	face	volto	ansikte	das Gesicht	obraz
+0347	CN	facial hair	barba	skägg	Gesichtsbehaarung	obrazna dlaka
+0348	VP	facial make up	truccare la faccia	sminka sig	Geschts Make Up*	ličila za obraz
+0349	CNP	factory	fabbrica	fabrik	die Fabrik	tovarna
+0350	V	fall	cadere	falla	der Herbst*	jesen
+0351	CNH	family	famiglia	familj	die Familie	družina
+0352	AP	fantastic	fantastico	fantastisk	fantastisch	fantastičen
+0353	CNH	farmer	contadino	lantbrukare	der Farmer	kmet
+0354	CNM	fashion	moda	mode	die Mode	moda
+0355	VP	fast	digiunare	fasta	schnell*	hiter
+0356	CN	fast	digiuno	fasta	rasant*	post
+0357	CNM	fast food	fast food	snabbmat	das Fastfood	hitra prehrana
+0358	CNT	fasting day	giorno del digiuno	fastedag	Fasten Tag	dan posta
+0359	Adv	fast	presto	snabbt	sicher*	hitro
+0361	AP	fat	grasso	tjock	fett	maščoba
+0362	CNH	father	padre	far	der Vater	oče
+0363	CNH	father	papà	pappa	der Vater	ata
+0364	NP	father's day	festa del papà	Fars Dag	Vatertag	Dan očetov
+0365	Month	February	Febbraio	februari	der Februar	februar
+0366	V2	feel	io sento	jag känner, jag tycker	fühlen	občutiti
+0366	VS	feel	io sento	jag känner, jag tycker	fühlen	občutiti
+0367	V2	feel	sentire	känna, tycka	spüren	občutek
+0367	VS	feel	sentire	känna, tycka	spüren	občutek
+0368	CN	fee	tariffa	avgift	die Gebühr	pristojbina, članarina
+0369	AP	female	femmina	kvinnlig	weiblich	ženski
+0370	CNH	female friend	amica	väninna	Freundin	prijateljica
+0371	Det	few	pochi	få	wenige	nekaj
+0372	Det	little	poco	få*	wenige	malo
+0373	CN	field trip	gita	utflykt	Ausflug	ekskurzija
+0374	CN	file	file	fil	die Datei	mapa
+0375	CN	file	lima	fil	der Ordner	pila
+0376	VP	file nail	limarsi le unghie	fila naglarna	Nagel feilen	pilica za nohte
+0377	CN	finger	dito	finger	der Finger	prst
+0378	CN	first course	primi	förrätt	der erster Gang	prva jed
+0379	NP	fish and chips	pesce e patatine	fisk och pommes frites	Fish and Chips	riba in ocvrt krompir
+0380	V2	fish	pescare	fiska	der Fisch*	riba 
+0380	V	fish	pescare	fiska	der Fisch*	riba 
+0381	CN	fish	pesce	fisk	fischen*	ribariti
+0382	CNM	fish soup	zuppa di pesce	fisksoppa	die Fischsuppe	ribja juha
+0383	CN	fish stick	bastoncini pesce	fiskpinnar	Fischstäbchen	ribje palčke
+0384	CN	fish tank	acquario	akvarium	Aquarium	akvarij
+0385	CN	fish tank	vasca per pesci	fiskskål	Aquarium	ribnik
+0386	Numeral	five	cinque	fem	fünf	pet
+0387	CNM	flat bread	schiacciatina	knäckebröd	Fladenbrot	tanki kruh, mlinec
+0388	CN	flight	volo	flyg	der Flug	let
+0389	CNP	floor	pavimento	golv	der Boden	nadstropje
+0390	CN	flower in plant	pianta da vaso	blommande krukväxt	Blume in der Anlage	roža v lončku
+0391	VP	flush the toilet	tirare lo sciacquone	spola på toaletten	blinken die Toilette	spiranje stranišča
+0392	VP	fold dresses	piegare i vestiti	vika kläder	falten Kleider	zložene, prepognjene obleke
+0393	CNM	food	cibo	mat	das Essen	hrana 
+0394	CN	football	pallone da rugby	fotboll	der Fussball	nogomet
+0395	CN	foot	piede	fot	der Fuss	stopalo
+0396	V2	forget	dimenticare	glömma	vergessen	pozabiti
+0396	V	forget	dimenticare	glömma	vergessen	pozabiti
+0397	CN	fork	forchetta	gaffel	die Gabel	vilica
+0398	CNM	free time	tempo libero	fritid	Freizeit	prosti čas
+0399	CN	freezed dinner	cena congelata	djupfryst middag	Tiefkühlgericht	zamrznjena večerja
+0400	Weekday	Friday	venerdÃ¬	fredag	der Freitag	petek
+0401	CN	fridge	frigorifero	kylskåp	der Kühlschrank	hladilnik
+0402	PrepP	from	da	från	von	iz, od
+0403	CN	fruit	frutta	frukt	die Frucht	sadje
+0404	CN	fruit tree	albero da frutta	fruktträd	Obstbaum	sadno drevo
+0405	NP	full moon	luna piena	fullmåne	der Vollmond	polna luna
+0406	CN	fun	divertimento	nöje	der Spass	zabava
+0407	AP	funny	divertente	kul/rolig	lustig	šaljiv, smešen
+0408	CN	funny show	spettacolo divertente	kul föreställning	lustge Show	zabavna oddaja
+0409	AP	gallant	galante	galant	galant	galanten
+0410	CNP	gate	cancello	grind	das Tor	vrata
+0411	CN	general health	salute generale	allmäntillstånd	allgemeine Gesundheit	splošno zdravje
+0412	VP	get dressed	vestire	klä på sig	sich anziehen	obleci se
+0413	VP	get out of chair	alzarsi dalla carrozzina	resa sig ur stolen	aus der Stuhl rauskommen	se vstani s stola
+0414	V2	get	prendere	ta	bekommen	dobiti
+0415	V2	get	ricevere	ta emot	erhalten	vzeti
+0416	CNH	girl	bambina	flicka	das Mädchen	dekle
+0417	CNH	girl	ragazza	flicka	das Mädel	punca
+0418	V3	give  	dare	ge	geben	dati
+0419	Imp	give me that	dammi quello	ge mig det	gib mir das	daj mi
+0420	V2	give way to	dare precedenza	ge företräde	den Weg für	prepustiti prostor, ukloniti se
+0421	Interj	glad to meet you	piacere di conoscerti	glad att få träffa dig	schön dich zu treffen	me veseli, da sva se spoznala
+0422	VP	glass and straw	bicchiere e cannuccia	glas och sugrör	Glas und Stroh	steklo in slama
+0423	CN	glass	bicchiere	glas	das Glas	steklo
+0424	VP	glue an envelope 	incollare una busta	klistra igen ett kuvert	einen Umschlag kleben	zalepiti koverto
+0425	V	go	andare	gå	gehen	iti
+0426	VP	go around	andare a fare un giro	gå ut en stund	Herumgehen	pojdi okoli
+0427	VP	go away	andare via	ge sig iväg	weggehen	pojdi stran
+0428	VP	go fast	andare velocemente	gå snabbt	schnell gehen	pojdi hitro
+0429	AP	good	bravo	bra	gut	dober
+0430	AP	good	buono	bra	schön	dobro
+0431	Interj	good bye	arrivederla	hej då	Auf Wiedersehen	nasvidenje
+0432	CN	good proposal	buoni propositi	bra förslag	gute Vorschlag	dober predlog
+0433	NP	go	verde pedoni	grönt ljus för gående	geh	pojdi
+0434	AP	gracious	grazioso	graciös	gnädig	ljubezniv, prikupen
+0435	CNH	grandfather	nonno	morfar/farfar	der Grossvater	ded, dedek, stari oče
+0436	CNM	granny pie	torta della nonna	paj	Kuchen von Oma	babičina pita
+0437	CN	granola bar	barretta ai cereali	müslibar	Müsliriegel	granola tablica (žitna tablica)
+0438	CNM	grapes juice	succo d'uva	druvjuice	Trauben Saft	grozdni sok
+0439	CN	grape	uva	vindruvor	die Trauben	grozdje
+0440	CN	graphics pad	mouse a tavoletta	datormus*	Grafik Pad	grafična tablica
+0441	CNM	grated apple	mela grattugiata	rivet äpple	bewertete Apfel	naribano jabolko
+0442	CN	green bean	fagioli verdi	gröna bönor	die grüne Bohne	zeleni fižol
+0443	AP	green	verde	grön	grün	zelen
+0444	CNM	grill cheese	formaggio all griglia	grillad ost	gegrillter Käse	sir na žaru
+0445	CNP	guesthouse	pensione	pensionat	Gasthaus	gostišče
+0446	CNM	gym	ginnastica	gymnastik	Fitnessstudio	telovadnica
+0447	CNP	gym	palestra	gymnastiksal	die Turnhalle	gimnastika
+0448	CN	hails	grandina	hagel	Hagel	pada (padavina-toča)
+0449	CN	hair	cappelli	hår	die Haare	lasje
+0450	CN	hair clip	fermaglio per capelli	hårspänne	Haarklammer	sponka za lase
+0451	CN	hair cut	taglio di capelli	klippa håret	der Haarschnitt	striženje
+0452	CN	hair dryer	asciuga capelli	hårtork	der Haartrockner	sušilnik za lase
+0453	CNM	hair spray	lacca	hårspray	der Haarspray	lak za lase
+0454	CN	hamburger	hamburger	hamburgare	der Hamburger	hamburger
+0455	CN	hand	mano	hand	die Hand	dlan
+0456	AP	happy	contento	nöjd	glücklich	srečen
+0457	AP	happy	felice	glad	froh	vesel
+0458	CN	hat	cappello	hatt	der Hut	klobuk
+0459	V2	have	avere	ha	haben	imeti
+0460	V2	have	io ho	jag har*	besitzen	cvikati
+0461	V2?	have not	non avere	inte ha	nicht haben	nimati
+0462	V2?	have not*	non avere	inte ha	nicht besitzen	revna oseba
+0463	QCl	have you heard?	hai sentito di	har du hört	hast du gehört?	ali ste slišali?
+0464	CNM	headache	mal di testa	huvudvärk	die Kopfschmerzen	glavobol
+0465	CN	head	capo	huvud	der Kopf	glava
+0466	CN	head	testa	huvud	die Spitze	vodja	DUPLICATE 0466
+0467	CNM	health	salute	hälsa	die Gesundheit	zdravje
+0468	AP	healthy	sano	frisk	gesund	zdrav
+0469	CN	hearing test	test per l'udito	hörseltest	Hörtest	test sluha
+0470	CN	heart attack	attacco di cuore	hjärtattack	der Herzanfall	srčni infarkt
+0471	CN	heart	cuore	hjärta	das Herz	srce
+0472	CN	heart problem	problemi di cuore	hjärtproblem	das Herzproblem	težave s srcem
+0473	V2	help	aiutare	hjälpa	die Hilfe*	pomoč
+0473	V	help	aiutare	hjälpa	die Hilfe*	pomoč
+0474	CNM	help	aiuto	hjälp	die Aushilfe	pomagati
+0475	V2	help	chiedere aiuto	be om hjälp	die Stütze	podpreti
+0475	V	help	chiedere aiuto	be om hjälp	die Stütze	podpreti
+0476	Interj	here it is	ecco	här är det	hier ist es	tukaj je
+0477	AdvP	here	qui	här	hier	tukaj 
+0478	Quant	her	suo	hans/hennes*	ihr	njo
+0479	AP	high	alto	hög	hoch	visok
+0480	NP	high blood pressure	pressione alta	högt blodtryck	der Bluthochdruck	visok krvni pritisk
+0481	CN	high chair	seggiolone	hög stol	Hochstuhl	stolček za hranjenje
+0482	CNP	highway	autostrada	motorväg	die Autobahn	avtocesta
+0483	CNP	hill	collina	kulle	der Hügel	hrib
+0484	CNH	hockey player	giocatore di hockey	hockeyspelare	Hockey Spieler	hokejist
+0485	VP	hold hands	tenersi per mano	hålla varandra i handen	Hände halten	držati se za    roke
+0486	CNT	holiday	vacanza	semester	der Urlaub	počitnice
+0487	AP	homemade	casalingo	hemmagjord	selbst gemacht	domač
+0488	CNM	honey	miele	honung	der Honig	med
+0489	CNM	horror	orrore	skräck	der Horror	groza
+0490	CN	horse	cavallo	häst	das Pferd	konj
+0491	CNP	hostel	ostello	vandrarhem	die Herberge	hostel (hotel po ugodni ceni)
+0492	CN	hot bread	panetti caldi	varm smörgås	 warmes Brot	vroč kruh
+0493	AP	hot	caldo	varm	heiss	vroč
+0494	CNM	hot chocolate	cioccolata calda	varm choklad	die heisse Schokolade	vroča čokolada
+0495	CN	hot dog	hot dog	varm korv	der Hotdog	hrenovka v kruhu
+0496	CNP	hotel	albergo	hotel*	das Hotel	hotel
+0497	CNP	hotel	albergo	hotell	das Hotel	gostišče	DUPLICATE 0496
+0498	CNM	hot pepper	peperoncino piccante	stark peppar	Paprika	pekoča paprika
+0499	CN	hot sausage	salame piccante	stark korv	heisse Wurst	vroča klobasa
+0500	CNP	house	casa	hus	das Haus	hiša
+0501	QS	how are you?	come stai?	hur mår du?	wie geht es dir?	kako si?
+0502	QS	how much is it?	quanto costa	hur mycket kostar det?	wie viel kostet das	koliko je to? Koliko stane?
+0503	IP	how much	quanto	hur mycket	wie viel?	koliko 
+0504	QCl	how old are you?	quanti anni hai	hur gammal är du?	wie alt sind Sie?	koliko si star(a)?
+0505	QS	how's it going?	come va	hur går det?	wie geht's?	kako gre
+0506	QS	how's the weather?	com'è il tempo	hur är vädret?	Wie ist das Wetter?	kakšno je vreme
+0507	Numeral	hundred	cento	hundra	hundert	sto
+0508	CNM	hunger	fame	hunger	der Hunger	lakota
+0509	AP	hungry	affamato	hungrig	hungrig	lačen
+0510	VP	hurry	avere fretta	ha bråttom	die Eile*	pohiti
+0511	AP	hurt	ferito	skadad	verletzen	poškodovan, ranjen
+0512	Interj	hve a nice day	buona giornata	ha en bra dag	einen schönen Tag noch	lep dan vam želim
+0513	Cl	I agree	sono d'accordo	jag instämmer	ich stimme zu	se strinjam
+0514	Cl	i can't wait	non posso aspettare	jag kan inte vänta	ich kann nicht warten	komaj čakam
+0515	CN	ice cream biscuit	gelato biscotto	sandwichglass	Eis Keks	sladoled s piškoti 
+0516	CN	ice cream cone	cono gelato	glasstrut	Eistüte	sladoledni kornet
+0517	CNM	ice cream	gelato	glass	das Eis	sladoled
+0518	CNM	ice	ghiaccio	is	das Eis	led
+0519	CN	ice lollipop	ghiaccioli	isglass	Eis Lutscher	sladoledna palčka
+0520	Cl	i'd like a better one	ne vorrei uno migliore	jag vill ha en bättre	ich möchte eine bessere	rad bi boljše
+0522	Cl	i don't know	non lo so	jag vet inte	ich weiss nicht	ne vem
+0523	Cl	i don't understand	non capisco	jag förstår inte	ich verstehe nicht	ne razumem
+0524	Cl	i don't want	non voglio	jag vill inte	ich möchte nicht	si ne želim
+0525	Cl	I feel good	sto bene	jag mår bra	ich fühle mich gut	dobro se počutim
+0526	Subj	if	se	om	ob*	če
+0527	Cl	i hate that show	odio quel programma	jag avskyr det programmet	ich hasse das show	sovražim to oddajo
+0528	Cl	I have need of the receipt	ho bisogno della ricevuta	jag behöver kvitto	ich benötige den Empfang	rabim potrdilo
+0529	Cl	I have something to say	ho qualcosa da dire	jag har något att säga	ich habe etwas zu sagen	imam nekaj za povedati
+0530	Cl	I have to change my money	devo cambiare	jag måste växla pengar	ich muss mein Geld wechseln	moram zamenjati denar (valuto)
+0531	Pron	I	io	jag	ich	Jaz
+0532	Cl	i like this	mi piace quello	jag tycker om det	ich mag das	to mi je všeč
+0533	Cl	I'll spell it	dire lettera per lettera	bokstavera	ich werde es buchstabieren	črkoval bom
+0534	Cl	I'll spell it	indico lettera per lettera	jag bokstaverar det	ich werde es buchstabieren	prebral bom črko za črko
+0535	Cl	i'll spell it	pronuncio lettera per lettera	jag uttalar det bokstav för bokstav	ich werde es buchstabieren	napisal bom črko za črko
+0536	Cl	i love that show	mi piace quel programma	jag tycker om det programmet	ich liebe diese Show	obožujem to oddajo
+0537	Cl	I love you	ti amo	jag älskar dig	ich liebe dich	ljubim te
+0538	Cl	I made a mistake	ho fatto un errore	jag har gjort fel	ich machte einen Fehler	naredil sem napako
+0539	Cl	i'm having fun	mi sto divertendo	jag har roligt	ich habe ein Spas	se zabavam
+0540	Cl	i'm lost	mi sono perso	jag fattar inte	ich bin verloren	sem izgubljen
+0541	AdvT	immediately	immediatamente	genast	sofort	takoj
+0542	Cl	i'm not fine	non sentirsi bene	känna sig dålig	mir get es nicht gut	nisem v redu
+0543	Cl	i'm not ready	non sono pronto	jag är inte färdig	ich bin nicht bereit	nisem pripravljen
+0544	AP	important	importante	viktig	wichtig	pomemben
+0545	Cl	I'm ready to work	sono pronto per lavorare	jag är beredd att börja arbeta	ich bin bereit zu arbeiten	sem pripravljen za delo
+0546	AdvP	in bottom	in fondo	längst ner	in Boden	na dnu
+0547	AP	included	incluso	inkluderad	inbegriffen	vključeno
+0548	Cl	I need help	ho bisogno d'aiuto	jag behöver hjälp	ich brauche Hilfe	rabim pomoč
+0549	AdvP	in flower	fiorito	blommig	in Blüte	se je razcvetel, že cveti
+0550	CNP	information office	ufficio informazioni	informationsdisk	informationsbüro	informacijska pisarna
+0551	CNM	instant coffee	caffè solubile	snabbkaffe	der Pulverkaffee	instant kava
+0552	CNM	instant tea	tè solubile	téblad*	instant ee*	inastant čaj
+0553	V2	interest	interessare	intressera	das Interesse*	zanimanje
+0554	AP	international	internazionale	internationell	international	mednaroden
+0555	Cl	I point to symbols to communicate	indico i simboli	jag pekar på symboler	ich zeige auf Symbole zu kommunizieren	komuniciram preko simbolov
+0556	CN	iron	ferro da stiro	strykjärn	das Eisen	likati
+0557	CN	ironing board	asse stiro	strykbräda	Bügelbrett	likalna deska
+0558	Cl	I see you are busy	vedo che sei occupato	jag ser att du är upptagen	ich sehe dass Sie beschäftigt sind	vidim, da si zaseden(a)
+0559	Copula	is	essere	är	ist	je
+0560	Cl	is not in the lexicon	non è in questo lessico	finns inte i lexikonet	ist nicht im Lexikon	ni ga v leksikonu
+0561	Copula	is not	non è	är inte	ist nicht	ni
+0562	VP	is not on this page	non è in questa pagina	finns inte på denna sida	ist nicht auf dieser Seite	ni na tej strani
+0563	Cl	it's about time	È quasi ora	det var på tiden	wurde auch Zeit	je že čas…
+0564	Cl	it's not this	non è	är inte	es ist nicht diese	to ni to
+0565	Cl	it's time	È ora	det är dags	es wird Zeit	čas je
+0566	Cl	I want different size	voglio una taglia differente	jag vill ha en annan storlek	Ich will verschiedene Größe	želim  drugo velikost
+0567	ClSlash	I want	io voglio	jag vill inte	Ich will	hočem, želim
+0568	Cl	I want that one	voglio quello	jag vill ha den där	ich möchte diese/diesen/dieses	želim tisto
+0569	Cl	I want to beg you pardon	voglio chiedere scusa	jag vill be om ursäkt	ich möchte etwas anderes sagen	hočem reči nekaj drugega
+0570	Cl	I want to show you something	voglio mostrarti qualcosa	jag vill visa dig någonting	Ich will dir etwas zeigen	hočem ti nekaj pokazati
+0571	Cl	I want to talk with you	voglio parlare con te	jag vill prata med dig	ich will mit dir reden	hočem govoriti z vami
+0572	Cl	I won	ho vinto	jag vann	Ich habe gewonnen	znagal sem
+0573	CN	jacket	giacca	kavaj	die Jacke	jopič
+0574	CN	jacket	giubbotto	jacka	die Jacke	suknjič
+0575	Month	January	Gennaio	januari	der Januar	januar
+0576	CNM	juice	spremuta	juice	der Saft	sok
+0577	Month	July	Luglio	juli	der Juli	julij
+0578	Month	June	Giugno	juni	der Juni	junij
+0579	CN	keyboard	tastiera	tangentbord	die Tastatur	tipkovnica
+0580	CN	key	chiave	nyckel	der Schlüssel	ključ
+0581	CN	kilometer	chilometro	kilometer	die Kilometer	kilometer
+0582	CNP	kitchen	cucina	kök	die Küche	kuhinja
+0583	CN	kitchen robot	robot da cucina	matberedare	Küchenmaschine 	kuhinjski   robot
+0584	CN	knife	coltello	kniv	das Messer	nož
+0585	V2	knock down	buttarlo giù	knuffa ner	niederschlagen	podreti
+0586	VS	know	sapere	veta	wissen	vedeti
+0586	V	know	sapere	veta	wissen	vedeti
+0587	NP	labour day	festa dei lavoratori	Första maj	Tag der Arbeit	Praznik dela
+0588	CNP	lake	lago	sjö	der See	jezero
+0589	CN	lamp	lampada	lampa	die Lampe	svetilka
+0590	V	land	atterrare	landa	das Land*	zemljišče,  dežela
+0591	AdvT	last month	mese scorso	förra månaden	im vergangenen Monat	prejšnji mesec
+0592	AP	last	ultimo	sist	letzte	zadnji
+0593	CN	laundry basket	cesta biancheria	tvättkorg	Wäschekorb	košara za perilo
+0594	CNM	laundry	bucato	tvätt	Wäsche	perilo
+0595	CN	laundry	lavanderia	tvättstuga	die Wäscherei	pralnica
+0596	CNM	laundry soap	sapone da bucato	tvättmedel	Waschseife	trdo milo (za perilo)
+0597	CNH	lawyer	avvocato	advokat	der Rechtsanwalt	odvetnik
+0598	V2	lay away	mettere via	ställa undan	weglegen	pospravi
+0599	VP	lay away the clothes	mettere via i vestiti	lägga in kläder	die Kleider weglegen	pospravi obleke
+0600	V2	learn	imparare	lära sig	lernen	učiti se
+0600	V	learn	imparare	lära sig	lernen	učiti se
+0601	Imp	leave me alone	lasciami in pace	lämna mig ensam	lass mich in Ruhe	pusti me pri miru
+0603	AP	left	sinistra	vänster	links	levo
+0604	CN	leg	gamba	ben	das Bein	noga
+0605	Det	less	meno di	mindre än	Weniger	manj
+0606	Utt	let's go to another store	andiamo in un altro negozio	vi går till en annan affär	Lassen Sie uns zu einem anderen Laden gehen	gremo v drugo trgovino
+0607	Utt	let's talk later	parliamo più tardi	vi pratas vid senare	Lass uns später reden	pogovoriva se kasneje
+0608	CNH	letter carrier	postino	brevbärare	der Briefträger	poštar
+0609	CN	letter	lettera	brev	der Brief	pismo
+0610	CN	letter	lettera	bokstav	Buchstabe	črke
+0610	CN	number	numero	siffra	Zahl	številke
+0611	CNM	lettuce	lattuga	grönsallad	der Salat	zelena solata
+0612	CNP	library	biblioteca	bibliotek	die Bibliothek	knjižnica
+0613	CN	library card	tessera della biblioteca	lånekort	der Bibliotheksausweis	knjižnična izkaznica
+0614	VP	lie down	stare supini	ligga ner	hinlegen	lezi
+0615	CN	life jacket	giubbotto salvataggio	livväst	die Rettungsweste	rešilni jopič
+0616	CN	life support system	respiratore	respirator	Lebenserhaltungssystem 	sistem oživljanja
+0617	V2	light	accendere	tända	das Licht*	svetloba
+0618	CN	light	lampadina	lampa	hell*	lahek
+0619	AP	light	leggero	lätt	leicht	svetel
+0620	CN	light	luce	glödlampa	luftig*	luč
+0621	CN	lightning	fulmine	blixt	der Blitz	strela
+0622	CNP	line	fila	kö 	die Linie	vrstica
+0623	CN	list	elenco	lista	auflisten*	seznam
+0624	V2	listen	ascoltare	lyssna	zuhören	poslušati
+0624	V	listen	ascoltare	lyssna	zuhören	poslušati
+0625	Cl	listen	ti ascolto	jag lyssnar på dig	anhören	čuti
+0626	VP	listen to music	ascoltare la musica	lyssna på musik	Musik hören	poslušati glasbo
+0627	CN	list	lista	lista	aufzählen*	popis
+0628	CNM	literature	letteratura	litteratur	die Literatur	literatura
+0629	VP	be alive	essere vivo	leva	die Leben*	življenja
+0630	CNP	living room	soggiorno	vardagsrum	das Wohnzimmer	dnevna soba
+0631	AP	local	locale	lokal	lokal	lokalen, tukajšnji
+0632	CNP	locker room	spogliatoio	omklädningsrum	die Umkleideraum	slačilnica
+0633	AP	long	lungo	lång	lang	dolg
+0634	NP	long sleeve	maniche lunghe	långa ärmar	langärmlig	dolgi rokav
+0635	VP	look out the window	guardare fuori dalla finestra	titta ut genom fönstret	schaue aus dem Fenster	poglej skozi okno
+0636	AP	loud	rumoroso	högljudd	laut	glasen
+0637	AP	low	basso	låg	niedrig	nizek
+0638	NP	low blood pressure	pressione bassa	lågt blodtryck	niedriger Blutdruck	nizek krvni pritisk
+0639	V2	love	amare	älska	die Liebe*	ljubezen
+0640	VP	lower head	abbassare la testa	sänk huvudet	Unterkopf* 	spustiti glavo
+0641	CN	love story	storia romantica	romantisk historia	Liebesgeschichte	ljubezenska zgodba
+0642	V2	love	volersi bene	tycka om	der Liebling*	ljubiti
+0643	AP	lucky	fortunato	lycklig	glücklich	srečen
+0644	CN	luggage	bagagli	bagage	das Gepäck	prtljaga
+0645	CN	lunch bag	sacchetto della merenda	matsäck	Lunchpaket 	torbica za prigrizke
+0646	CNM	lunch meat	carne sottovuoto	kallskuret	Mittagessen Fleisch	prekajeno meso
+0647	CN	lunch	pranzo	lunch	das Mittagsessen	kosilo
+0648	CN	lunch time	ora di pranzo	lunchrast	Mittagessenszeit	čas kosila
+0649	CNH	madam	signora	fru	die Dame	gospa
+0650	CN	magazine	rivista	veckotidning	die Zeitschrift	revija
+0651	AP	magnificent	magnifico	magnifik	ausgezeichnet	veličasten
+0652	CN	magnifying glass	lente d'ingrandimento	förstoringsglas	die Lupe	povečevalno steklo
+0653	CN	mail box	cassetta postale	brevlåda	der Briefkasten	nabiralnik
+0654	CNM	maize bread	pane di mais	majsbröd	Maisbrot	koruzni kruh
+0655	VP	make bed	fare il letto	bädda sängen	Bett machen	pospraviti posteljo
+0656	VP	make biscuits	fare i biscotti con le formine	baka kakor	Kekse machen	napraviti kekse
+0657	V2	make	fare	tillverka	machen	napraviti
+0658	VP	make peace	fare la pace	sluta fred	Frieden schliessen	pobotati se
+0659	CNH	male friend	amico	vän	männlicher Freund	spoprijateljiti se
+0660	AP	male	maschio	manlig	männlich	moški
+0661	CNH	man	uomo	man 	der Mann	človek, moški
+0662	Det	many	molti	många	viele	veliko
+0663	CN	map	cartina	karta	die Karte	zemljevid
+0664	CN	map	mappa	karta	die Landkarte	načrt
+0665	CN	world map	mappamondo	världskarta	die Weltkarte	zemljevid sveta
+0666	CN	marching band	parata musicale	musikkår	der Spielmannszug	paradni orkester
+0667	Month	March	Marzo	mars	der März	marec
+0668	NP	mathematics	matematico	matematik	Mathematik	matematika
+0669	Month	May	Maggio	maj	der Mai	maj
+0670	CN	meaning	significa	betydelse	die Bedeutung	pomen
+0671	CN	measure	misura	mått	messen	meriti
+0672	CN	measuring cup	misurino graduato	litermått	Messbecher	merilna skodelica
+0673	CNM	beef	carne di manzo	köttfärs*	das Fleisch	meso
+0674	CNM	meat	carne	kött	das Fleisch	hrana 
+0675	AP	medium	comparativi?	jämförande*	das Mittel*	srednji
+0676	CNP	meeting	riunione	möte	die Besprechung	srečanje
+0677	CN	memory	ricordo	minne	die Erinnerung	spomin
+0678	CN	menu	menu	meny	Menü	meni
+0679	CNP	men wc	wc uomini	herrtoalett	Herren WC	moški wc
+0680	CN	metre	metri	meter	die Meter	merilec
+0681	CN	microwave oven	forno a microonde	mikrovågsugn	Mikrowelle	mikrovalovna pečica
+0682	CNT	midnight	mezzanotte	midnatt	Mitternacht	polnoč
+0683	CNM	milk	latte	mjölk	die Milch	mleko
+0684	CN	mirror	specchio	spegel	der Spiegel	ogledalo
+0685	V2	miss	mancare	sakna	vermissen	zamuditi
+0686	VP	miss the coach	perdere il bus	missa bussen	verpassen den Trainer	zamuditi avtobus
+0687	CN	mistake	sbaglio	misstag	der Fehler	napaka
+0688	CN	mobile telephone	telefonino	mobiltelefon	das Handy	mobilni telefon
+0689	CN	moment	momento	ögonblick	der Moment	trenutek
+0690	Weekday	Monday	lunedì	måndag	der Montag	ponedeljek
+0691	CNM	money	denaro	pengar	das Geld	denar
+0692	CNM	money	soldi	pengar	das Geld	plačilno sredstvo
+0693	CNM	money	soldo	kontanter	das Geld	bogastvo
+0694	CN	monitor	monitor	monitor	der Monitor	monitor
+0695	CN	month	mese	månad	der Monat	mesec
+0696	CN	monument	monumento	monument	das Monument	spomenik
+0697	Adv	more	ancora	mer	mehr	več
+0698	Det	more	più di	mer	weitere	bolj
+0699	CN	morning	mattina	morgon/förmiddag	der Morgen	jutro
+0700	CNH	mother	madre	mor	die Mother	mati
+0701	CNT	mother's day	festa della mamma	mors dag	Muttertag	Materinski dan
+0702	CNH	mousse chocolate	mousse al cioccolato	chokladmousse	Mousse Schokolade	čokoladni mousse
+0703	CN	mouth	bocca	mun	der Mund	usta
+0704	CN	lip	labbra	läppar	das Maul	gobec
+0705	CN	movie	film	film 	der Film	film
+0706	CNP	movies	cinema	bio	das Kino	kino
+0707	CNH	movie star	stella del cinema	filmstjärna	Filmstar	filmska zvezda
+0708	VP	mow the meadow	tagliare l'erba	klippa gräset	mähen die Wiese	pokositi travnik
+0709	Adv	much	tanto	mycket	viel	veliko
+0709	Det	much	tanto	mycket	viel	veliko
+0710	CN	muscle	muscolo	muskel	der Muskel	mišica
+0711	CNP	museum	museo	museum	Museum	muzej
+0712	CNH	music band	banda musicale	orkester	Musik Band	glasbena skupina
+0713	CNM	music	musica	musik	die Musik	glasba
+0714	Cl	my legs are shaking	mi tremano le gambe	mina ben skakar	meine Beine zittern	moji nogi se treseta
+0715	Quant	my	mio	min  	mein,meine	moj
+0716	Utt	my turn	tocca a me	min tur	ich bin dran	jaz sem na vrsti
+0717	CN	nail file	lima per unghie	nagelfil	Nagelfeile 	pilica za nohte
+0718	CN	name	nome	namn	der Name	ime
+0719	CN	name	nomi generale	egennamn	der Name	imenovati
+0720	CN	napkin	pannolino	blöja	die Serviette	prtiček
+0721	CN	napkin	tovagliolo	servett	die Serviette	prtič
+0722	CNT	National day	festa nazionale	nationaldag	Nationaltag	Dan državnosti
+0723	CNM	nausea	nausea	illamående	die Übelkeit	slabost
+0724	AP	necessary	necessario	nödvändig	notwendig	nujen, neizogiben, potreben
+0725	CN	neck	collo	nacke/hals	der Hals	vrat
+0726	CN	necklace	collana	halsband	die Halskette	ogrlica
+0727	V2	need	aver bisogno	behöver	brauchen	potreba
+0727	VV	need	aver bisogno	behöver	brauchen	potreba
+0728	VP	need	aver bisogno del pettine	behöver kamma sig	benötigen	potrebovati
+0729	VPSlash	be afraid	avere paura	behöver gå på toa*	das Erfordernis*	nuja
+0730	CNH	neighbor	vicino di casa	granne	die Nachbar	sosedje
+0731	CNM	new age music	musica new age	new agemusik	New-Age-Musik	glasba novega časa
+0732	NP	new clothes	vestiti nuovi	nya kläder	neue Kleidung	nova oblačila
+0733	AdV	never	mai	aldrig	nie	nikoli
+0734	AP	new	nuovo	ny	neu	nov
+0735	CN	new word	parola nuova	nytt ord	ein neues Wort	nova beseda
+0736	CNT AdvT	next month	mese prossimo	nästa månad	nächsten Monat	naslednji mesec
+0737	PrepP	next to	accanto a	nära	neben an	poleg
+0738	AP	nice	carino	söt	nett	lepo
+0739	CN	nice music	musica orecchiabile	njutbar musik	gute Musik	prijetna glasba
+0740	AP	nice	simpatico	trevlig	fein	fin
+0741	CNT	night	notte	natt	die Nacht	noč
+0742	Numeral	nine	nove	nio	neun	devet
+0743	AP	no alcoholic	no alcoolici	alkoholfritt	kein Alkohol*	brezalkoholen
+0744	AP	no drugs	no droghe	drogfritt	keine Drogen	prepovedane droge, brez drog
+0745	Interj	no	no	nej	nein	ne
+0746	CNT	noon	mezzogiorno	middagstid	der Mittag	opoldne
+0747	CN	nose	naso	näsa	die Nase	nos
+0748	AP	no smoke	vietato fumare	rökffritt	kein Rauch	prepovedano kajenje
+0749	CN	notebook	computer portatile	lap top	Notizbuch	beležnica
+0750	CN	notebook	taccuino	anteckningsbok	Notebook	zvezek
+0751	NP	nothing	nulla	ingenting	nichts	nič
+0752	AP	not ready	non pronto	inte färdig	nicht bereit	nepripravljen
+0753	CN	nut	dado	skruv	praxisbezogen	matice
+0753	CN	bolt	bullone	mutter	praxisbezogen	vijaki
+0754	CNP	ocean	oceano	ocean	der Ozean	ocean
+0755	CNP	office	ufficio	kontor	das Büro	urad
+0756	Interj	oh no	oh no	åh nej	ach nein	o ne
+0757	AP	old	vecchio	gammal	alt	star
+0758	AdvP	on	acceso	på (om ljus)	auf	na
+0759	CN	one way	senso unico	enkelriktat	Einweg	enosmeren
+0760	VP	open a folder	aprire una cartella	öppna en mapp	einen Ordner öffnen	odprite mapo
+0761	V2	open	aprire	öppna	öffnen	odprt
+0762	VP	open	levare il coperchio	ta av locket	offen	odpreti
+0763	VP	open small tin	aprire le scatole	öppna en burk	kleine Dose öffen	odpri škatlico
+0764	VP	open the door	aprire la porta	öppna dörren	die Tür öffnen	odpri vrata
+0765	VP	open the window	aprire la finestra	öppna fönstret	das Fenster öffnen	odpri okno
+0766	CN	orange	arancia	apelsin	das Orange	pomaranča
+0767	CNM	orange juice	succo d'arancia	apelsinjuice	der Orangensaft	pomarančni sok
+0768	CN	mandarine	mandarino	mandarin/clementin	die Orange	oranžen
+0769	AP	organised	organizzato	organiserad	organisiert	organiziran
+0770	Quant	our	nostro	vår	unser	naš
+0771	CN	oven	forno	ugn	der Ofen	pečica
+0772	CN	pad	blocco di carta	anteckningsblock	das Polster	blazinica
+0773	CN	painting	pittura	målning	Malerei	slika
+0774	CN	pajamas	pigiama	pyjamas	der Schlafanzug	pidžama
+0775	CN	panties	mutande	underbyxor	Höschen	spodnje hlačke
+0776	CN	pants	pantaloni	byxor	die Hose	spodnjice, hlače
+0777	CNM	paper	carta	papper	Papier	papir
+0777	CN	pencil	matita	penna	Bleistift	svinčnik
+0778	CNM	paper	carta	papper	das Papier	papir
+0779	CN	paper towel	asciugamani di carta	pappershanddukar	Papiertücher	papirnate brisače
+0780	V2	park	parcheggiare	parkera	der Park*	park
+0780	V	park	parcheggiare	parkera	der Park*	park
+0781	CNP	park	parco	park 	parken*	parkirati
+0782	CN	part	parte	del	der Teil	del
+0783	CNM	party bag	carta da regalo	presentpapper	Party Tasche	darilna vrečka
+0784	CN	party	party	fest	Party	zabava
+0785	VP	pass napkin	distribuire tovaglioli	dela ut (servetter)	Serviette geben	podati prtiček
+0786	VP	pass out cups	distribuire bicchieri	dela ut (glas)	pass out Tassen	podati skodelice
+0787	VP	pass out papers	distribuire fogli	dela ut blad	pass out Papiere	podati dokumente
+0788	V	pass	passare	passera	bestehen	podati
+0789	CN	passport	passaporto	pass	der Reisepass	potni list
+0790	AP	past	antica	förr i tiden*	die Vergngenheit	preteklost
+0791	CNM	pasta	pasta fresca	pasta	die Pasta	testenine
+0792	V2	pay attention	fare attenzione	vara uppmärksam	passt auf	bodite pozorni
+0792	V	pay attention	fare attenzione	vara uppmärksam	passt auf	bodite pozorni
+0793	CNM	peanut butter	burro di arachidi	jordnötssmör	die Erdnussbutter	arašidovo maslo
+0794	CN	pen	penna	penna	Stift	kuli
+0794	CNCONJ	pen and paper	carta e penna	papper och penna	Stift und Papier	kuli in papir	DUPLICATE 0777
+0795	CNM	penicilline	penicillina	penicillin	Penicillin	penicilin
+0796	CN	pen	penna	kulspetspenna  	der Stift	kuli
+0797	CN	pen	penna	penna	der Schreistift	pero	DUPLICATE 0796
+0798	CNPLH	people	gente	människor	die Leute	ljudstvo
+0799	NPH	people	persone generale	någon i allmänhet	man	ljudje
+0800	CNPLH	people	persone	personer	Menschen	osebje
+0801	CNM	pepper	pepe	peppar	der Pfeffer	paprika
+0802	CN	pepper	peperone	paprika	pfeffern	poper
+0803	AP	perfect	perfetto	perfekt	perfekt	popoln
+0804	AP	perfume	profumo	parfym	Parfüm	parfum
+0805	CNM	personal care	cura personale	personlig vård	die Körperpflege	osebna nega
+0806	CNH	person	persona	person 	die Person	oseba
+0807	CNP	pharmacy	farmacia	apotek	die Apotheke	lekarna
+0808	CN	phone number	numero di telefono	telefonnummer	die Telefonnummer	telefonska številka
+0809	CN	phone	telefonare	ringa	das Telefon	telefon
+0810	CN	photo book	album delle foto	fotoalbum	Fotobuch	fotoknjiga
+0811	CN	photo	fotografia	foto	das Foto	fotografija
+0812	V2	pick up	raccogliere	plocka upp	abholen	dvigniti
+0813	V2	pick up	tirare su	lyfta upp	mitnehmen	vzeti
+0814	CN	picture	quadro	tavla	das Bild	slika
+0815	CN	pie	pasticcio	paj	der gefüllter Kuchen	pita
+0816	CN	pita bread	pane pita	pitabröd	die Pita	polnjen kruh
+0817	CN	pizza	pizza	pizza	die Pizza	pica
+0818	CNP	place	posto	plats	der Ort	kraj
+0819	V2	plant	piantare	plantera	die Pflanze*	rastlina 
+0820	CN	plant	pianta	växt	pflanzen*	saditi
+0821	CN	plant	piantina	planta	die Pflanze	tovarna
+0822	CN	plastic bag	sacchetto di  plastica	plastpåse	die Plastiktüte	plastična vrečka
+0823	CN	plastic container	flacone di plastica	plastflaska	der Kunststoffbehälter	plastični zabojnik
+0824	CN	plastic liner	sacco immondizia	soppåse	Kunststoffauskleidung 	plastična folija
+0825	CNM	plastic wrap	pellicola	gladpack	die Plastikfolie	plastični ovoj
+0826	CN	plate	piatto	tallrik	der Teller	krožnik
+0827	CN	play,comedy	commedia	kommedi	das Spiel	igra
+0828	CN	play,drama	dramma	drama	spielen*	zabava
+0829	CN	play	recita	akt	das Schauspiel	nastopiti
+0830	CN	play	spettacolo	föreställning	das Stück	uprizoriti
+0831	Utt	please be quiet	per favore silenzio	tyst	bitte leise sein	prosim bodite tiho
+0832	Interj	I'm sorry	mi dispiace	var snäll*	bitte*	prosim 
+0833	Interj	please	per favore	var snäll	das Bitteschön*	izvolite
+0834	Interj	please	prego	tack	erfreuen*	ugajati
+0835	Utt	please push me	per favore spingimi	var snäll och skjut på	push mich bitte	prosim potisnite me
+0836	Utt	please repeat	per favore ripeti	var snäll och säg om det	bitte wiederholen	prosim ponovite
+0837	Utt	please wait	per favore aspetta	var snäll och vänta	Warten Sie mal	prosim počakajte
+0838	CN	plug	spina	elkontakt	Stecker	vtič
+0838	CN	socket	presa	uttag	Steckdose	vtičnica
+0839	V2	plug in	inserire la spina	stoppa i kontakten	einstecken 	vključiti
+0840	VP	plumb/cover with lead	piombare	laga tänder	die Bleigummiabdeckung	navpično
+0841	CN	point	punto	punkt	der Punkt	točka
+0842	CN	police car	macchina della polizia	polisbil	das Polizeiauto	policijski avto
+0843	CNH	police officer	poliziotto	polis	der Polizist	policist
+0844	CNH	police	polizia	polis	die Polizei	policija
+0845	CNP	police station	stazione di polizia	polisstation	die Polizeidienststelle	policijska postaja
+0846	CN	political party	partito	politiskt parti	die politische Partei	politična stranka
+0847	CN	pond	stagno	damm	der Teich	ribnik
+0848	CNH	portiere	concierge	portier	portiere	portir, vratar
+0849	CNP	postal office	ufficio postale	postkontor	das Postamt	poštni urad
+0850	CN	postcard	cartolina	vykort	Postkarte	razglednica
+0851	CNM	potatoes salad	insalata di patate	potatissallad	die Kartoffel Salat	krompirjeva solata
+0852	CN	potted plant	pianta in vaso	krukväxt	Topfpflanze	rastlina v lončku
+0853	VPSlash	pour out into bowl	versare nella ciotola	häll i skålen	ausgießen in Schale	izliti v skledo
+0854	V2	pour out	versare	hälla ut	ausgiessen	izliti
+0855	CN	practice	pratica	övning	die Praxis	praksa, urjenje
+0856	V2	prefer	preferire	föredra	bevorzugen	bolj ceniti
+0856	V3	prefer	preferire	föredra	bevorzugen	bolj ceniti
+0857	CNH	pregnant woman	donna incinta	gravid kvinna	schwangere Frau	noseča ženska
+0858	AP	present	presente	närvarande	das Geschenk*	prisoten
+0859	CN	price ticket	cartellino del prezzo	prislapp	das Preisschild	cena vstopnice
+0860	CN	printer	stampante	skrivare	der Drucker	tiskalnik
+0861	CNH	professor	professore	professor	der Professor	profesor
+0862	VP	programming the microwave	programmare il microonde	programmera micron	Programmierung der Mikrowelle	programirati mikrovalno pečico
+0863	AP	public	pubblico	allmänhet	öffentich	javen
+0864	V2	pull down	abbattere	slå ner	herunterziehen	podreti
+0865	VP	pull the plug out	staccare la spina	dra ur sladden	Ziehen Sie den Stecker aus	izvlecite vtikač iz
+0866	CNM	pulp of tomato	polpa di pomodoro	tomatkonserv	Fruchtfleisch der Tomate	paradižnikova mezga
+0867	CNPL	purchases	acquisti	inköp	die Einkäüfe	nakup
+0868	VP	push the sensor	premere il sensore	tryck på kontakten	drücken Sie den Sensor	potisnite senzor
+0869	VP	put after shave	mettere il dopobarba	ta på rakvatten	das Aftershave setzen	losion po britju
+0870	VP	put cap on	mettere il tappo	sätta på korken	setzen Kappe auf	daj kapo na glavo
+0871	VP	put coat on	indossare il cappotto	sätta på jackan	setzen Mantel auf	obleci plašč
+0872	V2	put in	mettere dentro	stoppa in	einstellen	daj v
+0873	VPSlash	put in the bag	mettere nel sacchetto	lägga i väskan	setzen in der Tasche	daj v vrečko (torbo)
+0874	VPSlash	put in the bowl	mettere nella ciotola	lägga i skålen	setzen in der Schüssel	daj v skledo
+0875	VPSlash	put in the box	mettere nella scatola	lägga i lådan	setzen in der Box	daj v škatlo
+0876	VP	put in the head	mettere dentro la testa	stick in huvudet	in den Kopf legen	daj v glavo
+0877	V2	put on	indossare	sätta på	anziehen	obleči
+0878	V2	put on	mettere su	lägga	anziehen	postavi na
+0879	VP	put on the eye lens	mettere le lenti a contatto	sätta in kontaktlinser	setzen auf die Augenlinse 	daj si očesne leče
+0880	VP	put the clothes in the basket	mettere i vestiti nella cesta	lägga kläder i korgen	die Kleider in den Korb setzen	daj obleke v košaro
+0881	V2	put together	mettere insieme	sätt ihop	zusammensetzen	daj skupaj
+0882	CN	quarter	quarto	kvart	Viertel	četrtina
+0883	CN	radio alarm clock	radio sveglia	klockradio	Radiowecker	radio budilka
+0884	CN	radio announcer	annunciatore radio	radiopratare	der Radiosprecher	radijska napovedovalka
+0885	CN	rail	binario	spår	die Schiene	tračnica
+0886	CNP	railroad station	stazione ferroviaria	järnvägsstation	die Eisenbahnstation	železniška postaja
+0887	CN	raining boot	stivali da pioggia	gummistövlar	das Boot	gumijasti škornji
+0888	V0	rain	piovere	regna	der Regen*	dež
+0889	VP	raise arm	alzare il braccio	lyft armen	der Arm erhöhen	dvigniti roko
+0890	VP	raise hand	alzare la mano	lyft handen	die Hand heben	dvigniti dlan
+0891	VP	raise head	alzare la testa	lyft huvudet	der Kopf heben	dvigniti glavo
+0892	VP	raise pants	alzare i pantaloni	dra upp byxorna	die Hose  erhöhen	dvigniti hlače
+0893	CNM	rap music	musica rap	rapmusik	die Rap Musik	rap glasba
+0894	CN	razor	rasoio	rakhyvel	der Rasierer	britev
+0895	Imp	read again	leggilo di nuovo	läs igen	erneut lesen	preberite ponovno
+0896	V2	read	leggere	läsa	lesen	brati
+0896	V	read	leggere	läsa	lesen	brati
+0897	Imp	read this	leggere questo	läsa en fråga*	lesen Sie dies	preberi to
+0898	Adv	really	davvero	är det sant?*	wirklich	zares
+0899	CN	red berry	bacca rossa	röda bär	die rote Beere	rdeča jagoda
+0900	AP	red	rosso	röd	rot	rdeč
+0901	CN	remote control	telecomando	fjärrkontroll	die Fernbedienung	daljinec
+0902	CN	reservation	prenotazione	reservation	die Reservierung	rezervacija
+0903	AP	reserved	prenotato	reserverad	reserviert	rezerviran
+0904	CNP	restaurant	ristorante	restaurang	das Restaurant	restavracija
+0905	AP	retired	pensionata	pensionerad	im Ruhestand	upokojen
+0906	CNM	retirement	ritiro	pensionering	die Pensionierung	upokojitev
+0907	V2	return to	ritornare	återvända	zurückkehren zu	vrnitev na
+0908	VP	revel	divertirsi	ha roligt	feiern	uživati
+0909	CNM	rice	riso	ris	der Reis	riž
+0910	VP	ride a bike	andare in bicicletta	cykla	das Fahrrad fahren	voziti kolo, kolesariti
+0911	AP	right	corretto	rätt	rechts	desno
+0912	AP	right	destra	höger	richtig	pravica
+0913	AP	right	giusto	rätt	genau	pravilno
+0913	Adv	right	giusto	rätt	genau	pravilno
+0914	CN	ring	anello	ring	der Ring	prstan
+0915	CN	ring bell	campanello	dörrklocka	die Glocke läuten*	zvoniti
+0916	V	ring	squillare	ringa	klingeln	obroč
+0917	VP	rinse one's mouth	sciacquarsi la bocca	skölja munnen	den Mund spülen	izpiranje ust
+0918	CN	roast beef sandwich	panino all'arrosto	rostbiffssmörgås	der Rinderbratensandwich	sendvič s pečeno govedino
+0919	CN	robbery	rapina	rån	der Raub	rop
+0920	CN	rocking chair	sedia a dondolo	gungstol	Schaukelstuhl	gugalnik
+0921	CNM	rock music	musica rock	rockmusik	die Rockmusik	rock glasba
+0922	CN	rock	roccia	sten	Rock	skala
+0923	CN	roll of paper	rotoli di carta	pappersrulle	die Papierrole	rola papirja
+0924	V2	roll	rotolare	rulla	rollen	zvitek
+0924	V	roll	rotolare	rulla	rollen	zvitek
+0925	CN	romantic story	storia sentimentale	drama	die romantische Geschichte	romantična zgodba
+0926	CN	room	ambienti	rum	das Zimmer	soba
+0927	CN	room	stanza	rum 	der Raum	prostor
+0928	V2	rub out	cancellare	sudda	leerlaufen	izbrisati
+0929	V2	run away from	correre via	springa iväg	wegrennen von	pobegniti iz
+0930	V	run away	scappare via	springa iväg	wegrennen von	zbežati
+0931	CN	running shoe	scarpe da corsa	joggingskor	die Laufschuhe	tekaški copati
+0932	CN	sachet of sugar	bustine di zucchero	sockerförpackning	das Zuckertütchen	vrečka sladkorja
+0933	CN	sad tale	storia triste	tragedi	die traurige Geschichte	žalostna zgodba
+0934	AP	sad	triste	ledsen	traurig	žalosten
+0935	CNM	salad dressing	condimento per insalata	salladsdressing	die Salatsauce	solatni preliv
+0936	CNM	salad	insalata	sallad	der Salat	solata
+0937	CN	salary	salario	lön	das Gehalt	plača
+0938	CN	salary	stipendio	lön	der Monatslohn	prodaja
+0939	CNCONJ	salt and pepper	sale e pepe	salt och peppar	Salz und Pfeffer	sol in poper	DUPLICATE 0940
+0940	CNM	salt	sale	salt	das Salz	sol
+0941	CNM	sand	sabbia	sand	der Sand	pesek
+0942	Weekday	Saturday	sabato	lördag	der Samstag	sobota
+0943	V2	say	dire	säga	sagen	reci
+0943	VS	say	dire	säga	sagen	reci
+0944	VP	say the truth	testimoniare la verità	vittna 	die Wahrheit sagen	povedati resnico
+0945	CN	scarf 	sciarpa	halsduk	der Schal	šal
+0946	AP	scary	pauroso	skräckinjagande	erschreckend	srhljiv
+0947	AP	scary	spaventoso	skrämmande	unheimlich	grozen
+0948	CN	scary tale	storia paurosa	skräckfilm	die Gruselgeschichte	srhljiva zgodba, strašljiva zgodba
+0949	CN	schedule	scheda	schema	der Terminplan	urnik
+0950	CNP	school	scuola	skola	die Schule	šola
+0951	CN	screen	schermo	skärm	der Bildschirm	zaslon
+0952	CN	sculpture	scultura	skulptur	die Skulptur	skulptura
+0953	VP	seal an envelope	chiudere una busta	försluta ett kuvert	einen Umschlag dichten	zapečatiti kuverto
+0954	CN	sea	mare	hav	das Meer	morje
+0955	CNH	secretary	segretario	sekreterare	die Sekretärin	tajnik
+0956	V2	see	vedere	titta*	sehen	videti
+0956	V	see	vedere	titta*	sehen	videti
+0957	Interj	see you later	a più tardi	vi ses senare	bis später	se vidimo kasneje
+0958	Interj	see you later	ci vediamo più tardi	vi ses  	wir sehen uns später	dobimo se kasneje
+0959	CNH	senior	anziano	åldring	der Senior	starejši, višji, nadrejeni
+0960	CN	sentimental tv movie	film sentimentale tv	TV-film*	sentimental Fernsehfilm 	čustvena tv zgodba (film)
+0961	CN	service	servizio	tjänst	die Bedienung	usluga
+0962	VP	set table	apparecchiare	duka	den Tisch decken	pripraviti mizo
+0963	Det	several	tante	många	mehrere	nekoliko, več
+0964	CN	sewing machine	macchina da cucire	symaskin	die Maschine	šivalni stroj
+0965	VP	shake a carpet	sbattere il tappeto	skaka mattan	einen Teppich schütteln	stresati preprogo
+0966	VP	shake a foot	sbattere i piedi	sparka med fötterna	einen Fuss schütteln	stresati nogo (stopalo)
+0967	VP	shake one's hands	scuoti le mani	skaka händerna	Hände schütteln	rokovati se
+0968	VP	shake one's head	scuotere la testa	skaka på huvudet	mit dem Kopf schütteln	tresti z glavo
+0969	CNM	shame	vergogna	skam	die Schande	sramota
+0970	VP	shampoo	lavare i capelli	tvätta håret	das Shampoo*	šampon
+0971	V2	shave	radere	raka sig	rasieren	(o) briti
+0971	V	shave	radere	raka sig	rasieren	(o) briti
+0972	CNM	shaving cream	schiuma da barba	raktvål	die Rasiercreme	pena za britje
+0973	Pron	she	lei	hon	sie	ona
+0974	CN	shelf	scaffale	hylla	das Regal	polica
+0975	CN	shirt	camicia	skjorta	das Hemd	srajca
+0976	CN	shoe	accessori	skor 	die Schuhe	čevlji
+0977	CN	shoe	scarpa	sko	der Schuh	čevelj
+0978	CN	shoes	scarpe	sko	die Schuhe	obutev
+0979	CNP	shoe store	negozio di scarpe	skoaffär	das Schuhgeschäft	trgovina s čevlji
+0980	CN	shopping bag	borsa per la spesa	väska	die Einkaufstasche	nakupovalna vreča, torba
+0981	CNP	shopping center	centro commerciale	shoppingcenter	das Einkaufszentrum	nakupovalni center
+0982	CNM	shopping	shopping	shoppa*	einkaufen	nakupovanje
+0983	AP	short	corto	kort	kurz	kratek, nizek
+0984	CN	short sleeve	maniche corte	kort ärm	kurze Ärmel	kratek rokav
+0985	CN	shower cap	cuffia doccia	duschmössa	die Duschhaube	kapa za tuširanje
+0986	CN	shower	doccia	dusch	die Dusche	tuš
+0987	VP	shower	farsi la doccia	duscha	der Schauer	ploha
+0988	AP	sick	malato	sjuk	krank	bolan
+0989	CNP	sidewalk border	bordo del marciapiede	trottoarkant	Bürgersteig Grenze	rob pločnika
+0990	CNP	sidewalk	marciapiede	trottoar	der Bürgersteig	pločnik
+0991	CN	signal smoke system	segnalatore di fumo	brandvarnare	das Rauchsignal System	signalni sistem
+0992	CNM	silver	argento	silver	das Silber	srebro
+0993	CN	sink	acquaio	handfat	das Waschbecken	umivalnik
+0994	CN	sin	peccato	synd	die Sünde	greh
+0995	CNH	sir	signore	herre	der Herr	gospod
+0996	CNH	sister	sorella	syster	die Schwester	sestra
+0997	VP	sit on floor	sedersi per terra	sitta på marken	auf dem Boden sitzen	sediti na tleh
+0998	VP	sit on floor	stare seduti	sitta på golvet 	auf dem Boden sitzen	usesti na tla
+0999	CNM	skin	pelle	hud	die Haut	koža
+1000	CN	skirt	gonna	kjol	der Rock	krilo
+1001	CN	sky	cielo	himmel	der Himmel	nebo
+1002	AP	slow	lento	långsam	langsam	počasen
+1003	Adv	slowly	lentamente	långsamt	langsam	počasi
+1004	CN	small form for biscuit	formine per i biscotti	kakform	die Kleinform für Kekse	majhen model za biskvit
+1005	AP	small	piccolo	liten	klein	majhen
+1006	CNH	smoker	fumatore	rökare	die Raucher	kadilci
+1007	CNP	snack bar	mensa	cafÃ©	die Imbissstube	okrepčevalnica
+1008	CN	snack time	ora della merenda	mellanmål	Snack Zeit	čas za malico
+1009	CN	sneake	scarpa da ginnastica	gymnastiksko	die Turnschuhe	superge
+1010	CNPL	snow clothes	completo da neve	vinterkläder	Schnee Kleidung	oblačila za sneg
+1011	CN	snow crystal	cristallo di neve	snökristall	der Schneekristall	kristalni sneg
+1012	CN	snowing boot	stivali da neve	vinterstövlar	Schnee Boot	škorenj za sneg
+1013	CNM	snow	neve	snö	der Schnee	sneg
+1014	V0	snow	nevicare	snö	schneien	snežiti
+1015	CN	soap opera	tv soap opera	tv-såpa	die Seifenoper	nanizanka
+1016	CNM	soap	sapone	tvål	der Seife	milo
+1017	CNM	soccer	calcio	fotboll	der Fussball	nogomet
+1018	CNP	soccer field	campo da calcio	fotbollsplan	der Fussballplatz	nogometno igrišče
+1019	CN	soccer game	partita di calcio	fotbollsmatch	das Fussballspiel	nogometna tekma
+1020	CN	sofa	divano	soffa	die Sofa	kavč
+1021	NPH	someone	qualcuno	någon	jemand	nekdo
+1022	AdvT	some time ago	tempo fa	för en tid sedan	vor einiger Zeit	nekaj časa nazaj
+1023	CNH	son	figlio	son	der Sohn	sin
+1024	CNM	chili soup	minestra chili	chilisoppa	die Chilisuppe	juha s čilijem
+1025	CNM	soup	minestra	soppa	die Suppe	juha
+1026	CNM	bean soup	minestra di fagioli	bönsoppa	die Bohnensuppe	fižolova juha
+1027	CNM	carrot soup	minestra di carote	morotssoppa	Karottensuppe	korenčkova juha
+1028	CNM	chicken soup	minestra di pollo	kycklingsoppa	die Hühnersuppe	piščančja juha
+1029	CNM	green pea soup	minestra di piselli	grön ärtsoppa	die Erbsensuppe	juha iz zelenega graha (grahova juha)
+1030	CNM	lentil soup	minestra di lenticchie	linssoppa	die Linsensuppe	juha iz leče
+1031	CNM	onion soup	minestra di cipolle	löksoppa	die Zwiebelsuppe	čebulna juha
+1032	CNM	potato soup	minestra di patate	potatissoppa	die Kartoffelsuppe	krompirjeva juha
+1033	CNM	tomato soup	minestra di pomodoro	tomatsoppa	die Tomatesuppe	paradižnikova juha
+1034	CN	soup plate	piatto fondo	sopptallrik	der Suppenteller	krožnik juhe
+1035	AP	sour	aspro	sur	sauer	kisel
+1036	CNM	sour cream	panna da cucina	gräddfil	der Sauerrahm	kisla smetana
+1037	CN	spicy	piccante	kryddstark	würzig	začinjen (pikanten)
+1038	CN	spoon	cucchiaio	sked	der Löffel	žlica
+1039	CN	sports jacket	giacca sportiva	sportjacka	Sport Jacke	športna jakna
+1040	CNM	sport	sport	idrotta*	der Sort	šport
+1041	CNM	sport	sport	sport	der Sport	iz čistega veselja	DUPLICATE 1040
+1042	CNP	stadium	stadio	stadium	das Stadion	stadion
+1043	CNP	stairs	scale	trappor	die Treppe	stopnice
+1044	CN	stamp	francobollo	frimärke	die Briefmare	znamka
+1045	V2	stamp	timbrare	stämpla	der Stempel	žig
+1046	CN	stamp	timbro	stämpel	die Marke	nalepiti (znamko)
+1047	CN	star	stella	stjärna	der Stern	zvezda
+1048	VP	start a walk	iniziare una passeggiata	påbörja en promenad	starten Sie einen Spaziergang	začeti s sprehodom (iti na sprehod)
+1049	CNP	fuel station	pompa di carburante	bensinpump	die Tankstelle	črpalka za gorivo
+1050	VA	stay	stare	stanna	bleiben	bivanje
+1050	V	stay	stare	stanna	bleiben	bivanje
+1051	CN	steak	bistecca	biff	das Steak	zrezek
+1052	CN	stomach	stomaco	mage	der Bauch	trebuh
+1053	CNP	stop	fermata	hållplats	der Halt	stop
+1054	V	stop	stop	stanna	halten	pavza
+1055	AP	stormy	tempestoso	stormig	stürmisch	nevihten
+1056	CN	story	favola	saga	die Geschichte	zgodba
+1057	Adv	straight	diritto	rakt	gerade	raven
+1058	AP	straight	dritto	rak	direkt	naravnost
+1059	CN	straw hat	cappello di paglia	stråhatt	der Strohhut	slamnik
+1060	CNP	street	strada	gata	die Strasse	ulica
+1061	CNP	street	via	gata	die Gasse	cesta
+1062	VP	strike a match	accendere un fiammifero	tända en tändsticka	ein Streichholz anzünden	prižgati vžigalico
+1063	VP	strip a bed	disfare il letto	byta i sängen	ein Bett abziehen	sleči posteljnino
+1064	AP	strong	forte	stark	stark	močan
+1065	CNH	student	studente	student	der Student	študent
+1066	V2	study	studiare	studera	die Studie	študija
+1066	V	study	studiare	studera	die Studie	študija
+1067	CNM	substance	materia	substans	die Substanz	snov
+1068	CNP	subway	metropolitana	tunnelbana	U-Bahn	podzemna železnica
+1069	AP	such	così	så	eine solche	tak, samo
+1070	CNM	sugar	zucchero	socker	der Zucker	sladkor
+1071	Weekday	Sunday	domenica	söndag	der Sonntag	nedelja
+1072	CNPL	sunglasses	occhiali da sole	solglasögon	die Sonnenbrille	sončna očala
+1073	AP	sunny	soleggiato	solig	sonnig	sončen
+1074	AP	sure	certo	säker	sicher	prepričan
+1075	CN	surprise	sorpresa	överraskning	die Überraschung	presenečenje
+1076	CN	sweat shirt	maglia a maniche lunghe	långärmad tröja	der Pullover	majica
+1077	CN	candy,sweet	caramella	godis	süß*	sladek
+1078	AP	sweet	dolce	söt 	süss	sladkarija
+1079	CNM	sweet potato	patata doce	sötpotatis	Süßkartoffel	sladki krompir
+1080	CNP	swimming pool	piscina	bassäng	das Schwimmbad	bazen
+1081	V	swim	nuotare	simma	schwimmen	plavati
+1082	V2	switch off	spegnere	stänga av	ausschalten	odklopiti
+1083	Adv	off	spento	avstängd	abschalten	ugasniti …
+1084	CN	table	tavola	bord	der Tisch	miza
+1085	CN	table	tavolo	bord	die Tabelle	tabela
+1086	VP	take a nap	fare un sonnellino	ta en tupplur	ein Nickerchen	zadremati
+1087	VP	take another table	prendere un'altra tabella	hämta en annan karta	nehmen Sie einen anderen Tisch	uporabi drugo tabelo
+1088	V2	take away	da asporto	take away	wegbringen	odvzeti
+1089	VP	take cap off	togliere il tappo	ta av sig mössan	nehmen Kappe ab	odstranite pokrov
+1090	V2	take  care of	prendersi cura di	sköta om	schonen	skrbeti za
+1091	VP	take cover off	togliere la coperta	ta av täcket	In Deckung ab	odstraniti pokrovček
+1092	VP	take off the hat	togliersi il cappello	ta av hatten	nehmen Sie den Hut ab	sneti klobuk
+1093	VP	take off the trousers	levare i pantaloni	ta av byxorna	di Hoe ausziehen	sleči hlače
+1094	VP	take plug off 	togliere la spina	dra ur kontakten	nehmen ausstecken	odstraniti zamašek
+1095	VP	take the dog for a walk	portare il cane a fare un giro	rasta hunden	nehmen Sie den Hund für einen Spaziergang	vzeti psa na sprehod
+1096	VP	take the toilet paper	prendere la carta igienica	ta toalettpapper	nehmen Sie die WC-Papier	vzeti toaletni papir
+1097	VP	take trash out	portare fuori l'immondizia	ta ut soporna	nehmen Sie Müll aus	vrži smeti
+1098	VP	take weed off	togliere la gramigna	rensa ogräs	nehmen Unkraut aus	odstraniti plevel
+1099	CNM	talcum powder	borotalco	talkpuder	der Talkumpuder	smukec, talk
+1100	CNH	talent	talento	talang		Talent		talent
+1100	CNM	talent	talento	talang		Talent		talent
+1101	CNP	taxi	tassì	taxi		Taxi		taksi
+1102	CNH	teacher	insegnante di sostegno	pedagog		učitelj
+1103	CNH	teacher	maestra	lärare	Lehrer	pedagog
+1104	CNH	team	squadra	lag	Lehrer	skupina
+1105	CN	tea set	set da tè	teservis	das Teeservice	set za čaj, pribor za čaj
+1106	CNM	tea	tè	te	der Tee	čaj
+1107	CN	telephone	telefono	telefon	das Telefon	telefon
+1108	CN	television guide	guida tv	TV-programtabell	Fernseher Guide	televizijski program
+1109	CN	television	TV	TV	das Fernsehen	televizija
+1110	VP	tell a story	raccontare una storia	berätta en historia	eine Geschichte erzählen	pripovedovati zgodbo
+1111	V2	tell	raccontare	berätta	erzählen	povedati, reči
+1111	V	tell	raccontare	berätta	erzählen	povedati, reči
+1112	NP	television news	telegiornale	TV-nyheter	die Television News	televizijske novice
+1113	CN	temperature	temperatura	temperatur	die Temperatur	temperatura
+1114	Numeral	ten	dieci	tio	zehn	deset
+1115	CN	tennis game	partita di tennis	tennismatch	das Tennisspiel	teniška igra
+1116	CNM	tennis	tennis	tennis	das Tennis	tenis
+1117	CN	text	testo	text	der Text	besedilo
+1118	V2	thank	ringraziare	tacka	danken	zahvaliti
+1119	Interj	thank you	grazie	tack 	das Dankeschön	hvala
+1120	Det	that	quello	det där/den där	das	to
+1121	CNP	theater	teatro	teater	das Theater	gledališče
+1122	AdvP	there	là	där	dort	tam
+1123	Utt	there's something	c'è qualcosa	där är något	da ist etwas	je nekaj
+1124	AP	the same / identical	identico	lika	dasselbe / gleich	enak/istoveten
+1125	Pron	they	loro	de	sie	oni
+1126	AP	thin	magro	mager	dünn	tanek
+1127	Ord	third	terzo	tredje	dritte	tretji
+1128	CNM	thirst	sete	törst	der Durst	žeja
+1129	AdvT	this month	questo mese	den här månaden	diesen Monat	ta mesec
+1130	Det	this	questo	den här	dies	ta, to
+1131	V2	throw away	buttare via	slänga	wegschmeißen	vrži stran
+1132	V2	throw out	sbattere fuori	slå ut	hinauswerfen	vreči  ven
+1133	VP	throw the dice	tirare i dadi	kasta tärning	den Würfel werfen	metati kocko
+1134	V2	throw up	vomitare	kräkas	sich übergeben	bruhati
+1134	V	throw up	vomitare	kräkas	sich übergeben	bruhati
+1135	CN	thumb	pollice	tumme	der Daumen	palec
+1136	Weekday	Thursday	giovedì	torsdag	der Donnestag	četrtek
+1137	CN	ticket	biglietto	biljett	die Fahrkarte	vstopnica
+1138	V2	tidy up	mettere in ordine	städa	aufräumen	počistiti
+1138	V	tidy up	mettere in ordine	städa	aufräumen	počistiti
+1139	V2	tidy up	ordinare	städa	aufräumen	pospraviti
+1139	V	tidy up	ordinare	städa	aufräumen	pospraviti
+1140	V2	tie	annodare	knyta	die Krawatte*	kravata
+1141	CN	tie	cravatta	slips	binden*	zvezati
+1142	CN	time	tempo	tid	die Zeit	čas
+1143	CN	tin can masher	schiaccia lattine	burkåtervinning	Blechdose Stampfer	odpirač za konzerve
+1144	CNM	tender chicken	pollo tenero	kyckklingdelar	zartes Hühnchen	ponudba piščančjega mesa
+1145	VP	be lying down on the back	essere sdraiati sulla schiena	ligga på rygg	auf dem Rücken liegen	ležati na hrbtu
+1146	VP	be lying down on the side	essere sdraiati sul fianco	ligga på sidan	auf der Seite nach unten liegen	ležati na strani
+1147	V2	celebrate	festeggiare	fira	feiern	praznovati, slaviti
+1147	V	celebrate	festeggiare	fira	feiern	praznovati, slaviti
+1148	V2 V	drive	guidare	köra	fahren	voziti	DUPLICATE 0310
+1149	CN	toe nail	unghia del piede	tånagel	die Fussnägel	nohti na nožnih prstih
+1150	V2	fix	fissare	sätta fast	reparieren	popraviti
+1151	V	float	galleggiare	flyta	schweben	plavati , pluti
+1152	V	gamble	giocare d'azzardo	spela (om pengar) 	um Geld spielen	hazardirati
+1153	V2	hurt	ferire	göra ont	verletzen	raniti, poškodovati
+1154	CNP	toilet	gabinetto	toalett	die Toilette	wc
+1155	CNM	toilet paper	carta igienica	toalettpapper	das Klopapier	toaletni papir
+1156	CNP	toilet	toilette	toalett	das WC	umivalnica s straniščem
+1157	V2	to look	guardare	titta	sehen	pogledati
+1157	V	to look	guardare	titta	sehen	pogledati
+1158	CNM	tomato in box	pomodoro in scatola	konserverade tomater	Tomaten im Kasten	paradižnik v zaboju
+1159	CNM	tomato juice	succo di pomodoro	tomatjuice	die Tomatensaft	sok od paradižnika
+1160	CN	tomato	pomodoro	tomat	die Tomate	paradižnik 
+1161	CNM	tomato sauce	passata di pomodoro	passerade tomater	die Tomatensosse	paradižnikova omaka
+1162	CN	tongue	lingua	tunga	die Zunge	jezik
+1163	AP	too big	troppo grande	för stor	viel zu gross	prevelik
+1164	AP	too expensive	troppo caro	för dyr	zu teuer	predrag
+1165	AP	too small	troppo piccolo	för liten	zu klein	premajhen
+1166	CN	tooth	dente	tand	der Zahn	zob
+1167	CNM	toothpaste	dentifricio	tandkräm	die Zahnkreme	zobna pasta
+1168	V	register	registrarsi	registrera sig	registrieren	registrirati
+1169	V2	stop	fermare	stanna	anhalten	ustaviti
+1169	V	stop	fermare	stanna	anhalten	ustaviti
+1170	V V2	stop	fermare	stanna	anhalten	prekiniti	DUPLICATE 1169
+1171	VP	swear	giurare	svära	fluchen	priseči
+1172	VP	turn round	girarsi	snurra runt	umdrehen	obrni se
+1173	V	turn	girare	snurra	In den Kurven	da se obrne
+1174	CN	tour	giro	runda	die Tour	izlet
+1175	CNH	tourist	turista	turist	der Tourist	turist
+1176	VP	watch television	guardare la televisione	se på TV	fernsehen	gledati televizijo
+1177	V2	whip	frullare	mixa	Peitsche	bičati
+1178	CNP	town	città	stad	die Stadt	mesto
+1179	CN	traffic lights	semaforo	trafikljus	die Ampeln	semafor
+1180	CNH	trainer	allenatore	tränare	der Trainer	trener
+1181	CNP	train	treno	tåg	trainieren	vlak
+1182	CNP	train	treno	tåg	der Zug	trenirati	DUPLICATE 1181
+1183	CN	trash bag	sacco della spazzatura	soppåse	die Mülltüte	vreča za smeti
+1184	CN	trash can	bidone dell'immondizia	soptunna	der Abfalleimer	smetnjak
+1185	CN	treat bag	dolciumi	godispåse	die Tasche	torba za sladkarije
+1186	CN	tree	albero	träd	der Baum	drevo
+1187	V	travel	viaggiare	resa	die Reise	izlet
+1188	CN	trip	viaggio	resa	die Fahrt	kratko potovanje
+1189	AP	true	vero	sann	wahr	resničen
+1190	VP	try another page	prova un'altra pagina	försök med en annan sida	eine andere Seite versuchen	poskusite na drugi strani
+1191	Weekday	Tuesday	martedì	tisdag	der Dienstag	torek
+1192	CNM	tuna fish	tonno in scatola	tonfisk på burk	der Thunfisch	tunina
+1193	VP	turn blanket on	mettere la coperta	lägga på filten	drehen Decke auf	daj odejo čez
+1194	VP	turn off the tap	chiudere il rubinetto	stänga kranen	abschalten	ugasniti …
+1195	VP	turn off small tin	chiudere il barattolo	stänga burken	kleine Dose abdrehen	zapreti malo pločevinko
+1196	VP	turn on	aprire il rubinetto	öppna kranen	anmachen	prižgati
+1197	VP	turn on can	aprire il barattolo	öppna burken	die Dose andrehen	odpreti pločevinko
+1198	Utt	turns for me	gira per me	det är min tur	stellt sich für mich	obrnejo zame
+1199	Imp	turn the page	gira la pagina	bläddra	dreht die Seite	obrnejo stran
+1200	CN	turn	svolto	vändning	die Wende	obrniti
+1201	VP	turn the temperature down	abbassare la temperatura	sänka värmen	drehen Temperatur nach unten	zmanjšaj temperaturo
+1202	VP	turn the temperature up	alzare la temperatura	höja värmen	drehen Temperatur bis	povišaj temperaturo
+1203	VP	turn the page	cambiare pagina	vända blad	umblättern	obrni stran
+1204	V2	turn	tornare	vända om	die Wende	obrni
+1204	V	turn	tornare	vända om	die Wende	obrni
+1205	VP	turn the TV off	spegni la tv	stänga av TV:n	der Fernseher ausschalten	ugasni televizor
+1206	VP	turn the TV on	accendi la tv	sätta på TV:n	der Fernseher einschalten	prižgi televizor
+1207	CN	TV	televisione	TV	der Fernseher	TV/ televizor
+1208	Interj	ugh	uffa	usch	pfui	uf
+1209	AP	ugly	brutto	ful	hässlich	grd
+1210	CN	ugly show	brutto spettacolo	dåligt program	hässliche Show	umazana predstava/slaba predstava
+1211	CN	umbrella	ombrella	paraply	der Regenschirm	dežnik
+1212	CN	undershirt	canottiera	undertröja	das Unterhemd	spodnja majica
+1213	PrepP	under	sotto	under	unter	spodaj
+1214	V2	understand	capire	förstå	verstehen	razumeti
+1214	V	understand	capire	förstå	verstehen	razumeti
+1215	CN	underwear	biancheria	underkläder	die Unterwäsche	spodnje perilo
+1216	AP CNH	unemployed	disoccupato	arbetslös	arbeitslos	nezaposlen
+1217	AP	united	unito	förenad	vereinigt	združen
+1218	CNP	university	università	universitet	die Universität	univerza/fakulteta
+1219	AP	unpleasant	antipatico	obehaglig	unangenehm	neprijeten
+1220	PrepT	until	fino	tills	bis	dokler
+1221	VP	unwrap a present	scartare un regalo	öppna en present	ein Geschenk auspacken	odvij darilo
+1222	V2	use	usare	använda	benutzen	uporabi
+1223	CN	wagon	vagone	vagn	der Wagen	vagon
+1224	Imp	wait a minute	aspetta un attimo	vänta lite	warte eine Minute	počakaj minuto
+1225	V2	wait	aspettare	vänta	warte ab	počakaj minuto
+1225	V	wait	aspettare	vänta	warte ab	počakaj minuto
+1226	CN	wallet	portafoglio	plånbok	die Brieftasche	denarnica
+1227	CN	wall	muro	vägg	die Wand	stena
+1228	CN	wall	parete	vägg	die Mauer	zid
+1229	Cl	I want to be alone	voglio restare solo	jag vill vara ifred	will allein sein	želim biti sam
+1230	V2	want	volere	vilja	wollen	hočem
+1230	VV	want	volere	vilja	wollen	hočem
+1230	V	want	volere	vilja	wollen	hočem
+1231	VP	wash dishes	lavare i piatti	diska	das Geschirr spülen	pomiti posodo
+1232	VP	wash hands	lavare le mani	tvätta händerna	die Hände waschen	umiti roke
+1233	CN	washing line	filo per stendere	tvättlina	die Wäscheleine	vrv za obešanje perila
+1234	CN	washing machine	lavatrice	tvättmaskin	die Waschmaschine	pralni stoj
+1235	V2	wash	lavare	tvätta sig	waschen	umivati
+1235	V	wash	lavare	tvätta sig	waschen	umivati
+1236	VP	wash windows	lavare le finestre	tvätta fönster	Wasch Fenster	umiti okna
+1237	CN	watch	orologio	klocka	beobachten	ura
+1238	VP	watch	TV	se på TV	die Uhr	gledati
+1239	CNM	water	acqua	vatten	das Wasser	voda
+1240	CNM	flowing	water	scorrere dell'acqua	rinnande vatten	Wasser fließt	tekoča voda
+1241	CN	watering can	annaffiatoio	vattenkanna	die Giesskanne	posoda za zalivanje
+1242	CN	way	tragitto	resväg	der Weg	pot
+1243	CN	weak	debole	svag	schwach	slabotno
+1244	CNM	veal	vitello	kalv	das Kalbfleisch	teletina
+1245	Weekday	Wednesday	mercoledì	onsdag	der Mittwoch	sreda
+1246	CN	week	settimana	vecka	die Woche	teden
+1247	CNP	vegetable garden	orto	grönsaksland	der Gemüsegarten	zelenjavni vrt
+1248	CN	vegetable	ortaggio	grönsak	die Gemüse	zelenjava
+1249	CN	vegetable	verdura	grönsak	das Gemüse	zelenjava
+1250	CN	vegetarian	vegetariano	vegetarian	der Vegetarier	vegetarijanec
+1251	Comp	well done	buon lavoro	bra jobbat	gut gemacht	dobro narejeno
+1252	Pron	we	noi	vi	wir	mi
+1253	CNH	veterinary	veterinario	veterinär	tierärztlich 	veterinar
+1254	CNPL	wet pants	pantaloni bagnati	blöta byxor	nasse Hose	mokre hlače
+1255	IP	what	che cosa	vad	Was	kaj
+1256	QCl	what color game piece?	che colore vuoi?	vilken färg vill du ha?	welche Farbe Spielfigur ?	kakšne barve je igralna figura
+1257	QCl	what do you prefer?	cosa preferisci?	vad föredrar du?	Was bevorzugen Sie?	kaj imaš rajši?
+1258	QCl	what's have you been up to?	cosa ti è successo?	vad har hänt?	Wie läuft es bei dir so?	kaj nameravaš?
+1259	QCl	what's your name?	come ti chiami?	vad heter du?	Wie heisst du?	kako vam je ime?
+1260	QCl	what TV show do you want to watch?	quale programma vuoi guardare?	vilket program vill du se?	Welche Show möchtest u schauen?	katero oddajo želite gledati?
+1261	IAdv	when	quando	när	wann	kdaj
+1262	IAdv	where	dove	var	wo	kje
+1263	QCl	where is	dov'è	var är	wo ist	kje je
+1264	QCl	who goes first?	chi comincia?	vem börjar?	wer geht zuerst?	kdo bo prvi?
+1265	QCl	who goes first?	chi va per primo?	vem är först?	wer geht zuerst?	Kdo gre prvi?
+1266	QCl	who am I?	chi sono?	vem är jag?	Wer bin ich?	Kdo sem jaz?
+1267	CN	window	finestra	fönster	das Fenster	okno
+1268	AP	windy and stormy	vento e pioggia	regn och blåst	windig und stürmisch	vetrovno in nevihtno
+1269	AP	windy	ventoso	blåsigt	windig	vetrovno in nevihtno
+1270	CNM	wine	vino	vin	der Wein	vino
+1271	VP	win the lottery	vincere la lotteria	vinna på lotteri	im Lotto gewinnen	zmagal na loteriji
+1272	VP	wipe face	lavare il viso	tvätta ansiktet	das Gesicht abwischen	obristi obraz
+1273	VP	wipe table	strofinare il tavolo	torka bordet	den Tisch wischen	obriati tablo
+1274	V2	visit	visitare	besöka	der Besuch	obiskati
+1274	V	visit	visitare	besöka	der Besuch	obiskati
+1275	Prep	with	con	med	mit	z
+1276	Prep	without	senza	utan	ohne	brez
+1277	Imp	volume down	abbassa il volume	sänka volymen	Lautstärke runter	utišati zvok
+1278	Imp	volume up	alza il volume	höja volymen	Lauter	povečati zvok
+1279	CNH	woman	donna	kvinna	die Frau	ženska
+1280	CNM	wood	asse di legno	bräda	das Holz	les
+1281	CN	wool hat	cappello di lana	yllemössa	Wollmütze	volnena kapa
+1282	CN	word	parola	ord	das Wort	beseda
+1283	CN	vote	voto	röst	wählen	voliti
+1284	VV*	would not	non potere	inte kunna	würde nicht	ne bi
+1285	CN	wrist	polso	handled	das Handgelenk	zapestje
+1286	VP	write a letter	scrivere una lettera	skriva ett brev	einen Brief schreiben	napiati pismo
+1287	V2	write	scrivere	skriva	schreiben	pisati
+1287	V	write	scrivere	skriva	schreiben	pisati
+1288	VP	write this	scrivere questo	skriv det här	schreibe dies	napisati to
+1289	AP	wrong	sbagliato	fel	FALSE	narobe
+1290	CNM	yard work	attrezzi da giardino	trädgårdsredskap	die Gartenarbeit	delo na dvorišču
+1291	CN	year	anno	år	das Jahr	leto
+1292	AP	yellow	giallo	gul	gelb	rumena
+1293	Interj	yes	si	ja	ja	da
+1294	Interj	yes	sì	ja	ja	ja
+1295	Cl	you are close	sei vicino	du är nära	du bist nah dran	blizu ste
+1296	Cl	you are getting close	ti stai avvicinando	du kommer närmare	Sie sind immer in der Nähe	približujete se
+1297	Cl	you are right	hai ragione	du har rätt	Du hast recht	prav imate
+1298	Cl	you are way off	sei lontano	du är långt ifrån	Sie sind weg	ste daleč od
+1299	Cl	you have misunderstood	hai frainteso	du har missförstått	Sie haben missverstanden	narobe ste razumeli
+1300	AP	young	giovane	ung	jung	mlad
+1301	CNH	young man	giovane uomo	ung man	ein junger Mann	mlad moški
+1302	CNH	young woman	giovane donna	ung kvinna	eine junge Frau	mlada ženska
+1303	Quant	your	tuo	din	dein,euer,Ihr	tvoj/vaš
+1304	Interj	your turn	tocca a te	det är din tur	Sie sind dran	na vrsti ste
+1305	Pron	you	tu	du	Sie	ti
+1306	Pron	you	voi	ni	du	vi
+1307	CN	zucchino	zucchino	zucchino	der Zucchino	bučka
+1308	AP	English		inglese		engelsk		Englisch	BATCH-1***
+1309	CN	I'm in a hurry	io ho fretta	jag har bråttom	ich bin in Eile	Se mi mudi
+1310	Cl	I'm not in a hurry	non ho fretta	jag har inte bråttom	ich habe es nicht eilig	se mi ne mudi
+1311	Utt	not so fast	non tanto di corsa	inte så fort	nicht so schnell	ne tako hitro
+1312	Utt	slower	non di corsa	långsammare	langsamer	počasneje
+1313	Utt	there's no hurry	non c'è fretta	det är ingen brådska	es besteht keine Eile	ne rabimo hiteti
+1314	CNP	airplane	l'aereo	flygplan	das Flugzeug	letalo
+1315	CNP	airport 	l'aeroporto	flygplats	der Flughafen	letališče
+1316	CNP	apartment building	il condominio	hyreshus	das Wohngebäude	stanovanjska gradnja
+1317	CNP	bakery	la pasticceria	bageri	die Bäckerei	pekarna
+1318	CNP	bank 	la banca	bank 	die Bank	banka
+1319	CNP	bookstore	la libreria	bokhandel	der Buchladen	knjigarna
+1320	CNP	building	l'edificio	byggnad	das Gebäude	stavba
+1321	CNP	bus 	l'autobus	buss 	der Bus	avtobus
+1322	CNP	butcher shop	la macelleria	charkuteri	die Metzgerei	mesnica
+1323	CNP	café	il bar	café	das Cafe	kafič, kafe bar
+1324	CNP	car	la macchina	bil	der Wagen	avto
+1325	CNP	church	la chiesa	kyrka	die Kirche	cerkev
+1326	CNP	city	la città	stad	die Stadt	mesto
+1327	CNP	city hall	il municipio	stadshus	das Rathaus	mestna hiša
+1328	CNP	clothing store	il negozio di abbigliamento	klädaffär	das Bekleidungsgeschäft	trgovina z oblačili
+1329	CNP	coffee shop	il caffè	café	das Cafe	kavarna
+1330	CNP	department store	il grande magazzino	varuhus	das Kaufhaus	veleblagovnica
+1331	CNP	pharmacy	la farmacia	apotek	die Apotheke	lekarna
+1332	CNP	electronics store	il negozio di elettronica	electronikaffär	das Elektrogeschäft	trgovina elektronike
+1333	CNP	intersection	l'incrocio	korsning	due Überschneidung	križišče
+1334	CN	lamppost	il lampione	gatlykta	der Laternenmast	ulična svetilka
+1335	CNP	library	la biblioteca	bibliotek	die Bibliothek	knjižnica
+1336	CNP	market	il mercato	marknad	der Markt	trg
+1337	CNH	mayor	il sindaco	borgmästare	der Bürgermeister	župan
+1338	CNP	mosque	la moschea	moské	die Moschee	mošeja
+1339	CNP	park	il parco	park	der Park	park
+1340	CNP	restaurant	il ristorante	restaurant	das Restaurant	restavracija
+1341	CNP	shoe store	il negozio di scarpe	skoaffär	das Schuhgeschäft	trgovina s čevlji
+1342	CNP	shopping mall	il centro commerciale	shoppingcenter	das Einkaufszentrum	nakupovalno središče
+1343	CNP	sidewalk	il marciapiede	trottoar	der Bürgersteig	pločnik
+1344	CNP	store	il negozio	affär	das Geschäft	trgovina
+1345	CNP	street	la strada	gata	die Strasse	ulica
+1346	CN	streetlight	il semaforo	trafikljus	das Strassenlicht	ulična svetilka
+1347	CN	suburban	periferico	kranskommun	das Vorstadtgebiet	primestni
+1348	CNP	subway/metro	il metro	T-bana	U-Bahn / U-Bahn	podzemna / metro
+1349	CNP	supermarket	il supermercato	storköp	der Supermarkt	supermarket
+1350	CNP	synagogue	la sinagoga	synagoga	die Synagoge	sinagoga
+1351	CNP	taxi	il taxi	taxi	das Taxi	taksi
+1352	CNP	temple	il tempio	tempel	der Tempel	tempelj
+1353	V2	buy	comprare	köpa	kaufen	kupiti	DUPLICATE 0145
+1354	VP	to go shopping	fare le spese	handla	einkaufen gehen	iti po nakupih
+1355	CNP	town	la cittadina	småstad	die Stadt	mesto
+1356	CNP	traffic	il traffico	trafik	der Verkehr	promet
+1357	CNP	train	il treno	tåg	der Zug	vlak
+1358	CNP	train station	la stazione ferroviaria	tågstation	der Bahnhof	železniška postaja
+1359	CNP	village	il paese	by	das Dorf	vas
+1360	QCl	what are you drinking?	che cosa bevi?	vad vill du ha att dricka?	Was trinkst du?	kaj piješ?
+1361	QCl	who is that?	chi è quello?	vem är det?	Wer ist das?	kdo je to?
+1362	CNP	apartment	l'appartamento	lägenhet	das Apartment	stanovanje
+1363	CNP	bathroom	il bagno	 badrum	das Badezimmer	kopalnica
+1364	CNP	bedroom	la camera da letto	sovrum	das Schlafzimmer	spalnica
+1365	CN	carpet/rug	il tappeto	matta	der Teppich	preproga / preproga
+1366	CN	CD player	il lettore di CD	CD-spelare	der CD Player	CD predvajalnik
+1367	CN	ceiling	il soffitto	tak	die Decke	strop
+1368	CN	chair	la sedia	stol	der Stuhl	stol
+1369	CNP	closet	l'armadio	garderob	der Schrank	omara
+1370	CN	couch	il divano	soffa	die Couch	kavč
+1371	CN	curtain	la tenda	gardin	der Vorhang	zavese
+1372	CNP	dining room	la sala da pranzo	matrum	das Esszimmer	jedilnica
+1373	CN	door	la porta	dörr	die Tür	vrata
+1374	CN	DVD player	il lettore di DVD	DVD-spelare	der DVD Spieler	DVD predvajalnik
+1375	CN	floor	il pavimento	golv	der Boden	nadstropje
+1376	CNP	hall	l'ingresso	hall	die Halle	dvorana
+1377	CNP	house	la casa	hus	das Haus	hiša
+1378	CNP	kitchen	la cucina	kök	die Küche	kuhinja
+1379	CN	lamp	la lampada	lampa	die Lampe	svetilka
+1380	CNP	living room	il soggiorno	vardagsrum	das Wohnzimmer	dnevna soba
+1381	CN	painting/picture	il quadro	tavla	die Malerei/das Bild	slika / slika
+1382	CNP	room	la camera	rum	das Zimmer	soba
+1383	CN	shelf	lo scaffale	hylla	das Regal	polica
+1384	CN	sofa	il sofà	soffa	das Sofa	kavč
+1385	CN	sound system	lo stereo	stereo	das Lautsystem	ozvočenje
+1386	CNP	stairs	la scala	trappor	die Treppe	stopnice
+1387	CN	table	il tavolo	bord	der Tisch	miza
+1388	CN	television	la televisione	TV	der Fernseher	televizija
+1389	CN	wall	il muro	vägg	die Wand	stena
+1390	CN	carpet	la moquette	heltäckningsmatta	der Teppich	preproga
+1391	CN	window	la finestra	fönster	das Fenster	okno
+1392	CNM	wood	il legno	trä	das Holz	les
+1393	AP	wooden	di legno	av trä	hölzern	leseni
+1394	CN	appetizers	antipasti	 aptitretare	die Vorspeisen	predjedi
+1395	CN	main course	il primo piatto	huvudrätt	die Hauptgänge	glavne jedi
+1396	CN	dessert	il dolce	dessert	die Nachtische	sladice
+1397	Cl	I would like something to drink	vorrei qualcosa da bere	jag vill ha något att dricka	ich hätte gerne etwas zu trinken	rad bi nekaj spil(a)
+1398	Utt	a bottle of water, please	una bottiglia d'acqua, per favore	en flaska vatten, tack	eine Flasche Wasser, bitte	steklenico vode, prosim
+1399	Utt	a cup of tea, please	una tazza di tè, per favore	en kopp te, tack	eine Tasse Tee bitte	skodelico čaja, prosim
+1400	NP	coffee with milk	caffè latte	kaffe med mjölk	Kaffee mit Milch	kava z mlekom
+1401	CN	beer	una birra	en öl	ein Bier	pivo
+1402	QCl	do you have vegetarian dishes?	avete dei piatti vegetariani?	har ni vegetarisk mat?	Haben Sie vegetarische Geriche?	Imate vegetarijanske jedi?
+1403	QCl	where is the bathroom?	dov'è la toilette?	var är toaletten?	Wo ist die Toilette?	Kje je kopalnica?
+1404	CN	breakfast	la prima colazione	frukost	das Frühstück	zajtrk
+1405	CN	lunch	il pranzo	lunch	das Mittagessen	kosilo
+1406	CN	dinner	la cena	middag	das Abendessen	večerja
+1407	CN	plate	il piatto	tallrik	der Teller	plošča
+1408	CN	fork	la forchetta	gaffel	die Gabel	vilica
+1409	CN	knife	il coltello	kniv	das Messer	nož
+1410	CN	spoon	il cucchiaio	sked	der Löffel	žlica
+1411	CN	chopstick	la bacchetta	ätpinne	die Essstäbchen	palčke
+1412	CN	napkin	il tovagliolo	servett	die Serviette	prtiček
+1413	CN	cup	la tazza	kopp	die Tasse 	skodelica
+1414	CN	glass	il bicchiere	glas	das Glas	kozarec
+1415	CN	bottle of wine	una bottiglia di vino	en flaska vin	eine Flasche Wien	steklenica vina
+1416	CNM	ice	il ghiaccio	is	das Eis	led
+1417	CNM	salt	il sale	salt	das Salz	sol
+1418	CNM	pepper	il pepe	peppar	der Pfeffer	poper
+1419	CNM	sugar	lo zucchero	sugar	der Zucker	sladkor
+1420	CNM	soup	la minestra	soppa	die Suppe	juha
+1421	CNM	bread	il pane	bröd	das Brot	kruh
+1422	CNM	butter	il burro	smör	die Butter	maslo
+1423	CNM	pasta	la pasta	pasta	die Pasta	testenine
+1424	CNM	rice	il riso	ris	der Reis	riž
+1425	CNM	cheese	il formaggio	ost	der Käse	sir
+1426	CN	vegetable	la verdura	grönsaker	die Gemüse	zelenjava
+1427	CNM	chicken	il pollo	kyckling	das Huhn	piščanec
+1428	CNM	pork	il maiale	fläsk	das Schweinfleish	svinjina
+1429	CNM	beef	la carne	nötkött	das Rindflisch	govedina
+1430	CNM	juice	il succo di frutta	juice	der Saft	sok
+1431	CN	pie	una crostata	paj	der gefüllter Kuchen	pita
+1432	CNM	ice cream	il gelato	glass	die Eiscreme	sladoled
+1433	Utt	another one, please	un altro, per favore	en till, tack	eine andere, bitte	drugo, prosim
+1434	Utt	more, please	ancora un po', per favore	lite till, tack	mehr Bitte	Še več, prosim
+1435	Utt?	please pass	mi passi	var snäll och ge mig	bitte übergeben 	prosim dodaj
+1436	AP	spicy	piccante	kryddstark	würzig	pikantno
+1437	AP	sweet	dolce	söt	süß	sladko	DUPLICATE 1078
+1438	AP	sour	aspro	sur	sauer	kislo	DUPLICATE 1035
+1439	Utt	speak slowly, please	parli piano, per favore	tala långsamt, tack	Sprechen Sie bitte langsam	govori počasi, prosim
+1440	Utt	repeat, please	ripeta, per favore.	var snäll och repetera.	bitte wiederholen	ponovite prosim
+1441	CN	bathing suit	il costume da bagno	baddräkt	der Badeanzug	kopalke
+1442	CNPL	bathing trunks	il pantoloncini da bagno	badbyxor	die Badehose	kopalke
+1443	CN	belt	la cintura	skärp	der Gürtel	pas
+1444	CN	bikini	il bikini	bikini	der Bikini	bikini
+1445	CN	blouse	la camicetta	blus	die Bluse	bluza
+1446	CNPL	boxers	i boxer	boxershorts	die Boxershorts	bokserice
+1447	CN	bra	il reggiseno	bh	der Bra	nedrček
+1448	CN	bracelet	il braccialetto	armband	die Armkette	zapestnica
+1449	CN	coat	la giacca	jacka	der Mantel	plašč
+1450	CN	coat	il cappotto	kappa	die Jacke	plašč
+1451	CNM	cotton	di il cotone	bomull	die Baumwoll	bombaž
+1452	CN	dress	il vestito	klänning	das Kleid	obleka
+1453	CN	earrings	gli orecchini	örhängen	die Ohrringe	uhani
+1454	CNPL	eyeglasses	gli occhiali	glasögon	die Brille	očala
+1455	CN	glove	il guanto	handske	die Handschuhe	rokavice
+1456	CN	hat	il cappello	hatt	der Hut	hat
+1457	CN	jacket	la giacca	jacka	die Jacke	jakna
+1458	CN	jeans	i blue jeans	jeans	die Jeans	kavbojke
+1459	CN	leather	di la pelle	läder	das Leder	usnje
+1460	CN	suit	l'abito da uomo	kostym	der Anzug	obleka
+1461	CN	necklace	la collana	halsband	die Halskette	ogrlica
+1462	CNPL	pajamas	il pigiama	pyjamas	der Schlafanzug	pidžama
+1463	CNPL	pants	i pantaloni	byxor	die Hose	hlače
+1464	CN	ring	l'anello	ring	der Ring	obroč
+1465	CN	scarf	il foulard	scarf	der Schal	šal
+1466	CN	shirt	la camicia	skjorta	das Hemd	majica
+1467	CN	shoe	la scarpa	sko	die Schuhe	čevlji
+1468	CNM	silk	la seta	siden	die Seide	svila
+1469	CN	size (clothes)	la taglia	storlek	die Konfektionsgrösse	Velikost (oblačila)
+1470	CN	size (shoes)	il numero	storlek	die Schuhgrössen	Velikost (čevlji)
+1471	CN	skirt	la gonna	kjol	der Rock	krilo
+1472	CN	sneaker	la scarpa da ginnastica	tennisskor	die Turnschuhe	superge
+1473	CN	socks	le calze	sockor	die Socken	nogavice
+1474	CNPL	sunglasses	gli occhiali da sole	solglasögon	die Sonnenbrille	sončna očala
+1475	V2	wear	portare	att ha på sig	tragen	nositi
+1476	CN	T-shirt	la maglietta	T-shirt	T-Shirt	majica
+1477	CNPL	underpants (male/female)	le mutande	underbyxor	die Unterhose (männlich/weiblich)	spodnjice (moški / ženska)
+1478	CN	undershirt	la canottiera	undertröja	das Unterhemd	spodnja
+1479	CN	watch	l'orologio	armbandsur	die Uhr	gledati
+1480	CN	women's suit	il tailleur pantalone	byxdress	der(Frauen)Anzug	(Ženska) obleka
+1481	CN	wool	(di) la lana	ull	die Wolle	volna
+1482	CN	attachment	l'allegato	bilaga	der Anhang	priponka
+1483	CN	blog	il blog	blogg	der Blog	blog
+1484	CN	DSL cable	il cavo ADSL	DSL-kabel	das Kabel(DSL)	kabel (DSL)
+1485	CN	CD-ROM	il CD-ROM	CD-ROM	CD-ROM	CD ROM
+1486	CN	CD-ROM drive	l'unita CD	CD-ROM-enhet	CD-ROM-Laufwerk	CD-ROM
+1487	CN	chat room	la chatroom	chat room	Chat-Raum	Klepetalnica
+1488	CN	computer	il computer	dator	der Computer	računalnik
+1489	CN	document	il documento	dokument	das Dokument	dokument
+1490	CN	email	l'email	e-post	das email	E-naslov
+1491	CN	file	il file	fil	der Ordner	mapa
+1492	CN	instant message	il messaggio instantaneo	sms	Sofortnachricht	hitro sporočilo
+1493	NP	internet	internet	internet	das Internet	internet
+1494	CN	keyboard	la tastiera	tangentbord	die Tastatur	tipkovnica
+1495	CN	memory	la memoria	minne	der Speicher	spomin
+1496	CN	modem	il modem	modem	der Modem	modem
+1497	CN	monitor,screen	il monitor, lo schermo	monitor/skärm	der Monitor	monitor / zaslon
+1498	CN	mouse	il mouse	mus	die Maus	miš
+1499	CN	mouse pad	il mousepad	musplatta	die Mausmatte	podloga za miško
+1500	CN	printer	la stampante	skrivare	der Drucker	tiskalnik
+1501	VP	attach a file	allegare un file	lägga till en bilaga	eine Datei anhängen	priložiti datoteko
+1502	VP	close a file	chiudere un file	att stänga en fil	eine Datei schliessen	zapreti datoteko
+1503	V2	delete	cancellare, eliminare	att ta bort	löschen	izbrisati
+1504	V2	forward	inoltrare	att vidarebefordra	weiterleiten	naj
+1505	VP	open a file	aprire un file, aprire un documento	att öppna en fil	eine Datei öffnen	odpreti datoteko
+1506	V	reply	rispondere	att svara	antworten	odgovoriti
+1507	VP	save a document	salvare un documento	att spara ett dokument	ein Dokument speichern	shraniti dokument
+1508	VP	send a file	inviare un file, inviare un documento	att skicka en fil	eine Datei senden	poslati datoteko
+1509	VP	send an email	mandare un'email, mandare una mail	att skicka e-post	E-Mail senden	poslati e-pošto
+1510	CN	webpage	la pagina web	webbsida	die Internetseite	spletna stran
+1511	CN	website	il sito web	website	die Website	spletna stran
+1512	Weekday	Monday	lunedì	måndag	der Montag	ponedeljek	DUPLICATE 0690
+1513	Weekday	Tuesday	martedì	tisdag	der Dienstag	torek	DUPLICATE 1191
+1514	Weekday	Wednesday	mercoledì	onsdag	der Mittwoch	sreda	DUPLICATE 1245
+1515	Weekday	Thursday	giovedì	torsdag	der Donnerstag	četrtek	DUPLICATE 1136
+1516	Weekday	Friday	venerdì	fredag	der Freitag	petek
+1517	Weekday	Saturday	sabato	lördag	der Samstag	sobota	DUPLICATE 0942
+1518	Weekday	Sunday	domenica	söndag	der Sonntag	nedelja	DUPLICATE 1071
+1519	Month	January	gennaio	januari	der Januar	januar
+1520	Month	February	febbraio	februari	der Februar	februar
+1521	Month	March	marzo	mars	der März	marec
+1522	Month	April	aprile	april	der April	april
+1523	Month	May	maggio	maj	der Mai	maj
+1524	Month	June	giugno	juni	der Juni	junij
+1525	Month	July	luglio	juli	der Juli	julij
+1526	Month	August	agosto	augusti	der August	avgust
+1527	Month	September	settembre	september	der September	september
+1528	Month	October	ottobre	oktober	der Oktober	oktober
+1529	Month	November	novembre	november	der November	november
+1530	Month	December	dicembre	december	der Dezember	december
+1531	AdvT	this Monday	questo lunedì	på måndag	diesen Montag	v ponedeljek
+1532	AdvT	last week	la settimana scorsa	förra veckan	letzte Woche	prejšnji teden
+1533	AdvT	next month	il mese prossimo	nästa månad	nächsten Monat	naslednji mesec
+1534	QCl	what is the date today?	che giorno è?	vilket datum är det idag?	Welches Datum haben wir heute?	kateri datum je danes?
+1535	AP	red	rosso	röd	rot	rdeča	DUPLICATE 0900
+1536	AP	blue	blu	blå	blau	modra	DUPLICATE 0098
+1537	AP	yellow	giallo	gul	gelb	rumena	DUPLICATE 1292
+1538	AP	green	verde	grön	grün	zelena	DUPLICATE 0443
+1539	AP	orange	arancione	orange	orange	oranžna
+1540	AP	purple	viola	lila	lila	vijolična
+1541	AP	black	nero	svart	schwarz	črna
+1542	AP	white	bianco	vit	weiss	bela
+1543	CN	brown	marrone	brun	braun	rjava
+1544	V2	need	ho bisogno di	jag behöver	ich brauche	rabim
+1545	CNM	money	il denaro	pengar	das Geld	denar
+1546	CNM	paper	la carta	papper	das Papier	papir
+1547	CN	pencil	una matita	en blyertspenna	ein Bleistift	svinčnik
+1548	CN	pen	una penna	en penna	ein Stift	pero
+1549	CN	stamp	un francobollo	ett frimärke	eine Briefmarke	žig
+1550	CNM	toothpaste	il dentifricio	tandkräm	die Zahnpasta	zobna pasta
+1551	CN	towel	un asciugamano	en handduk	ein Handtuch	brisača
+1552	CNM	soap	il sapone	tvål	die Seife	milo
+1553	CNPL	clothes	degli abiti	kläder	(einige)Kleidungsstücke	(nekatera) oblačila
+1554	CNH	band	il gruppo (musicale)	musikband	die Gruppe	skupina
+1555	CN	book	il libro	bok	das Buch	knjiga
+1556	CNP	circus	il circo	cirkus	der Zircus	cirkus
+1557	CNP	club	il club	klubb	der Club	klub
+1558	CN	comedy	la commedia	kommedi	die Komödie	komedija
+1559	CN	concert	il concerto	konsert	das Konzert	koncert
+1560	CN	documentary	il documentario	documentär	der Dokumentarfilm	dokumentarni
+1561	CN	drama	il dramma	drama	das Drama	drama
+1562	AP	exciting	stimolante	spännande	aufregend	razburljivo
+1563	AP	funny	divertente	rolig	komisch	smešno	DUPLICATE 0407
+1564	CNP	gallery	la galleria	galleriet	die Galerie	Galerija
+1565	AP	interesting	interessante	intressant	interessant	zanimivo
+1566	CN	magazine	la rivista	veckotidning	die Zeitschrift	revija
+1567	CNP	movie theater	la sala cinematografica	biosalong	das Filmtheater	kino
+1568	CN	movie,film	il film	movie/film	der Film	Film / film
+1569	CNP	museum	il museo	museum	da Museum	muzej
+1570	CNP	opera	l'opera	opera	die Oper	opera
+1571	CN	painting	il quadro	tavla	di Malerei	slika
+1572	CNP	party	la festa	fest	die Party	zabava
+1573	CNP	restaurant	il ristorante	restaurant	das Restaurant	restavracija	DUPLICATE 1340
+1574	CN	sculpture	la scultura	skulptur	die Skulptur	skulptura
+1575	CN	song	la canzone	sång	das Lied	pesem
+1576	CN	television program	la trasmissione televisiva	TV-program	das Fernsehprogramm	televizijskega programa
+1577	NP	the news	le notizie	nyheterna	die Nachrichten	novice
+1578	NP	the radio news	il giornaleradio	radionyheterna	die Radionachrichten	novice (na radiu)
+1579	NP	the TV news	il telegiornale, il TG	TV-nyheterna	die Fernsehnachrichten	novice (na TV)
+1580	CNP	theater	il teatro	teater	das Theater	gledališče
+1581	CN	ticket	il biglietto	biljett	das Ticket	vstopnica
+1582	VP	be bored	annoiarsi	att ha tråkigt	gelangweilt sein	biti dolgčas
+1583	V	dance	ballare	att dansa	tanzen	plesati
+1584	VP	flip channels	cambiare canale	att byta kanal	die Kanäle wechseln	spremeniti kanale
+1585	VP	go to a party	andare a una festa	att gå på fest	auf eine Party gehen	iti na zabavo
+1586	VP	go to the movies	andare al cinema	att gå på bio	ins Kino gehen	iti v kino
+1587	VP	have a party	dare una festa	att ha en fest	eine Feier haben	prirediti zabavo
+1588	VP	have fun	divertirsi	att ha roligt	Spaß haben	zabavati se
+1589	VP	listen to music	ascoltare la musica	att lyssna på musik	Musik hören	za poslušanje glasbe	DUPLICATE 0626
+1590	VP	read a book	leggere un libro	att läsa en bok	ein Buch lesen	prebrati knjigo
+1591	VP	read a magazine	leggere una rivista	att läsa en veckotidning	an eine Zeitschrift lesen	brati revijo
+1592	VP	see a movie	vedere un film	att se en film	einen Film sehen	videti film
+1593	VP	see a play	vedere uno spettacolo	att se en pjäs	ein Stück,Spiel schauen	videti igro
+1594	VP	watch the television	guardare la tivù (la televisione)	att se på TV	fernsehen	gledati televizijo
+1595	CNH	aunt	la zia	faster, moster	die Tante	teta
+1596	CNH	baby	il bambino	baby	das Baby	otrok
+1597	CNH	brother	il fratello	bror	der Bruder	brat
+1598	CNH	female cousin	la cugina	kusin	die Cousine	bratranec (ženska)
+1599	CNH	male cousin	il cugino	kusin	der Cousin	bratranec (moški)
+1600	CNH	daughter	la figlia	dotter	die Tochter	hči
+1601	CNH	father	il padre	pappa	der Vater	oče
+1602	CNH	father-in-law	il suocero	svärfar	der Schwiegervater	tast
+1603	CNH	fiancé,fiancée	il fidanzato/la fidanzata	fästman/fästmö	Verlobten/Verlobte(männlich/weiblich)	zaročenec / zaročenka (moški / ženska)
+1604	CNH	grandfather	il nonno	farfar, morfar	der Grossvater	dedek
+1605	CNH	grandmother	la nonna	farmor, mormor	die Oma	babica
+1606	CNH	husband	il marito	make	der Mann	mož
+1607	CNH	mother	la madre	mamma	die Mutter	mati
+1608	CNH	mother-in-law	la suocera	svärmor	die Schwiegermutter	tašča
+1609	CNH	relative	il/la parente	släkting	der Verwandter/die Verwandte	sorodnik (moški / ženska)
+1610	CNH	sister	la sorella	syster	die Schwester	sestra
+1611	CNH	son	il figlio	son	der Sohn	sin
+1612	CNH	stepdaughter	la figlia di mia moglie/di mio marito	styvdotter	die Stieftochter	pastorka
+1613	CNH	stepfather	il marito di mia madre	styvfar	der Stiefvater	očim
+1614	CNH	stepmother	la moglie di mio padre	styvmor	die Stiefmutter	mačeha
+1615	CNH	stepson	il figlio di mia moglie/di mio marito	styvson	der Stiefsohn	pastorek
+1616	VP	divorce	divorziarsi	att skiljas	sich scheiden lassen	ločiti se
+1617	V2	inherit	ereditare	att ärva	erben	podedoval
+1618	V2	meet	conoscere	att träffa (en person)	eine Person zum ersten mal kennenlernen	izpolniti (oseba) (prvič)
+1619	VP	to love	amare	att älska	lieben	ljubiti
+1620	V2	marry	sposarsi	att gifta sig	heiraten	poročiti
+1620	V	marry	sposarsi	att gifta sig	heiraten	poročiti
+1621	V2	meet casually	incontrare	att träffa (en person)	(eine Person)(nebenbei)kennenlernen	izpolniti (oseba) (mimogrede)
+1622	CNH	uncle	lo zio	farbror, morbror	der Onkel	stric
+1623	CNH	wife	la moglie	fru	die Ehefrau	žena
+1624	CN	apple	la mela	äpple	der Apfel	jabolko
+1625	CN	apricot	l'albicocca	aprikos	die Aprikose,die Marille	marelice
+1626	CN	banana	la banana	banan	die Banane	banana
+1627	CNM	beef	il manzo	nötkött	das Rindfleisch	govedina
+1628	CN	carrot	la carota	morot	die Karotte	korenje
+1629	CNM	coffee	il caffè	kaffe	der Kaffee	kava
+1630	CN	cucumber	il cetriolo	gurka	die Gurke	kumara
+1631	CN	drink	la bevanda	dryck	das Getränk	pijača
+1632	CN	egg	l'uovo	ägg	das Ei,die Eier	jajce (e)
+1633	CN	eggplant	la melanzana	aubergine	di Aubergine	jajčevec
+1634	CNM	fish	il pesce	fisk	der Fisch	ribe
+1635	CNM	fruit	la frutta	frukt	das Obst	sadje
+1636	CN	grape	l'uva	druva	die Trauben	grozdje
+1637	CNM	honey	il miele	honung	 der Honig	med
+1638	CNM	lettuce	la lattuga	sallad	der Salat	solata
+1639	CN	lobster	l'aragosta	hummer	der Hummer	jastog
+1640	CNM	meat	la carne	kött	das Fleisch	meso
+1641	CNM	milk	il latte	mjölk	die Milch	mleko
+1642	CN	orange	l'arancia	apelsin	die Orange	oranžna
+1643	CN	peach	la pesca	persika	der Pfirsich	breskev
+1644	CN	pear	la pera	päron	die Birne	hruška
+1645	CN	pepper (condiment)	il pepe	peppar	der Pfeffer(das Gewürz)	poper (začimba)
+1646	CN	pepper (vegetable)	il peperone	paprika	der Pfeffer (das Gemüse)	poper (rastlinski)
+1647	CN	shrimp	il gambero	räka	die Garnele	kozice
+1648	CN	soft drink	la bibita	läskedryck	die Soda	brezalkoholna pijača / soda
+1649	CNM	tea	il tè	te	der Tee	čaj
+1650	CN	tomato	il pomodoro	tomat	die Tomate	paradižnik
+1651	CNM	veal	il vitello	kalvkött	das Kalbfleisch	teletina
+1652	CNM	water	l'acqua	vatten	das Wassr	voda
+1653	CNM	wine	il vino	vin	der Wein	vino
+1654	CN	zucchini	lo zucchino, la zucchina	zucchini	die Zucchini	bučke
+1655	QCl	can you help me?	mi può aiutare?	kan du hjälpa mig?	Kannst du mir helfen?	mi lahko pomagaš?
+1656	Cl	I'm lost	mi sono perso	jag har gått vilse	ich bin verloren	Zgubljen sem
+1657	Cl	I don't know where my wife is	non riesco a trovare mia moglie	jag vet inte var min fru är	ich weiss nicht,wo meine Frau ist	Ne vem, kje je moja žena
+1658	Cl	I don't know where my husband is	non riesco a trovare mio marito	jag vet inte var min man är	ich weiss nicht ,wo mein Mann ist	Ne vem, kje je moj mož
+1659	Cl	I'm hurt	mi sono ferito	jag har skadat mig	ich bin verletzt	Poškodovan sem
+1660	CN	I need a doctor	ho bisogno di un medico	jag behöver en läkare	ich brauche einen Arzt	rabim zdravnika
+1661	CN	I'm allergic to penicillin	Sono allergico alla penicillina	jag är allergisk mot penicillin	ich bin allergisch gegen Penicilin	sem alergičen na penicilin
+1662	Cl	I'm dizzy	mi gira la testa	jag är yr	mir ist schwindelig	Sem omotična
+1663	CN	I have nausea	ho la nausea	jag mår illa	ich habe Übelkeit	Čutim slabost, počutim se slabo
+1664	Cl	my arm hurts	mi fa male il braccio	jag har ont i armen	mein Arm tut weh	me roka boli
+1665	Cl	my leg hurts	mi fa male la gamba	jag har ont i benet	mein Bein tut weh	me noga boli
+1666	Cl	my head hurts	mi fa male la testa	jag har ont i huvudet	mein Kopf tut weh	glava me boli
+1667	QCl	where's the book?	dov'è il libro?	var är boken?	Wo ist das Buch?	kje je knjiga?
+1668	Cl	it's right here	è proprio qui	den är här	es ist genau hier	je tukaj
+1669	Cl	he is here	lui è qui	han är här	er ist hier	on je tukaj
+1670	Cl	he is there	lui è lì	han är där	er ist dort	tam je
+1671	Cl	it's somewhere over there	è lì, da qualche parte	det är någonstans där borta	es ist irgendwo da drüben	da je nekje tam
+1672	Imp	put it here	lo metta qui	lägg det här	stell es hier ab	postavi tukaj
+1673	Cl	wait for me here	mi aspetti qui	vänta på mig här	warte auf mich hier	počakaj me tukaj
+1674	AdvP	as far as there	fino a lì	ända dit bort	soweit es	kolikor tam
+1675	QCl	where does he live?	dove abita lui?	var bor han?	Wo wohnt er?	kje živi?
+1676	Cl	he lives there	lui abita lì	han bor där	er lebt dort	živi tam
+1677	Cl	I expect to see him there	io spero di vederlo lì	jag hoppas på att se honom där	ich erwarte ihn dort zu sehen	Pričakujem, da ga vidim tam
+1678	Cl	it's not here	non è qui	det är inte här	es ist nicht hier	to ni tukaj
+1679	QCl	what do you have there?	cosa hai lì?	vad har du där?	was hast du da?	kaj imaš tam?
+1680	Cl	I like	mi piace	jag tycker om det	ich mag	všeč mi je
+1681	Cl	I like it a lot	mi piace molto	jag tycker mycket om det	ich mag es sehr	zelo mi je všeč
+1682	Cl	I love music	la musica mi piace molto	jag älskar musik	ich mag Musik	Obožujem glasbo
+1683	QCl	do you like fruit?	ti piace la frutta?	tycker du om frukt?	Magst du Obst?	Vam je všeč sadje?
+1684	Utt	yes, I like fruit	si, la frutta mi piace	ja, jag tycker om frukt	ja,ich mag Obst	ja,imam rada sadje
+1685	Cl	I don't like it	non mi piace	jag tycker inte om det	ich mag es nicht	Ni mi všeč
+1686	Cl	I don't like it very much	non mi piace molto	jag tycker inte så mycket om det	ich mag es nicht so sehr	tega ne maram preveč
+1687	Utt	no, I don't like fruit	no, la frutta non mi piace	nej, jag tycker inte om frukt	nein,ich mag kein Obst	ne, ne maram sadja
+1688	QCl	do you like chocolate?	ti piace il cioccolato?	tycker du om choklad?	Magst du Schokolade?	Vam je všeč čokolada?
+1689	CN	bandage	la benda, il cerotto	bandage	der Verband	povoj
+1690	CNM	bath gel	il bagnoschiuma	badskum	das Duschgel	gel za kopanje
+1691	CNP	bathtub	la vasca (da bagno)	badkar	die Badewanne	kad
+1692	CNM	cologne	l'acqua (di) colonia	eau-de-cologne	das Eau de Cologne	kolonjska voda
+1693	CNM	deodorant	il deodorante	deodorant	das Deodorant,das Deo	deodorant
+1694	CN	medicine cabinet	l'armadietto	medicinskåp	der Medizinschrank	medicinska omara
+1695	CN	mirror	lo specchio	spegel	der Spiegel	ogledalo
+1696	CNM	perfume	il profumo	parfym	Parfüm	parfum
+1697	CNM	powder	il borotalco	talkpuder	der Pulver	prah
+1698	CN	razor	il rasoio	rakhyvel	der Rasierer	britev
+1699	CN	shampoo	lo shampoo	shampoo	das Shampoo	šampon
+1700	CNM	shaving cream	la crema da barba	raklödder	die Rasiercreme	pena za britje
+1701	CN	shower	la doccia	dusch	die Dusche	tuš
+1702	CNM	shower gel	il docciaschiuma	duschtvål	das Duschgel	gel za tuširanje
+1703	CN	sink (wash basin)	il lavandino, il lavabo	tvättställ	das Waschbecken(das Waschbecken)	korito (umivalnik)
+1704	CNM	soap	la saponetta	tvål	die Seife	milo
+1705	VP	shave	farsi la barba, radersi	att raka sig	rasieren	britje
+1706	VP	take a bath	farsi il bagno	att ta ett bad	ein Bad nehmen	kopati se
+1707	VP	take a shower	farsi la doccia	att duscha	zu duschen	stuširati
+1708	VP	wash oneself	lavarsi	att tvätta sig	sich waschen	stuširati se
+1709	CNP	toilet	il wc	toalett	die Toilette	WC
+1710	CNM	toilet paper	la carta igienica	toalettpapper	das Klopapier	toaletni papir
+1711	CN	towel	l'asciugamano	handduk	das Handtuch	brisača
+1712	CN	blender	il frullatore	mixer	der Mixer	mešalnik
+1713	CN	bottle	la bottiglia	flaska	der Flasche	steklenica
+1714	CN	bowl	la ciotola, la terrina	skål	die chüssel	skleda
+1715	CN	box	la scatola	låda	die Schachtel	škatla
+1716	CN	broom	la scopa	sopborste	der Besen	metla
+1717	CN	can	la lattina	burk	die Dose	lahko
+1718	CN	carton	la scatola di cartone	kartong	der Karton	škatla
+1719	CN	coffeemaker,espresso machine	la macchina del caffè	kaffebryggare	die Kaffeemaschine/die Espressomaschine	aparat za kavo / espresso stroj
+1720	CN	counter	il piano	arbetsbänk	der Zähler	števec
+1721	CN	cup	la tazza	kopp	die Tasse	skodelica	DUPLICATE 1413
+1722	CN	cupboard	la credenza	skåp	der Schrak	omara
+1723	CN	dishwasher	la lavapiatti, la lavastoviglie	diskmaskin	der Geschirrspüler	pomivalni stroj
+1724	CN	dishwashing detergent	il detersivo per i piatti	diskmedel	das Spülmittel	detergent za pomivanje posode
+1725	CN	drawer	il cassetto	låda	die Schublade	predal
+1726	CN	dryer	l'essiccatrice (l'asciugatrice)	torktumlare	der Trockner	sušilec za lase
+1727	CN	iron	il ferro da stiro	strykjärn	das Eisen	likati
+1728	CN	ironing board	l'asse da stiro	strykbräda	as Bügelbrett	likalna deska
+1729	CN	kitchen sink	il lavandino	diskho	das Abwaschbecken	(kuhinjsko korito
+1730	CNM	laundry detergent	il detersivo per il bucato	tvättmedel	das Waschmittel	detergent za pranje perila
+1731	CN	microwave	il forno a microonde	mikro	die Mikrowelle	mikrovalovna pečica
+1732	CN	oven	il forno	ugn	der Ofen	pečica
+1733	CN	refrigerator	il frigorifero, il frigo	kylskåp	der Kühlschrank	hladilnik
+1734	CN	stove	la cucina elettrica, la cucina a gas	spis	der Herd	štedilnik
+1735	CN	tea kettle	il bollitore	vattenkokare	der Teekessel	 kotliček za čaj
+1736	VP	to cook	cucinare	att laga mat	kochen	kuhati
+1737	VP	to do the dishes	lavare i piatti	att diska	das Geschirr spülen	pomiti posodo
+1738	VP	to do the laundry	fare la lavanderia, fare il bucato	att tvätta	die Wäsche waschen	oprati perilo
+1739	CN	washing machine	la lavatrice, la lavabiancheria	tvättmaskin	die Waschmaschine	pralni stroj
+1740	Cl	this isn't true	questo non è vero	det är inte sant	dies ist nicht wahr	To ne velja
+1741	Cl	this isn't so	questo non è così	så är det inte	dies ist nicht so	to ni tako
+1742	Cl	it's very bad	è molto male	det är väldigt illa	es ist sehr schlimm	to je zelo slabo
+1743	Cl	it's for you	è per te	det är till dig	es ist für dich	to je za vas
+1744	Cl	it's not bad	non c'è male	det är helt okej	es ist nicht schlecht	ni slabo
+1745	Cl	it's trendy	è di moda	det är inne	es ist trendy	je v trendu, moderno
+1746	Cl	it's very good	è molto buono	det är mycket bra	es ist sehr gut	je  zelo dobro
+1747	Cl	I don't care	non mi interessa	det bryr jag mig inte om	ist mir egal	Me ne zanima
+1748	Cl	it is done very badly	è fatto malissimo	det är dåligt gjort	es ist sehr schlecht gemacht	je narejeno zelo slabo
+1749	Cl	it's not good	non è buono	det är inte bra	es ist nicht gut	ni dobro
+1750	Cl	it's not very good	non è molto buono	det är inte särskilt bra	es ist nicht sehr gut	ni glih dobro
+1751	Cl	it's really bad	è veramente cattivo	det är verkligen dåligt	es ist wirklich schlecht	to je res slabo
+1752	Cl	it's very bad	è molto male	det är mycket dåligt	es ist sehr schlimm	to je zelo slabo	DUPLICATE 1742
+1753	Cl	it's worthless	non serve a nulla	det tjänar inget till	es ist wertlos	to je ničvredno
+1754	Cl	that's not good	quello non è buono	det där är inte bra	das ist nicht gut	to ni dobro
+1755	Cl	that's worthless	questo non vale niente	det är värdelöst	das ist wertlos	to je ničvredno
+1756	Cl	this isn't correct	questo non è corretto	det är inte korrekt	dies ist nicht korrekt	To ni pravilno
+1757	Cl	this isn't right	questo non è giusto	det är inte rätt	das ist nicht richtig	to ni prav
+1758	QCl	what's your name?	come ti chiami?	vad heter du?	Wie heißen Sie?	kako ti je ime?
+1759	QCl	may I sit here?	posso sedermi qui?	kan jag sitta här?	Darf ich hier sitzen?	ali se lahko vsedem tukaj
+1760	QCl	where do you live?	dove abiti?	var bor du?	Wo wohnen Sie?	kje živiš?
+1761	Cl	this is my wife	questa è mia moglie	det här är min fru	das ist meine Frau	to je moja žena
+1762	Cl	this is my husband	questo è mio marito	det här är min man	das ist mein Ehemann	
+1763	CNM	money	i soldi, il denaro	pengar	das Geld	denar
+1764	CNP	bank	la banca	bank	die Bank	banka
+1765	Adv	more slowly	più piano	långsammare	langsamer	počasneje
+1766	AP	more difficult	più difficile	svårare	schwieriger	težje
+1767	AP	easier	più facile	lättare	einfacher	lažje
+1768	AdvP	farther	più lontano	längre bort	weiter	dlje
+1769	AdvP	nearer	più vicino	närmare	näher	bliže
+1770	Adv	more than that	più di quello	mer än det	mehr als das	več kot to
+1771	Adv	more than a year	più di un anno	mer än ett år	mehr als ein Jahr	več kot eno leto
+1772	Adv	less slowly	meno piano	mindre långsamt	weniger langsam	hitreje
+1773	AP	less difficult	meno difficile	mindre svårt	weniger schwierig	manj zahtevna
+1774	AP	less easy	meno facile	mindre enkelt	weniger leicht	težje
+1775	AdvP	less far	meno lontano	inte så långt bort	weniger weit	ne tako daleč
+1776	AdvP	less near	meno vicino	inte så nära	weniger in der Nähe von	ne tako blizu
+1777	Adv	less than that	meno di quello	mindre än det	weniger als	manj kot to
+1778	Adv	less than a year	meno di un anno	mindre än ett år	weniger als ein Jahr	manj kot eno leto
+1779	Cl	I've hurt my hand	mi sono fatta male alla mano	jag har skadat min hand	ich habe meine Hand verletzt	Sem si poškodoval roko
+1780	Cl	I have a headache	ho mal di testa	jag har huvudvärk	ich habe Kopfschmerzen	imam glavobol
+1781	Cl	my stomach hurts	mi fa male lo stomaco	jag har ont i magen	mein Bauch tut weh	me boli želodec
+1782	CNP	beach	la spiaggia	strand	der Strand	plaža
+1783	CNP	desert	il deserto	öken	die Wüste	puščava
+1784	CNP	field	il campo	fält	das Feld	polje
+1785	CN	flower	il fiore	blomma	die Blume	cvet
+1786	CNP	forest	la foresta	skog	der Wald	gozd
+1787	CNP	hill	la collina	kulle	der Hügel	hrib
+1788	CNP	lake	il lago	sjö	der See	jezero
+1789	CNP	land	la terra	land	das Land	zemljišče
+1790	CNP	moon	la luna	måne	der Mond	moon
+1791	CNP	mountain	la montagna	berg	das Gebirge	gora
+1792	CNP	ocean	l'oceano	ocean	der Ozean	ocean
+1793	CN	plant	la pianta	planta	die Pflanze	rastlina
+1794	CNP	pond	lo stagno	damm	der Teich	ribnik
+1795	CNP	river	il fiume	flod	der Fluss	river
+1796	CN	rock	la roccia	klippa	der Felsen	skala
+1797	CN	sand	la sabbia	sand	der Sand	pesek
+1798	CNP	sea	il mare	hav	das Meer	morje
+1799	CN	sky	il cielo	himmel	der Himmel	nebo
+1800	CN	star	la stella	stjärna	der Stern	zvezda
+1801	CN	sun	il sole	sol	die Sonne	sonce
+1802	CN	tree	l'albero	träd	der Baum	drevo
+1803	CNM	water	l'acqua	vatten	das Wasser	voda	DUPLICATE 1652
+1804	Cl	I don't know how or when	non so nè come nè quando	jag vet inte hur eller när	ich weiss nicht,wie oder wann	Ne vem, kako in kdaj
+1805	CN	I don't see	io non vedo	jag ser inte	Ich sehe nicht,	Ne vidim
+1806	Cl	I don't see anything	non vedo nulla	jag ser ingenting	Ich sehe nichts	Ne vidim ničesar
+1807	Cl	I have no time	non ho tempo	jag har inte tid	ich habe keine Zeit	Nimam časa
+1808	Cl	I have nothing to do	non ho niente da fare	jag har inget att göra	ich habe nichts zu tun	ničesar nimam za početi
+1809	Cl	I never go away	non vado mai via	jag reser aldrig bort	Ich gehe nie weg	Nikoli ne izginejo
+1810	Cl	I never go	non vado mai	jag går aldrig	ich gehe nie	Nikoli ne hodim
+1811	Cl	it doesn't matter	non importa	det spelar ingen roll	es spielt keine Rolle	ni pomembno
+1812	Cl	it's nothing	non è nulla	det är inget	es ist nichts	nič ni
+1813	Cl	no one is coming	nessuno viene	det kommer ingen	niemand kommt	nihče ne prihaja
+1814	Cl	nothing happened	non è successo nulla	det hände inget	nichts ist passiert	se ni nič zgodilo
+1815	Cl	you don't see	tu non vedi	du ser inte	Sie nicht sehen,	ne vidite
+1816	CNH	businessman	l'uomo d'affari	affärsman	der Geschäftsmann	poslovnež
+1817	CNH	businesswoman	la donna d'affari	affärskvinna	der Geschäftsfrau	Poslovna ženska
+1818	CNH	carpenter	il falegname	snickare	der Zimmermann	tesar
+1819	CNH	construction worker	il muratore	byggarbetare	der Bauarbeiter	gradbinec
+1820	CNH	dentist	il dentista	tandläkare	der Zahnarzt	zobozdravnik
+1821	CNH	doctor	il medico	doctor	der Arzt	zdravnik
+1822	CNH	electrician	l'elettricista	elektriker	der Elektriker	električar
+1823	CNH	engineer	l'ingegnere	ingenjör	der Ingenieur	inženir
+1824	CNH	farmer	il contadino	bonde	de Farmer	kmet
+1825	AP	full-time	a tempo pieno	heltid	die Vollzeit	polni delovni čas
+1826	CNH	journalist	il giornalista	journalist	der Journalist	novinar
+1827	CNH	lawyer	l'avvocato	advokat	der Anwalt	odvetnik
+1828	CNH	musician	il musicista	musiker	der Musiker	glasbenik
+1829	AP	part-time	part time	deltid	die Teilzeit	krajši delovni čas
+1830	CNH	policeman	il poliziotto	polis	der Polizist	policist
+1831	CNH	professor	il professore	professor	der Professor	profesor
+1832	CNH	retired	il pensionato	pensionär	im Ruhestand	upokojen
+1833	CNH	salesman	il commesso	expedit	der Verkäufer	prodajalec
+1834	CNH	secretary	il segretario	sekreterare	die Sekretärin	tajnik
+1835	CNH	stay-at-home dad/mom	il casalingo/la casalinga	hemmafru/hemmaman	nichberufstätige Vater/Mutter	gospodinjec
+1836	CN	steady job	il lavoro fisso	fast arbete	der fester Arbeitsplatz	stalna služba
+1837	CNH	taxi driver	il tassista	taxichaufför	der Taxifahrer	voznik taksija
+1838	CNH	teacher	l'insegnante	lärare	der Lehrer	učitelj
+1839	CNH	unemployed	il disoccupato	arbetslös	der Arbeitsloser	brezposeln
+1840	CNH	veterinarian	il veterinario	veterinär	der Tierarzt	veterinar
+1841	CNH	writer	lo scrittore	författare	der Schriftsteller	pisatelj
+1842	CNH	adult	l'adulto	vuxen	der Erwachsener	odrasel
+1843	CNH	boy	il ragazzo	pojke	der Junge	fant
+1844	CNH	child 	il bambino	barn	das Kind	otrok
+1845	AP	famous	famoso	berömd	berühmt	slaven
+1846	CNH	girl	la ragazza	flicka	das Mädchen	dekle
+1847	AP	intelligent	intelligente	intelligent	intelligent	inteligentni
+1848	CNH	man	l'uomo	man	der Mann	moški
+1849	CNH	person	la persona	person	die Person	oseba
+1850	CNH	teenager	l'adolescente	tonåring	der Teenager	teen
+1851	CNH	woman	la donna	kvinna	die Frau	ženska
+1852	Utt	please write that for me	per favore, me lo scrive	var snäll och skriv ner det åt mig	Schreiben Sie das für mich,bitte	prosim, napišite zame
+1853	QCl	at what time does the store open?	a che ora apre il negozio?	när öppnar affären?	Wann öfnet der Laden?	kdaj se trgovina odpre?
+1854	QCl	at what time does the store close?	a che ora chiude il negozio?	när stänger affären?	Wann schliest der aden?	kdaj se trgovina zapre?
+1855	CNM	cash	contanti	kontanter	das Bargeld	gotovina	DUPLICATE 0159
+1856	CN	credit card	carta di credito	kreditkort	die Bankkarte	kreditne kartice	DUPLICATE 0261
+1857	QCl	can I order this online?	posso ordinarlo su internet?	kan jag beställa det på nätet?	Kann ich diese online bestellen?	ali lahko naročim prek spleta?
+1858	CN	women's clothing	l'abbigliamento donne	damkläder	die Frauenkleidung	ženska oblačila
+1859	CN	men's clothing	l'abbigliamento uomini	herrkläder	die Männerkleidung	moška oblačila
+1860	CN	tie	la cravatta	slips	die Krawatte	kravata
+1861	CNP	bookstore	la libreria	bokhandel	die Buchhandlung	knjigarna	DUPLICATE 1319
+1862	CNP	bakery	il fornaio, la pasticceria	bageri	die Bäckerei	pekarna
+1863	CNM	American football	il futbol americano	amerikansk fotboll	der American Football	Ameriški nogomet
+1864	CN	ball	la palla, il pallone	boll	der Ball	žoga
+1865	CNM	baseball	il baseball	baseball	der Baseball	bejzbol
+1866	CNM	basketball	la pallacanestro	basket	der Basketball	košarka
+1867	CNM	biking	il ciclismo	cykling	Radfahren	kolesarjenje
+1868	CNH	champion	il campione	champion	der Champion	prvak
+1869	CN	game	la partita	match	das Spiel	igra
+1870	CNH	player	il giocatore	spelare	der Spieler	predvajalnik
+1871	CNM	soccer,football	il calcio	fotboll	der Fussball/er Fussball	nogomet / nogomet
+1872	CNP	stadium	lo stadio	stadium	das Stadion	Stadion
+1873	CNM	swimming	il nuoto	simning	das Schwimmen	kopanje
+1874	CNH	team	la squadra	lag	die Mannschaft	skupina
+1875	CNM	tennis	il tennis	tennis	das Tennis	tenis
+1876	VP	draw,tie	pareggiare	oavgjort	anbinden	pripraviti / kravato
+1877	VP	go camping	andare in campeggio	att campa	kampieren	iti kampiranje
+1878	VP	go hiking	camminare in montagna	att fotvandra	bergwandern	(Iti), pohodništvo
+1879	VP	lose	perdere	att förlora	verlieren	izgubiti
+1880	V2	play	giocare	att spela	zu spielen (ein Spiel)	igrati (igra)
+1880	V	play	giocare	att spela	zu spielen (ein Spiel)	igrati (igra)
+1881	VP	play a sport	praticare uno sport	att idka någon sport	eine Sportart zu spielen	igrati šport
+1882	VP	play cards	giocare a carte	att spela kort	Karten spielen	za igranje kart
+1883	VP	play pool, play billiards	giocare a biliardo	att spela biljard	Pool/Billard spielen	igrati Bazen / biljard
+1884	V2	win	vincere	att vinna	siegen	zmagati
+1884	V	win	vincere	att vinna	siegen	zmagati
+x188	CN	telephone	il telefono	telefon	das Telefon	telefon
+1886	Cl	I have to make a phone call	devo fare una telefonata	jag måste ringa ett samtal	ich muss einen Anruf machen	Moram opraviti telefonski klic
+1887	QCl	may I use your cell phone?	posso usare il tuo telefonino?	kan jag låna din mobiltelefon?	Kann ich Ihr Handy beutzen?	ali lahko uporabljate svoj mobilni telefon?
+1888	Utt	what number, please?	che numero, per favore?	vilket nummer?	Welche Nummer,bitte?	katera številka, prosim?
+1889	Cl	the line is busy	la linea è occupata	det är upptaget	die Leitung ist besetzt	je linija zasedena
+1890	QCl	where is the computer?	dov'è il computer?	var är datorn?	Wo ist der Computer?	kjer je računalnik?
+1891	Cl	I need to send an email	devo mandare un messaggio di posta elettronica	jag behöver skicka ett mejl	ich muss eine email senden	Moram poslati e-pošto
+1892	QCl	can I connect to the internet?	posso collegarmi con internet?	kan jag gå ut på nätet?	Kann ich mich ins Internet einwählen?	ali se lahko povežem z internetom?
+1893	QCl	do you have a website?	avete un sito web?	har ni en webbsida?	Hast du eine Website?	Imaš spletno stran?
+1894	QCl	what time is it?	che ore sono?	vad är klockan?	Wie spät ist es?	koliko je ura?
+1895	Cl	it's 1:00 pm	sono le tredici	den är 13:00	es ist 13:00Uhr	ura je 13:00
+1896	Cl	it's 2:00 pm	sono le quattordici	den är 14:00	es ist 14:00Uhr	ura je 14:00
+1897	Cl	it's 2:00 am	sono le due	den är 2:00	es ist 02.00 Uhr	ura je 2:00
+1898	AdvT	today	oggi	idag	heute	danes
+1899	AdvT	tomorrow	domani	imorgon	morgen	jutri
+1900	AdvT	yesterday	ieri	igår	gestern	včeraj
+1901	AdvT	now	ora	nu	jetzt	zdaj
+1902	AdvT	later	dopo	senare	später	pozneje
+1903	AdvT	right away	subito	genast	jetzt sofort	takoj
+1904	CN	abdomen	il ventre	buken	das Abdomen	trebuh
+1905	CN	belly	la pancia	magen	der Bauch	trebuh
+1906	CN	ankle	la caviglia	ankeln	die Fessel	gleženj
+1907	CN	arm	il braccio	arm	der Arm	roka
+1908	CN	behind	il sedere	stjärt	hinter	zadaj
+1909	CNM	blood	il sangue	blod	das Blut	krvi
+1910	CN	bone	l'osso	ben	der Knochen	kosti
+1911	CN	brain	il cervello	hjärna	das Gehirn	možgani
+1912	CN	breast	il seno	byst	die Brust	prsi
+1913	CN	cheek	la guancia	kind	die Wange	lice
+1914	CN	chest	il petto	bröst	die Brustkorb	prsih
+1915	CN	chin	il mento	haka	das Kinn	brada
+1916	CN	ear	l'orecchio	öra	das Ohr	uho
+1917	CN	elbow	il gomito	armbåge	der Ellbogen	komolec
+1918	CN	eye	l'occhio	öga	das Auge	oko
+1919	CN	eyebrow	il sopracciglio	ögonbryn	die Augenbraue	obrvi
+1920	CN	eyelash	il ciglio	ögonfrans	die Wimper	trepalnice
+1921	CN	face	la faccia	ansikte	das Gesicht	obraz
+1922	CN	finger	il dito	finger	der Finger	prst
+1923	CN	foot	il piede	fot	der Fuss	stopala
+1924	CN	forehead	la fronte	panna	die Stirn	čelo
+1925	CN	hair	i capelli	hår	die Haare	lasje
+1926	CN	hand	la mano	hand	die Hand	dlan
+1927	CN	head	la testa	huvud	der Kopf	glava
+1928	CN	heart	il cuore	hjärta	das Herz	srce
+1929	CN	hips	i fianchi	höfter	die Hüften	boki
+1930	CN	knee	il ginocchio	knä	das Knie	koleno
+1931	CN	leg	la gamba	ben	das Bein	noga
+1932	CN	lung	il polmone	lunga	die Lungen	pljuča
+1933	CN	mouth	la bocca	mun	der Mund	usta
+1934	CN	muscle	il muscolo	muskel	der Muskel	mišice
+1935	CN	neck	il collo	hals	der Hals	vratu
+1936	CN	nose	il naso	näsa	die Nase	nos
+1937	CN	shoulder	la spalla	axel	die Schultern	ramena
+1938	CN	skin	la pelle	hud	die Haut	koža
+1939	CN	stomach	lo stomaco	magen	der Bauch	želodec
+1940	CN	tendon	il tendine	sena	die Sehne	kite
+1941	CN	thumb	il pollice	tumme	der daumen	palec
+1942	CN	toe	l'alluce	tå	der Zeh	toe
+1943	CN	tongue	la lingua	tunga	die Zunge	jezik
+1944	CN	tooth	il dente	tand	der Zahn	zob
+1945	CN	waist	la vita	midja	die Taille	pas
+1946	CN	wrist	il polso	handled	das Handgelenk	zapestje
+1947	AdvT	last week	la settimana scorsa	förra veckan	letzte Woche	prejšnji teden	DUPLICATE 1532
+1948	AdvT	next week	la settimana prossima	nästa vecka	nächste Woche	naslednji teden
+1949	AdvT	in two weeks	fra due settimane	om två veckor	in zwei Wochen	V dveh tednih
+1950	AdvT	two weeks ago	due settimane fa	för två veckor sedan	zwei Wochen zuvor	pred dvema tednoma
+1951	AdvT	this month	questo mese	den här månaden	diesen Monat	ta mesec
+1952	AdvT	last month	il mese scorso	förra månaden	im vergangenen Monat	prejšnji mesec
+1953	AdvT	next month	il mese entrante	nästa månad	nächsten Monat	naslednji mesec
+1954	AdvT	the coming month	il mese che viene	kommande månad	die kommenden Monate	prihodnji mesec
+1955	AdvT	in two months	fra due mesi	om två månader	in zwei Monaten	v dveh mesecih
+1956	AdvT	this year	quest'anno	i år	dieses Jahr	to leto
+1957	AdvT	last year	l'anno scorso	förra året	letztes Jahr	lansko leto
+1958	AdvT	next year	l'anno prossimo	nästa år	nächstes Jahr	naslednje leto
+1959	AdvT	the coming year	l'anno che viene	kommande år	das kommende Jahr	prihodnje leto
+1960	AdvT	in two years	fra due anni	om två år	in zwei Jahren	V dveh letih
+1961	AdvT	two years ago	due anni fa	för två år sedan	vor zwei Jahren	pred dvema letoma
+1962	IAdv	how long ago	quanto tempo fa?	för hur länge sedan?	Wie lange her?	kako dolgo nazaj?
+1963	Cl	I have time.	io ho tempo	jag har tid	Ich habe Zeit.	Imam čas.
+1964	Cl	I don't have any time	io non ho tempo	jag har inte tid	Ich habe keine Zeit	Nimam časa
+1965	Cl	I'm hungry	io ho fame	jag är hungrig	ich habe Hunger	Lačen sem
+1966	Cl	I'm thirsty	ho sete	jag är törstig	ich habe Durst	žejen sem
+1967	Cl	I'm cold	ho freddo	jag fryser	es ist mir kalt	zebe me
+1968	Cl	I'm hot	ho caldo	jag är varm	Ich bin heiß	mi je vroče
+1969	Cl	it's cold	fa freddo	det är kallt	es ist kalt	je hladno
+1970	Cl	it's hot	fa caldo	det är varmt	es ist heiß	je vroče
+1971	Cl	it's windy	tira vento	det blåser	es ist windig	vetrovno je
+1972	CN	cloud	la nuvola	moln	die Wolke	oblak
+1973	CN	degree	il grado	grad	der Grad	stopnja
+1974	CNM	fog	la nebbia	dimma	der Nebel	megla
+1975	CN	hurricane	l'uragano	orkan	der Hurrikan	orkan
+1976	Cl	it's sunny	c'è il sole	det är soligt	es ist sonnig	sončno je
+1977	CN	lightning	il lampo	blixt	Blitz	strela
+1978	CN	rain	la pioggia	regn	der Regen	dež
+1979	CN	snow	la neve	snö	der Schnee	sneg
+1980	CN	storm	il temporale	storm	der Sturm	nevihta
+1981	CN	sun	il sole	sol	die Sonne	sonce	DUPLICATE 1801
+1982	CN	temperature	la temperatura	temperatur	die Temperatur	temperatura
+1983	CN	thunder	il tuono	åska	der Donner	Grom
+1984	CN	umbrella	l'ombrello	paraply	der Regenschirm	dežnik
+1985	CN	wind	il vento	blåst	der Wind	veter

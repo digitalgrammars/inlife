@@ -1,0 +1,95 @@
+In Life lexicon: communication aid for disabled people.
+Digital Grammars AB project ordered by DART, VG-Regionen, Sweden, in 2016.
+(c) Aarne Ranta, Digital Grammars AB, 2016
+
+For working with a new language: start from
+
+  LexiconInlifeEng.gf
+
+and follow the instructions at the beginning of it.
+This file contains all information that is needed to generate the abstract syntax,
+as well as to bootstrap the concrete syntaxes from word lists.
+
+For more information: read on here.
+
+Starting point of the project: word and phrase list
+
+  dart.tsv
+
+with Eng, Ita, Swe, Ger, Slo. The original language is Ita, which explains
+- some sense distinctions invisible in English
+- some cultural bias
+- some unreliability of other languages, even English
+
+
+The goal of the project was to make this into a GF grammar, for translation and random
+generation. The spec discourages long sentences, in particular recursion. Also some
+semantic distinctions are made: see category explanations in
+
+  SyntaxInlife.gf
+
+For both of these reasons, the number of syntactic combination functions is excessive from
+the purely syntactic point of view. The current set is not quite final yet, and will have to
+be tested with a corpus (e.g. the DERIVED entries in LexiconInlife.gf). However, since the
+syntax is implemented with a functor, these changes will be easy to make once and for all.
+
+Words and non-functorial constructions are collected in
+
+  LexiconInlife.gf
+
+which is numbered after the original word list. The numbering is explicit in
+
+  manual-pos-dart.tsv
+
+which can be used as reference: looking at several languages at the same time is helpful.
+The POS information, as well as the English linearizations, may be slightly different in this
+word list and the constructed GF file
+
+  LexiconInlifeEng.gf
+
+This lexicon file was bootstrapped from the word list. But substantial manual post-editing was
+needed (more than one working day). The abstract syntax LexiconInlife.gf is automatically generated
+from this. Therefore, it is important only to edit this file when working with the English lexicon,
+and follow the conventions. The Haskell function mkAbsLex in
+
+  Analyse.hs
+
+produces the abstract syntax from it. The main convention is to have a comment of form " -- Type"
+at the end of each line to automate the abstract syntax generation. This file has a bunch of other
+functions as well, most inherited from the TD project, and not really meant for other than personal
+use.
+
+The Haskell module
+
+  Test.hs
+
+defines a unit testing function and explains how it can be used.
+
+
+==Annotations in the lexicon==
+
+-- DUPLICATE  attested duplicate entry, can be safely ignored
+-- DUPLICATEMAYBE probably duplicate (found by a heuristic procedure),
+   ignore unless needed for sense distinction
+-- DERIVED recognizable as combination of other words and SyntaxInlife, can be ignored
+
+==Some tricks==
+
+LexiconInlife.gf contains not only lexical categories, but also phrases (VP, Cl, NP) and functions
+that produce phrases. These are constructions not expected to have a uniform RGL implementation.
+
+Some idioms that I found useful, but which are a bit ad hoc (but they should cover all examples in the corpus):
+
+- Pron -> VP,
+  e.g. cut_nails_0266_VP,
+  to perform an action to oneself or to someone else. This could be made more general but work would
+  be needed to make it perform nicely with pronouns. In particular, reflexive possessives would be
+  useful to have in the RGL.
+
+- Det -> VP,
+  e.g. open_folder_0760_VP,
+  to pair verbs with certain types of objects (open a folder, open this folder, open two folders, etc.).
+  A poor man's selection restriction, so to say. It only covers cases where the same CN is used in
+  the object, which could be generalized by introducing synonyms as variants.
+
+

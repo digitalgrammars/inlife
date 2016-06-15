@@ -1,7 +1,17 @@
 # inlife
 Grammars for elderly people communication in the InLife project
 
-(c) Digital Grammars AB 2016
+(c) DART and Digital Grammars AB 2016
+
+Authors:
+- Aarne Ranta: abstract, English, Finnish, Swedish
+- Christina Unger: German
+- Krasimir Angelov: Slovene
+
+
+Status at first release (15 June 2016):
+- English, Finnish, German, Swedish: final (up to bug fixes)
+- Slovene: 31% of functions missing; native speaker check to do
 
 
 Sources for the web service in

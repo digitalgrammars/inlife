@@ -1238,7 +1238,7 @@ lin person_0806_CNH = mkiCNH (mkN "oseba" "osebe" "osebi" "osebo" "osebi" "osebo
 lin pharmacy_0807_CNP = mkiCNP (mkN "lekarna" "lekarne" "lekarni" "lekarno" "lekarni" "lekarno" "lekarni" "lekarn" "lekarnama" "lekarni" "lekarnah" "lekarnama" "lekarne" "lekarn" "lekarnam" "lekarne" "lekarnah" "lekarnami" feminine) ;
 lin phone_number_0808_CN = S.AdjCN (S.PositA (mkA nonExist "telefonski" "telefonskega" "telefonskemu" "telefonskega" nonExist "telefonski" "telefonskem" "telefonskim" "telefonska" "telefonskih" "telefonskima" "telefonska" "telefonskih" "telefonskima" "telefonski" "telefonskih" "telefonskim" "telefonske" "telefonskih" "telefonskimi" "telefonska" "telefonske" "telefonski" "telefonsko" "telefonski" "telefonsko" "telefonski" "telefonskih" "telefonskima" "telefonski" "telefonskih" "telefonskima" "telefonske" "telefonskih" "telefonskim" "telefonske" "telefonskih" "telefonskimi" "telefonsko" "telefonskega" "telefonskemu" "telefonsko" "telefonskem" "telefonskim" "telefonski" "telefonskih" "telefonskima" "telefonski" "telefonskih" "telefonskima" "telefonska" "telefonskih" "telefonskim" "telefonska" "telefonskih" "telefonskimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist))
                                    (mkiCN (mkN "številka" "številke" "številki" "številko" "številki" "številko" "številki" "številk" "številkama" "številki" "številkah" "številkama" "številke" "številk" "številkam" "številke" "številkah" "številkami" feminine)) ;
-lin phone_0809_CN = mkiCN (mkN "telefon" "telefona" "telefonu" "telefon" "telefonu" "telefonom" "telefona" "telefonov" "telefonoma" "telefona" "telefonih" "telefonoma" "telefoni" "telefonov" "telefonom" "telefone" "telefonih" "telefoni" masculine) ;
+--lin phone_0809_CN = mkiCN (mkN "telefon" "telefona" "telefonu" "telefon" "telefonu" "telefonom" "telefona" "telefonov" "telefonoma" "telefona" "telefonih" "telefonoma" "telefoni" "telefonov" "telefonom" "telefone" "telefonih" "telefoni" masculine) ;
 lin photo_book_0810_CN = S.UseN (mkN "fotoknjiga" "fotoknjige" "fotoknjigi" "fotoknjigo" "fotoknjigi" "fotoknjigo" "fotoknjigi" "fotoknjig" "fotoknjigama" "fotoknjigi" "fotoknjigah" "fotoknjigama" "fotoknjige" "fotoknjig" "fotoknjigam" "fotoknjige" "fotoknjigah" "fotoknjigami" feminine) ;
 lin photo_0811_CN = mkiCN (mkN "fotografija" "fotografije" "fotografiji" "fotografijo" "fotografiji" "fotografijo" "fotografiji" "fotografij" "fotografijama" "fotografiji" "fotografijah" "fotografijama" "fotografije" "fotografij" "fotografijam" "fotografije" "fotografijah" "fotografijami" feminine) ;
 lin pick_up_0812_V2 = mkiV2 (mkV "dvigniti" "dvignit" "dvignil" "dvignila" "dvignili" "dvignila" "dvignili" "dvignile" "dvignilo" "dvignili" "dvignila" "dvignem" "dvigneš" "dvigne" "dvigneva" "dvigneta" "dvigneta" "dvignemo" "dvignete" "dvignejo" "dvigniva" "dvignimo" "dvigni" "dvignita" "dvignite") ;
@@ -1698,11 +1698,12 @@ lin telephone_1107_CN = mkiCN (mkN "telefon" "telefona" "telefonu" "telefon" "te
 lin television_guide_1108_CN = S.AdjCN (S.PositA (mkA nonExist "televizijski" "televizijskega" "televizijskemu" "televizijskega" nonExist "televizijski" "televizijskem" "televizijskim" "televizijska" "televizijskih" "televizijskima" "televizijska" "televizijskih" "televizijskima" "televizijski" "televizijskih" "televizijskim" "televizijske" "televizijskih" "televizijskimi" "televizijska" "televizijske" "televizijski" "televizijsko" "televizijski" "televizijsko" "televizijski" "televizijskih" "televizijskima" "televizijski" "televizijskih" "televizijskima" "televizijske" "televizijskih" "televizijskim" "televizijske" "televizijskih" "televizijskimi" "televizijsko" "televizijskega" "televizijskemu" "televizijsko" "televizijskem" "televizijskim" "televizijski" "televizijskih" "televizijskima" "televizijski" "televizijskih" "televizijskima" "televizijska" "televizijskih" "televizijskim" "televizijska" "televizijskih" "televizijskimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist))
                                        (mkiCN (mkN "program" "programa" "programu" "program" "programu" "programom" "programa" "programov" "programoma" "programa" "programih" "programoma" "programi" "programov" "programom" "programe" "programih" "programi" masculine)) ;
 lin television_1109_CN = mkiCN (mkN "televizija" "televizije" "televiziji" "televizijo" "televiziji" "televizijo" "televiziji" "televizij" "televizijama" "televiziji" "televizijah" "televizijama" "televizije" "televizij" "televizijam" "televizije" "televizijah" "televizijami" feminine) ;
-{-
-lin tell_story_1110_VP det = mkVP (mkV2 I.tell_V) (mkNP det (mkN "story")) ; --	pripovedovati zgodbo
-lin tell_1111_V = I.tell_V ; --	povedati, reči
-lin tell_1111_V2 = mkV2 I.tell_V ; --	povedati, reči
--}
+lin tell_story_1110_VP det = S.ComplSlash (S.SlashV2a (mkV2 (mkV "pripovedovati" "pripovedovat" "pripovedoval" "pripovedovala" "pripovedovali" "pripovedovala" "pripovedovali" "pripovedovale" "pripovedovalo" "pripovedovali" "pripovedovala" "pripovedujem" "pripoveduješ" "pripoveduje" "pripovedujeva" "pripovedujeta" "pripovedujeta" "pripovedujemo" "pripovedujete" "pripovedujejo" "pripovedujva" "pripovedujmo" "pripoveduj" "pripovedujta" "pripovedujte")))
+                                                      (S.DetCN det (S.UseN (mkN "zgodba" "zgodbe" "zgodbi" "zgodbo" "zgodbi" "zgodbo" "zgodbi" "zgodb" "zgodbama" "zgodbi" "zgodbah" "zgodbama" "zgodbe" "zgodb" "zgodbam" "zgodbe" "zgodbah" "zgodbami" feminine))) ;
+lin tell_1111_V = mkV "povedati" "povedat" "povedal" "povedala" "povedali" "povedala" "povedali" "povedale" "povedalo" "povedali" "povedala" "povem" "poveš" "pove" "poveva" "povesta" "povesta" "povemo" "poveste" "povedo" "povediva" "povedimo" "povedi" "povedita" "povedite"
+                | mkV "reči" "reč" "rekel" "rekla" "rekli" "rekla" "rekli" "rekle" "reklo" "rekli" "rekla" "rečem" "rečeš" "reče" "rečeva" "rečeta" "rečeta" "rečemo" "rečete" "rečejo" "reciva" "recimo" "reci" "recita" "recite" ;
+lin tell_1111_V2 = mkV2 (mkV "povedati" "povedat" "povedal" "povedala" "povedali" "povedala" "povedali" "povedale" "povedalo" "povedali" "povedala" "povem" "poveš" "pove" "poveva" "povesta" "povesta" "povemo" "poveste" "povedo" "povediva" "povedimo" "povedi" "povedita" "povedite"
+                       | mkV "reči" "reč" "rekel" "rekla" "rekli" "rekla" "rekli" "rekle" "reklo" "rekli" "rekla" "rečem" "rečeš" "reče" "rečeva" "rečeta" "rečeta" "rečemo" "rečete" "rečejo" "reciva" "recimo" "reci" "recita" "recite") ;
 lin television_news_1112_NP = S.DetCN (S.DetQuant S.IndefArt S.NumSg)
                                       (S.AdjCN (S.PositA (mkA nonExist "televizijski" "televizijskega" "televizijskemu" "televizijskega" nonExist "televizijski" "televizijskem" "televizijskim" "televizijska" "televizijskih" "televizijskima" "televizijska" "televizijskih" "televizijskima" "televizijski" "televizijskih" "televizijskim" "televizijske" "televizijskih" "televizijskimi" "televizijska" "televizijske" "televizijski" "televizijsko" "televizijski" "televizijsko" "televizijski" "televizijskih" "televizijskima" "televizijski" "televizijskih" "televizijskima" "televizijske" "televizijskih" "televizijskim" "televizijske" "televizijskih" "televizijskimi" "televizijsko" "televizijskega" "televizijskemu" "televizijsko" "televizijskem" "televizijskim" "televizijski" "televizijskih" "televizijskima" "televizijski" "televizijskih" "televizijskima" "televizijska" "televizijskih" "televizijskim" "televizijska" "televizijskih" "televizijskimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist))
                                                (mkiCN (mkN "novica" "novice" "novici" "novico" "novici" "novico" "novici" "novic" "novicama" "novici" "novicah" "novicama" "novice" "novic" "novicam" "novice" "novicah" "novicami" feminine))) ;
@@ -1718,9 +1719,7 @@ lin thank_you_1119_Interj = mkiInterj "hvala" ;
 lin theater_1121_CNP = mkiCNP (mkN "gledališče" "gledališča" "gledališču" "gledališče" "gledališču" "gledališčem" "gledališči" "gledališč" "gledališčema" "gledališči" "gledališčih" "gledališčema" "gledališča" "gledališč" "gledališčem" "gledališča" "gledališčih" "gledališči" neuter) ;
 lin there_1122_AdvP = mkiAdvP "tam" ;
 -- DERIVED 1123 Utt there's something c'è qualcosa där är något da ist etwas je nekaj 
-{-
-lin the_same_identical_1124_AP = mkiAP "the same" | mkiAP "identical" ; --	enak/istoveten
--}
+lin the_same_identical_1124_AP = mkiAP (mkA "istoveten" "istovetni" "istovetnega" "istovetnemu" "istovetnega" "istoveten" "istovetni" "istovetnem" "istovetnim" "istovetna" "istovetnih" "istovetnima" "istovetna" "istovetnih" "istovetnima" "istovetni" "istovetnih" "istovetnim" "istovetne" "istovetnih" "istovetnimi" "istovetna" "istovetne" "istovetni" "istovetno" "istovetni" "istovetno" "istovetni" "istovetnih" "istovetnima" "istovetni" "istovetnih" "istovetnima" "istovetne" "istovetnih" "istovetnim" "istovetne" "istovetnih" "istovetnimi" "istovetno" "istovetnega" "istovetnemu" "istovetno" "istovetnem" "istovetnim" "istovetni" "istovetnih" "istovetnima" "istovetni" "istovetnih" "istovetnima" "istovetna" "istovetnih" "istovetnim" "istovetna" "istovetnih" "istovetnimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist) ;
 -- DERIVED 1125 Pron they loro de sie oni 
 lin thin_1126_AP = mkiAP (mkA "tanek" "tanki" "tankega" "tankemu" "tankega" "tanek" "tanki" "tankem" "tankim" "tanka" "tankih" "tankima" "tanka" "tankih" "tankima" "tanki" "tankih" "tankim" "tanke" "tankih" "tankimi" "tanka" "tanke" "tanki" "tanko" "tanki" "tanko" "tanki" "tankih" "tankima" "tanki" "tankih" "tankima" "tanke" "tankih" "tankim" "tanke" "tankih" "tankimi" "tanko" "tankega" "tankemu" "tanko" "tankem" "tankim" "tanki" "tankih" "tankima" "tanki" "tankih" "tankima" "tanka" "tankih" "tankim" "tanka" "tankih" "tankimi" "tanjši" "tanjšega" "tanjšemu" "tanjšega" "tanjši" "tanjšem" "tanjšim" "tanjša" "tanjših" "tanjšima" "tanjša" "tanjših" "tanjšima" "tanjši" "tanjših" "tanjšim" "tanjše" "tanjših" "tanjšimi" "tanjša" "tanjše" "tanjši" "tanjšo" "tanjši" "tanjšo" "tanjši" "tanjših" "tanjšima" "tanjši" "tanjših" "tanjšima" "tanjše" "tanjših" "tanjšim" "tanjše" "tanjših" "tanjšimi" "tanjše" "tanjšega" "tanjšemu" "tanjše" "tanjšem" "tanjšim" "tanjši" "tanjših" "tanjšima" "tanjši" "tanjših" "tanjšima" "tanjša" "tanjših" "tanjšim" "tanjša" "tanjših" "tanjšimi" "najtanjši" "najtanjšega" "najtanjšemu" "najtanjšega" "najtanjši" "najtanjšem" "najtanjšim" "najtanjša" "najtanjših" "najtanjšima" "najtanjša" "najtanjših" "najtanjšima" "najtanjši" "najtanjših" "najtanjšim" "najtanjše" "najtanjših" "najtanjšimi" "najtanjša" "najtanjše" "najtanjši" "najtanjšo" "najtanjši" "najtanjšo" "najtanjši" "najtanjših" "najtanjšima" "najtanjši" "najtanjših" "najtanjšima" "najtanjše" "najtanjših" "najtanjšim" "najtanjše" "najtanjših" "najtanjšimi" "najtanjše" "najtanjšega" "najtanjšemu" "najtanjše" "najtanjšem" "najtanjšim" "najtanjši" "najtanjših" "najtanjšima" "najtanjši" "najtanjših" "najtanjšima" "najtanjša" "najtanjših" "najtanjšim" "najtanjša" "najtanjših" "najtanjšimi") ;
 -- DERIVED 1127 Ord third terzo tredje dritte tretji 
@@ -1730,55 +1729,55 @@ lin this_month_1129_AdvT = mkiAdvT "ta mesec" ;
 {-
 lin throw_away_1131_V2 = mkV2 (partV I.throw_V "away") ; --	vrži stran
 lin throw_out_1132_V2 = mkV2 (partV I.throw_V "out") ; --	vreči  ven
-lin throw_the_dice_1133_VP = mkVP (mkV2 I.throw_V) (mkNP the_Det (mkN "dice")) ; --	metati kocko
 -}
+lin throw_the_dice_1133_VP = S.ComplSlash (S.SlashV2a (mkV2 (mkV "metati" "metat" "metal" "metala" "metali" "metala" "metali" "metale" "metalo" "metali" "metala" "mečem" "mečeš" "meče" "mečeva" "mečeta" "mečeta" "mečemo" "mečete" "mečejo" "mečiva" "mečimo" "meči" "mečita" "mečite")))
+                                          (S.DetCN (S.DetQuant S.DefArt S.NumSg) (S.UseN (mkN "kocka" "kocke" "kocki" "kocko" "kocki" "kocko" "kocki" "kock" "kockama" "kocki" "kockah" "kockama" "kocke" "kock" "kockam" "kocke" "kockah" "kockami" feminine))) ;
 lin throw_up_1134_V = mkiV (mkV "bruhati" "bruhat" "bruhal" "bruhala" "bruhali" "bruhala" "bruhali" "bruhale" "bruhalo" "bruhali" "bruhala" "bruham" "bruhaš" "bruha" "bruhava" "bruhata" "bruhata" "bruhamo" "bruhate" "bruhajo" "bruhajva" "bruhajmo" "bruhaj" "bruhajta" "bruhajte") ;
 lin throw_up_1134_V2 = mkiV2 (mkV "bruhati" "bruhat" "bruhal" "bruhala" "bruhali" "bruhala" "bruhali" "bruhale" "bruhalo" "bruhali" "bruhala" "bruham" "bruhaš" "bruha" "bruhava" "bruhata" "bruhata" "bruhamo" "bruhate" "bruhajo" "bruhajva" "bruhajmo" "bruhaj" "bruhajta" "bruhajte") ;
 lin thumb_1135_CN = mkiCN (mkN "palec" "palca" "palcu" "palec" "palcu" "palcem" "palca" "palcev" "palcema" "palca" "palcih" "palcema" "palci" "palcev" "palcem" "palce" "palcih" "palci" masculine) ;
 -- DERIVED 1136 Weekday Thursday giovedì torsdag der Donnestag četrtek 
 lin ticket_1137_CN = mkiCN (mkN "vstopnica" "vstopnice" "vstopnici" "vstopnico" "vstopnici" "vstopnico" "vstopnici" "vstopnic" "vstopnicama" "vstopnici" "vstopnicah" "vstopnicama" "vstopnice" "vstopnic" "vstopnicam" "vstopnice" "vstopnicah" "vstopnicami" feminine) ;
-{-
-lin tidy_up_1138_V = partV (mkV "tidy") "up" ; --- ordinare --	počistiti
-lin tidy_up_1138_V2 = mkiV2p "tidy" "up" ; --	počistiti
+lin tidy_up_1138_V = mkV "počistiti" "počistit" "počistil" "počistila" "počistili" "počistila" "počistili" "počistile" "počistilo" "počistili" "počistila" "počistim" "počistiš" "počisti" "počistiva" "počistita" "počistita" "počistimo" "počistite" "počistijo" "počistiva" "počistimo" "počisti" "počistita" "počistite" ;
+lin tidy_up_1138_V2 = mkiV2 (mkV "počistiti" "počistit" "počistil" "počistila" "počistili" "počistila" "počistili" "počistile" "počistilo" "počistili" "počistila" "počistim" "počistiš" "počisti" "počistiva" "počistita" "počistita" "počistimo" "počistite" "počistijo" "počistiva" "počistimo" "počisti" "počistita" "počistite") ;
 -- DUPLICATEMAYBE lin tidy_up_1139_V = partV (mkV "tidy") "up" ; --- mettere in ordine -- V
 -- DUPLICATEMAYBE lin tidy_up_1139_V2 = mkiV2p "tidy" "up" ; -- V2
-lin tie_1140_V2 = mkiV2 "tie" ; --	kravata
-lin tie_1141_CN = mkiCN "tie" ; --	zvezati
--}
+lin tie_1140_V2 = mkiV2 (mkV "zvezati" "zvezat" "zvezal" "zvezala" "zvezali" "zvezala" "zvezali" "zvezale" "zvezalo" "zvezali" "zvezala" "zvežem" "zvežeš" "zveže" "zveževa" "zvežeta" "zvežeta" "zvežemo" "zvežete" "zvežejo" "zveživa" "zvežimo" "zveži" "zvežita" "zvežite") ;
+lin tie_1141_CN = mkiCN (mkN "kravata" "kravate" "kravati" "kravato" "kravati" "kravato" "kravati" "kravat" "kravatama" "kravati" "kravatah" "kravatama" "kravate" "kravat" "kravatam" "kravate" "kravatah" "kravatami" feminine) ;
 lin time_1142_CNM = mkiCNM (mkN "čas" "časa" "času" "čas" "času" "časom" "časa" "časov" "časoma" "časa" "časih" "časoma" "časi" "časov" "časom" "čase" "časih" "časi" masculine) ;
+lin tin_can_masher_1143_CN = S.AdvCN (mkiCN (mkN "odpirač" "odpirača" "odpiraču" "odpirač" "odpiraču" "odpiračem" "odpirača" "odpiračev" "odpiračema" "odpirača" "odpiračih" "odpiračema" "odpirači" "odpiračev" "odpiračem" "odpirače" "odpiračih" "odpirači" masculine)) (mkAdv "za konzerve") ;
 {-
-lin tin_can_masher_1143_CN = mkiCN "tin can masher" ; --- burkåtervinning --	odpirač za konzerve
 lin tender_chicken_1144_CNM = mkCN (mkA "tender") (mkN "chicken") ; --	ponudba piščančjega mesa
 -}
 lin on_the_back_1145_Adv = mkAdv "ležati na hrbtu" ;
 -- DERIVED 1145 VP be lying down on the back essere sdraiati sulla schiena ligga på rygg auf dem Rücken liegen ležati na hrbtu
 lin on_the_side_1146_Adv = mkAdv "na strani" ;
 -- DERIVED 1146 VP be lying down on the side essere sdraiati sul fianco ligga på sidan auf der Seite nach unten liegen ležati na strani 
-{-
-lin celebrate_1147_V = mkiV "celebrate" ; --	praznovati, slaviti
-lin celebrate_1147_V2 = mkiV2 "celebrate" ; --	praznovati, slaviti
--}
+lin celebrate_1147_V = mkV "praznovati" "praznovat" "praznoval" "praznovala" "praznovali" "praznovala" "praznovali" "praznovale" "praznovalo" "praznovali" "praznovala" "praznujem" "praznuješ" "praznuje" "praznujeva" "praznujeta" "praznujeta" "praznujemo" "praznujete" "praznujejo" "praznujva" "praznujmo" "praznuj" "praznujta" "praznujte"
+                     | mkV "slaviti" "slavit" "slavil" "slavila" "slavili" "slavila" "slavili" "slavile" "slavilo" "slavili" "slavila" "slavim" "slaviš" "slavi" "slaviva" "slavita" "slavita" "slavimo" "slavite" "slave" "slaviva" "slavimo" "slavi" "slavita" "slavite" ;
+ 
+lin celebrate_1147_V2 = mkiV2 (mkV "praznovati" "praznovat" "praznoval" "praznovala" "praznovali" "praznovala" "praznovali" "praznovale" "praznovalo" "praznovali" "praznovala" "praznujem" "praznuješ" "praznuje" "praznujeva" "praznujeta" "praznujeta" "praznujemo" "praznujete" "praznujejo" "praznujva" "praznujmo" "praznuj" "praznujta" "praznujte"
+                     | mkV "slaviti" "slavit" "slavil" "slavila" "slavili" "slavila" "slavili" "slavile" "slavilo" "slavili" "slavila" "slavim" "slaviš" "slavi" "slaviva" "slavita" "slavita" "slavimo" "slavite" "slave" "slaviva" "slavimo" "slavi" "slavita" "slavite") ;
  --	poper (začimba)
 lin toe_nail_1149_CN = S.AdvCN (S.UseN (mkN "noht" "nohta" "nohtu" "noht" "nohtu" "nohtom" "nohta" "nohtov" "nohtoma" "nohta" "nohtih" "nohtoma" "nohti" "nohtov" "nohtom" "nohte" "nohtih" "nohti" masculine))
                                (mkAdv "na nožnih prstih") ;
 lin fix_1150_V2 = mkiV2 (mkV "popraviti" "popravit" "popravil" "popravila" "popravili" "popravila" "popravili" "popravile" "popravilo" "popravili" "popravila" "popravim" "popraviš" "popravi" "popraviva" "popravita" "popravita" "popravimo" "popravite" "popravijo" "popraviva" "popravimo" "popravi" "popravita" "popravite") ;
-{-
-lin float_1151_V = mkiV "float" ; --	plavati , pluti
--}
+lin float_1151_V = mkV "plavati" "plavat" "plaval" "plavala" "plavali" "plavala" "plavali" "plavale" "plavalo" "plavali" "plavala" "plavam" "plavaš" "plava" "plavava" "plavata" "plavata" "plavamo" "plavate" "plavajo" "plavajva" "plavajmo" "plavaj" "plavajta" "plavajte"
+                 | mkV "pluti" "plut" "plul" "plula" "pluli" "plula" "pluli" "plule" "plulo" "pluli" "plula" "plovem" "ploveš" "plove" "ploveva" "ploveta" "ploveta" "plovemo" "plovete" "plovejo" "plujva" "plujmo" "pluj" "plujta" "plujte" ;
 lin gamble_1152_V = mkiV (mkV "hazardirati" "hazardirat" "hazardiral" "hazardirala" "hazardirali" "hazardirala" "hazardirali" "hazardirale" "hazardiralo" "hazardirali" "hazardirala" "hazardiram" "hazardiraš" "hazardira" "hazardirava" "hazardirata" "hazardirata" "hazardiramo" "hazardirate" "hazardirajo" "hazardirajva" "hazardirajmo" "hazardiraj" "hazardirajta" "hazardirajte") ;
-{-
-lin hurt_1153_V2 = mkV2 I.hurt_V ; --	raniti, poškodovati
-lin toilet_1154_CNP = mkiCNP "toilet" ; --- gabinetto --	wc
-lin toilet_paper_1155_CNM = mkiCNM "toilet paper" ; --	toaletni papir
-lin toilet_1156_CNP = mkiCNP "toilet" ; --- toilette --	umivalnica s straniščem
--}
+lin hurt_1153_V2 = mkV2 (mkV "raniti" "ranit" "ranil" "ranila" "ranili" "ranila" "ranili" "ranile" "ranilo" "ranili" "ranila" "ranim" "raniš" "rani" "raniva" "ranita" "ranita" "ranimo" "ranite" "ranijo" "raniva" "ranimo" "rani" "ranita" "ranite"
+                       | mkV "poškodovati" "poškodovat" "poškodoval" "poškodovala" "poškodovali" "poškodovala" "poškodovali" "poškodovale" "poškodovalo" "poškodovali" "poškodovala" "poškodujem" "poškoduješ" "poškoduje" "poškodujeva" "poškodujeta" "poškodujeta" "poškodujemo" "poškodujete" "poškodujejo" "poškodujva" "poškodujmo" "poškoduj" "poškodujta" "poškodujte") ;
+lin toilet_1154_CNP = mkiCNP (mkN "WC" "WC-ja" "WC-ju" "WC" "WC-ju" "WC-jem" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist masculine) ;
+lin toilet_paper_1155_CNM = S.AdjCN (S.PositA (mkA "toaleten" "toaletni" "toaletnega" "toaletnemu" "toaletnega" "toaleten" "toaletni" "toaletnem" "toaletnim" "toaletna" "toaletnih" "toaletnima" "toaletna" "toaletnih" "toaletnima" "toaletni" "toaletnih" "toaletnim" "toaletne" "toaletnih" "toaletnimi" "toaletna" "toaletne" "toaletni" "toaletno" "toaletni" "toaletno" "toaletni" "toaletnih" "toaletnima" "toaletni" "toaletnih" "toaletnima" "toaletne" "toaletnih" "toaletnim" "toaletne" "toaletnih" "toaletnimi" "toaletno" "toaletnega" "toaletnemu" "toaletno" "toaletnem" "toaletnim" "toaletni" "toaletnih" "toaletnima" "toaletni" "toaletnih" "toaletnima" "toaletna" "toaletnih" "toaletnim" "toaletna" "toaletnih" "toaletnimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist))
+                                    (S.UseN (mkN "papir" "papirja" "papirju" "papir" "papirju" "papirjem" "papirja" "papirjev" "papirjema" "papirja" "papirjih" "papirjema" "papirji" "papirjev" "papirjem" "papirje" "papirjih" "papirji" masculine)) ;
+lin toilet_1156_CNP = mkiCNP (S.AdvCN (S.UseN (mkN "umivalnica" "umivalnice" "umivalnici" "umivalnico" "umivalnici" "umivalnico" "umivalnici" "umivalnic" "umivalnicama" "umivalnici" "umivalnicah" "umivalnicama" "umivalnice" "umivalnic" "umivalnicam" "umivalnice" "umivalnicah" "umivalnicami" feminine))
+                                      (mkAdv "s straniščem")) ;
 lin look_1157_V = mkiV (mkV "pogledati" "pogledat" "pogledal" "pogledala" "pogledali" "pogledala" "pogledali" "pogledale" "pogledalo" "pogledali" "pogledala" "pogledam" "pogledaš" "pogleda" "pogledava" "pogledata" "pogledata" "pogledamo" "pogledate" "pogledajo" "poglejva" "poglejmo" "poglej" "poglejta" "poglejte") ;
 lin look_1157_V2 = mkiV2 (mkV "pogledati" "pogledat" "pogledal" "pogledala" "pogledali" "pogledala" "pogledali" "pogledale" "pogledalo" "pogledali" "pogledala" "pogledam" "pogledaš" "pogleda" "pogledava" "pogledata" "pogledata" "pogledamo" "pogledate" "pogledajo" "poglejva" "poglejmo" "poglej" "poglejta" "poglejte") ;
 lin look_1157_VA = mkiVA (mkV "pogledati" "pogledat" "pogledal" "pogledala" "pogledali" "pogledala" "pogledali" "pogledale" "pogledalo" "pogledali" "pogledala" "pogledam" "pogledaš" "pogleda" "pogledava" "pogledata" "pogledata" "pogledamo" "pogledate" "pogledajo" "poglejva" "poglejmo" "poglej" "poglejta" "poglejte") ;
-{-
-lin tomato_in_box_1158_CNM = mkCN (mkN "tomato") (S.mkAdv in_Prep (mkNP (mkN "box"))) ; --	paradižnik v zaboju
-lin tomato_juice_1159_CNM = mkiCNM "tomato juice" ; --	sok od paradižnika
--}
+lin tomato_in_box_1158_CNM = S.AdvCN (S.UseN (mkN "paradižnik" "paradižnika" "paradižniku" "paradižnik" "paradižniku" "paradižnikom" "paradižnika" "paradižnikov" "paradižnikoma" "paradižnika" "paradižnikih" "paradižnikoma" "paradižniki" "paradižnikov" "paradižnikom" "paradižnike" "paradižnikih" "paradižniki" masculine))
+                                     (mkAdv "v zaboju") ;
+lin tomato_juice_1159_CNM = S.AdvCN (S.UseN (mkN "sok" "soka" "soku" "sok" "soku" "sokom" "sokova" "sokov" "sokovoma" "sokova" "sokovih" "sokovoma" "sokovi" "sokov" "sokovom" "sokove" "sokovih" "sokovi" masculine))
+                                    (mkAdv "od paradižnika") ;
 lin tomato_1160_CN = mkiCN (mkN "paradižnik" "paradižnika" "paradižniku" "paradižnik" "paradižniku" "paradižnikom" "paradižnika" "paradižnikov" "paradižnikoma" "paradižnika" "paradižnikih" "paradižnikoma" "paradižniki" "paradižnikov" "paradižnikom" "paradižnike" "paradižnikih" "paradižniki" masculine) ;
 {-
 lin tomato_sauce_1161_CNM = mkiCNM "tomato sauce" ; --	paradižnikova omaka
@@ -1794,29 +1793,25 @@ lin register_1168_V = mkiV (mkV "registrirati" "registrirat" "registriral" "regi
 lin stop_1169_V = mkiV (mkV "ustaviti" "ustavit" "ustavil" "ustavila" "ustavili" "ustavila" "ustavili" "ustavile" "ustavilo" "ustavili" "ustavila" "ustavim" "ustaviš" "ustavi" "ustaviva" "ustavita" "ustavita" "ustavimo" "ustavite" "ustavijo" "ustaviva" "ustavimo" "ustavi" "ustavita" "ustavite") ;
 lin stop_1169_V2 = mkiV2 (mkV "ustaviti" "ustavit" "ustavil" "ustavila" "ustavili" "ustavila" "ustavili" "ustavile" "ustavilo" "ustavili" "ustavila" "ustavim" "ustaviš" "ustavi" "ustaviva" "ustavita" "ustavita" "ustavimo" "ustavite" "ustavijo" "ustaviva" "ustavimo" "ustavi" "ustavita" "ustavite") ;
 -- DUPLICATE 1170 V V2 stop fermare stanna anhalten prekiniti DUPLICATE 1169
+lin swear_1171_V = mkV "priseči" "priseč" "prisegel" "prisegla" "prisegli" "prisegla" "prisegli" "prisegle" "priseglo" "prisegli" "prisegla" "prisežem" "prisežeš" "priseže" "priseževa" "prisežeta" "prisežeta" "prisežemo" "prisežete" "prisežejo" "priseziva" "prisezimo" "prisezi" "prisezita" "prisezite" ;
 {-
-lin swear_1171_V = I.swear_V ; --	priseči
 lin turn_round_1172_V = partV (mkV "turn") "round" ; --	obrni se
 lin turn_1173_V = mkiV "turn" ; --	da se obrne
 -}
 lin tour_1174_CN = mkiCN (mkN "izlet" "izleta" "izletu" "izlet" "izletu" "izletom" "izleta" "izletov" "izletoma" "izleta" "izletih" "izletoma" "izleti" "izletov" "izletom" "izlete" "izletih" "izleti" masculine) ;
 lin tourist_1175_CNH = mkiCNH (mkN "turist" "turista" "turistu" "turista" "turistu" "turistom" "turista" "turistov" "turistoma" "turista" "turistih" "turistoma" "turisti" "turistov" "turistom" "turiste" "turistih" "turisti" masculine) ;
-{-
-lin watch_1176_V2 = mkV2 "watch" ; --	gledati televizijo
-lin whip_1177_V2 = mkiV2 "whip" ; --	bičati
--}
+lin watch_1176_V2 = mkV2 (mkV "gledati" "gledat" "gledal" "gledala" "gledali" "gledala" "gledali" "gledale" "gledalo" "gledali" "gledala" "gledam" "gledaš" "gleda" "gledava" "gledata" "gledata" "gledamo" "gledate" "gledajo" "glejva" "glejmo" "glej" "glejta" "glejte") ;
+lin whip_1177_V2 = mkiV2 (mkV "bičati" "bičat" "bičal" "bičala" "bičali" "bičala" "bičali" "bičale" "bičalo" "bičali" "bičala" "bičam" "bičaš" "biča" "bičava" "bičata" "bičata" "bičamo" "bičate" "bičajo" "bičajva" "bičajmo" "bičaj" "bičajta" "bičajte") ;
 lin town_1178_CNP = mkiCNP (mkN "mesto" "mesta" "mestu" "mesto" "mestu" "mestom" "mesti" "mest" "mestoma" "mesti" "mestih" "mestoma" "mesta" "mest" "mestom" "mesta" "mestih" "mesti" neuter) ;
 lin traffic_lights_1179_CN = mkiCN (mkN "semafor" "semaforja" "semaforju" "semafor" "semaforju" "semaforjem" "semaforja" "semaforjev" "semaforjema" "semaforja" "semaforjih" "semaforjema" "semaforji" "semaforjev" "semaforjem" "semaforje" "semaforjih" "semaforji" masculine) ;
 lin trainer_1180_CNH = mkiCNH (mkN "trener" "trenerja" "trenerju" "trenerja" "trenerju" "trenerjem" "trenerja" "trenerjev" "trenerjema" "trenerja" "trenerjih" "trenerjema" "trenerji" "trenerjev" "trenerjem" "trenerje" "trenerjih" "trenerji" masculine) ;
 lin train_1181_CNP = mkiCNP (mkN "vlak" "vlaka" "vlaku" "vlak" "vlaku" "vlakom" "vlaka" "vlakov" "vlakoma" "vlaka" "vlakih" "vlakoma" "vlaki" "vlakov" "vlakom" "vlake" "vlakih" "vlaki" masculine) ;
 -- DUPLICATE 1182 CNP train treno tåg der Zug trenirati DUPLICATE 1181 
-{-
-lin trash_bag_1183_CN = mkiCN "trash bag" ; --	vreča za smeti
--}
+lin trash_bag_1183_CN = S.AdvCN (mkiCN (mkN "vreča" "vreče" "vreči" "vrečo" "vreči" "vrečo" "vreči" "vreč" "vrečama" "vreči" "vrečah" "vrečama" "vreče" "vreč" "vrečam" "vreče" "vrečah" "vrečami" feminine)) 
+                                (mkAdv "za smeti") ;
 lin trash_can_1184_CN = mkiCN (mkN "smetnjak" "smetnjaka" "smetnjaku" "smetnjak" "smetnjaku" "smetnjakom" "smetnjaka" "smetnjakov" "smetnjakoma" "smetnjaka" "smetnjakih" "smetnjakoma" "smetnjaki" "smetnjakov" "smetnjakom" "smetnjake" "smetnjakih" "smetnjaki" masculine) ;
-{-
-lin treat_bag_1185_CN = mkiCN "treat bag" ; --	torba za sladkarije
--}
+lin treat_bag_1185_CN = S.AdvCN (mkiCN (mkN "torba" "torbe" "torbi" "torbo" "torbi" "torbo" "torbi" "torb" "torbama" "torbi" "torbah" "torbama" "torbe" "torb" "torbam" "torbe" "torbah" "torbami" feminine))
+                                (mkAdv "za sladkarije") ;
 lin tree_1186_CN = mkiCN (mkN "drevo" "drevesa" "drevesu" "drevo" "drevesu" "drevesom" "drevesi" "dreves" "drevesoma" "drevesi" "drevesih" "drevesoma" "drevesa" "dreves" "drevesom" "drevesa" "drevesih" "drevesi" neuter) ;
 {-
 lin travel_1187_V = mkiV "travel" ; --	izlet
@@ -1839,28 +1834,26 @@ lin tuna_fish_1192_CNM = mkiCNM (mkN "tunina" "tunine" "tunini" "tunino" "tunini
 -- DERIVED 1199 Imp turn the page gira la pagina bläddra dreht die Seite obrnejo stran 
 {-
 lin turn_1200_CN = mkiCN "turn" ; --	obrniti
+-}
 -- DERIVED 1201 VP turn the temperature down abbassare la temperatura sänka värmen drehen Temperatur nach unten zmanjšaj temperaturo 
 -- DERIVED 1202 VP turn the temperature up alzare la temperatura höja värmen drehen Temperatur bis povišaj temperaturo 
 -- DERIVED 1203 VP turn the page cambiare pagina vända blad umblättern obrni stran 
 -- DUPLICATEMAYBE lin turn_1204_V = mkiV "turn" ; -- V
 -- DUPLICATEMAYBE lin turn_1204_V2 = mkiV2 "turn" ; -- V2
-lin turn_off_1205_V2 = mkiV2p "turn" "off" ; --	ugasni televizor
+lin turn_off_1205_V2 = mkiV2 (mkV "ugasniti" "ugasnit" "ugasnil" "ugasnila" "ugasnili" "ugasnila" "ugasnili" "ugasnile" "ugasnilo" "ugasnili" "ugasnila" "ugasnem" "ugasneš" "ugasne" "ugasneva" "ugasneta" "ugasneta" "ugasnemo" "ugasnete" "ugasnejo" "ugasniva" "ugasnimo" "ugasni" "ugasnita" "ugasnite") ;
 -- DERIVED 1205 VP turn the TV off spegni la tv stänga av TV:n der Fernseher ausschalten ugasni televizor 
-lin turn_on_1206_V2 = mkiV2p "turn" "on" ; --	prižgi televizor
+lin turn_on_1206_V2 = mkiV2 (mkV "prižgati" "prižgat" "prižgal" "prižgala" "prižgali" "prižgala" "prižgali" "prižgale" "prižgalo" "prižgali" "prižgala" "prižgem" "prižgeš" "prižge" "prižgeva" "prižgeta" "prižgeta" "prižgemo" "prižgete" "prižgejo" "prižgiva" "prižgimo" "prižgi" "prižgita" "prižgite") ;
 -- DERIVED 1206 VP turn the TV on accendi la tv sätta på TV:n der Fernseher einschalten prižgi televizor 
-lin TV_1207_CN = mkiCN "TV" ; --	TV/ televizor
--}
+lin TV_1207_CN = mkiCN (mkN "TV" "TV" "TV" "TV" "TV" "TV" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist feminine
+               | mkN "televizor" "televizorja" "televizorju" "televizor" "televizorju" "televizorjem" "televizorja" "televizorjev" "televizorjema" "televizorja" "televizorjih" "televizorjema" "televizorji" "televizorjev" "televizorjem" "televizorje" "televizorjih" "televizorji" masculine) ;
 lin ugh_1208_Interj = mkiInterj "uf" ; -- Interj 1208 ugh uffa usch pfui
 lin ugly_1209_AP = mkiAP (mkA "grd" "grdi" "grdega" "grdemu" "grdega" "grd" "grdi" "grdem" "grdim" "grda" "grdih" "grdima" "grda" "grdih" "grdima" "grdi" "grdih" "grdim" "grde" "grdih" "grdimi" "grda" "grde" "grdi" "grdo" "grdi" "grdo" "grdi" "grdih" "grdima" "grdi" "grdih" "grdima" "grde" "grdih" "grdim" "grde" "grdih" "grdimi" "grdo" "grdega" "grdemu" "grdo" "grdem" "grdim" "grdi" "grdih" "grdima" "grdi" "grdih" "grdima" "grda" "grdih" "grdim" "grda" "grdih" "grdimi" "grši" "gršega" "gršemu" "gršega" "grši" "gršem" "gršim" "grša" "grših" "gršima" "grša" "grših" "gršima" "grši" "grših" "gršim" "grše" "grših" "gršimi" "grša" "grše" "grši" "gršo" "grši" "gršo" "grši" "grših" "gršima" "grši" "grših" "gršima" "grše" "grših" "gršim" "grše" "grših" "gršimi" "grše" "gršega" "gršemu" "grše" "gršem" "gršim" "grši" "grših" "gršima" "grši" "grših" "gršima" "grša" "grših" "gršim" "grša" "grših" "gršimi" "najgrši" "najgršega" "najgršemu" "najgršega" "najgrši" "najgršem" "najgršim" "najgrša" "najgrših" "najgršima" "najgrša" "najgrših" "najgršima" "najgrši" "najgrših" "najgršim" "najgrše" "najgrših" "najgršimi" "najgrša" "najgrše" "najgrši" "najgršo" "najgrši" "najgršo" "najgrši" "najgrših" "najgršima" "najgrši" "najgrših" "najgršima" "najgrše" "najgrših" "najgršim" "najgrše" "najgrših" "najgršimi" "najgrše" "najgršega" "najgršemu" "najgrše" "najgršem" "najgršim" "najgrši" "najgrših" "najgršima" "najgrši" "najgrših" "najgršima" "najgrša" "najgrših" "najgršim" "najgrša" "najgrših" "najgršimi") ;
-{-
-lin ugly_show_1210_CN = mkCN (mkA "ugly") (mkN "show") ; --	umazana predstava/slaba predstava
--}
+lin ugly_show_1210_CN = S.AdjCN (S.PositA (mkA "slab" "slabi" "slabega" "slabemu" "slabega" "slab" "slabi" "slabem" "slabim" "slaba" "slabih" "slabima" "slaba" "slabih" "slabima" "slabi" "slabih" "slabim" "slabe" "slabih" "slabimi" "slaba" "slabe" "slabi" "slabo" "slabi" "slabo" "slabi" "slabih" "slabima" "slabi" "slabih" "slabima" "slabe" "slabih" "slabim" "slabe" "slabih" "slabimi" "slabo" "slabega" "slabemu" "slabo" "slabem" "slabim" "slabi" "slabih" "slabima" "slabi" "slabih" "slabima" "slaba" "slabih" "slabim" "slaba" "slabih" "slabimi" "slabši" "slabšega" "slabšemu" "slabšega" "slabši" "slabšem" "slabšim" "slabša" "slabših" "slabšima" "slabša" "slabših" "slabšima" "slabši" "slabših" "slabšim" "slabše" "slabših" "slabšimi" "slabša" "slabše" "slabši" "slabšo" "slabši" "slabšo" "slabši" "slabših" "slabšima" "slabši" "slabših" "slabšima" "slabše" "slabših" "slabšim" "slabše" "slabših" "slabšimi" "slabše" "slabšega" "slabšemu" "slabše" "slabšem" "slabšim" "slabši" "slabših" "slabšima" "slabši" "slabših" "slabšima" "slabša" "slabših" "slabšim" "slabša" "slabših" "slabšimi" "najslabši" "najslabšega" "najslabšemu" "najslabšega" "najslabši" "najslabšem" "najslabšim" "najslabša" "najslabših" "najslabšima" "najslabša" "najslabših" "najslabšima" "najslabši" "najslabših" "najslabšim" "najslabše" "najslabših" "najslabšimi" "najslabša" "najslabše" "najslabši" "najslabšo" "najslabši" "najslabšo" "najslabši" "najslabših" "najslabšima" "najslabši" "najslabših" "najslabšima" "najslabše" "najslabših" "najslabšim" "najslabše" "najslabših" "najslabšimi" "najslabše" "najslabšega" "najslabšemu" "najslabše" "najslabšem" "najslabšim" "najslabši" "najslabših" "najslabšima" "najslabši" "najslabših" "najslabšima" "najslabša" "najslabših" "najslabšim" "najslabša" "najslabših" "najslabšimi"))
+                                (mkiCN (mkN "predstava" "predstave" "predstavi" "predstavo" "predstavi" "predstavo" "predstavi" "predstav" "predstavama" "predstavi" "predstavah" "predstavama" "predstave" "predstav" "predstavam" "predstave" "predstavah" "predstavami" feminine)) ;
 lin umbrella_1211_CN = mkiCN (mkN "dežnik" "dežnika" "dežniku" "dežnik" "dežniku" "dežnikom" "dežnika" "dežnikov" "dežnikoma" "dežnika" "dežnikih" "dežnikoma" "dežniki" "dežnikov" "dežnikom" "dežnike" "dežnikih" "dežniki" masculine) ;
 lin undershirt_1212_CN = S.AdjCN (S.PositA (mkA nonExist "spodnji" "spodnjega" "spodnjemu" "spodnjega" nonExist "spodnji" "spodnjem" "spodnjim" "spodnja" "spodnjih" "spodnjima" "spodnja" "spodnjih" "spodnjima" "spodnji" "spodnjih" "spodnjim" "spodnje" "spodnjih" "spodnjimi" "spodnja" "spodnje" "spodnji" "spodnjo" "spodnji" "spodnjo" "spodnji" "spodnjih" "spodnjima" "spodnji" "spodnjih" "spodnjima" "spodnje" "spodnjih" "spodnjim" "spodnje" "spodnjih" "spodnjimi" "spodnje" "spodnjega" "spodnjemu" "spodnje" "spodnjem" "spodnjim" "spodnji" "spodnjih" "spodnjima" "spodnji" "spodnjih" "spodnjima" "spodnja" "spodnjih" "spodnjim" "spodnja" "spodnjih" "spodnjimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist))
                                  (mkiCN (mkN "majica" "majice" "majici" "majico" "majici" "majico" "majici" "majic" "majicama" "majici" "majicah" "majicama" "majice" "majic" "majicam" "majice" "majicah" "majicami" feminine)) ;
-{-
-lin under_1213_PrepP = under_Prep ; --	spodaj
--}
+lin under_1213_PrepP = mkPrep "spodaj" R.Acc ;
 lin understand_1214_V = mkiV (mkV "razumeti" "razumet" "razumel" "razumela" "razumeli" "razumela" "razumeli" "razumele" "razumelo" "razumeli" "razumela" "razumem" "razumeš" "razume" "razumeva" "razumeta" "razumeta" "razumemo" "razumete" "razumejo" "razumiva" "razumimo" "razumi" "razumita" "razumite") ;
 lin understand_1214_V2 = mkiV2 (mkV "razumeti" "razumet" "razumel" "razumela" "razumeli" "razumela" "razumeli" "razumele" "razumelo" "razumeli" "razumela" "razumem" "razumeš" "razume" "razumeva" "razumeta" "razumeta" "razumemo" "razumete" "razumejo" "razumiva" "razumimo" "razumi" "razumita" "razumite") ;
 lin underwear_1215_CNM = S.AdjCN (S.PositA (mkA nonExist "spodnji" "spodnjega" "spodnjemu" "spodnjega" nonExist "spodnji" "spodnjem" "spodnjim" "spodnja" "spodnjih" "spodnjima" "spodnja" "spodnjih" "spodnjima" "spodnji" "spodnjih" "spodnjim" "spodnje" "spodnjih" "spodnjimi" "spodnja" "spodnje" "spodnji" "spodnjo" "spodnji" "spodnjo" "spodnji" "spodnjih" "spodnjima" "spodnji" "spodnjih" "spodnjima" "spodnje" "spodnjih" "spodnjim" "spodnje" "spodnjih" "spodnjimi" "spodnje" "spodnjega" "spodnjemu" "spodnje" "spodnjem" "spodnjim" "spodnji" "spodnjih" "spodnjima" "spodnji" "spodnjih" "spodnjima" "spodnja" "spodnjih" "spodnjim" "spodnja" "spodnjih" "spodnjimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist))
@@ -1868,8 +1861,8 @@ lin underwear_1215_CNM = S.AdjCN (S.PositA (mkA nonExist "spodnji" "spodnjega" "
 lin unemployed_1216_AP = mkiAP (mkA "nezaposlen" "nezaposleni" "nezaposlenega" "nezaposlenemu" "nezaposlenega" "nezaposlen" "nezaposleni" "nezaposlenem" "nezaposlenim" "nezaposlena" "nezaposlenih" "nezaposlenima" "nezaposlena" "nezaposlenih" "nezaposlenima" "nezaposleni" "nezaposlenih" "nezaposlenim" "nezaposlene" "nezaposlenih" "nezaposlenimi" "nezaposlena" "nezaposlene" "nezaposleni" "nezaposleno" "nezaposleni" "nezaposleno" "nezaposleni" "nezaposlenih" "nezaposlenima" "nezaposleni" "nezaposlenih" "nezaposlenima" "nezaposlene" "nezaposlenih" "nezaposlenim" "nezaposlene" "nezaposlenih" "nezaposlenimi" "nezaposleno" "nezaposlenega" "nezaposlenemu" "nezaposleno" "nezaposlenem" "nezaposlenim" "nezaposleni" "nezaposlenih" "nezaposlenima" "nezaposleni" "nezaposlenih" "nezaposlenima" "nezaposlena" "nezaposlenih" "nezaposlenim" "nezaposlena" "nezaposlenih" "nezaposlenimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist) ;
 {-
 lin united_1217_AP = mkiAP "united" ; --	združen
-lin university_1218_CNP = mkiCNP "university" "at" ; --	univerza/fakulteta
 -}
+lin university_1218_CNP = mkiCNP (mkN "univerza" "univerze" "univerzi" "univerzo" "univerzi" "univerzo" "univerzi" "univerz" "univerzama" "univerzi" "univerzah" "univerzama" "univerze" "univerz" "univerzam" "univerze" "univerzah" "univerzami" feminine) ;
 lin unpleasant_1219_AP = mkiAP (mkA "neprijeten" "neprijetni" "neprijetnega" "neprijetnemu" "neprijetnega" "neprijeten" "neprijetni" "neprijetnem" "neprijetnim" "neprijetna" "neprijetnih" "neprijetnima" "neprijetna" "neprijetnih" "neprijetnima" "neprijetni" "neprijetnih" "neprijetnim" "neprijetne" "neprijetnih" "neprijetnimi" "neprijetna" "neprijetne" "neprijetni" "neprijetno" "neprijetni" "neprijetno" "neprijetni" "neprijetnih" "neprijetnima" "neprijetni" "neprijetnih" "neprijetnima" "neprijetne" "neprijetnih" "neprijetnim" "neprijetne" "neprijetnih" "neprijetnimi" "neprijetno" "neprijetnega" "neprijetnemu" "neprijetno" "neprijetnem" "neprijetnim" "neprijetni" "neprijetnih" "neprijetnima" "neprijetni" "neprijetnih" "neprijetnima" "neprijetna" "neprijetnih" "neprijetnim" "neprijetna" "neprijetnih" "neprijetnimi" "neprijetnejši" "neprijetnejšega" "neprijetnejšemu" "neprijetnejšega" "neprijetnejši" "neprijetnejšem" "neprijetnejšim" "neprijetnejša" "neprijetnejših" "neprijetnejšima" "neprijetnejša" "neprijetnejših" "neprijetnejšima" "neprijetnejši" "neprijetnejših" "neprijetnejšim" "neprijetnejše" "neprijetnejših" "neprijetnejšimi" "neprijetnejša" "neprijetnejše" "neprijetnejši" "neprijetnejšo" "neprijetnejši" "neprijetnejšo" "neprijetnejši" "neprijetnejših" "neprijetnejšima" "neprijetnejši" "neprijetnejših" "neprijetnejšima" "neprijetnejše" "neprijetnejših" "neprijetnejšim" "neprijetnejše" "neprijetnejših" "neprijetnejšimi" "neprijetnejše" "neprijetnejšega" "neprijetnejšemu" "neprijetnejše" "neprijetnejšem" "neprijetnejšim" "neprijetnejši" "neprijetnejših" "neprijetnejšima" "neprijetnejši" "neprijetnejših" "neprijetnejšima" "neprijetnejša" "neprijetnejših" "neprijetnejšim" "neprijetnejša" "neprijetnejših" "neprijetnejšimi" "najneprijetnejši" "najneprijetnejšega" "najneprijetnejšemu" "najneprijetnejšega" "najneprijetnejši" "najneprijetnejšem" "najneprijetnejšim" "najneprijetnejša" "najneprijetnejših" "najneprijetnejšima" "najneprijetnejša" "najneprijetnejših" "najneprijetnejšima" "najneprijetnejši" "najneprijetnejših" "najneprijetnejšim" "najneprijetnejše" "najneprijetnejših" "najneprijetnejšimi" "najneprijetnejša" "najneprijetnejše" "najneprijetnejši" "najneprijetnejšo" "najneprijetnejši" "najneprijetnejšo" "najneprijetnejši" "najneprijetnejših" "najneprijetnejšima" "najneprijetnejši" "najneprijetnejših" "najneprijetnejšima" "najneprijetnejše" "najneprijetnejših" "najneprijetnejšim" "najneprijetnejše" "najneprijetnejših" "najneprijetnejšimi" "najneprijetnejše" "najneprijetnejšega" "najneprijetnejšemu" "najneprijetnejše" "najneprijetnejšem" "najneprijetnejšim" "najneprijetnejši" "najneprijetnejših" "najneprijetnejšima" "najneprijetnejši" "najneprijetnejših" "najneprijetnejšima" "najneprijetnejša" "najneprijetnejših" "najneprijetnejšim" "najneprijetnejša" "najneprijetnejših" "najneprijetnejšimi") ;
 lin until_1220_PrepT = mkiPrepT "dokler" ;
 {-
@@ -1879,10 +1872,8 @@ lin present_1221_CN = mkiCN "present" ; --	odvij darilo
 lin use_1222_V2 = mkiV2 (mkV "uporabiti" "uporabit" "uporabil" "uporabila" "uporabili" "uporabila" "uporabili" "uporabile" "uporabilo" "uporabili" "uporabila" "uporabim" "uporabiš" "uporabi" "uporabiva" "uporabita" "uporabita" "uporabimo" "uporabite" "uporabijo" "uporabiva" "uporabimo" "uporabi" "uporabita" "uporabite") ;
 lin wagon_1223_CN = mkiCN (mkN "vagon" "vagona" "vagonu" "vagon" "vagonu" "vagonom" "vagona" "vagonov" "vagonoma" "vagona" "vagonih" "vagonoma" "vagoni" "vagonov" "vagonom" "vagone" "vagonih" "vagoni" masculine) ;
 -- DERIVED 1224 Imp wait a minute aspetta un attimo vänta lite warte eine Minute počakaj minuto 
-{-
-lin wait_1225_V = mkiV "wait" ; --	počakaj minuto
-lin wait_1225_V2 = mkV2 (mkV "wait") for_Prep ; --	počakaj minuto
--}
+lin wait_1225_V = mkV "počakati" "počakat" "počakal" "počakala" "počakali" "počakala" "počakali" "počakale" "počakalo" "počakali" "počakala" "počakam" "počakaš" "počaka" "počakava" "počakata" "počakata" "počakamo" "počakate" "počakajo" "počakajva" "počakajmo" "počakaj" "počakajta" "počakajte" ;
+lin wait_1225_V2 = mkV2 (mkV "počakati" "počakat" "počakal" "počakala" "počakali" "počakala" "počakali" "počakale" "počakalo" "počakali" "počakala" "počakam" "počakaš" "počaka" "počakava" "počakata" "počakata" "počakamo" "počakate" "počakajo" "počakajva" "počakajmo" "počakaj" "počakajta" "počakajte") ;
 lin wallet_1226_CN = mkiCN (mkN "denarnica" "denarnice" "denarnici" "denarnico" "denarnici" "denarnico" "denarnici" "denarnic" "denarnicama" "denarnici" "denarnicah" "denarnicama" "denarnice" "denarnic" "denarnicam" "denarnice" "denarnicah" "denarnicami" feminine) ;
 lin wall_1227_CN = mkiCN (mkN "stena" "stene" "steni" "steno" "steni" "steno" "steni" "sten" "stenama" "steni" "stenah" "stenama" "stene" "sten" "stenam" "stene" "stenah" "stenami" feminine) ;
 lin wall_1228_CN = mkiCN (mkN "zid" "zida" "zidu" "zid" "zidu" "zidom" "zida" "zidov" "zidoma" "zida" "zidih" "zidoma" "zidovi" "zidov" "zidovom" "zidove" "zideh" "zidovi" masculine) ;
@@ -1891,11 +1882,17 @@ lin wall_1228_CN = mkiCN (mkN "zid" "zida" "zidu" "zid" "zidu" "zidom" "zida" "z
 lin want_1230_V = mkiV "want" ; --	hočem
 lin want_1230_V2 = mkiV2 "want" ; --	hočem
 lin want_1230_VV = mkiVV "want" ; --	hočem
-lin wash_dishes_1231_VP = mkVP (mkV2 "wash") (mkNP aPl_Det (mkN "dish")) ; --	pomiti posodo
-lin wash_hands_1232_VP pron = mkVP (mkV2 "wash") (mkNP (S.mkQuant pron) pluralNum (mkN "hand")) ; --	umiti roke
-lin washing_line_1233_CN = mkiCN "washing line" ; --	vrv za obešanje perila
-lin washing_machine_1234_CN = mkiCN "washing machine" ; --	pralni stoj
 -}
+lin wash_dishes_1231_VP = S.ComplSlash (S.SlashV2a (mkV2 (mkV "pomiti" "pomit" "pomil" "pomila" "pomili" "pomila" "pomili" "pomile" "pomilo" "pomili" "pomila" "pomijem" "pomiješ" "pomije" "pomijeva" "pomijeta" "pomijeta" "pomijemo" "pomijete" "pomijejo" "pomijva" "pomijmo" "pomij" "pomijta" "pomijte")))
+                                       (S.DetCN (S.DetQuant S.IndefArt S.NumSg)
+                                                (S.UseN (mkN "posoda" "posode" "posodi" "posodo" "posodi" "posodo" "posodi" "posod" "posodama" "posodi" "posodah" "posodama" "posode" "posod" "posodam" "posode" "posodah" "posodami" feminine))) ;
+lin wash_hands_1232_VP pron = S.ComplSlash (S.SlashV2a (mkV2 (mkV "umiti" "umit" "umil" "umila" "umili" "umila" "umili" "umile" "umilo" "umili" "umila" "umijem" "umiješ" "umije" "umijeva" "umijeta" "umijeta" "umijemo" "umijete" "umijejo" "umijva" "umijmo" "umij" "umijta" "umijte")))
+                                           (S.DetCN (S.DetQuant (S.PossPron pron) S.NumPl)
+                                                    (S.UseN (mkN "rok" "roka" "roku" "rok" "roku" "rokom" "roka" "rokov" "rokoma" "roka" "rokih" "rokoma" "roki" "rokov" "rokom" "roke" "rokih" "roki" masculine))) ;
+lin washing_line_1233_CN = S.AdvCN (S.UseN (mkN "vrv" "vrvi" "vrvi" "vrv" "vrvi" "vrvjo" "vrvi" "vrvi" "vrvema" "vrvi" "vrveh" "vrvema" "vrvi" "vrvi" "vrvem" "vrvi" "vrveh" "vrvmi" feminine))
+                                   (mkAdv "za obešanje perila") ;
+lin washing_machine_1234_CN = S.AdjCN (S.PositA (mkA "pralen" "pralni" "pralnega" "pralnemu" "pralnega" "pralen" "pralni" "pralnem" "pralnim" "pralna" "pralnih" "pralnima" "pralna" "pralnih" "pralnima" "pralni" "pralnih" "pralnim" "pralne" "pralnih" "pralnimi" "pralna" "pralne" "pralni" "pralno" "pralni" "pralno" "pralni" "pralnih" "pralnima" "pralni" "pralnih" "pralnima" "pralne" "pralnih" "pralnim" "pralne" "pralnih" "pralnimi" "pralno" "pralnega" "pralnemu" "pralno" "pralnem" "pralnim" "pralni" "pralnih" "pralnima" "pralni" "pralnih" "pralnima" "pralna" "pralnih" "pralnim" "pralna" "pralnih" "pralnimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist))
+                                      (S.UseN (mkN "stoja" "stoje" "stoji" "stojo" "stoji" "stojo" "stoji" "stoj" "stojama" "stoji" "stojah" "stojama" "stoje" "stoj" "stojam" "stoje" "stojah" "stojami" feminine)) ;
 lin wash_1235_V = mkiV (mkV "umivati" "umivat" "umival" "umivala" "umivali" "umivala" "umivali" "umivale" "umivalo" "umivali" "umivala" "umivam" "umivaš" "umiva" "umivava" "umivata" "umivata" "umivamo" "umivate" "umivajo" "umivajva" "umivajmo" "umivaj" "umivajta" "umivajte") ;
 lin wash_1235_V2 = mkiV2 (mkV "umivati" "umivat" "umival" "umivala" "umivali" "umivala" "umivali" "umivale" "umivalo" "umivali" "umivala" "umivam" "umivaš" "umiva" "umivava" "umivata" "umivata" "umivamo" "umivate" "umivajo" "umivajva" "umivajmo" "umivaj" "umivajta" "umivajte") ;
 -- DERIVED 1236 VP wash windows lavare le finestre tvätta fönster Wasch Fenster umiti okna 
@@ -1904,16 +1901,16 @@ lin watch_1237_CN = mkiCN (mkN "ura" "ure" "uri" "uro" "uri" "uro" "uri" "ur" "u
 lin water_1239_CNM = mkiCNM (mkN "voda" "vode" "vodi" "vodo" "vodi" "vodo" "vodi" "vod" "vodama" "vodi" "vodah" "vodama" "vode" "vod" "vodam" "vode" "vodah" "vodami" feminine) ;
 {-
 lin flowing_1240_CNM = mkiCNM "flowing water" ; --	Wasser fließt
-lin watering_can_1241_CN = mkiCN "watering can" ; --	posoda za zalivanje
 -}
+lin watering_can_1241_CN = S.AdvCN (S.UseN (mkN "posoda" "posode" "posodi" "posodo" "posodi" "posodo" "posodi" "posod" "posodama" "posodi" "posodah" "posodama" "posode" "posod" "posodam" "posode" "posodah" "posodami" feminine))
+                                   (mkAdv "za zalivanje") ;
 lin way_1242_CN = mkiCN (mkN "pot" "poti" "poti" "pot" "poti" "potjo" "poti" "poti" "potema" "poti" "poteh" "potema" "pota" "poti" "potem" "pota" "poteh" "potmi" feminine) ;
 lin weak_1243_AP = mkiAP (mkA "slaboten" "slabotni" "slabotnega" "slabotnemu" "slabotnega" "slaboten" "slabotni" "slabotnem" "slabotnim" "slabotna" "slabotnih" "slabotnima" "slabotna" "slabotnih" "slabotnima" "slabotni" "slabotnih" "slabotnim" "slabotne" "slabotnih" "slabotnimi" "slabotna" "slabotne" "slabotni" "slabotno" "slabotni" "slabotno" "slabotni" "slabotnih" "slabotnima" "slabotni" "slabotnih" "slabotnima" "slabotne" "slabotnih" "slabotnim" "slabotne" "slabotnih" "slabotnimi" "slabotno" "slabotnega" "slabotnemu" "slabotno" "slabotnem" "slabotnim" "slabotni" "slabotnih" "slabotnima" "slabotni" "slabotnih" "slabotnima" "slabotna" "slabotnih" "slabotnim" "slabotna" "slabotnih" "slabotnimi" "slabotnejši" "slabotnejšega" "slabotnejšemu" "slabotnejšega" "slabotnejši" "slabotnejšem" "slabotnejšim" "slabotnejša" "slabotnejših" "slabotnejšima" "slabotnejša" "slabotnejših" "slabotnejšima" "slabotnejši" "slabotnejših" "slabotnejšim" "slabotnejše" "slabotnejših" "slabotnejšimi" "slabotnejša" "slabotnejše" "slabotnejši" "slabotnejšo" "slabotnejši" "slabotnejšo" "slabotnejši" "slabotnejših" "slabotnejšima" "slabotnejši" "slabotnejših" "slabotnejšima" "slabotnejše" "slabotnejših" "slabotnejšim" "slabotnejše" "slabotnejših" "slabotnejšimi" "slabotnejše" "slabotnejšega" "slabotnejšemu" "slabotnejše" "slabotnejšem" "slabotnejšim" "slabotnejši" "slabotnejših" "slabotnejšima" "slabotnejši" "slabotnejših" "slabotnejšima" "slabotnejša" "slabotnejših" "slabotnejšim" "slabotnejša" "slabotnejših" "slabotnejšimi" "najslabotnejši" "najslabotnejšega" "najslabotnejšemu" "najslabotnejšega" "najslabotnejši" "najslabotnejšem" "najslabotnejšim" "najslabotnejša" "najslabotnejših" "najslabotnejšima" "najslabotnejša" "najslabotnejših" "najslabotnejšima" "najslabotnejši" "najslabotnejših" "najslabotnejšim" "najslabotnejše" "najslabotnejših" "najslabotnejšimi" "najslabotnejša" "najslabotnejše" "najslabotnejši" "najslabotnejšo" "najslabotnejši" "najslabotnejšo" "najslabotnejši" "najslabotnejših" "najslabotnejšima" "najslabotnejši" "najslabotnejših" "najslabotnejšima" "najslabotnejše" "najslabotnejših" "najslabotnejšim" "najslabotnejše" "najslabotnejših" "najslabotnejšimi" "najslabotnejše" "najslabotnejšega" "najslabotnejšemu" "najslabotnejše" "najslabotnejšem" "najslabotnejšim" "najslabotnejši" "najslabotnejših" "najslabotnejšima" "najslabotnejši" "najslabotnejših" "najslabotnejšima" "najslabotnejša" "najslabotnejših" "najslabotnejšim" "najslabotnejša" "najslabotnejših" "najslabotnejšimi") ;
 lin veal_1244_CNM = mkiCNM (mkN "teletina" "teletine" "teletini" "teletino" "teletini" "teletino" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist feminine) ;
 -- DERIVED 1245 Weekday Wednesday mercoledì onsdag der Mittwoch sreda 
 lin week_1246_CN = mkiCN (mkN "teden" "tedna" "tednu" "teden" "tednu" "tednom" "tedna" "tednov" "tednoma" "tedna" "tednih" "tednoma" "tedni" "tednov" "tednom" "tedne" "tednih" "tedni" masculine) ;
-{-
-lin vegetable_garden_1247_CNP = mkiCNP "vegetable garden" ; --	zelenjavni vrt
--}
+lin vegetable_garden_1247_CNP = mkiCNP (S.AdjCN (S.PositA (mkA "zelenjaven" "zelenjavni" "zelenjavnega" "zelenjavnemu" "zelenjavnega" "zelenjaven" "zelenjavni" "zelenjavnem" "zelenjavnim" "zelenjavna" "zelenjavnih" "zelenjavnima" "zelenjavna" "zelenjavnih" "zelenjavnima" "zelenjavni" "zelenjavnih" "zelenjavnim" "zelenjavne" "zelenjavnih" "zelenjavnimi" "zelenjavna" "zelenjavne" "zelenjavni" "zelenjavno" "zelenjavni" "zelenjavno" "zelenjavni" "zelenjavnih" "zelenjavnima" "zelenjavni" "zelenjavnih" "zelenjavnima" "zelenjavne" "zelenjavnih" "zelenjavnim" "zelenjavne" "zelenjavnih" "zelenjavnimi" "zelenjavno" "zelenjavnega" "zelenjavnemu" "zelenjavno" "zelenjavnem" "zelenjavnim" "zelenjavni" "zelenjavnih" "zelenjavnima" "zelenjavni" "zelenjavnih" "zelenjavnima" "zelenjavna" "zelenjavnih" "zelenjavnim" "zelenjavna" "zelenjavnih" "zelenjavnimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist))
+                                                (S.UseN (mkN "vrt" "vrta" "vrtu" "vrt" "vrtu" "vrtom" "vrta" "vrtov" "vrtoma" "vrta" "vrteh" "vrtoma" "vrti" "vrtov" "vrtom" "vrte" "vrteh" "vrtmi" masculine))) ;
 lin vegetable_1248_CN = mkiCN (mkN "zelenjava" "zelenjave" "zelenjavi" "zelenjavo" "zelenjavi" "zelenjavo" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist feminine) ;
 -- DUPLICATEMAYBE lin vegetable_1249_CN = mkiCN "vegetable" ; --- verdura -- CN
 lin vegetarian_1250_CN = mkiCN (mkN "vegetarijanec" "vegetarijanca" "vegetarijancu" "vegetarijanca" "vegetarijancu" "vegetarijancem" "vegetarijanca" "vegetarijancev" "vegetarijancema" "vegetarijanca" "vegetarijancih" "vegetarijancema" "vegetarijanci" "vegetarijancev" "vegetarijancem" "vegetarijance" "vegetarijancih" "vegetarijanci" masculine) ;
@@ -1937,10 +1934,9 @@ lin first_1264_Adv = P.mkAdv "first" ; --	kdo bo prvi?
 -- DERIVED 1266 QCl who am I? chi sono? vem är jag? Wer bin ich? Kdo sem jaz? 
 -}
 lin window_1267_CN = mkiCN (mkN "okno" "okna" "oknu" "okno" "oknu" "oknom" "okni" "oken" "oknoma" "okni" "oknih" "oknoma" "okna" "oken" "oknom" "okna" "oknih" "okni" neuter) ;
-{-
-lin windy_and_stormy_1268_AP = mkAP S.and_Conj (mkAP (mkA "windy")) (mkAP (mkA "stormy")) ; --	vetrovno in nevihtno
-lin windy_1269_AP = mkiAP "windy" ; --	vetrovno in nevihtno
--}
+lin windy_and_stormy_1268_AP = S.ConjAP S.and_Conj (S.BaseAP (mkiAP (mkA "vetroven" "vetrovni" "vetrovnega" "vetrovnemu" "vetrovnega" "vetroven" "vetrovni" "vetrovnem" "vetrovnim" "vetrovna" "vetrovnih" "vetrovnima" "vetrovna" "vetrovnih" "vetrovnima" "vetrovni" "vetrovnih" "vetrovnim" "vetrovne" "vetrovnih" "vetrovnimi" "vetrovna" "vetrovne" "vetrovni" "vetrovno" "vetrovni" "vetrovno" "vetrovni" "vetrovnih" "vetrovnima" "vetrovni" "vetrovnih" "vetrovnima" "vetrovne" "vetrovnih" "vetrovnim" "vetrovne" "vetrovnih" "vetrovnimi" "vetrovno" "vetrovnega" "vetrovnemu" "vetrovno" "vetrovnem" "vetrovnim" "vetrovni" "vetrovnih" "vetrovnima" "vetrovni" "vetrovnih" "vetrovnima" "vetrovna" "vetrovnih" "vetrovnim" "vetrovna" "vetrovnih" "vetrovnimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist))
+                                                             (mkiAP (mkA "nevihten" "nevihtni" "nevihtnega" "nevihtnemu" "nevihtnega" "nevihten" "nevihtni" "nevihtnem" "nevihtnim" "nevihtna" "nevihtnih" "nevihtnima" "nevihtna" "nevihtnih" "nevihtnima" "nevihtni" "nevihtnih" "nevihtnim" "nevihtne" "nevihtnih" "nevihtnimi" "nevihtna" "nevihtne" "nevihtni" "nevihtno" "nevihtni" "nevihtno" "nevihtni" "nevihtnih" "nevihtnima" "nevihtni" "nevihtnih" "nevihtnima" "nevihtne" "nevihtnih" "nevihtnim" "nevihtne" "nevihtnih" "nevihtnimi" "nevihtno" "nevihtnega" "nevihtnemu" "nevihtno" "nevihtnem" "nevihtnim" "nevihtni" "nevihtnih" "nevihtnima" "nevihtni" "nevihtnih" "nevihtnima" "nevihtna" "nevihtnih" "nevihtnim" "nevihtna" "nevihtnih" "nevihtnimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist))) ;
+lin windy_1269_AP = mkiAP (mkA "vetroven" "vetrovni" "vetrovnega" "vetrovnemu" "vetrovnega" "vetroven" "vetrovni" "vetrovnem" "vetrovnim" "vetrovna" "vetrovnih" "vetrovnima" "vetrovna" "vetrovnih" "vetrovnima" "vetrovni" "vetrovnih" "vetrovnim" "vetrovne" "vetrovnih" "vetrovnimi" "vetrovna" "vetrovne" "vetrovni" "vetrovno" "vetrovni" "vetrovno" "vetrovni" "vetrovnih" "vetrovnima" "vetrovni" "vetrovnih" "vetrovnima" "vetrovne" "vetrovnih" "vetrovnim" "vetrovne" "vetrovnih" "vetrovnimi" "vetrovno" "vetrovnega" "vetrovnemu" "vetrovno" "vetrovnem" "vetrovnim" "vetrovni" "vetrovnih" "vetrovnima" "vetrovni" "vetrovnih" "vetrovnima" "vetrovna" "vetrovnih" "vetrovnim" "vetrovna" "vetrovnih" "vetrovnimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist) ;
 lin wine_1270_CNM = mkiCNM (mkN "vino" "vina" "vinu" "vino" "vinu" "vinom" "vini" "vin" "vinoma" "vini" "vinih" "vinoma" "vina" "vin" "vinom" "vina" "vinih" "vini" neuter) ;
 -- DERIVED 1271 VP win the lottery vincere la lotteria vinna på lotteri im Lotto gewinnen zmagal na loteriji 
 -- DERIVED 1272 VP wipe face lavare il viso tvätta ansiktet das Gesicht abwischen obristi obraz 
@@ -1949,10 +1945,8 @@ lin visit_1274_V = mkiV (mkV "obiskati" "obiskat" "obiskal" "obiskala" "obiskali
 lin visit_1274_V2 = mkiV2 (mkV "obiskati" "obiskat" "obiskal" "obiskala" "obiskali" "obiskala" "obiskali" "obiskale" "obiskalo" "obiskali" "obiskala" "obiščem" "obiščeš" "obišče" "obiščeva" "obiščeta" "obiščeta" "obiščemo" "obiščete" "obiščejo" "obiščiva" "obiščimo" "obišči" "obiščita" "obiščite") ;
 -- DERIVED lin with_1275_Prep = mkiPrep "with" ; 
 lin without_1276_Prep = mkiPrep "brez" ;
-{-
-lin volume_down_1277_Utt = mkiUtt ( "volume down") ; --	utišati zvok
-lin volume_up_1278_Utt = mkiUtt ( "volume up") ; --	povečati zvok
--}
+lin volume_down_1277_Utt = mkiUtt "utišati zvok" ;
+lin volume_up_1278_Utt = mkiUtt "povečati zvok" ;
 lin woman_1279_CNH = mkiCN (mkN "ženska" "ženske" "ženski" "žensko" "ženski" "žensko" "ženski" "žensk" "ženskama" "ženski" "ženskah" "ženskama" "ženske" "žensk" "ženskam" "ženske" "ženskah" "ženskami" feminine) ;
 lin wood_1280_CNM = mkiCNM (mkN "les" "lesa" "lesu" "les" "lesu" "lesom" "lesa" "lesov" "lesoma" "lesa" "lesih" "lesoma" "lesi" "lesov" "lesom" "lese" "lesih" "lesi" masculine) ;
 lin wool_hat_1281_CN = S.AdjCN (S.PositA (mkA "volnen" "volneni" "volnenega" "volnenemu" "volnenega" "volnen" "volneni" "volnenem" "volnenim" "volnena" "volnenih" "volnenima" "volnena" "volnenih" "volnenima" "volneni" "volnenih" "volnenim" "volnene" "volnenih" "volnenimi" "volnena" "volnene" "volneni" "volneno" "volneni" "volneno" "volneni" "volnenih" "volnenima" "volneni" "volnenih" "volnenima" "volnene" "volnenih" "volnenim" "volnene" "volnenih" "volnenimi" "volneno" "volnenega" "volnenemu" "volneno" "volnenem" "volnenim" "volneni" "volnenih" "volnenima" "volneni" "volnenih" "volnenima" "volnena" "volnenih" "volnenim" "volnena" "volnenih" "volnenimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist)) 
@@ -1996,10 +1990,10 @@ lin zucchino_1307_CN = mkiCN (mkN "bučka" "bučke" "bučki" "bučko" "bučki" "
 lin English_1308_AP = mkiAP "English" ; --	engelsk
 lin be_in_a_hurry_1309_VP = mkVP (S.mkAdv in_Prep (mkNP a_Det (mkN "hurry"))) ; --	Se mi mudi
 -- DERIVED 1310 Cl I'm not in a hurry non ho fretta jag har inte bråttom ich habe es nicht eilig se mi ne mudi
-lin not_so_fast_1311_Utt = mkiUtt ( "not so fast") ; --	ne tako hitro
-lin slower_1312_Utt = mkiUtt ( "slower") ; --	počasneje
-lin no_hurry_1313_Utt = mkiUtt ( "there's no hurry") ; --	ne rabimo hiteti
 -}
+lin not_so_fast_1311_Utt = mkiUtt "ne tako hitro" ;
+lin slower_1312_Utt = mkiUtt "počasneje" ;
+lin no_hurry_1313_Utt = mkiUtt "ne rabimo hiteti" ;
 lin airplane_1314_CNP = mkiCNP (mkN "letalo" "letala" "letalu" "letalo" "letalu" "letalom" "letali" "letal" "letaloma" "letali" "letalih" "letaloma" "letala" "letal" "letalom" "letala" "letalih" "letali" neuter) ;
  --	poper (začimba)
 lin apartment_building_1316_CNP = mkiCNP (S.AdjCN (S.PositA (mkA nonExist "stanovanjski" "stanovanjskega" "stanovanjskemu" "stanovanjskega" nonExist "stanovanjski" "stanovanjskem" "stanovanjskim" "stanovanjska" "stanovanjskih" "stanovanjskima" "stanovanjska" "stanovanjskih" "stanovanjskima" "stanovanjski" "stanovanjskih" "stanovanjskim" "stanovanjske" "stanovanjskih" "stanovanjskimi" "stanovanjska" "stanovanjske" "stanovanjski" "stanovanjsko" "stanovanjski" "stanovanjsko" "stanovanjski" "stanovanjskih" "stanovanjskima" "stanovanjski" "stanovanjskih" "stanovanjskima" "stanovanjske" "stanovanjskih" "stanovanjskim" "stanovanjske" "stanovanjskih" "stanovanjskimi" "stanovanjsko" "stanovanjskega" "stanovanjskemu" "stanovanjsko" "stanovanjskem" "stanovanjskim" "stanovanjski" "stanovanjskih" "stanovanjskima" "stanovanjski" "stanovanjskih" "stanovanjskima" "stanovanjska" "stanovanjskih" "stanovanjskim" "stanovanjska" "stanovanjskih" "stanovanjskimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist)) (S.UseN (mkN "gradnja" "gradnje" "gradnji" "gradnjo" "gradnji" "gradnjo" "gradnji" "gradenj" "gradnjama" "gradnji" "gradnjah" "gradnjama" "gradnje" "gradenj" "gradnjam" "gradnje" "gradnjah" "gradnjami" feminine))) ;
@@ -2040,8 +2034,8 @@ lin store_1344_CNP = mkiCNP (mkN "trgovina" "trgovine" "trgovini" "trgovino" "tr
 lin streetlight_1346_CN = S.AdjCN (S.PositA (mkA "uličen" "ulični" "uličnega" "uličnemu" "uličnega" "uličen" "ulični" "uličnem" "uličnim" "ulična" "uličnih" "uličnima" "ulična" "uličnih" "uličnima" "ulični" "uličnih" "uličnim" "ulične" "uličnih" "uličnimi" "ulična" "ulične" "ulični" "ulično" "ulični" "ulično" "ulični" "uličnih" "uličnima" "ulični" "uličnih" "uličnima" "ulične" "uličnih" "uličnim" "ulične" "uličnih" "uličnimi" "ulično" "uličnega" "uličnemu" "ulično" "uličnem" "uličnim" "ulični" "uličnih" "uličnima" "ulični" "uličnih" "uličnima" "ulična" "uličnih" "uličnim" "ulična" "uličnih" "uličnimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist)) (mkiCN (mkN "svetilka" "svetilke" "svetilki" "svetilko" "svetilki" "svetilko" "svetilki" "svetilk" "svetilkama" "svetilki" "svetilkah" "svetilkama" "svetilke" "svetilk" "svetilkam" "svetilke" "svetilkah" "svetilkami" feminine)) ;
 {-
 lin suburban_1347_CN = mkiCN "suburban" ; --	primestni
-lin subway_metro_1348_CNP = mkiCNP "subway/metro" ; --	podzemna / metro
 -}
+lin subway_metro_1348_CNP = mkiCNP (mkN "metro" "metroja" "metroju" "metro" "metroju" "metrojem" "metroja" "metrojev" "metrojema" "metroja" "metrojih" "metrojema" "metroji" "metrojev" "metrojem" "metroje" "metrojih" "metroji" masculine) ;
 lin supermarket_1349_CNP = mkiCNP (mkN "supermarket" "supermarketa" "supermarketu" "supermarket" "supermarketu" "supermarketom" "supermarketa" "supermarketov" "supermarketoma" "supermarketa" "supermarketih" "supermarketoma" "supermarketi" "supermarketov" "supermarketom" "supermarkete" "supermarketih" "supermarketi" masculine) ;
 lin synagogue_1350_CNP = mkiCNP (mkN "sinagoga" "sinagoge" "sinagogi" "sinagogo" "sinagogi" "sinagogo" "sinagogi" "sinagog" "sinagogama" "sinagogi" "sinagogah" "sinagogama" "sinagoge" "sinagog" "sinagogam" "sinagoge" "sinagogah" "sinagogami" feminine) ;
 -- DUPLICATEMAYBE lin taxi_1351_CNP = mkiCNP "taxi" ; -- CNP
@@ -2049,8 +2043,8 @@ lin temple_1352_CNP = mkiCNP (mkN "tempelj" "templja" "templju" "tempelj" "templ
 -- DUPLICATE 1353 V2 buy comprare köpa kaufen kupiti DUPLICATE 0145 
 {-
 lin go_shopping_1354_V = partV I.go_V "shopping" ; --	iti po nakupih
--- DUPLICATEMAYBE lin town_1355_CNP = mkiCNP "town" "at" ; -- CNP
 -}
+-- DUPLICATEMAYBE lin town_1355_CNP = mkiCNP "town" "at" ; -- CNP
 lin traffic_1356_CNP = mkiCNP (S.UseN (mkN "promet" "prometa" "prometu" "promet" "prometu" "prometom" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist masculine)) ;
 -- DUPLICATEMAYBE lin train_1357_CNP = mkiCNP "train" ; -- CNP
 lin train_station_1358_CNP = mkiCNP (S.AdjCN (S.PositA (mkA nonExist "železniški" "železniškega" "železniškemu" "železniškega" nonExist "železniški" "železniškem" "železniškim" "železniška" "železniških" "železniškima" "železniška" "železniških" "železniškima" "železniški" "železniških" "železniškim" "železniške" "železniških" "železniškimi" "železniška" "železniške" "železniški" "železniško" "železniški" "železniško" "železniški" "železniških" "železniškima" "železniški" "železniških" "železniškima" "železniške" "železniških" "železniškim" "železniške" "železniških" "železniškimi" "železniško" "železniškega" "železniškemu" "železniško" "železniškem" "železniškim" "železniški" "železniških" "železniškima" "železniški" "železniških" "železniškima" "železniška" "železniških" "železniškim" "železniška" "železniških" "železniškimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist))
@@ -2061,8 +2055,8 @@ lin village_1359_CNP = mkiCNP (mkN "vas" "vasi" "vasi" "vas" "vasi" "vasjo" "vas
 -- DUPLICATE lin apartment_1362_CNP = mkiCNP "apartment" ; -- CNP
 -- DUPLICATEMAYBE lin bathroom_1363_CNP = mkiCNP "bathroom" ; -- CNP
 -- DUPLICATEMAYBE lin bedroom_1364_CNP = mkiCNP "bedroom" ; -- CNP
+lin carpet_rug_1365_CN = mkiCN (mkN "preproga" "preproge" "preprogi" "preprogo" "preprogi" "preprogo" "preprogi" "preprog" "preprogama" "preprogi" "preprogah" "preprogama" "preproge" "preprog" "preprogam" "preproge" "preprogah" "preprogami" feminine) ;
 {-
-lin carpet_rug_1365_CN = mkiCN "carpet" | mkiCN "rug" ; --	preproga / preproga
 lin CD_player_1366_CN = mkiCN "CD player" ; --	CD predvajalnik
 -}
 -- DUPLICATEMAYBE lin ceiling_1367_CN = mkiCN "ceiling" ; -- CN
@@ -2074,16 +2068,14 @@ lin dining_room_1372_CNP = mkiCNP (mkN "jedilnica" "jedilnice" "jedilnici" "jedi
 lin door_1373_CN = mkiCN (mkN "vrat" "vrata" "vratu" "vrat" "vratu" "vratom" "vratova" "vratov" "vratovoma" "vratova" "vratovih" "vratovoma" "vratovi" "vratov" "vratovom" "vratove" "vrateh" "vratovi" masculine) ;
 {-
 lin DVD_player_1374_CN = mkiCN "DVD player" ; --	DVD predvajalnik
--- DUPLICATEMAYBE lin floor_1375_CNP = mkiCNP "floor" "on" ; -- CNP
 -}
+-- DUPLICATEMAYBE lin floor_1375_CNP = mkiCNP "floor" "on" ; -- CNP
 lin hall_1376_CNP = mkiCNP (mkN "dvorana" "dvorane" "dvorani" "dvorano" "dvorani" "dvorano" "dvorani" "dvoran" "dvoranama" "dvorani" "dvoranah" "dvoranama" "dvorane" "dvoran" "dvoranam" "dvorane" "dvoranah" "dvoranami" feminine) ;
 -- DUPLICATEMAYBE lin house_1377_CNP = mkiCNP "house" ; -- CNP
 -- DUPLICATEMAYBE lin kitchen_1378_CNP = mkiCNP "kitchen" ; -- CNP
 -- DUPLICATEMAYBE lin lamp_1379_CN = mkiCN "lamp" ; -- CN
 -- DUPLICATEMAYBE lin living_room_1380_CNP = mkiCNP "living room" ; -- CNP
-{-
-lin painting_picture_1381_CN = mkiCN "picture" | mkiCN "picture" ; --	slika / slika
--}
+lin painting_picture_1381_CN = mkiCN (mkN "slika" "slike" "sliki" "sliko" "sliki" "sliko" "sliki" "slik" "slikama" "sliki" "slikah" "slikama" "slike" "slik" "slikam" "slike" "slikah" "slikami" feminine) ;
 lin room_1382_CNP = mkiCNP (mkN "soba" "sobe" "sobi" "sobo" "sobi" "sobo" "sobi" "sob" "sobama" "sobi" "sobah" "sobama" "sobe" "sob" "sobam" "sobe" "sobah" "sobami" feminine) ;
 -- DUPLICATEMAYBE lin shelf_1383_CN = mkiCN "shelf" ; -- CN
 -- DUPLICATEMAYBE lin sofa_1384_CN = mkiCN "sofa" ; -- CN
@@ -2182,19 +2174,20 @@ lin silk_1468_CNM = mkiCNM (mkN "svila" "svile" "svili" "svilo" "svili" "svilo" 
 {-
 lin size__clothes__1469_CN = mkiCN "size" ; --	Velikost (oblačila)
 lin size__shoes__1470_CN = mkiCN "size" ; --	Velikost (čevlji)
+-}
 -- DUPLICATEMAYBE lin skirt_1471_CN = mkiCN "skirt" ; -- CN
 -- DUPLICATEMAYBE lin sneaker_1472_CN = mkiCN "sneaker" ; -- CN
--}
 lin sock_1473_CN = mkiCN (mkN "nogavica" "nogavice" "nogavici" "nogavico" "nogavici" "nogavico" "nogavici" "nogavic" "nogavicama" "nogavici" "nogavicah" "nogavicama" "nogavice" "nogavic" "nogavicam" "nogavice" "nogavicah" "nogavicami" feminine) ;
 -- DUPLICATEMAYBE lin sunglasses_1474_CNPL = mkiCNPL "sunglass" ; -- CNPL
 lin wear_1475_V2 = mkiV2 (mkV "nositi" "nosit" "nosil" "nosila" "nosili" "nosila" "nosili" "nosile" "nosilo" "nosili" "nosila" "nosim" "nosiš" "nosi" "nosiva" "nosita" "nosita" "nosimo" "nosite" "nosijo" "nosiva" "nosimo" "nosi" "nosita" "nosite") ;
 lin T_shirt_1476_CN = mkiCN (mkN "majica" "majice" "majici" "majico" "majici" "majico" "majici" "majic" "majicama" "majici" "majicah" "majicama" "majice" "majic" "majicam" "majice" "majicah" "majicami" feminine) ;
 {-
 lin underpants__male_female__1477_CNPL = mkiCNPL "underpant" ; --	spodnjice (moški / ženska)
+-}
 -- DUPLICATEMAYBE lin undershirt_1478_CN = mkiCN "undershirt" ; -- CN
 -- DUPLICATEMAYBE lin watch_1479_CN = mkiCN "watch" ; -- CN
-lin women's_suit_1480_CN = mkiCN "women's suit" ; --	(Ženska) obleka
--}
+lin women's_suit_1480_CN = S.AdjCN (S.PositA (mkA nonExist "ženski" "ženskega" "ženskemu" "ženskega" nonExist "ženski" "ženskem" "ženskim" "ženska" "ženskih" "ženskima" "ženska" "ženskih" "ženskima" "ženski" "ženskih" "ženskim" "ženske" "ženskih" "ženskimi" "ženska" "ženske" "ženski" "žensko" "ženski" "žensko" "ženski" "ženskih" "ženskima" "ženski" "ženskih" "ženskima" "ženske" "ženskih" "ženskim" "ženske" "ženskih" "ženskimi" "žensko" "ženskega" "ženskemu" "žensko" "ženskem" "ženskim" "ženski" "ženskih" "ženskima" "ženski" "ženskih" "ženskima" "ženska" "ženskih" "ženskim" "ženska" "ženskih" "ženskimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist))
+                                   (S.UseN (mkN "obleka" "obleke" "obleki" "obleko" "obleki" "obleko" "obleki" "oblek" "oblekama" "obleki" "oblekah" "oblekama" "obleke" "oblek" "oblekam" "obleke" "oblekah" "oblekami" feminine)) ;
 lin wool_1481_CN = mkiCN (mkN "volna" "volne" "volni" "volno" "volni" "volno" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist feminine) ;
 lin attachment_1482_CN = mkiCN (mkN "priponka" "priponke" "priponki" "priponko" "priponki" "priponko" "priponki" "priponk" "priponkama" "priponki" "priponkah" "priponkama" "priponke" "priponk" "priponkam" "priponke" "priponkah" "priponkami" feminine) ;
 lin blog_1483_CN = mkiCN (mkN "blog" "bloga" "blogu" "blog" "blogu" "blogom" "bloga" "blogov" "blogoma" "bloga" "blogih" "blogoma" "blogi" "blogov" "blogom" "bloge" "blogih" "blogi" masculine) ;
@@ -2202,9 +2195,9 @@ lin blog_1483_CN = mkiCN (mkN "blog" "bloga" "blogu" "blog" "blogu" "blogom" "bl
 lin DSL_cable_1484_CN = mkiCN "DSL cable" ; --	kabel (DSL)
 lin CD_ROM_1485_CN = mkiCN "CD-ROM" ; --	CD ROM
 lin CD_ROM_drive_1486_CN = mkiCN "CD-ROM drive" ; --	CD-ROM
-lin chat_room_1487_CNP = mkiCNP "chat room" ; --	Klepetalnica
--- DUPLICATEMAYBE lin computer_1488_CN = mkiCN "computer" ; -- CN
 -}
+lin chat_room_1487_CNP = mkiCNP (mkN "klepetalnica" "klepetalnice" "klepetalnici" "klepetalnico" "klepetalnici" "klepetalnico" "klepetalnici" "klepetalnic" "klepetalnicama" "klepetalnici" "klepetalnicah" "klepetalnicama" "klepetalnice" "klepetalnic" "klepetalnicam" "klepetalnice" "klepetalnicah" "klepetalnicami" feminine) ;
+-- DUPLICATEMAYBE lin computer_1488_CN = mkiCN "computer" ; -- CN
 lin document_1489_CN = mkiCN (mkN "dokument" "dokumenta" "dokumentu" "dokument" "dokumentu" "dokumentom" "dokumenta" "dokumentov" "dokumentoma" "dokumenta" "dokumentih" "dokumentoma" "dokumenti" "dokumentov" "dokumentom" "dokumente" "dokumentih" "dokumenti" masculine) ;
 -- DUPLICATEMAYBE lin email_1490_CN = mkiCN "email" ; -- CN
 -- DUPLICATEMAYBE lin file_1491_CN = mkiCN "file" ; -- CN
@@ -2214,28 +2207,32 @@ lin internet_1493_NP = S.DetCN (S.DetQuant S.DefArt S.NumSg) (S.UseN (mkN "inter
 -- DUPLICATEMAYBE lin keyboard_1494_CN = mkiCN "keyboard" ; -- CN
 -- DUPLICATEMAYBE lin memory_1495_CN = mkiCN "memory" ; -- CN
 lin modem_1496_CN = mkiCN (mkN "modem" "modema" "modemu" "modem" "modemu" "modemom" "modema" "modemov" "modemoma" "modema" "modemih" "modemoma" "modemi" "modemov" "modemom" "modeme" "modemih" "modemi" masculine) ;
-{-
-lin monitor_screen_1497_CN = mkiCN "monitor" | mkiCN "screen" ; --	monitor / zaslon
--}
+lin monitor_screen_1497_CN = mkiCN (mkN "monitor" "monitorja" "monitorju" "monitor" "monitorju" "monitorjem" "monitorja" "monitorjev" "monitorjema" "monitorja" "monitorjih" "monitorjema" "monitorji" "monitorjev" "monitorjem" "monitorje" "monitorjih" "monitorji" masculine
+                                  | mkN "zaslon" "zaslona" "zaslonu" "zaslon" "zaslonu" "zaslonom" "zaslona" "zaslonov" "zaslonoma" "zaslona" "zaslonih" "zaslonoma" "zasloni" "zaslonov" "zaslonom" "zaslone" "zaslonih" "zasloni" masculine) ;
 lin mouse_1498_CN = mkiCN (mkN "miš" "miši" "miši" "miš" "miši" "mišjo" "miši" "miši" "mišma" "miši" "miših" "mišma" "miši" "miši" "mišim" "miši" "miših" "mišmi" feminine) ;
-{-
-lin mouse_pad_1499_CN = mkiCN "mouse pad" ; --	podloga za miško
+lin mouse_pad_1499_CN = S.AdvCN (mkiCN (mkN "podloga" "podloge" "podlogi" "podlogo" "podlogi" "podlogo" "podlogi" "podlog" "podlogama" "podlogi" "podlogah" "podlogama" "podloge" "podlog" "podlogam" "podloge" "podlogah" "podlogami" feminine))
+                                (mkAdv "za miško") ;
 -- DUPLICATEMAYBE lin printer_1500_CN = mkiCN "printer" ; -- CN
-lin attach_file_1501_VP det = mkVP (mkV2 "attach") (mkNP det (mkN "file")) ; --	priložiti datoteko
-lin close_file_1502_VP det = mkVP (mkV2 "close") (mkNP det (mkN "file")) ; --	zapreti datoteko
--}
+lin attach_file_1501_VP det = S.ComplSlash (S.SlashV2a (mkV2 (mkV "priložiti" "priložit" "priložil" "priložila" "priložili" "priložila" "priložili" "priložile" "priložilo" "priložili" "priložila" "priložim" "priložiš" "priloži" "priloživa" "priložita" "priložita" "priložimo" "priložite" "priložijo" "priloživa" "priložimo" "priloži" "priložita" "priložite")))
+                                           (S.DetCN det
+                                                    (S.UseN (mkN "datoteka" "datoteke" "datoteki" "datoteko" "datoteki" "datoteko" "datoteki" "datotek" "datotekama" "datoteki" "datotekah" "datotekama" "datoteke" "datotek" "datotekam" "datoteke" "datotekah" "datotekami" feminine))) ;
+lin close_file_1502_VP det = S.ComplSlash (S.SlashV2a (mkV2 (mkV "zapreti" "zapret" "zaprl" "zaprla" "zaprli" "zaprla" "zaprli" "zaprle" "zaprlo" "zaprli" "zaprla" "zaprem" "zapreš" "zapre" "zapreva" "zapreta" "zapreta" "zapremo" "zaprete" "zaprejo" "zapriva" "zaprimo" "zapri" "zaprita" "zaprite")))
+                                           (S.DetCN det
+                                                    (S.UseN (mkN "datoteka" "datoteke" "datoteki" "datoteko" "datoteki" "datoteko" "datoteki" "datotek" "datotekama" "datoteki" "datotekah" "datotekama" "datoteke" "datotek" "datotekam" "datoteke" "datotekah" "datotekami" feminine))) ;
 lin delete_1503_V2 = mkiV2 (mkV "izbrisati" "izbrisat" "izbrisal" "izbrisala" "izbrisali" "izbrisala" "izbrisali" "izbrisale" "izbrisalo" "izbrisali" "izbrisala" "izbrišem" "izbrišeš" "izbriše" "izbriševa" "izbrišeta" "izbrišeta" "izbrišemo" "izbrišete" "izbrišejo" "izbrišiva" "izbrišimo" "izbriši" "izbrišita" "izbrišite") ;
 {-
 lin forward_1504_V2 = mkiV2 "forward" ; --	naj
-lin open_file_1505_VP det = mkVP (mkV2 "open") (mkNP det (mkN "file")) ; --	odpreti datoteko
 -}
+lin open_file_1505_VP det = S.ComplSlash (S.SlashV2a (mkV2 (mkV "odpreti" "odpret" "odprl" "odprla" "odprli" "odprla" "odprli" "odprle" "odprlo" "odprli" "odprla" "odprem" "odpreš" "odpre" "odpreva" "odpreta" "odpreta" "odpremo" "odprete" "odprejo" "odpriva" "odprimo" "odpri" "odprita" "odprite")))
+                                         (S.DetCN det
+                                                  (S.UseN (mkN "datoteka" "datoteke" "datoteki" "datoteko" "datoteki" "datoteko" "datoteki" "datotek" "datotekama" "datoteki" "datotekah" "datotekama" "datoteke" "datotek" "datotekam" "datoteke" "datotekah" "datotekami" feminine))) ;
 lin reply_1506_V = mkiV (mkV "odgovoriti" "odgovorit" "odgovoril" "odgovorila" "odgovorili" "odgovorila" "odgovorili" "odgovorile" "odgovorilo" "odgovorili" "odgovorila" "odgovorim" "odgovoriš" "odgovori" "odgovoriva" "odgovorita" "odgovorita" "odgovorimo" "odgovorite" "odgovore" "odgovoriva" "odgovorimo" "odgovori" "odgovorita" "odgovorite") ;
-{-
-lin save_1507_V2 = mkV2 "save" ; --- save a file --	shraniti dokument
+lin save_1507_V2 = mkV2 (mkV "shraniti" "shranit" "shranil" "shranila" "shranili" "shranila" "shranili" "shranile" "shranilo" "shranili" "shranila" "shranim" "shraniš" "shrani" "shraniva" "shranita" "shranita" "shranimo" "shranite" "shranijo" "shraniva" "shranimo" "shrani" "shranita" "shranite") ;
 -- DUPLICATEMAYBE lin save_1508_V2 = mkV2 I.send_V ; --- send a file -- V2
 -- DUPLICATEMAYBE -- DERIVED 1508 VP send a file inviare un file, inviare un documento att skicka en fil eine Datei senden poslati datoteko
-lin send_email_1509_VP det = mkVP (mkV2 I.send_V) (mkNP det (mkN "email")) ; --	poslati e-pošto
--}
+lin send_email_1509_VP det = S.ComplSlash (S.SlashV2a (mkV2 (mkV "poslati" "poslat" "poslal" "poslala" "poslali" "poslala" "poslali" "poslale" "poslalo" "poslali" "poslala" "pošljem" "pošlješ" "pošlje" "pošljeva" "pošljeta" "pošljeta" "pošljemo" "pošljete" "pošljejo" "pošljiva" "pošljimo" "pošlji" "pošljita" "pošljite")))
+                                          (S.DetCN (S.DetQuant S.DefArt S.NumSg) 
+                                                   (S.UseN (mkN "e-pošta" "e-pošte" "e-pošti" "e-pošto" "e-pošti" "e-pošto" "e-pošti" "e-pošt" "e-poštama" "e-pošti" "e-poštah" "e-poštama" "e-pošte" "e-pošt" "e-poštam" "e-pošte" "e-poštah" "e-poštami" feminine))) ;
 lin webpage_1510_CN = S.AdjCN (S.PositA (mkA "spleten" "spletni" "spletnega" "spletnemu" "spletnega" "spleten" "spletni" "spletnem" "spletnim" "spletna" "spletnih" "spletnima" "spletna" "spletnih" "spletnima" "spletni" "spletnih" "spletnim" "spletne" "spletnih" "spletnimi" "spletna" "spletne" "spletni" "spletno" "spletni" "spletno" "spletni" "spletnih" "spletnima" "spletni" "spletnih" "spletnima" "spletne" "spletnih" "spletnim" "spletne" "spletnih" "spletnimi" "spletno" "spletnega" "spletnemu" "spletno" "spletnem" "spletnim" "spletni" "spletnih" "spletnima" "spletni" "spletnih" "spletnima" "spletna" "spletnih" "spletnim" "spletna" "spletnih" "spletnimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist)) 
                               (mkiCN (mkN "stran" "strani" "strani" "stran" "strani" "stranjo" "strani" "strani" "stranema" "strani" "straneh" "stranema" "strani" "strani" "stranem" "strani" "straneh" "stranmi" feminine)) ;
 lin website_1511_CN = S.AdjCN (S.PositA (mkA "spleten" "spletni" "spletnega" "spletnemu" "spletnega" "spleten" "spletni" "spletnem" "spletnim" "spletna" "spletnih" "spletnima" "spletna" "spletnih" "spletnima" "spletni" "spletnih" "spletnim" "spletne" "spletnih" "spletnimi" "spletna" "spletne" "spletni" "spletno" "spletni" "spletno" "spletni" "spletnih" "spletnima" "spletni" "spletnih" "spletnima" "spletne" "spletnih" "spletnim" "spletne" "spletnih" "spletnimi" "spletno" "spletnega" "spletnemu" "spletno" "spletnem" "spletnim" "spletni" "spletnih" "spletnima" "spletni" "spletnih" "spletnima" "spletna" "spletnih" "spletnim" "spletna" "spletnih" "spletnimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist)) 
@@ -2271,9 +2268,7 @@ lin orange_1539_AP = mkiAP (mkA "oranžen" "oranžni" "oranžnega" "oranžnemu" 
 lin purple_1540_AP = mkiAP (mkA "vijoličen" "vijolični" "vijoličnega" "vijoličnemu" "vijoličnega" "vijoličen" "vijolični" "vijoličnem" "vijoličnim" "vijolična" "vijoličnih" "vijoličnima" "vijolična" "vijoličnih" "vijoličnima" "vijolični" "vijoličnih" "vijoličnim" "vijolične" "vijoličnih" "vijoličnimi" "vijolična" "vijolične" "vijolični" "vijolično" "vijolični" "vijolično" "vijolični" "vijoličnih" "vijoličnima" "vijolični" "vijoličnih" "vijoličnima" "vijolične" "vijoličnih" "vijoličnim" "vijolične" "vijoličnih" "vijoličnimi" "vijolično" "vijoličnega" "vijoličnemu" "vijolično" "vijoličnem" "vijoličnim" "vijolični" "vijoličnih" "vijoličnima" "vijolični" "vijoličnih" "vijoličnima" "vijolična" "vijoličnih" "vijoličnim" "vijolična" "vijoličnih" "vijoličnimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist) ;
 lin black_1541_AP = mkiAP (mkA "črn" "črni" "črnega" "črnemu" "črnega" "črn" "črni" "črnem" "črnim" "črna" "črnih" "črnima" "črna" "črnih" "črnima" "črni" "črnih" "črnim" "črne" "črnih" "črnimi" "črna" "črne" "črni" "črno" "črni" "črno" "črni" "črnih" "črnima" "črni" "črnih" "črnima" "črne" "črnih" "črnim" "črne" "črnih" "črnimi" "črno" "črnega" "črnemu" "črno" "črnem" "črnim" "črni" "črnih" "črnima" "črni" "črnih" "črnima" "črna" "črnih" "črnim" "črna" "črnih" "črnimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist) ;
 lin white_1542_AP = mkiAP (mkA "bel" "beli" "belega" "belemu" "belega" "bel" "beli" "belem" "belim" "bela" "belih" "belima" "bela" "belih" "belima" "beli" "belih" "belim" "bele" "belih" "belimi" "bela" "bele" "beli" "belo" "beli" "belo" "beli" "belih" "belima" "beli" "belih" "belima" "bele" "belih" "belim" "bele" "belih" "belimi" "belo" "belega" "belemu" "belo" "belem" "belim" "beli" "belih" "belima" "beli" "belih" "belima" "bela" "belih" "belim" "bela" "belih" "belimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist) ;
-{-
-lin brown_1543_CN = mkiCN "brown" ; -- CN 1543 brown marrone brun braun
--}
+-- lin brown_1543_CN = mkiCN (mkA "rjav" "rjavi" "rjavega" "rjavemu" "rjavega" "rjav" "rjavi" "rjavem" "rjavim" "rjava" "rjavih" "rjavima" "rjava" "rjavih" "rjavima" "rjavi" "rjavih" "rjavim" "rjave" "rjavih" "rjavimi" "rjava" "rjave" "rjavi" "rjavo" "rjavi" "rjavo" "rjavi" "rjavih" "rjavima" "rjavi" "rjavih" "rjavima" "rjave" "rjavih" "rjavim" "rjave" "rjavih" "rjavimi" "rjavo" "rjavega" "rjavemu" "rjavo" "rjavem" "rjavim" "rjavi" "rjavih" "rjavima" "rjavi" "rjavih" "rjavima" "rjava" "rjavih" "rjavim" "rjava" "rjavih" "rjavimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist) ;
 -- lin need_1544_V2 = mkiV2 "need" ; -- DUPLICATE 
  --	poper (začimba)
  --	poper (začimba)
@@ -2296,9 +2291,7 @@ lin documentary_1560_CN = mkiCN (mkA "dokumentaren" "dokumentarni" "dokumentarne
 lin drama_1561_CN = mkiCN (mkN "drama" "drame" "drami" "dramo" "drami" "dramo" "drami" "dram" "dramama" "drami" "dramah" "dramama" "drame" "dram" "dramam" "drame" "dramah" "dramami" feminine) ;
 lin exciting_1562_AP = mkiAP (mkA "razburljiv" "razburljivi" "razburljivega" "razburljivemu" "razburljivega" "razburljiv" "razburljivi" "razburljivem" "razburljivim" "razburljiva" "razburljivih" "razburljivima" "razburljiva" "razburljivih" "razburljivima" "razburljivi" "razburljivih" "razburljivim" "razburljive" "razburljivih" "razburljivimi" "razburljiva" "razburljive" "razburljivi" "razburljivo" "razburljivi" "razburljivo" "razburljivi" "razburljivih" "razburljivima" "razburljivi" "razburljivih" "razburljivima" "razburljive" "razburljivih" "razburljivim" "razburljive" "razburljivih" "razburljivimi" "razburljivo" "razburljivega" "razburljivemu" "razburljivo" "razburljivem" "razburljivim" "razburljivi" "razburljivih" "razburljivima" "razburljivi" "razburljivih" "razburljivima" "razburljiva" "razburljivih" "razburljivim" "razburljiva" "razburljivih" "razburljivimi" "razburljivejši" "razburljivejšega" "razburljivejšemu" "razburljivejšega" "razburljivejši" "razburljivejšem" "razburljivejšim" "razburljivejša" "razburljivejših" "razburljivejšima" "razburljivejša" "razburljivejših" "razburljivejšima" "razburljivejši" "razburljivejših" "razburljivejšim" "razburljivejše" "razburljivejših" "razburljivejšimi" "razburljivejša" "razburljivejše" "razburljivejši" "razburljivejšo" "razburljivejši" "razburljivejšo" "razburljivejši" "razburljivejših" "razburljivejšima" "razburljivejši" "razburljivejših" "razburljivejšima" "razburljivejše" "razburljivejših" "razburljivejšim" "razburljivejše" "razburljivejših" "razburljivejšimi" "razburljivejše" "razburljivejšega" "razburljivejšemu" "razburljivejše" "razburljivejšem" "razburljivejšim" "razburljivejši" "razburljivejših" "razburljivejšima" "razburljivejši" "razburljivejših" "razburljivejšima" "razburljivejša" "razburljivejših" "razburljivejšim" "razburljivejša" "razburljivejših" "razburljivejšimi" "najrazburljivejši" "najrazburljivejšega" "najrazburljivejšemu" "najrazburljivejšega" "najrazburljivejši" "najrazburljivejšem" "najrazburljivejšim" "najrazburljivejša" "najrazburljivejših" "najrazburljivejšima" "najrazburljivejša" "najrazburljivejših" "najrazburljivejšima" "najrazburljivejši" "najrazburljivejših" "najrazburljivejšim" "najrazburljivejše" "najrazburljivejših" "najrazburljivejšimi" "najrazburljivejša" "najrazburljivejše" "najrazburljivejši" "najrazburljivejšo" "najrazburljivejši" "najrazburljivejšo" "najrazburljivejši" "najrazburljivejših" "najrazburljivejšima" "najrazburljivejši" "najrazburljivejših" "najrazburljivejšima" "najrazburljivejše" "najrazburljivejših" "najrazburljivejšim" "najrazburljivejše" "najrazburljivejših" "najrazburljivejšimi" "najrazburljivejše" "najrazburljivejšega" "najrazburljivejšemu" "najrazburljivejše" "najrazburljivejšem" "najrazburljivejšim" "najrazburljivejši" "najrazburljivejših" "najrazburljivejšima" "najrazburljivejši" "najrazburljivejših" "najrazburljivejšima" "najrazburljivejša" "najrazburljivejših" "najrazburljivejšim" "najrazburljivejša" "najrazburljivejših" "najrazburljivejšimi") ;
 -- DUPLICATE 1563 AP funny divertente rolig komisch smešno DUPLICATE 0407 
-{-
-lin gallery_1564_CNP = mkiCNP "gallery" ; --	Galerija
--}
+lin gallery_1564_CNP = mkiCNP (mkN "galerija" "galerije" "galeriji" "galerijo" "galeriji" "galerijo" "galeriji" "galerij" "galerijama" "galeriji" "galerijah" "galerijama" "galerije" "galerij" "galerijam" "galerije" "galerijah" "galerijami" feminine) ;
 lin interesting_1565_AP = mkiAP (mkA "zanimiv" "zanimivi" "zanimivega" "zanimivemu" "zanimivega" "zanimiv" "zanimivi" "zanimivem" "zanimivim" "zanimiva" "zanimivih" "zanimivima" "zanimiva" "zanimivih" "zanimivima" "zanimivi" "zanimivih" "zanimivim" "zanimive" "zanimivih" "zanimivimi" "zanimiva" "zanimive" "zanimivi" "zanimivo" "zanimivi" "zanimivo" "zanimivi" "zanimivih" "zanimivima" "zanimivi" "zanimivih" "zanimivima" "zanimive" "zanimivih" "zanimivim" "zanimive" "zanimivih" "zanimivimi" "zanimivo" "zanimivega" "zanimivemu" "zanimivo" "zanimivem" "zanimivim" "zanimivi" "zanimivih" "zanimivima" "zanimivi" "zanimivih" "zanimivima" "zanimiva" "zanimivih" "zanimivim" "zanimiva" "zanimivih" "zanimivimi" "zanimivejši" "zanimivejšega" "zanimivejšemu" "zanimivejšega" "zanimivejši" "zanimivejšem" "zanimivejšim" "zanimivejša" "zanimivejših" "zanimivejšima" "zanimivejša" "zanimivejših" "zanimivejšima" "zanimivejši" "zanimivejših" "zanimivejšim" "zanimivejše" "zanimivejših" "zanimivejšimi" "zanimivejša" "zanimivejše" "zanimivejši" "zanimivejšo" "zanimivejši" "zanimivejšo" "zanimivejši" "zanimivejših" "zanimivejšima" "zanimivejši" "zanimivejših" "zanimivejšima" "zanimivejše" "zanimivejših" "zanimivejšim" "zanimivejše" "zanimivejših" "zanimivejšimi" "zanimivejše" "zanimivejšega" "zanimivejšemu" "zanimivejše" "zanimivejšem" "zanimivejšim" "zanimivejši" "zanimivejših" "zanimivejšima" "zanimivejši" "zanimivejših" "zanimivejšima" "zanimivejša" "zanimivejših" "zanimivejšim" "zanimivejša" "zanimivejših" "zanimivejšimi" "najzanimivejši" "najzanimivejšega" "najzanimivejšemu" "najzanimivejšega" "najzanimivejši" "najzanimivejšem" "najzanimivejšim" "najzanimivejša" "najzanimivejših" "najzanimivejšima" "najzanimivejša" "najzanimivejših" "najzanimivejšima" "najzanimivejši" "najzanimivejših" "najzanimivejšim" "najzanimivejše" "najzanimivejših" "najzanimivejšimi" "najzanimivejša" "najzanimivejše" "najzanimivejši" "najzanimivejšo" "najzanimivejši" "najzanimivejšo" "najzanimivejši" "najzanimivejših" "najzanimivejšima" "najzanimivejši" "najzanimivejših" "najzanimivejšima" "najzanimivejše" "najzanimivejših" "najzanimivejšim" "najzanimivejše" "najzanimivejših" "najzanimivejšimi" "najzanimivejše" "najzanimivejšega" "najzanimivejšemu" "najzanimivejše" "najzanimivejšem" "najzanimivejšim" "najzanimivejši" "najzanimivejših" "najzanimivejšima" "najzanimivejši" "najzanimivejših" "najzanimivejšima" "najzanimivejša" "najzanimivejših" "najzanimivejšim" "najzanimivejša" "najzanimivejših" "najzanimivejšimi") ;
 -- DUPLICATEMAYBE lin magazine_1566_CN = mkiCN "magazine" ; -- CN
 lin movie_theater_1567_CNP = mkiCNP (mkN "kino" "kina" "kinu" "kino" "kinu" "kinom" "kina" "kinov" "kinoma" "kina" "kinih" "kinoma" "kini" "kinov" "kinom" "kine" "kinih" "kini" masculine) ;
@@ -2310,18 +2303,24 @@ lin party_1572_CNP = mkiCNP (mkN "zabava" "zabave" "zabavi" "zabavo" "zabavi" "z
 -- DUPLICATE 1573 CNP restaurant il ristorante restaurant das Restaurant restavracija DUPLICATE 1340 
 -- DUPLICATEMAYBE lin sculpture_1574_CN = mkiCN "sculpture" ; -- CN
 lin song_1575_CN = mkiCN (mkN "pesem" "pesmi" "pesmi" "pesem" "pesmi" "pesmijo" "pesmi" "pesmi" "pesmima" "pesmi" "pesmih" "pesmima" "pesmi" "pesmi" "pesmim" "pesmi" "pesmih" "pesmimi" feminine) ;
-{-
-lin television_program_1576_CN = mkiCN "television program" ; --	televizijskega programa
-lin the_news_1577_NP = mkiNP "the news" ; --	novice
-lin the_radio_news_1578_NP = mkiNP "the radio news" ; --	novice (na radiu)
-lin the_TV_news_1579_NP = mkiNP "the TV news" ; --	novice (na TV)
+lin television_program_1576_CN = S.AdjCN (S.PositA (mkA nonExist "televizijski" "televizijskega" "televizijskemu" "televizijskega" nonExist "televizijski" "televizijskem" "televizijskim" "televizijska" "televizijskih" "televizijskima" "televizijska" "televizijskih" "televizijskima" "televizijski" "televizijskih" "televizijskim" "televizijske" "televizijskih" "televizijskimi" "televizijska" "televizijske" "televizijski" "televizijsko" "televizijski" "televizijsko" "televizijski" "televizijskih" "televizijskima" "televizijski" "televizijskih" "televizijskima" "televizijske" "televizijskih" "televizijskim" "televizijske" "televizijskih" "televizijskimi" "televizijsko" "televizijskega" "televizijskemu" "televizijsko" "televizijskem" "televizijskim" "televizijski" "televizijskih" "televizijskima" "televizijski" "televizijskih" "televizijskima" "televizijska" "televizijskih" "televizijskim" "televizijska" "televizijskih" "televizijskimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist))
+                                         (S.UseN (mkN "program" "programa" "programu" "program" "programu" "programom" "programa" "programov" "programoma" "programa" "programih" "programoma" "programi" "programov" "programom" "programe" "programih" "programi" masculine)) ;
+lin the_news_1577_NP = S.DetCN (S.DetQuant S.DefArt S.NumPl)
+                               (S.UseN (mkN "novica" "novice" "novici" "novico" "novici" "novico" "novici" "novic" "novicama" "novici" "novicah" "novicama" "novice" "novic" "novicam" "novice" "novicah" "novicami" feminine)) ;
+lin the_radio_news_1578_NP = S.DetCN (S.DetQuant S.DefArt S.NumPl) 
+                                     (S.AdvCN (S.UseN (mkN "novica" "novice" "novici" "novico" "novici" "novico" "novici" "novic" "novicama" "novici" "novicah" "novicama" "novice" "novic" "novicam" "novice" "novicah" "novicami" feminine))
+                                              (mkAdv "na radiu")) ;
+lin the_TV_news_1579_NP = S.DetCN (S.DetQuant S.DefArt S.NumPl) 
+                                  (S.AdvCN (S.UseN (mkN "novica" "novice" "novici" "novico" "novici" "novico" "novici" "novic" "novicama" "novici" "novicah" "novicama" "novice" "novic" "novicam" "novice" "novicah" "novicami" feminine))
+                                           (mkAdv "na TV")) ;
 -- DUPLICATEMAYBE lin theater_1580_CNP = mkiCNP "theater" "at" ; -- CNP
 -- DUPLICATEMAYBE lin ticket_1581_CN = mkiCN "ticket" ; -- CN
+{-
 lin be_bored_1582_VP = mkVP (mkA "bored") ; --	biti dolgčas
 -}
 lin dance_1583_V = mkiV (mkV "plesati" "plesat" "plesal" "plesala" "plesali" "plesala" "plesali" "plesale" "plesalo" "plesali" "plesala" "plešem" "plešeš" "pleše" "pleševa" "plešeta" "plešeta" "plešemo" "plešete" "plešejo" "plešiva" "plešimo" "pleši" "plešita" "plešite") ;
-{-
-lin flip_channels_1584_VP = mkVP (mkV2 "flip") (mkNP aPl_Det (mkN "channel")) ; --	spremeniti kanale
+lin flip_channels_1584_VP = S.ComplSlash (S.SlashV2a (mkV2 (mkV "spremeniti" "spremenit" "spremenil" "spremenila" "spremenili" "spremenila" "spremenili" "spremenile" "spremenilo" "spremenili" "spremenila" "spremenim" "spremeniš" "spremeni" "spremeniva" "spremenita" "spremenita" "spremenimo" "spremenite" "spremene" "spremeniva" "spremenimo" "spremeni" "spremenita" "spremenite")))
+                                         (S.DetCN (S.DetQuant S.DefArt S.NumSg) (S.UseN (mkN "kanal" "kanala" "kanalu" "kanal" "kanalu" "kanalom" "kanala" "kanalov" "kanaloma" "kanala" "kanalih" "kanaloma" "kanali" "kanalov" "kanalom" "kanale" "kanalih" "kanali" masculine))) ;
 -- DERIVED 1585 VP go to a party andare a una festa att gå på fest auf eine Party gehen iti na zabavo 
 -- DERIVED 1586 VP go to the movies andare al cinema att gå på bio ins Kino gehen iti v kino 
 -- DERIVED 1587 VP have a party dare una festa att ha en fest eine Feier haben prirediti zabavo 
@@ -2332,29 +2331,24 @@ lin flip_channels_1584_VP = mkVP (mkV2 "flip") (mkNP aPl_Det (mkN "channel")) ; 
 -- DERIVED 1592 VP see a movie vedere un film att se en film einen Film sehen videti film 
 -- DERIVED 1593 VP see a play vedere uno spettacolo att se en pjäs ein Stück,Spiel schauen videti igro 
 -- DERIVED 1594 VP watch the television guardare la tivù (la televisione) att se på TV fernsehen gledati televizijo 
--}
 lin aunt_1595_CNH = mkiCNH (mkN "teta" "tete" "teti" "teto" "teti" "teto" "teti" "tet" "tetama" "teti" "tetah" "tetama" "tete" "tet" "tetam" "tete" "tetah" "tetami" feminine) ;
 -- DUPLICATE lin baby_1596_CNH = mkiCNH "baby" ; -- CNH
 -- DUPLICATEMAYBE lin brother_1597_CNH = mkiCNH "brother" ; -- CNH
-{-
-lin female_cousin_1598_CNH = mkiCNH "female cousin" | mkiCNH "cousin" ; --	bratranec (ženska)
-lin male_cousin_1599_CNH = mkiCNH "male cousin" | mkiCNH "cousin" ; --	bratranec (moški)
+lin female_cousin_1598_CNH = mkiCNH (mkN "bratranec" "bratranca" "bratrancu" "bratranca" "bratrancu" "bratrancem" "bratranca" "bratrancev" "bratrancema" "bratranca" "bratrancih" "bratrancema" "bratranci" "bratrancev" "bratrancem" "bratrance" "bratrancih" "bratranci" masculine) ;
+lin male_cousin_1599_CNH = mkiCNH (mkN "bratranec" "bratranca" "bratrancu" "bratranca" "bratrancu" "bratrancem" "bratranca" "bratrancev" "bratrancema" "bratranca" "bratrancih" "bratrancema" "bratranci" "bratrancev" "bratrancem" "bratrance" "bratrancih" "bratranci" masculine) ;
 -- DUPLICATEMAYBE lin daughter_1600_CNH = mkiCNH "daughter" ; -- CNH
 -- DUPLICATEMAYBE lin father_1601_CNH = mkiCNH "father" ; -- CNH
--}
 lin father_in_law_1602_CNH = mkiCNH (mkN "tast" "tasta" "tastu" "tasta" "tastu" "tastom" "tasta" "tastov" "tastoma" "tasta" "tastih" "tastoma" "tasti" "tastov" "tastom" "taste" "tastih" "tasti" masculine) ;
-{-
-lin fiancé_1603_CNH = mkiCNH "fiancé" ; --	zaročenec / zaročenka (moški / ženska)
-lin fiancée_1603_CNH = mkiCNH "fiancée" ; --	zaročenec / zaročenka (moški / ženska)
--}
+lin fiancé_1603_CNH = mkiCNH (mkN "zaročenec" "zaročenca" "zaročencu" "zaročenca" "zaročencu" "zaročencem" "zaročenca" "zaročencev" "zaročencema" "zaročenca" "zaročencih" "zaročencema" "zaročenci" "zaročencev" "zaročencem" "zaročence" "zaročencih" "zaročenci" masculine
+                            | mkN "zaročenka" "zaročenke" "zaročenki" "zaročenko" "zaročenki" "zaročenko" "zaročenki" "zaročenk" "zaročenkama" "zaročenki" "zaročenkah" "zaročenkama" "zaročenke" "zaročenk" "zaročenkam" "zaročenke" "zaročenkah" "zaročenkami" feminine) ;
+lin fiancée_1603_CNH = mkiCNH (mkN "zaročenec" "zaročenca" "zaročencu" "zaročenca" "zaročencu" "zaročencem" "zaročenca" "zaročencev" "zaročencema" "zaročenca" "zaročencih" "zaročencema" "zaročenci" "zaročencev" "zaročencem" "zaročence" "zaročencih" "zaročenci" masculine
+                             | mkN "zaročenka" "zaročenke" "zaročenki" "zaročenko" "zaročenki" "zaročenko" "zaročenki" "zaročenk" "zaročenkama" "zaročenki" "zaročenkah" "zaročenkama" "zaročenke" "zaročenk" "zaročenkam" "zaročenke" "zaročenkah" "zaročenkami" feminine) ;
 -- DUPLICATEMAYBE lin grandfather_1604_CNH = mkiCNH "grandfather" ; -- CNH
 lin grandmother_1605_CNH = mkiCNH (mkN "babica" "babice" "babici" "babico" "babici" "babico" "babici" "babic" "babicama" "babici" "babicah" "babicama" "babice" "babic" "babicam" "babice" "babicah" "babicami" feminine) ;
 lin husband_1606_CNH = mkiCNH (mkN "mož" "moža" "možu" "moža" "možu" "možem" "moža" "mož" "možema" "moža" "možeh" "možema" "možje" "mož" "možem" "može" "možeh" "možmi" masculine) ;
 -- DUPLICATEMAYBE lin mother_1607_CNH = mkiCNH "mother" ; -- CNH
 lin mother_in_law_1608_CNH = mkiCNH (mkN "tašča" "tašče" "tašči" "taščo" "tašči" "taščo" "tašči" "tašč" "taščama" "tašči" "taščah" "taščama" "tašče" "tašč" "taščam" "tašče" "taščah" "taščami" feminine) ;
-{-
-lin relative_1609_CNH = mkiCNH "relative" ; --	sorodnik (moški / ženska)
--}
+lin relative_1609_CNH = mkiCNH (mkN "sorodnik" "sorodnika" "sorodniku" "sorodnika" "sorodniku" "sorodnikom" "sorodnika" "sorodnikov" "sorodnikoma" "sorodnika" "sorodnikih" "sorodnikoma" "sorodniki" "sorodnikov" "sorodnikom" "sorodnike" "sorodnikih" "sorodniki" masculine) ;
 -- DUPLICATEMAYBE lin sister_1610_CNH = mkiCNH "sister" ; -- CNH
 -- DUPLICATEMAYBE lin son_1611_CNH = mkiCNH "son" ; -- CNH
 lin stepdaughter_1612_CNH = mkiCNH (mkN "pastorka" "pastorke" "pastorki" "pastorko" "pastorki" "pastorko" "pastorki" "pastork" "pastorkama" "pastorki" "pastorkah" "pastorkama" "pastorke" "pastork" "pastorkam" "pastorke" "pastorkah" "pastorkami" feminine) ;
@@ -2367,9 +2361,11 @@ lin divorce_1616_V = mkV "divorce" ; --	ločiti se
 lin inherit_1617_V2 = mkiV2 (mkV "podedovati" "podedovat" "podedoval" "podedovala" "podedovali" "podedovala" "podedovali" "podedovale" "podedovalo" "podedovali" "podedovala" "podedujem" "podeduješ" "podeduje" "podedujeva" "podedujeta" "podedujeta" "podedujemo" "podedujete" "podedujejo" "podedujva" "podedujmo" "podeduj" "podedujta" "podedujte") ;
 {-
 lin meet_1618_V2 = mkV2 I.meet_V ; --	izpolniti (oseba) (prvič)
+-}
 -- DERIVED 1619 VP to love amare att älska lieben ljubiti 
-lin marry_1620_V = mkiV "marry" ; --	poročiti
-lin marry_1620_V2 = mkiV2 "marry" ; --	poročiti
+lin marry_1620_V = mkV "poročiti" "poročit" "poročil" "poročila" "poročili" "poročila" "poročili" "poročile" "poročilo" "poročili" "poročila" "poročim" "poročiš" "poroči" "poročiva" "poročita" "poročita" "poročimo" "poročite" "poročijo" "poročiva" "poročimo" "poroči" "poročita" "poročite" ;
+lin marry_1620_V2 = mkiV2 (mkV "poročiti" "poročit" "poročil" "poročila" "poročili" "poročila" "poročili" "poročile" "poročilo" "poročili" "poročila" "poročim" "poročiš" "poroči" "poročiva" "poročita" "poročita" "poročimo" "poročite" "poročijo" "poročiva" "poročimo" "poroči" "poročita" "poročite") ;
+{-
 lin meet_casually_1621_V2 = mkiV2 "meet casually" ; --	izpolniti (oseba) (mimogrede)
 -}
 lin uncle_1622_CNH = mkiCNH (mkN "stric" "strica" "stricu" "strica" "stricu" "stricem" "strica" "stricev" "stricema" "strica" "stricih" "stricema" "strici" "stricev" "stricem" "strice" "stricih" "strici" masculine) ;
@@ -2382,9 +2378,7 @@ lin wife_1623_CNH = mkiCNH (mkN "žena" "žene" "ženi" "ženo" "ženi" "ženo" 
 -- lin coffee_1629_CNM = mkiCNM "coffee" ; DUPLICATE 
 -- DUPLICATEMAYBE lin cucumber_1630_CN = mkiCN "cucumber" ; -- CN
 -- DUPLICATEMAYBE lin drink_1631_CN = mkiCN "drink" ; -- CN
-{-
-lin egg_1632_CN = mkiCN "egg" ; --	jajce (e)
--}
+lin egg_1632_CN = mkiCN (mkN "jajce" "jajca" "jajcu" "jajce" "jajcu" "jajcem" "jajci" "jajc" "jajcema" "jajci" "jajcih" "jajcema" "jajca" "jajc" "jajcem" "jajca" "jajcih" "jajci" neuter) ;
 lin eggplant_1633_CN = mkiCN (mkN "jajčevec" "jajčevca" "jajčevcu" "jajčevec" "jajčevcu" "jajčevcem" "jajčevca" "jajčevcev" "jajčevcema" "jajčevca" "jajčevcih" "jajčevcema" "jajčevci" "jajčevcev" "jajčevcem" "jajčevce" "jajčevcih" "jajčevci" masculine) ;
 lin fish_1634_CNM = mkiCNM (mkN "riba" "ribe" "ribi" "ribo" "ribi" "ribo" "ribi" "rib" "ribama" "ribi" "ribah" "ribama" "ribe" "rib" "ribam" "ribe" "ribah" "ribami" feminine) ;
 lin fruit_1635_CNM = mkiCNM (mkN "sadje" "sadja" "sadju" "sadje" "sadju" "sadjem" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist neuter) ;
@@ -2397,33 +2391,34 @@ lin lobster_1639_CN = mkiCN (mkN "jastog" "jastoga" "jastogu" "jastoga" "jastogu
 -- DUPLICATEMAYBE lin orange_1642_CN = mkiCN "orange" ; -- CN
 lin peach_1643_CN = mkiCN (mkN "breskev" "breskve" "breskvi" "breskev" "breskvi" "breskvijo" "breskvi" "breskev" "breskvama" "breskvi" "breskvah" "breskvama" "breskve" "breskev" "breskvam" "breskve" "breskvah" "breskvami" feminine) ;
 lin pear_1644_CN = mkiCN (mkN "hruška" "hruške" "hruški" "hruško" "hruški" "hruško" "hruški" "hrušk" "hruškama" "hruški" "hruškah" "hruškama" "hruške" "hrušk" "hruškam" "hruške" "hruškah" "hruškami" feminine) ;
-{-
-lin pepper__condiment__1645_CN = mkiCN "pepper" ; -- CN 1645 pepper (condiment) il pepe peppar der Pfeffer(das Gewürz)
-lin pepper__vegetable__1646_CN = mkiCN "pepper" ; -- CN 1646 pepper (vegetable) il peperone paprika der Pfeffer (das Gemüse)
--}
+-- lin pepper__condiment__1645_CN = mkiCN (mkN "poper" "popra" "popru" "poper" "popru" "poprom" "popra" "poprov" "poproma" "popra" "poprih" "poproma" "popri" "poprov" "poprom" "popre" "poprih" "popri" masculine) ;
+-- lin pepper__vegetable__1646_CN = mkiCN (mkN "poper" "popra" "popru" "poper" "popru" "poprom" "popra" "poprov" "poproma" "popra" "poprih" "poproma" "popri" "poprov" "poprom" "popre" "poprih" "popri" masculine) ;
 lin shrimp_1647_CN = mkiCN (mkN "kozica" "kozice" "kozici" "kozico" "kozici" "kozico" "kozici" "kozic" "kozicama" "kozici" "kozicah" "kozicama" "kozice" "kozic" "kozicam" "kozice" "kozicah" "kozicami" feminine) ;
-{-
-lin soft_drink_1648_CN = mkiCN "soft drink" ; --	brezalkoholna pijača / soda
+lin soft_drink_1648_CN = S.AdjCN (S.PositA (mkA "brezalkoholen" "brezalkoholni" "brezalkoholnega" "brezalkoholnemu" "brezalkoholnega" "brezalkoholen" "brezalkoholni" "brezalkoholnem" "brezalkoholnim" "brezalkoholna" "brezalkoholnih" "brezalkoholnima" "brezalkoholna" "brezalkoholnih" "brezalkoholnima" "brezalkoholni" "brezalkoholnih" "brezalkoholnim" "brezalkoholne" "brezalkoholnih" "brezalkoholnimi" "brezalkoholna" "brezalkoholne" "brezalkoholni" "brezalkoholno" "brezalkoholni" "brezalkoholno" "brezalkoholni" "brezalkoholnih" "brezalkoholnima" "brezalkoholni" "brezalkoholnih" "brezalkoholnima" "brezalkoholne" "brezalkoholnih" "brezalkoholnim" "brezalkoholne" "brezalkoholnih" "brezalkoholnimi" "brezalkoholno" "brezalkoholnega" "brezalkoholnemu" "brezalkoholno" "brezalkoholnem" "brezalkoholnim" "brezalkoholni" "brezalkoholnih" "brezalkoholnima" "brezalkoholni" "brezalkoholnih" "brezalkoholnima" "brezalkoholna" "brezalkoholnih" "brezalkoholnim" "brezalkoholna" "brezalkoholnih" "brezalkoholnimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist))
+                                 (S.UseN (mkN "pijača" "pijače" "pijači" "pijačo" "pijači" "pijačo" "pijači" "pijač" "pijačama" "pijači" "pijačah" "pijačama" "pijače" "pijač" "pijačam" "pijače" "pijačah" "pijačami" feminine)) ;
  --	poper (začimba)
 -- DUPLICATEMAYBE lin tomato_1650_CN = mkiCN "tomato" ; -- CN
 -- DUPLICATEMAYBE lin veal_1651_CNM = mkiCNM "veal" ; -- CNM
 -- DUPLICATEMAYBE lin water_1652_CNM = mkiCNM "water" ; -- CNM
 -- DUPLICATEMAYBE lin wine_1653_CNM = mkiCNM "wine" ; -- CNM
-lin zucchini_1654_CN = mkiCN "zucchini" ; -- CN 1654 zucchini lo zucchino, la zucchina zucchini die Zucchini bučke bučke
+lin zucchini_1654_CN = mkiCN (mkN "buček" "bučka" "bučku" "bučka" "bučku" "bučkom" "bučka" "bučkov" "bučkoma" "bučka" "bučkih" "bučkoma" "bučki" "bučkov" "bučkom" "bučke" "bučkih" "bučki" masculine) ;
 -- DERIVED 1655 QCl can you help me? mi può aiutare? kan du hjälpa mig? Kannst du mir helfen? mi lahko pomagaš? 
 -- DERIVED 1656 Cl I'm lost mi sono perso jag har gått vilse ich bin verloren Zgubljen sem
-lin know_1657_VQ = mkVQ I.know_V ; --	Ne vem, kje je moja žena
+lin know_1657_VQ = mkVQ (mkV "vedeti" "vedet" "vedel" "vedela" "vedeli" "vedela" "vedeli" "vedele" "vedelo" "vedeli" "vedela" "vem" "veš" "ve" "veva" "vesta" "vesta" "vemo" "veste" "vedo" "vediva" "vedimo" "vedi" "vedita" "vedite") ;
 -- DERIVED 1657 Cl I don't know where my wife is non riesco a trovare mia moglie jag vet inte var min fru är ich weiss nicht,wo meine Frau ist Ne vem, kje je moja žena 
 -- DERIVED 1658 Cl I don't know where my husband is non riesco a trovare mio marito jag vet inte var min man är ich weiss nicht ,wo mein Mann ist Ne vem, kje je moj mož 
 -- DERIVED 1659 Cl I'm hurt mi sono ferito jag har skadat mig ich bin verletzt Poškodovan sem 
 -- DERIVED lin I_need_a_doctor_1660_Cl = mkiCN "I need a doctor" ; -- Cl
-lin allergic_to_1661_AP np = mkAP (mkA2 (mkA "allergic") to_Prep) np ; --	sem alergičen na penicilin
+lin allergic_to_1661_AP np = S.AdvAP (S.PositA (mkA "alergičen" "alergični" "alergičnega" "alergičnemu" "alergičnega" "alergičen" "alergični" "alergičnem" "alergičnim" "alergična" "alergičnih" "alergičnima" "alergična" "alergičnih" "alergičnima" "alergični" "alergičnih" "alergičnim" "alergične" "alergičnih" "alergičnimi" "alergična" "alergične" "alergični" "alergično" "alergični" "alergično" "alergični" "alergičnih" "alergičnima" "alergični" "alergičnih" "alergičnima" "alergične" "alergičnih" "alergičnim" "alergične" "alergičnih" "alergičnimi" "alergično" "alergičnega" "alergičnemu" "alergično" "alergičnem" "alergičnim" "alergični" "alergičnih" "alergičnima" "alergični" "alergičnih" "alergičnima" "alergična" "alergičnih" "alergičnim" "alergična" "alergičnih" "alergičnimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist))
+                                     (S.PrepNP (mkPrep "na" R.Acc) np) ;
 -- DERIVED I'm_allergic_to_penicillin_1661_CN = mkiCN "I'm allergic to penicillin" ; -- CN
+{-
 lin i_am_dizzy_1662_Cl nph = mkCl nph (mkA "dizzy") ; --	Sem omotična
 -- DERIVED 1662 Cl I'm dizzy mi gira la testa jag är yr mir ist schwindelig Sem omotična
 lin i_have_nausea_1663_Cl nph = mkCl nph S.have_V2 (mkNP (mkN "nausea")) ; --	Čutim slabost, počutim se slabo
 -- DERIVED lin I_have_nausea_1663_CN = mkiCN "I have nausea" ; -- CN
 lin my_x_hurts_1664_Cl pron cn = mkCl (mkNP (S.mkQuant pron) cn) I.hurt_V ; --	me roka boli
+-}
 -- DERIVED 1664 Cl my arm hurts mi fa male il braccio jag har ont i armen mein Arm tut weh me roka boli 
 -- DERIVED 1665 Cl my leg hurts mi fa male la gamba jag har ont i benet mein Bein tut weh me noga boli 
 -- DERIVED 1666 Cl my head hurts mi fa male la testa jag har ont i huvudet mein Kopf tut weh glava me boli 
@@ -2434,13 +2429,10 @@ lin my_x_hurts_1664_Cl pron cn = mkCl (mkNP (S.mkQuant pron) cn) I.hurt_V ; --	m
 -- DERIVED 1671 Cl it's somewhere over there è lì, da qualche parte det är någonstans där borta es ist irgendwo da drüben da je nekje tam 
 -- DERIVED 1672 Imp put it here lo metta qui lägg det här stell es hier ab postavi tukaj 
 -- DERIVED 1673 Cl wait for me here mi aspetti qui vänta på mig här warte auf mich hier počakaj me tukaj 
--}
 lin as_far_as_there_1674_AdvP = mkiAdvP "kolikor tam" ;
 -- DERIVED 1675 QCl where does he live? dove abita lui? var bor han? Wo wohnt er? kje živi? 
 -- DERIVED 1676 Cl he lives there lui abita lì han bor där er lebt dort živi tam
-{-
-lin expect_1677_VV = mkVV (mkV "expect") ; --	Pričakujem, da ga vidim tam
--}
+lin expect_1677_VV = mkVV (mkV "pričakovati" "pričakovat" "pričakoval" "pričakovala" "pričakovali" "pričakovala" "pričakovali" "pričakovale" "pričakovalo" "pričakovali" "pričakovala" "pričakujem" "pričakuješ" "pričakuje" "pričakujeva" "pričakujeta" "pričakujeta" "pričakujemo" "pričakujete" "pričakujejo" "pričakujva" "pričakujmo" "pričakuj" "pričakujta" "pričakujte") ;
 -- DERIVED 1677 Cl I expect to see him there io spero di vederlo lì jag hoppas på att se honom där ich erwarte ihn dort zu sehen Pričakujem, da ga vidim tam 
 -- DERIVED 1678 Cl it's not here non è qui det är inte här es ist nicht hier to ni tukaj 
 -- DERIVED 1679 QCl what do you have there? cosa hai lì? vad har du där? was hast du da? kaj imaš tam? 
@@ -2471,13 +2463,16 @@ lin powder_1697_CNM = mkiCNM (mkN "prah" "praha" "prahu" "prah" "prahu" "prahom"
 lin shampoo_1699_CN = mkiCN (mkN "šampon" "šampona" "šamponu" "šampon" "šamponu" "šamponom" "šampona" "šamponov" "šamponoma" "šampona" "šamponih" "šamponoma" "šamponi" "šamponov" "šamponom" "šampone" "šamponih" "šamponi" masculine) ;
 -- DUPLICATEMAYBE lin shaving_cream_1700_CNM = mkiCNM "shaving cream" ; -- CNM
  --	poper (začimba)
+lin shower_gel_1702_CNM = S.AdvCN (mkiCNM (mkN "gel" "gela" "gelu" "gel" "gelu" "gelom" "gela" "gelov" "geloma" "gela" "gelih" "geloma" "geli" "gelov" "gelom" "gele" "gelih" "geli" masculine))
+                                  (mkAdv "za tuširanje") ;
+lin sink__wash_basin__1703_CN = mkiCN (mkN "korito" "korita" "koritu" "korito" "koritu" "koritom" "koriti" "korit" "koritoma" "koriti" "koritih" "koritoma" "korita" "korit" "koritom" "korita" "koritih" "koriti" neuter
+                                     | mkN "umivalnik" "umivalnika" "umivalniku" "umivalnik" "umivalniku" "umivalnikom" "umivalnika" "umivalnikov" "umivalnikoma" "umivalnika" "umivalnikih" "umivalnikoma" "umivalniki" "umivalnikov" "umivalnikom" "umivalnike" "umivalnikih" "umivalniki" masculine) ;
+ --	poper (začimba)
+ --	poper (začimba)
 {-
-lin shower_gel_1702_CNM = mkiCNM "shower gel" ; --	gel za tuširanje
-lin sink__wash_basin__1703_CN = mkiCN "sink" | mkiCN "wash basin" ; --	korito (umivalnik)
- --	poper (začimba)
- --	poper (začimba)
 lin take_a_bath_1706_VP = mkVP (mkV2 I.take_V) (mkNP a_Det (mkN "bath")) ; --	kopati se
-lin take_a_shower_1707_VP = mkVP (mkV2 I.take_V) (mkNP a_Det (mkN "shower")) ; --	stuširati
+-}
+lin take_a_shower_1707_VP = S.UseV (mkV "stuširati" "stuširat" "stuširal" "stuširala" "stuširali" "stuširala" "stuširali" "stuširale" "stuširalo" "stuširali" "stuširala" "stuširam" "stuširaš" "stušira" "stuširava" "stuširata" "stuširata" "stuširamo" "stuširate" "stuširajo" "stuširajva" "stuširajmo" "stuširaj" "stuširajta" "stuširajte") ;
  --	poper (začimba)
  --	poper (začimba)
  --	poper (začimba)
@@ -2487,29 +2482,32 @@ lin take_a_shower_1707_VP = mkVP (mkV2 I.take_V) (mkNP a_Det (mkN "shower")) ; -
  --	poper (začimba)
 -- DUPLICATEMAYBE lin box_1715_CN = mkiCN "box" ; -- CN
 -- DUPLICATEMAYBE lin broom_1716_CN = mkiCN "broom" ; -- CN
+{-
 lin can_1717_CN = mkiCN "can" ; --	lahko
--- DUPLICATEMAYBE lin carton_1718_CN = mkiCN "carton" ; -- CN
-lin coffeemaker_espresso_machine_1719_CN = mkiCN "coffeemaker" | mkiCN "espresso machine" ; --	aparat za kavo / espresso stroj
 -}
+-- DUPLICATEMAYBE lin carton_1718_CN = mkiCN "carton" ; -- CN
+lin coffeemaker_espresso_machine_1719_CN = S.AdvCN (mkiCN (mkN "aparat" "aparata" "aparatu" "aparat" "aparatu" "aparatom" "aparata" "aparatov" "aparatoma" "aparata" "aparatih" "aparatoma" "aparati" "aparatov" "aparatom" "aparate" "aparatih" "aparati" masculine))
+                                                   (mkAdv "za kavo") ;
 lin counter_1720_CN = mkiCN (mkN "števec" "števca" "števcu" "števec" "števcu" "števcem" "števca" "števcev" "števcema" "števca" "števcih" "števcema" "števci" "števcev" "števcem" "števce" "števcih" "števci" masculine) ;
  --	poper (začimba)
 lin cupboard_1722_CN = mkiCN (mkN "omara" "omare" "omari" "omaro" "omari" "omaro" "omari" "omar" "omarama" "omari" "omarah" "omarama" "omare" "omar" "omaram" "omare" "omarah" "omarami" feminine) ;
 -- DUPLICATEMAYBE lin dishwasher_1723_CN = mkiCN "dishwasher" ; -- CN
-{-
-lin dishwashing_detergent_1724_CN = mkiCN "dishwashing detergent" ; --	detergent za pomivanje posode
+lin dishwashing_detergent_1724_CN = S.AdvCN (mkiCN (mkN "detergent" "detergenta" "detergentu" "detergent" "detergentu" "detergentom" "detergenta" "detergentov" "detergentoma" "detergenta" "detergentih" "detergentoma" "detergenti" "detergentov" "detergentom" "detergente" "detergentih" "detergenti" masculine))
+                                            (mkAdv "za pomivanje posode") ;
 -- DUPLICATEMAYBE lin drawer_1725_CN = mkiCN "drawer" ; -- CN
 -- DUPLICATEMAYBE lin dryer_1726_CN = mkiCN "dryer" ; -- CN
 -- DUPLICATEMAYBE lin iron_1727_CN = mkiCN "iron" ; -- CN
 -- DUPLICATEMAYBE lin ironing_board_1728_CN = mkiCN "ironing board" ; -- CN
-lin kitchen_sink_1729_CN = mkiCN "kitchen sink" ; --	(kuhinjsko korito
-lin laundry_detergent_1730_CNM = mkiCNM "laundry detergent" ; --	detergent za pranje perila
+lin kitchen_sink_1729_CN = S.AdjCN (S.PositA (mkA nonExist "kuhinjski" "kuhinjskega" "kuhinjskemu" "kuhinjskega" nonExist "kuhinjski" "kuhinjskem" "kuhinjskim" "kuhinjska" "kuhinjskih" "kuhinjskima" "kuhinjska" "kuhinjskih" "kuhinjskima" "kuhinjski" "kuhinjskih" "kuhinjskim" "kuhinjske" "kuhinjskih" "kuhinjskimi" "kuhinjska" "kuhinjske" "kuhinjski" "kuhinjsko" "kuhinjski" "kuhinjsko" "kuhinjski" "kuhinjskih" "kuhinjskima" "kuhinjski" "kuhinjskih" "kuhinjskima" "kuhinjske" "kuhinjskih" "kuhinjskim" "kuhinjske" "kuhinjskih" "kuhinjskimi" "kuhinjsko" "kuhinjskega" "kuhinjskemu" "kuhinjsko" "kuhinjskem" "kuhinjskim" "kuhinjski" "kuhinjskih" "kuhinjskima" "kuhinjski" "kuhinjskih" "kuhinjskima" "kuhinjska" "kuhinjskih" "kuhinjskim" "kuhinjska" "kuhinjskih" "kuhinjskimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist))
+                                   (mkiCN (mkN "korito" "korita" "koritu" "korito" "koritu" "koritom" "koriti" "korit" "koritoma" "koriti" "koritih" "koritoma" "korita" "korit" "koritom" "korita" "koritih" "koriti" neuter)) ;
+lin laundry_detergent_1730_CNM = S.AdvCN (mkiCN (mkN "detergent" "detergenta" "detergentu" "detergent" "detergentu" "detergentom" "detergenta" "detergentov" "detergentoma" "detergenta" "detergentih" "detergentoma" "detergenti" "detergentov" "detergentom" "detergente" "detergentih" "detergenti" masculine))
+                                            (mkAdv "za pranje perila") ;
  --	poper (začimba)
 -- DUPLICATEMAYBE lin oven_1732_CN = mkiCN "oven" ; -- CN
--}
 lin refrigerator_1733_CN = mkiCN (mkN "hladilnik" "hladilnika" "hladilniku" "hladilnik" "hladilniku" "hladilnikom" "hladilnika" "hladilnikov" "hladilnikoma" "hladilnika" "hladilnikih" "hladilnikoma" "hladilniki" "hladilnikov" "hladilnikom" "hladilnike" "hladilnikih" "hladilniki" masculine) ;
 lin stove_1734_CN = mkiCN (mkN "štedilnik" "štedilnika" "štedilniku" "štedilnik" "štedilniku" "štedilnikom" "štedilnika" "štedilnikov" "štedilnikoma" "štedilnika" "štedilnikih" "štedilnikoma" "štedilniki" "štedilnikov" "štedilnikom" "štedilnike" "štedilnikih" "štedilniki" masculine) ;
-{-
-lin tea_kettle_1735_CN = mkiCN "tea kettle" ; --	 kotliček za čaj
+lin tea_kettle_1735_CN = S.AdvCN (mkiCN (mkN "kotliček" "kotlička" "kotličku" "kotliček" "kotličku" "kotličkom" "kotlička" "kotličkov" "kotličkoma" "kotlička" "kotličkih" "kotličkoma" "kotlički" "kotličkov" "kotličkom" "kotličke" "kotličkih" "kotlički" masculine))
+                                 (mkAdv "za čaj") ;
 -- DERIVED 1736 VP to cook cucinare att laga mat kochen kuhati 
 -- DERIVED 1737 VP to do the dishes lavare i piatti att diska das Geschirr spülen pomiti posodo 
 -- DERIVED 1738 VP to do the laundry fare la lavanderia, fare il bucato att tvätta die Wäsche waschen oprati perilo 
@@ -2533,28 +2531,25 @@ lin tea_kettle_1735_CN = mkiCN "tea kettle" ; --	 kotliček za čaj
 -- DERIVED 1756 Cl this isn't correct questo non è corretto det är inte korrekt dies ist nicht korrekt To ni pravilno 
 -- DERIVED 1757 Cl this isn't right questo non è giusto det är inte rätt das ist nicht richtig to ni prav 
 -- DERIVED 1758 QCl what's your name? come ti chiami? vad heter du? Wie heißen Sie? kako ti je ime?
+{-
 lin may_1759_VV = E.may_VV ; --	ali se lahko vsedem tukaj
+-}
 -- DERIVED 1759 QCl may I sit here? posso sedermi qui? kan jag sitta här? Darf ich hier sitzen? ali se lahko vsedem tukaj 
 -- DERIVED 1760 QCl where do you live? dove abiti? var bor du? Wo wohnen Sie? kje živiš? 
 -- DERIVED 1761 Cl this is my wife questa è mia moglie det här är min fru das ist meine Frau to je moja žena 
 -- DERIVED 1762 Cl this is my husband questo è mio marito det här är min man das ist mein Ehemann 
  --	poper (začimba)
  --	poper (začimba)
--}
 lin more_slowly_1765_Adv = mkiAdv "počasneje" ;
-{-
-lin more_difficult_1766_AP = mkiAP "more difficult" ; --	težje
--}
-lin easier_1767_AP = mkiAP (mkA "lahak" "lahki" "lahkega" "lahkemu" "lahkega" "lahak" "lahki" "lahkem" "lahkim" "lahka" "lahkih" "lahkima" "lahka" "lahkih" "lahkima" "lahki" "lahkih" "lahkim" "lahke" "lahkih" "lahkimi" "lahka" "lahke" "lahki" "lahko" "lahki" "lahko" "lahki" "lahkih" "lahkima" "lahki" "lahkih" "lahkima" "lahke" "lahkih" "lahkim" "lahke" "lahkih" "lahkimi" "lahko" "lahkega" "lahkemu" "lahko" "lahkem" "lahkim" "lahki" "lahkih" "lahkima" "lahki" "lahkih" "lahkima" "lahka" "lahkih" "lahkim" "lahka" "lahkih" "lahkimi" "lažji" "lažjega" "lažjemu" "lažjega" "lažji" "lažjem" "lažjim" "lažja" "lažjih" "lažjima" "lažja" "lažjih" "lažjima" "lažji" "lažjih" "lažjim" "lažje" "lažjih" "lažjimi" "lažja" "lažje" "lažji" "lažjo" "lažji" "lažjo" "lažji" "lažjih" "lažjima" "lažji" "lažjih" "lažjima" "lažje" "lažjih" "lažjim" "lažje" "lažjih" "lažjimi" "lažje" "lažjega" "lažjemu" "lažje" "lažjem" "lažjim" "lažji" "lažjih" "lažjima" "lažji" "lažjih" "lažjima" "lažja" "lažjih" "lažjim" "lažja" "lažjih" "lažjimi" "najlažji" "najlažjega" "najlažjemu" "najlažjega" "najlažji" "najlažjem" "najlažjim" "najlažja" "najlažjih" "najlažjima" "najlažja" "najlažjih" "najlažjima" "najlažji" "najlažjih" "najlažjim" "najlažje" "najlažjih" "najlažjimi" "najlažja" "najlažje" "najlažji" "najlažjo" "najlažji" "najlažjo" "najlažji" "najlažjih" "najlažjima" "najlažji" "najlažjih" "najlažjima" "najlažje" "najlažjih" "najlažjim" "najlažje" "najlažjih" "najlažjimi" "najlažje" "najlažjega" "najlažjemu" "najlažje" "najlažjem" "najlažjim" "najlažji" "najlažjih" "najlažjima" "najlažji" "najlažjih" "najlažjima" "najlažja" "najlažjih" "najlažjim" "najlažja" "najlažjih" "najlažjimi") ;
+lin more_difficult_1766_AP = S.UseComparA (mkA "težak" "težki" "težkega" "težkemu" "težkega" "težak" "težki" "težkem" "težkim" "težka" "težkih" "težkima" "težka" "težkih" "težkima" "težki" "težkih" "težkim" "težke" "težkih" "težkimi" "težka" "težke" "težki" "težko" "težki" "težko" "težki" "težkih" "težkima" "težki" "težkih" "težkima" "težke" "težkih" "težkim" "težke" "težkih" "težkimi" "težko" "težkega" "težkemu" "težko" "težkem" "težkim" "težki" "težkih" "težkima" "težki" "težkih" "težkima" "težka" "težkih" "težkim" "težka" "težkih" "težkimi" "težji" "težjega" "težjemu" "težjega" "težji" "težjem" "težjim" "težja" "težjih" "težjima" "težja" "težjih" "težjima" "težji" "težjih" "težjim" "težje" "težjih" "težjimi" "težja" "težje" "težji" "težjo" "težji" "težjo" "težji" "težjih" "težjima" "težji" "težjih" "težjima" "težje" "težjih" "težjim" "težje" "težjih" "težjimi" "težje" "težjega" "težjemu" "težje" "težjem" "težjim" "težji" "težjih" "težjima" "težji" "težjih" "težjima" "težja" "težjih" "težjim" "težja" "težjih" "težjimi" "najtežji" "najtežjega" "najtežjemu" "najtežjega" "najtežji" "najtežjem" "najtežjim" "najtežja" "najtežjih" "najtežjima" "najtežja" "najtežjih" "najtežjima" "najtežji" "najtežjih" "najtežjim" "najtežje" "najtežjih" "najtežjimi" "najtežja" "najtežje" "najtežji" "najtežjo" "najtežji" "najtežjo" "najtežji" "najtežjih" "najtežjima" "najtežji" "najtežjih" "najtežjima" "najtežje" "najtežjih" "najtežjim" "najtežje" "najtežjih" "najtežjimi" "najtežje" "najtežjega" "najtežjemu" "najtežje" "najtežjem" "najtežjim" "najtežji" "najtežjih" "najtežjima" "najtežji" "najtežjih" "najtežjima" "najtežja" "najtežjih" "najtežjim" "najtežja" "najtežjih" "najtežjimi") ;
+lin easier_1767_AP = S.UseComparA (mkA "lahak" "lahki" "lahkega" "lahkemu" "lahkega" "lahak" "lahki" "lahkem" "lahkim" "lahka" "lahkih" "lahkima" "lahka" "lahkih" "lahkima" "lahki" "lahkih" "lahkim" "lahke" "lahkih" "lahkimi" "lahka" "lahke" "lahki" "lahko" "lahki" "lahko" "lahki" "lahkih" "lahkima" "lahki" "lahkih" "lahkima" "lahke" "lahkih" "lahkim" "lahke" "lahkih" "lahkimi" "lahko" "lahkega" "lahkemu" "lahko" "lahkem" "lahkim" "lahki" "lahkih" "lahkima" "lahki" "lahkih" "lahkima" "lahka" "lahkih" "lahkim" "lahka" "lahkih" "lahkimi" "lažji" "lažjega" "lažjemu" "lažjega" "lažji" "lažjem" "lažjim" "lažja" "lažjih" "lažjima" "lažja" "lažjih" "lažjima" "lažji" "lažjih" "lažjim" "lažje" "lažjih" "lažjimi" "lažja" "lažje" "lažji" "lažjo" "lažji" "lažjo" "lažji" "lažjih" "lažjima" "lažji" "lažjih" "lažjima" "lažje" "lažjih" "lažjim" "lažje" "lažjih" "lažjimi" "lažje" "lažjega" "lažjemu" "lažje" "lažjem" "lažjim" "lažji" "lažjih" "lažjima" "lažji" "lažjih" "lažjima" "lažja" "lažjih" "lažjim" "lažja" "lažjih" "lažjimi" "najlažji" "najlažjega" "najlažjemu" "najlažjega" "najlažji" "najlažjem" "najlažjim" "najlažja" "najlažjih" "najlažjima" "najlažja" "najlažjih" "najlažjima" "najlažji" "najlažjih" "najlažjim" "najlažje" "najlažjih" "najlažjimi" "najlažja" "najlažje" "najlažji" "najlažjo" "najlažji" "najlažjo" "najlažji" "najlažjih" "najlažjima" "najlažji" "najlažjih" "najlažjima" "najlažje" "najlažjih" "najlažjim" "najlažje" "najlažjih" "najlažjimi" "najlažje" "najlažjega" "najlažjemu" "najlažje" "najlažjem" "najlažjim" "najlažji" "najlažjih" "najlažjima" "najlažji" "najlažjih" "najlažjima" "najlažja" "najlažjih" "najlažjim" "najlažja" "najlažjih" "najlažjimi") ;
 lin farther_1768_AdvP = mkiAdvP "dlje" ;
 lin nearer_1769_AdvP = mkiAdvP "bliže" ;
 lin more_than_that_1770_Adv = mkiAdv "več kot to" ;
 lin more_than_a_year_1771_Adv = mkiAdv "več kot eno leto" ;
 lin less_slowly_1772_Adv = mkiAdv "hitreje" ; -- suspect
-{-
-lin less_difficult_1773_AP = mkiAP "less difficult" ; --	manj zahtevna
-lin less_easy_1774_AP = mkiAP "less easy" ; --	težje
--}
+lin less_difficult_1773_AP = S.AdAP (mkAdA "manj") (mkiAP (mkA "zahteven" "zahtevni" "zahtevnega" "zahtevnemu" "zahtevnega" "zahteven" "zahtevni" "zahtevnem" "zahtevnim" "zahtevna" "zahtevnih" "zahtevnima" "zahtevna" "zahtevnih" "zahtevnima" "zahtevni" "zahtevnih" "zahtevnim" "zahtevne" "zahtevnih" "zahtevnimi" "zahtevna" "zahtevne" "zahtevni" "zahtevno" "zahtevni" "zahtevno" "zahtevni" "zahtevnih" "zahtevnima" "zahtevni" "zahtevnih" "zahtevnima" "zahtevne" "zahtevnih" "zahtevnim" "zahtevne" "zahtevnih" "zahtevnimi" "zahtevno" "zahtevnega" "zahtevnemu" "zahtevno" "zahtevnem" "zahtevnim" "zahtevni" "zahtevnih" "zahtevnima" "zahtevni" "zahtevnih" "zahtevnima" "zahtevna" "zahtevnih" "zahtevnim" "zahtevna" "zahtevnih" "zahtevnimi" "zahtevnejši" "zahtevnejšega" "zahtevnejšemu" "zahtevnejšega" "zahtevnejši" "zahtevnejšem" "zahtevnejšim" "zahtevnejša" "zahtevnejših" "zahtevnejšima" "zahtevnejša" "zahtevnejših" "zahtevnejšima" "zahtevnejši" "zahtevnejših" "zahtevnejšim" "zahtevnejše" "zahtevnejših" "zahtevnejšimi" "zahtevnejša" "zahtevnejše" "zahtevnejši" "zahtevnejšo" "zahtevnejši" "zahtevnejšo" "zahtevnejši" "zahtevnejših" "zahtevnejšima" "zahtevnejši" "zahtevnejših" "zahtevnejšima" "zahtevnejše" "zahtevnejših" "zahtevnejšim" "zahtevnejše" "zahtevnejših" "zahtevnejšimi" "zahtevnejše" "zahtevnejšega" "zahtevnejšemu" "zahtevnejše" "zahtevnejšem" "zahtevnejšim" "zahtevnejši" "zahtevnejših" "zahtevnejšima" "zahtevnejši" "zahtevnejših" "zahtevnejšima" "zahtevnejša" "zahtevnejših" "zahtevnejšim" "zahtevnejša" "zahtevnejših" "zahtevnejšimi" "najzahtevnejši" "najzahtevnejšega" "najzahtevnejšemu" "najzahtevnejšega" "najzahtevnejši" "najzahtevnejšem" "najzahtevnejšim" "najzahtevnejša" "najzahtevnejših" "najzahtevnejšima" "najzahtevnejša" "najzahtevnejših" "najzahtevnejšima" "najzahtevnejši" "najzahtevnejših" "najzahtevnejšim" "najzahtevnejše" "najzahtevnejših" "najzahtevnejšimi" "najzahtevnejša" "najzahtevnejše" "najzahtevnejši" "najzahtevnejšo" "najzahtevnejši" "najzahtevnejšo" "najzahtevnejši" "najzahtevnejših" "najzahtevnejšima" "najzahtevnejši" "najzahtevnejših" "najzahtevnejšima" "najzahtevnejše" "najzahtevnejših" "najzahtevnejšim" "najzahtevnejše" "najzahtevnejših" "najzahtevnejšimi" "najzahtevnejše" "najzahtevnejšega" "najzahtevnejšemu" "najzahtevnejše" "najzahtevnejšem" "najzahtevnejšim" "najzahtevnejši" "najzahtevnejših" "najzahtevnejšima" "najzahtevnejši" "najzahtevnejših" "najzahtevnejšima" "najzahtevnejša" "najzahtevnejših" "najzahtevnejšim" "najzahtevnejša" "najzahtevnejših" "najzahtevnejšimi")) ;
+lin less_easy_1774_AP = mkiAP (mkA "težak" "težki" "težkega" "težkemu" "težkega" "težak" "težki" "težkem" "težkim" "težka" "težkih" "težkima" "težka" "težkih" "težkima" "težki" "težkih" "težkim" "težke" "težkih" "težkimi" "težka" "težke" "težki" "težko" "težki" "težko" "težki" "težkih" "težkima" "težki" "težkih" "težkima" "težke" "težkih" "težkim" "težke" "težkih" "težkimi" "težko" "težkega" "težkemu" "težko" "težkem" "težkim" "težki" "težkih" "težkima" "težki" "težkih" "težkima" "težka" "težkih" "težkim" "težka" "težkih" "težkimi" "težji" "težjega" "težjemu" "težjega" "težji" "težjem" "težjim" "težja" "težjih" "težjima" "težja" "težjih" "težjima" "težji" "težjih" "težjim" "težje" "težjih" "težjimi" "težja" "težje" "težji" "težjo" "težji" "težjo" "težji" "težjih" "težjima" "težji" "težjih" "težjima" "težje" "težjih" "težjim" "težje" "težjih" "težjimi" "težje" "težjega" "težjemu" "težje" "težjem" "težjim" "težji" "težjih" "težjima" "težji" "težjih" "težjima" "težja" "težjih" "težjim" "težja" "težjih" "težjimi" "najtežji" "najtežjega" "najtežjemu" "najtežjega" "najtežji" "najtežjem" "najtežjim" "najtežja" "najtežjih" "najtežjima" "najtežja" "najtežjih" "najtežjima" "najtežji" "najtežjih" "najtežjim" "najtežje" "najtežjih" "najtežjimi" "najtežja" "najtežje" "najtežji" "najtežjo" "najtežji" "najtežjo" "najtežji" "najtežjih" "najtežjima" "najtežji" "najtežjih" "najtežjima" "najtežje" "najtežjih" "najtežjim" "najtežje" "najtežjih" "najtežjimi" "najtežje" "najtežjega" "najtežjemu" "najtežje" "najtežjem" "najtežjim" "najtežji" "najtežjih" "najtežjima" "najtežji" "najtežjih" "najtežjima" "najtežja" "najtežjih" "najtežjim" "najtežja" "najtežjih" "najtežjimi") ;
 lin less_far_1775_AdvP = mkiAdvP "ne tako daleč" ;
 lin less_near_1776_AdvP = mkiAdvP "ne tako blizu" ;
 lin less_than_that_1777_Adv = mkiAdv "manj kot to" ;
@@ -2570,16 +2565,12 @@ lin forest_1786_CNP = mkiCNP (mkN "gozd" "gozda" "gozdu" "gozd" "gozdu" "gozdom"
 -- DUPLICATEMAYBE lin hill_1787_CNP = mkiCNP "hill" "on" ; -- CNP
 -- DUPLICATEMAYBE lin lake_1788_CNP = mkiCNP "lake" "at" ; -- CNP
 lin land_1789_CNP = mkiCNP (S.UseN (mkN "zemljišče" "zemljišča" "zemljišču" "zemljišče" "zemljišču" "zemljiščem" "zemljišči" "zemljišč" "zemljiščema" "zemljišči" "zemljiščih" "zemljiščema" "zemljišča" "zemljišč" "zemljiščem" "zemljišča" "zemljiščih" "zemljišči" neuter)) ;
-{-
-lin moon_1790_CNP = mkiCNP "moon" "on" ; --	moon
--}
+lin moon_1790_CNP = mkiCNP (mkN "luna" "lune" "luni" "luno" "luni" "luno" "luni" "lun" "lunama" "luni" "lunah" "lunama" "lune" "lun" "lunam" "lune" "lunah" "lunami" feminine) ;
 lin mountain_1791_CNP = mkiCNP (mkN "gora" "gore" "gori" "goro" "gori" "goro" "gori" "gor" "gorama" "gori" "gorah" "gorama" "gore" "gor" "goram" "gore" "gorah" "gorami" feminine) ;
 -- DUPLICATEMAYBE lin ocean_1792_CNP = mkiCNP "ocean" ; -- CNP
 -- DUPLICATEMAYBE lin plant_1793_CN = mkiCN "plant" ; -- CN
 lin pond_1794_CNP = mkiCNP (mkN "ribnik" "ribnika" "ribniku" "ribnik" "ribniku" "ribnikom" "ribnika" "ribnikov" "ribnikoma" "ribnika" "ribnikih" "ribnikoma" "ribniki" "ribnikov" "ribnikom" "ribnike" "ribnikih" "ribniki" masculine) ;
-{-
-lin river_1795_CNP = mkiCNP "river" "by" ; --	river
--}
+lin river_1795_CNP = mkiCNP (mkN "rek" "reka" "reku" "rek" "reku" "rekom" "reka" "rekov" "rekoma" "reka" "rekih" "rekoma" "reki" "rekov" "rekom" "reke" "rekih" "reki" masculine) ;
 -- DUPLICATEMAYBE lin rock_1796_CN = mkiCN "rock" ; -- CN
 lin sand_1797_CN = mkiCN (mkN "pesek" "peska" "pesku" "pesek" "pesku" "peskom" "peska" "peskov" "peskoma" "peska" "peskih" "peskoma" "peski" "peskov" "peskom" "peske" "peskih" "peski" masculine) ;
 lin sea_1798_CNP = mkiCNP (mkN "morje" "morja" "morju" "morje" "morju" "morjem" "morji" "morij" "morjema" "morji" "morjih" "morjema" "morja" "morij" "morjem" "morja" "morjih" "morji" neuter) ;
@@ -2601,10 +2592,8 @@ lin sun_1801_CN = mkiCN (mkN "sonce" "sonca" "soncu" "sonce" "soncu" "soncem" "s
 -- DERIVED 1814 Cl nothing happened non è successo nulla det hände inget nichts ist passiert se ni nič zgodilo 
 -- DERIVED 1815 Cl you don't see tu non vedi du ser inte Sie nicht sehen, ne vidite 
 lin businessman_1816_CNH = mkiCN (mkN "poslovnež" "poslovneža" "poslovnežu" "poslovneža" "poslovnežu" "poslovnežem" "poslovneža" "poslovnežev" "poslovnežema" "poslovneža" "poslovnežih" "poslovnežema" "poslovneži" "poslovnežev" "poslovnežem" "poslovneže" "poslovnežih" "poslovneži" masculine) ;
-{-
-lin businesswoman_1817_CNH = mkCN (mkN "businesswoman" "busenesswomen") ; --	Poslovna ženska
+lin businesswoman_1817_CNH = mkiCN (mkN "poslovnica" "poslovnice" "poslovnici" "poslovnico" "poslovnici" "poslovnico" "poslovnici" "poslovnic" "poslovnicama" "poslovnici" "poslovnicah" "poslovnicama" "poslovnice" "poslovnic" "poslovnicam" "poslovnice" "poslovnicah" "poslovnicami" feminine) ;
 -- DUPLICATEMAYBE lin carpenter_1818_CNH = mkiCNH "carpenter" ; -- CNH
--}
 lin construction_worker_1819_CNH = mkiCNH (mkN "gradbinec" "gradbinca" "gradbincu" "gradbinca" "gradbincu" "gradbincem" "gradbinca" "gradbincev" "gradbincema" "gradbinca" "gradbincih" "gradbincema" "gradbinci" "gradbincev" "gradbincem" "gradbince" "gradbincih" "gradbinci" masculine) ;
 lin dentist_1820_CNH = mkiCNH (mkN "zobozdravnik" "zobozdravnika" "zobozdravniku" "zobozdravnika" "zobozdravniku" "zobozdravnikom" "zobozdravnika" "zobozdravnikov" "zobozdravnikoma" "zobozdravnika" "zobozdravnikih" "zobozdravnikoma" "zobozdravniki" "zobozdravnikov" "zobozdravnikom" "zobozdravnike" "zobozdravnikih" "zobozdravniki" masculine) ;
 -- DUPLICATEMAYBE lin doctor_1821_CNH = mkiCNH "doctor" ; -- CNH
@@ -2656,14 +2645,17 @@ lin at_what_time_1853_IAdv = lin IAdv (Pre.ss "at what time") ; --	kdaj se trgov
  --	poper (začimba)
  --	poper (začimba)
 lin online_1857_AdvP = mkiAdvP "online" ; --	ali lahko naročim prek spleta?
+-}
 -- DERIVED 1857 QCl can I order this online? posso ordinarlo su internet? kan jag beställa det på nätet? Kann ich diese online bestellen? ali lahko naročim prek spleta? 
-lin women's_clothing_1858_CN = mkiCN "women's clothing" ; --	ženska oblačila
-lin men's_clothing_1859_CN = mkiCN "men's clothing" ; --	moška oblačila
+lin women's_clothing_1858_CN = S.AdjCN (S.PositA (mkA nonExist "ženski" "ženskega" "ženskemu" "ženskega" nonExist "ženski" "ženskem" "ženskim" "ženska" "ženskih" "ženskima" "ženska" "ženskih" "ženskima" "ženski" "ženskih" "ženskim" "ženske" "ženskih" "ženskimi" "ženska" "ženske" "ženski" "žensko" "ženski" "žensko" "ženski" "ženskih" "ženskima" "ženski" "ženskih" "ženskima" "ženske" "ženskih" "ženskim" "ženske" "ženskih" "ženskimi" "žensko" "ženskega" "ženskemu" "žensko" "ženskem" "ženskim" "ženski" "ženskih" "ženskima" "ženski" "ženskih" "ženskima" "ženska" "ženskih" "ženskim" "ženska" "ženskih" "ženskimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist))
+                                       (S.UseN (mkN "oblačilo" "oblačila" "oblačilu" "oblačilo" "oblačilu" "oblačilom" "oblačili" "oblačil" "oblačiloma" "oblačili" "oblačilih" "oblačiloma" "oblačila" "oblačil" "oblačilom" "oblačila" "oblačilih" "oblačili" neuter)) ;
+lin men's_clothing_1859_CN = S.AdjCN (S.PositA (mkA nonExist "moški" "moškega" "moškemu" "moškega" nonExist "moški" "moškem" "moškim" "moška" "moških" "moškima" "moška" "moških" "moškima" "moški" "moških" "moškim" "moške" "moških" "moškimi" "moška" "moške" "moški" "moško" "moški" "moško" "moški" "moških" "moškima" "moški" "moških" "moškima" "moške" "moških" "moškim" "moške" "moških" "moškimi" "moško" "moškega" "moškemu" "moško" "moškem" "moškim" "moški" "moških" "moškima" "moški" "moških" "moškima" "moška" "moških" "moškim" "moška" "moških" "moškimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist))
+                                     (S.UseN (mkN "oblačilo" "oblačila" "oblačilu" "oblačilo" "oblačilu" "oblačilom" "oblačili" "oblačil" "oblačiloma" "oblačili" "oblačilih" "oblačiloma" "oblačila" "oblačil" "oblačilom" "oblačila" "oblačilih" "oblačili" neuter)) ;
  --	poper (začimba)
  --	poper (začimba)
 -- DUPLICATEMAYBE lin bakery_1862_CNP = mkiCNP "bakery" ; -- CNP
-lin American_football_1863_CNM = mkiCNM "American football" ; --	Ameriški nogomet
--}
+lin American_football_1863_CNM = S.AdjCN (S.PositA (mkA nonExist "ameriški" "ameriškega" "ameriškemu" "ameriškega" nonExist "ameriški" "ameriškem" "ameriškim" "ameriška" "ameriških" "ameriškima" "ameriška" "ameriških" "ameriškima" "ameriški" "ameriških" "ameriškim" "ameriške" "ameriških" "ameriškimi" "ameriška" "ameriške" "ameriški" "ameriško" "ameriški" "ameriško" "ameriški" "ameriških" "ameriškima" "ameriški" "ameriških" "ameriškima" "ameriške" "ameriških" "ameriškim" "ameriške" "ameriških" "ameriškimi" "ameriško" "ameriškega" "ameriškemu" "ameriško" "ameriškem" "ameriškim" "ameriški" "ameriških" "ameriškima" "ameriški" "ameriških" "ameriškima" "ameriška" "ameriških" "ameriškim" "ameriška" "ameriških" "ameriškimi" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist))
+                                         (S.UseN (mkN "nogomet" "nogometa" "nogometu" "nogomet" "nogometu" "nogometom" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist masculine)) ;
 -- DUPLICATEMAYBE lin ball_1864_CN = mkiCN "ball" ; -- CN
 lin baseball_1865_CNM = mkiCNM (mkN "bejzbol" "bejzbola" "bejzbolu" "bejzbol" "bejzbolu" "bejzbolom" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist masculine) ;
 lin basketball_1866_CNM = mkiCNM (mkN "košarka" "košarke" "košarki" "košarko" "košarki" "košarko" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist feminine) ;
@@ -2671,10 +2663,8 @@ lin biking_1867_CNM = mkiCNM (mkN "kolesarjenje" "kolesarjenja" "kolesarjenju" "
 -- DUPLICATEMAYBE lin champion_1868_CNH = mkiCNH "champion" ; -- CNH
 lin game_1869_CN = mkiCN (mkN "igra" "igre" "igri" "igro" "igri" "igro" "igri" "iger" "igrama" "igri" "igrah" "igrama" "igre" "iger" "igram" "igre" "igrah" "igrami" feminine) ;
 lin player_1870_CNH = mkiCNH (mkN "predvajalnik" "predvajalnika" "predvajalniku" "predvajalnik" "predvajalniku" "predvajalnikom" "predvajalnika" "predvajalnikov" "predvajalnikoma" "predvajalnika" "predvajalnikih" "predvajalnikoma" "predvajalniki" "predvajalnikov" "predvajalnikom" "predvajalnike" "predvajalnikih" "predvajalniki" masculine) ;
-{-
-lin soccer_football_1871_CNM = mkiCNM "soccer" | mkiCNM "football" ; --	nogomet / nogomet
+lin soccer_football_1871_CNM = mkiCNM (mkN "nogomet" "nogometa" "nogometu" "nogomet" "nogometu" "nogometom" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist masculine) ;
 -- DUPLICATEMAYBE lin stadium_1872_CNP = mkiCNP "stadium" "at" ; -- CNP
--}
 lin swimming_1873_CNM = mkiCNM (mkN "kopanje" "kopanja" "kopanju" "kopanje" "kopanju" "kopanjem" "kopanji" "kopanj" "kopanjema" "kopanji" "kopanjih" "kopanjema" "kopanja" "kopanj" "kopanjem" "kopanja" "kopanjih" "kopanji" neuter) ;
 -- DUPLICATEMAYBE lin team_1874_CNH = mkiCNH "team" ; -- CNH
 -- DUPLICATEMAYBE lin tennis_1875_CNM = mkiCNM "tennis" ; -- CNM
@@ -2684,13 +2674,16 @@ lin go_camping_1877_V = partV I.go_V "camping" ; --	iti kampiranje
 lin go_hiking_1878_V = partV I.go_V "hiking" ; --	(Iti), pohodništvo
 -}
 lin lose_1879_V = mkiV (mkV "izgubiti" "izgubit" "izgubil" "izgubila" "izgubili" "izgubila" "izgubili" "izgubile" "izgubilo" "izgubili" "izgubila" "izgubim" "izgubiš" "izgubi" "izgubiva" "izgubita" "izgubita" "izgubimo" "izgubite" "izgube" "izgubiva" "izgubimo" "izgubi" "izgubita" "izgubite") ;
-{-
-lin play_1880_V = mkiV "play" ; --	igrati (igra)
-lin play_1880_V2 = mkiV2 "play" ; --	igrati (igra)
-lin play_sport_1881_VP cnm = mkVP (mkV2 "play") (mkNP cnm) ; --	igrati šport
-lin play_cards_1882_VP = mkVP (mkV2 "play") (mkNP aPl_Det (mkN "card")) ; --	za igranje kart
-lin play_billiards_1883_VP = mkVP (mkV2 "play") (mkNP aPl_Det (mkN "billiard")) ; --	igrati Bazen / biljard
--}
+lin play_1880_V = mkV "igrati" "igrat" "igral" "igrala" "igrali" "igrala" "igrali" "igrale" "igralo" "igrali" "igrala" "igram" "igraš" "igra" "igrava" "igrata" "igrata" "igramo" "igrate" "igrajo" "igrajva" "igrajmo" "igraj" "igrajta" "igrajte" ;
+lin play_1880_V2 = mkiV2 (mkV "igrati" "igrat" "igral" "igrala" "igrali" "igrala" "igrali" "igrale" "igralo" "igrali" "igrala" "igram" "igraš" "igra" "igrava" "igrata" "igrata" "igramo" "igrate" "igrajo" "igrajva" "igrajmo" "igraj" "igrajta" "igrajte") ;
+lin play_sport_1881_VP cnm = S.ComplSlash (S.SlashV2a (mkiV2 (mkV "igrati" "igrat" "igral" "igrala" "igrali" "igrala" "igrali" "igrale" "igralo" "igrali" "igrala" "igram" "igraš" "igra" "igrava" "igrata" "igrata" "igramo" "igrate" "igrajo" "igrajva" "igrajmo" "igraj" "igrajta" "igrajte")))
+                                          (S.MassNP cnm) ;
+lin play_cards_1882_VP = S.ComplSlash (S.SlashV2a (mkiV2 (mkV "igrati" "igrat" "igral" "igrala" "igrali" "igrala" "igrali" "igrale" "igralo" "igrali" "igrala" "igram" "igraš" "igra" "igrava" "igrata" "igrata" "igramo" "igrate" "igrajo" "igrajva" "igrajmo" "igraj" "igrajta" "igrajte")))
+                                      (S.DetCN (S.DetQuant S.IndefArt S.NumPl) 
+                                               (S.UseN (mkN "karta" "karte" "karti" "karto" "karti" "karto" "karti" "kart" "kartama" "karti" "kartah" "kartama" "karte" "kart" "kartam" "karte" "kartah" "kartami" feminine))) ;
+lin play_billiards_1883_VP = S.ComplSlash (S.SlashV2a (mkiV2 (mkV "igrati" "igrat" "igral" "igrala" "igrali" "igrala" "igrali" "igrale" "igralo" "igrali" "igrala" "igram" "igraš" "igra" "igrava" "igrata" "igrata" "igramo" "igrate" "igrajo" "igrajva" "igrajmo" "igraj" "igrajta" "igrajte")))
+                                          (S.DetCN (S.DetQuant S.IndefArt S.NumSg) 
+                                                   (S.UseN (mkN "biljard" "biljarda" "biljardu" "biljard" "biljardu" "biljardom" "biljarda" "biljardov" "biljardoma" "biljarda" "biljardih" "biljardoma" "biljardi" "biljardov" "biljardom" "biljarde" "biljardih" "biljardi" masculine))) ;
 lin win_1884_V = mkiV (mkV "zmagati" "zmagat" "zmagal" "zmagala" "zmagali" "zmagala" "zmagali" "zmagale" "zmagalo" "zmagali" "zmagala" "zmagam" "zmagaš" "zmaga" "zmagava" "zmagata" "zmagata" "zmagamo" "zmagate" "zmagajo" "zmagajva" "zmagajmo" "zmagaj" "zmagajta" "zmagajte") ;
 lin win_1884_V2 = mkiV2 (mkV "zmagati" "zmagat" "zmagal" "zmagala" "zmagali" "zmagala" "zmagali" "zmagale" "zmagalo" "zmagali" "zmagala" "zmagam" "zmagaš" "zmaga" "zmagava" "zmagata" "zmagata" "zmagamo" "zmagate" "zmagajo" "zmagajva" "zmagajmo" "zmagaj" "zmagajta" "zmagajte") ;
 -- DUPLICATE lin telephone_1885_CN = mkiCN "telephone" ; -- CN
@@ -2703,10 +2696,10 @@ lin busy_1889_AP = mkiAP "busy" ; --- the line is busy --	je linija zasedena
 -- DERIVED 1890 QCl where is the computer? dov'è il computer? var är datorn? Wo ist der Computer? kjer je računalnik? 
 -- DERIVED 1891 Cl I need to send an email devo mandare un messaggio di posta elettronica jag behöver skicka ett mejl ich muss eine email senden Moram poslati e-pošto
 lin connect_to_internet_1892_VP = mkVP (mkV2 (mkV "connect") to_Prep) (mkNP the_Det (mkN "internet")) ; --	ali se lahko povežem z internetom?
+-}
 -- DERIVED 1892 QCl can I connect to the internet? posso collegarmi con internet? kan jag gå ut på nätet? Kann ich mich ins Internet einwählen? ali se lahko povežem z internetom? 
 -- DERIVED 1893 QCl do you have a website? avete un sito web? har ni en webbsida? Hast du eine Website? Imaš spletno stran?
-lin what_time_is_it_1894_Utt = mkiUtt "what time is it" ; --	koliko je ura?
--}
+lin what_time_is_it_1894_Utt = mkiUtt "koliko je ura?" ;
 -- DERIVED 1894 QCl what time is it? che ore sono? vad är klockan? Wie spät ist es? koliko je ura?
 -- DERIVED 1895 Cl it's 1:00 pm sono le tredici den är 13:00 es ist 13:00Uhr ura je 13:00 
 -- DERIVED 1896 Cl it's 2:00 pm sono le quattordici den är 14:00 es ist 14:00Uhr ura je 14:00 
@@ -2748,9 +2741,7 @@ lin hair_1925_CNM = mkiCNM (mkN "las" "lasa" "lasu" "las" "lasu" "lasom" "lasa" 
 lin hips_1929_CN = mkiCN (mkN "bok" "boka" "boku" "bok" "boku" "bokom" "boka" "bokov" "bokoma" "boka" "bokih" "bokoma" "boki" "bokov" "bokom" "boke" "bokih" "boki" masculine) ;
 lin knee_1930_CN = mkiCN (mkN "koleno" "kolena" "kolenu" "koleno" "kolenu" "kolenom" "koleni" "kolen" "kolenoma" "koleni" "kolenih" "kolenoma" "kolena" "kolen" "kolenom" "kolena" "kolenih" "koleni" neuter) ;
 -- DUPLICATE lin leg_1931_CN = mkiCN "leg" ; -- CN
-{-
-lin lung_1932_CN = mkiCN "lung" ; --	pljuča
--}
+lin lung_1932_CN = mkiCN (mkN nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist "pljuča" "pljuč" "pljučem" "pljuča" "pljučih" "pljuči" neuter) ;
 -- DUPLICATEMAYBE lin mouth_1933_CN = mkiCN "mouth" ; -- CN
 -- DUPLICATEMAYBE lin muscle_1934_CN = mkiCN "muscle" ; -- CN
 -- DUPLICATEMAYBE lin neck_1935_CN = mkiCN "neck" ; -- CN
@@ -2760,35 +2751,43 @@ lin shoulder_1937_CN = mkiCN (mkN "rame" "ramena" "ramenu" "rame" "ramenu" "rame
 -- DUPLICATEMAYBE lin stomach_1939_CN = mkiCN "stomach" ; -- CN
 lin tendon_1940_CN = mkiCN (mkN "kita" "kite" "kiti" "kito" "kiti" "kito" "kiti" "kit" "kitama" "kiti" "kitah" "kitama" "kite" "kit" "kitam" "kite" "kitah" "kitami" feminine) ;
 -- DUPLICATEMAYBE lin thumb_1941_CN = mkiCN "thumb" ; -- CN
-{-
-lin toe_1942_CN = mkiCN "toe" ; --	toe
+lin toe_1942_CN = S.AdvCN (mkiCN (mkN "prst" "prsta" "prstu" "prst" "prstu" "prstom" "prsta" "prstov" "prstoma" "prsta" "prstih" "prstoma" "prsti" "prstov" "prstom" "prste" "prstih" "prsti" masculine))
+                          (mkAdv "na nogi") ;
 -- DUPLICATEMAYBE lin tongue_1943_CN = mkiCN "tongue" ; -- CN
 -- DUPLICATEMAYBE lin tooth_1944_CN = mkiCN "tooth" ; -- CN
--}
 lin waist_1945_CN = mkiCN (mkN "pas" "pasa" "pasu" "pas" "pasu" "pasom" "pasa" "pasov" "pasoma" "pasa" "pasih" "pasoma" "pasovi" "pasov" "pasovom" "pasove" "pasovih" "pasovi" masculine) ;
 -- DUPLICATEMAYBE lin wrist_1946_CN = mkiCN "wrist" ; -- CN
 -- DUPLICATE 1947 AdvT last week la settimana scorsa förra veckan letzte Woche prejšnji teden DUPLICATE 1532 
 lin next_week_1948_AdvT = mkiAdvT "naslednji teden" ;
-{-
-lin in_n_weeks_1949_AdvT card = S.mkAdv in_Prep (mkNP card (mkN "week")) ; --	V dveh tednih
-lin n_weeks_ago_1950_AdvT card = P.mkAdv ((mkUtt (mkNP card (mkN "week"))).s ++ "ago") ; --	pred dvema tednoma
--}
+lin in_n_weeks_1949_AdvT card = S.PrepNP (mkPrep "v" R.Loc)
+                                         (S.DetCN (S.DetQuant S.IndefArt card)
+                                                  (S.UseN (mkN "teden" "tedna" "tednu" "teden" "tednu" "tednom" "tedna" "tednov" "tednoma" "tedna" "tednih" "tednoma" "tedni" "tednov" "tednom" "tedne" "tednih" "tedni" masculine))) ;
+lin n_weeks_ago_1950_AdvT card = S.PrepNP (mkPrep "pred" R.Dat)
+                                          (S.DetCN (S.DetQuant S.IndefArt card)
+                                                   (S.UseN (mkN "teden" "tedna" "tednu" "teden" "tednu" "tednom" "tedna" "tednov" "tednoma" "tedna" "tednih" "tednoma" "tedni" "tednov" "tednom" "tedne" "tednih" "tedni" masculine))) ;
 -- DUPLICATEMAYBE lin this_month_1951_AdvT = mkiAdvT "this month" ; -- AdvT
 -- DUPLICATEMAYBE lin last_month_1952_AdvT = mkiAdvT "last month" ; -- AdvT
 -- DUPLICATEMAYBE lin next_month_1953_AdvT = mkiAdvT "next month" ; -- AdvT
 lin the_coming_month_1954_AdvT = mkiAdvT "prihodnji mesec" ;
-{-
-lin in_n_months_1955_AdvT card = S.mkAdv in_Prep (mkNP card (mkN "month")) ; --	v dveh mesecih
+lin in_n_months_1955_AdvT card = S.PrepNP (mkPrep "v" R.Loc)
+                                          (S.DetCN (S.DetQuant S.IndefArt card)
+                                                   (S.UseN (mkN "mesec" "meseca" "mesecu" "mesec" "mesecu" "mesecem" "meseca" "mesecev" "mesecema" "meseca" "mesecih" "mesecema" "meseci" "mesecev" "mesecem" "mesece" "mesecih" "meseci" masculine))) ;
+{-   
 lin n_months_ago_1956_AdvT card = P.mkAdv ((mkUtt (mkNP card (mkN "month"))).s ++ "ago") ; --	to leto
 -}
 lin this_year_1956_AdvT = mkiAdvT "to leto" ;
 lin last_year_1957_AdvT = mkiAdvT "lansko leto" ;
 lin next_year_1958_AdvT = mkiAdvT "naslednje leto" ;
 lin the_coming_year_1959_AdvT = mkiAdvT "prihodnje leto" ;
+lin in_n_years_1960_AdvT card = S.PrepNP (mkPrep "v" R.Loc)
+                                         (S.DetCN (S.DetQuant S.IndefArt card)
+                                                  (S.UseN (mkN "let" "leta" "letu" "let" "letu" "letom" "leta" "letov" "letoma" "leta" "letih" "letoma" "leti" "letov" "letom" "lete" "letih" "leti" masculine))) ;
+lin n_years_ago_1960_AdvT card = S.PrepNP (mkPrep "v" R.Loc)
+                                          (S.DetCN (S.DetQuant S.IndefArt card)
+                                                   (S.UseN (mkN "let" "leta" "letu" "let" "letu" "letom" "leta" "letov" "letoma" "leta" "letih" "letoma" "leti" "letov" "letom" "lete" "letih" "leti" masculine))) ;
 {-
-lin in_n_years_1960_AdvT card = S.mkAdv in_Prep (mkNP card (mkN "year")) ; --	V dveh letih
-lin n_years_ago_1960_AdvT card = P.mkAdv ((mkUtt (mkNP card (mkN "year"))).s ++ "ago") ; --	V dveh letih
 lin how_long_ago_1962_IAdv = lin IAdv (Pre.ss "how long ago") ; --	kako dolgo nazaj?
+-}
 -- DERIVED 1963 Cl I have time. io ho tempo jag har tid Ich habe Zeit. Imam čas. 
 -- DERIVED 1964 Cl I don't have any time io non ho tempo jag har inte tid Ich habe keine Zeit Nimam časa 
 -- DERIVED 1965 Cl I'm hungry io ho fame jag är hungrig ich habe Hunger Lačen sem 
@@ -2798,23 +2797,20 @@ lin how_long_ago_1962_IAdv = lin IAdv (Pre.ss "how long ago") ; --	kako dolgo na
 -- DERIVED 1969 Cl it's cold fa freddo det är kallt es ist kalt je hladno 
 -- DERIVED 1970 Cl it's hot fa caldo det är varmt es ist heiß je vroče 
 -- DERIVED 1971 Cl it's windy tira vento det blåser es ist windig vetrovno je 
--}
 lin cloud_1972_CN = mkiCN (mkN "oblak" "oblaka" "oblaku" "oblak" "oblaku" "oblakom" "oblaka" "oblakov" "oblakoma" "oblaka" "oblakih" "oblakoma" "oblaki" "oblakov" "oblakom" "oblake" "oblakih" "oblaki" masculine) ;
 lin degree_1973_CN = mkiCN (mkN "stopnja" "stopnje" "stopnji" "stopnjo" "stopnji" "stopnjo" "stopnji" "stopenj" "stopnjama" "stopnji" "stopnjah" "stopnjama" "stopnje" "stopenj" "stopnjam" "stopnje" "stopnjah" "stopnjami" feminine) ;
 lin fog_1974_CNM = mkiCNM (mkN "megla" "megle" "megli" "meglo" "megli" "meglo" "megli" "megel" "meglama" "megli" "meglah" "meglama" "megle" "megel" "meglam" "megle" "meglah" "meglami" feminine) ;
 lin hurricane_1975_CN = mkiCN (mkN "orkan" "orkana" "orkanu" "orkan" "orkanu" "orkanom" "orkana" "orkanov" "orkanoma" "orkana" "orkanih" "orkanoma" "orkani" "orkanov" "orkanom" "orkane" "orkanih" "orkani" masculine) ;
 {-
 lin it_is_sunny_1976_Cl = mkCl it_NP (mkA "sunny") ; --	sončno je
--- DUPLICATEMAYBE lin lightning_1977_CN = mkiCN "lightning" ; -- CN
 -}
+-- DUPLICATEMAYBE lin lightning_1977_CN = mkiCN "lightning" ; -- CN
 lin rain_1978_CNM = mkiCNM (mkN "dež" "dežja" "dežju" "dež" "dežju" "dežjem" "dežja" "dežjev" "dežjema" "dežja" "dežjih" "dežjema" "dežji" "dežjev" "dežjem" "dežje" "dežjih" "dežji" masculine) ;
 -- DUPLICATEMAYBE lin snow_1979_CNM = mkiCNM "snow" ; -- CNM
 lin storm_1980_CN = mkiCN (mkN "nevihta" "nevihte" "nevihti" "nevihto" "nevihti" "nevihto" "nevihti" "neviht" "nevihtama" "nevihti" "nevihtah" "nevihtama" "nevihte" "neviht" "nevihtam" "nevihte" "nevihtah" "nevihtami" feminine) ;
 -- DUPLICATE 1981 CN sun il sole sol die Sonne sonce DUPLICATE 1801 
 -- DUPLICATEMAYBE lin temperature_1982_CN = mkiCN "temperature" ; -- CN
-{-
-lin thunder_1983_CNM = mkiCNM "thunder" ; --	Grom
--}
+lin thunder_1983_CNM = mkiCNM (mkN "grom" "groma" "gromu" "grom" "gromu" "gromom" "groma" "gromov" "gromoma" "groma" "gromih" "gromoma" "gromi" "gromov" "gromom" "grome" "gromih" "gromi" masculine) ;
 -- DUPLICATEMAYBE lin umbrella_1984_CN = mkiCN "umbrella" ; -- CN
 lin wind_1985_CNM = mkiCNM (mkN "veter" "vetra" "vetru" "veter" "vetru" "vetrom" "vetrova" "vetrov" "vetrovoma" "vetrova" "vetrovih" "vetrovoma" "vetrovi" "vetrov" "vetrovom" "vetrove" "vetrovih" "vetrovi" masculine) ;
 

@@ -23,8 +23,8 @@ lincat
   VA = GrammarSlv.V ;
   V3 = GrammarSlv.V ;
   VS = GrammarSlv.V ;
-  VV = GrammarSlv.V ;
-  VQ = GrammarSlv.V ;
+  VV = GrammarSlv.VV ;
+  VQ = GrammarSlv.VQ ;
   VP = GrammarSlv.VP ;
   S = GrammarSlv.S ;
   Weekday = ConstructionSlv.Weekday ;

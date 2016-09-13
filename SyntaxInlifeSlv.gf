@@ -40,6 +40,8 @@ lin
   we_Pron = GrammarSlv.we_Pron ;
   they_Pron = GrammarSlv.they_Pron ;
   it_Pron = GrammarSlv.it_Pron ;
+  this_Quant = GrammarSlv.this_Quant ;
+  that_Quant = GrammarSlv.that_Quant ;
   something_NP = GrammarSlv.something_NP ;
   nothing_NP = GrammarSlv.nothing_NP ;
 
@@ -65,7 +67,7 @@ lin
   DefArt = GrammarSlv.DefArt ;
   PrepNP = GrammarSlv.PrepNP ;
 
- friday_Weekday = ConstructionSlv.friday_Weekday ;
+  friday_Weekday = ConstructionSlv.friday_Weekday ;
   monday_Weekday = ConstructionSlv.monday_Weekday ;
   saturday_Weekday = ConstructionSlv.saturday_Weekday ;
   sunday_Weekday = ConstructionSlv.sunday_Weekday ;
@@ -129,6 +131,9 @@ lin
 
   detMNP = GrammarSlv.DetCN ;
 
+  advPPredCl np vp adv = GrammarSlv.PredVP np (GrammarSlv.AdvVP vp adv) ;
+  locAdvP np = GrammarSlv.PrepNP np.prep np.np ;
+  prepAdvP prep np = GrammarSlv.PrepNP prep np.np ;
   detNPP det cn = {np = DetCN det cn.cn ; prep = cn.prep} ;
 
   weekdayCNT w = UseN (ConstructionSlv.weekdayN w) ;

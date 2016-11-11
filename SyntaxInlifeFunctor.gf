@@ -101,7 +101,6 @@ lin
   ImpPl1 = Grammar.ImpPl1 ;
   ExistNP = Grammar.ExistNP ;
   PrepNP = Grammar.PrepNP ;
-  QuestCl = Grammar.QuestCl ;
   QuestVP = Grammar.QuestVP ;
 
   friday_Weekday = Construction.friday_Weekday ;

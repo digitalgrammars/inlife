@@ -1,18 +1,29 @@
+--- --# -path=.:current-slovenian
 --# -path=lib/src/slovenian
 --- --# -path=/home/krasimir/www.grammaticalframework.org_0/lib/src/slovenian
+
+-- the first path is for Anna to develop this grammar with the latest Slv source (which she can also edit herself)
+-- the second path is to work with the GF/lib version, latest from darcs; a symlink to your GF/lib/ is needed
+
 concrete LexiconInlifeSlv of LexiconInlife = SyntaxInlifeSlv **
-  open CatSlv, ParadigmsSlv, (S=GrammarSlv), (R=ResSlv), StructuralSlv, Prelude
+  open CatSlv, ParadigmsSlv, (S=GrammarSlv), (R=ResSlv), StructuralSlv, (ParamX = ParamX), Prelude
   in {
+
 
 oper mkiCN  : N -> S.CN = \s -> S.UseN s ;
 oper mkiCNM : N -> S.CN = \s -> S.UseN s ;
 oper mkiCNH : N -> S.CN = \s -> S.UseN s ;
 oper mkiCNT : N -> S.CN = \s -> S.UseN s ;
 
+
+--AE: Choice of locative preposition depends on the location. Comparable to "i Sverige"/"på Mallorca"
+
 oper mkiCNP = overload {
-  mkiCNP : N -> CNP = \s -> lin CNP {cn = S.UseN s ; prep = mkPrep "v" accusative} ;   -- suspect
-  mkiCNP : N -> Str -> CNP = \s,p -> lin CNP {cn = S.UseN s ; prep = mkPrep p accusative} ;
-  mkiCNP : CN -> CNP = \s -> lin CNP {cn = s ; prep = mkPrep "v" accusative} ;   -- suspect
+  mkiCNP : N -> CNP = \s -> lin CNP {cn = S.UseN s ; prep = mkPrep "v" locative} ;   -- suspect
+  mkiCNP : N -> Str -> CNP = \s,p -> lin CNP {cn = S.UseN s ; prep = mkPrep p locative} ;
+  mkiCNP : N -> Prep -> CNP = \s,p -> lin CNP {cn = S.UseN s ; prep = p} ;
+  --mkiCNP : N -> Str -> Case -> CNP = \s,p,c -> lin CNP {cn = S.UseN s ; prep = mkPrep p Case} ;
+  mkiCNP : CN -> CNP = \s -> lin CNP {cn = s ; prep = mkPrep "v" locative} ;   -- suspect
   } ;
 {-  
 oper mkiNP  : Str -> S.NP = \s -> S.mkNP (mkPN s) ;
@@ -46,6 +57,9 @@ oper mkiCNPL = overload {
   mkiCNPL : N -> S.CN = \s -> S.UseN s ;
   mkiCNPL : N -> Str -> S.CN = \s,p -> S.UseN s ; ----
   } ;
+
+oper dati_V : V = (mkV "dati" "dat" "dal" "dala" "dali" "dala" "dali" "dale" "dalo" "dali" "dala" "dam" "daš" "da" "dava" "dasta" "dasta" "damo" "daste" "dado" "dajva" "dajmo" "daj" "dajta" "dajte") ; 
+oper iti_V : V = (mkV "iti" "it" "šel" "šla" "šli" "šla" "šli" "šle" "šlo" "šli" "šla" "grem" "greš" "gre" "greva" "gresta" "greste" "gremo" "greste" "gredo" "pojdiva" "pojdimo" "pojdi" "pojdita" "pojdite") ; 
 
 --BEGIN from here on, derive abstract syntax
 
@@ -644,7 +658,7 @@ lin get_out_of_chair_0413_VP det = S.ComplSlash (S.SlashV2a (mkV2 (mkV "vstati" 
                                                          (S.UseN (mkN "stol" "stola" "stolu" "stol" "stolu" "stolom" "stola" "stolov" "stoloma" "stola" "stolih" "stoloma" "stoli" "stolov" "stolom" "stole" "stolih" "stoli" masculine))) ;
 lin get_0415_V2 = mkiV2 (mkV "vzeti" "vzet" "vzel" "vzela" "vzeli" "vzela" "vzeli" "vzele" "vzelo" "vzeli" "vzela" "vzamem" "vzameš" "vzame" "vzameva" "vzameta" "vzameta" "vzamemo" "vzamete" "vzamejo" "vzemiva" "vzemimo" "vzemi" "vzemita" "vzemite") ;
 lin girl_0416_CNH = mkiCNH (mkN "dekle" "dekleta" "dekletu" "dekle" "dekletu" "dekletom" "dekleti" "deklet" "dekletoma" "dekleti" "dekletih" "dekletoma" "dekleta" "deklet" "dekletom" "dekleta" "dekletih" "dekleti" neuter) ;
-lin give___0418_V3 = mkiV3 (mkV "dati" "dat" "dal" "dala" "dali" "dala" "dali" "dale" "dalo" "dali" "dala" "dam" "daš" "da" "dava" "dasta" "dasta" "damo" "daste" "dado" "dajva" "dajmo" "daj" "dajta" "dajte") ;
+lin give___0418_V3 = mkiV3 dati_V ;
 --DERIVED 0419 Imp give me that dammi quello ge mig det gib mir das daj mi 
 {-
 lin give_way_to_0420_V2 = mkV2 (partV I.give_V "way") to_Prep ; --	prepustiti prostor, ukloniti se
@@ -2792,173 +2806,544 @@ lin thunder_1983_CNM = mkiCNM (mkN "grom" "groma" "gromu" "grom" "gromu" "gromom
 -- DUPLICATEMAYBE lin umbrella_1984_CN = mkiCN "umbrella" ; -- CN
 lin wind_1985_CNM = mkiCNM (mkN "veter" "vetra" "vetru" "veter" "vetru" "vetrom" "vetrova" "vetrov" "vetrovoma" "vetrova" "vetrovih" "vetrovoma" "vetrovi" "vetrov" "vetrovom" "vetrove" "vetrovih" "vetrovi" masculine) ;
 
-{-
-lin a_lot__Adv = mkiAdv "a lot" ; --	Adv
-
-lin about__Prep = mkiPrep "about" ; --	Prep
-lin adjust__V2 = mkiV2 "adjust" ; --	V2
-
-lin afraid__Adv = mkiAdv "afraid" ; --	Adv
-lin again__AdvT = mkiAdv "again" ; --	AdvT
-
-lin agree__V = mkiV "agree" ; --	V
-
-lin alive__Adv = mkiAdv "alive" ; --	Adv
-lin alone__Adv = mkiAdv "alone" ; --	Adv
-
-lin another__Det = mkiDet "another" ; --	Det
-lin any__Quant = P.mkQuant "any" "any" ; --	Quant
-lin anything__NP = mkiNP "anything" ; --	NP
-lin ask__V2 = mkiV2 "ask" ; --	V2
-lin at__PrepP = mkiPrepP "at" ; --	PrepP
-lin attach__V3 = mkiV3 "attach" ; --	V3
-lin be_fine__VP = mkVP fine__AP ; --	VP
-lin be_lost__VP = mkVP (mkA "lost") ; --	VP
-lin bed__CNP = mkiCNP "bed" ; --	CNP
-lin beg_pardon__V2 = mkV2 (partV (mkV "beg") "pardon") ; --	V2
-lin bike__CN = mkiCN "bike" ; --	CN
-lin billiards__CNPL = mkiCNPL "billiards" ; --	CNPL
-lin biscuit__CN = mkiCN "biscuit" ; --	CN
-lin blanket__CN = mkiCN "blanket" ; --	CN
-lin blow__V2 = mkV2 I.blow_V ; --	V2
-lin bored__AP = mkiAP "bored" ; --	AP
-lin bring__V3 = mkV3 I.bring_V ; --	V3
-lin camping__CNP = mkiCNP "camping" "on" ; --	CNP
-lin candle__CN = mkiCN "candle" ; --	CN
-lin candy__CN = mkiCN "candy" ; --	CN
--}
 lin care__S nph = S.UseCl (S.TTAnt S.TPres S.ASimul) S.PNeg 
                         (S.PredVP nph
                                   (S.UseV (mkV "zanimati" "zanimat" "zanimal" "zanimala" "zanimali" "zanimala" "zanimali" "zanimale" "zanimalo" "zanimali" "zanimala" "zanimam" "zanimaš" "zanima" "zanimava" "zanimata" "zanimata" "zanimamo" "zanimate" "zanimajo" "zanimajva" "zanimajmo" "zanimaj" "zanimajta" "zanimajte"))) ;
-{-
-lin cell__CN = mkiCN "cell" ; --	CN
-lin change__V2 = mkiV2 "change" ; --	V2
-lin channel__CN = mkiCN "channel" ; --	CN
-lin clear__V2 = mkiV2 "clear" ; --	V2
-lin coffeemaker__CN = mkiCN "coffeemaker" ; --	CN
-lin color__CN = mkiCN "color" ; --	CN
-lin communicate__V = mkiV "communicate" ; --	V
-lin connect__V2 = mkiV2 "connect" ; --	V2
-lin correct__AP = mkiAP "correct" ; --	AP
-lin cover__CN = mkiCN "cover" ; --	CN
-lin cover__V2 = mkV2 (mkV "cover" "covered") ; --	V2
-lin cross__V = mkiV "cross" ; --	V
-lin dad__CNH = mkiCNH "dad" ; --	CNH
-lin decorate__V2 = mkiV2 "decorate" ; --	V2
-lin diaper__CN = mkiCN "diaper" ; --	CN
-lin dice__CN = mkiCN "dice" ; --	CN
-lin different__AP = mkiAP "different" ; --	AP
-lin dizzy__AP = mkiAP "dizzy" ; --	AP
-lin draw__V = I.draw_V ; --	V
-lin dressed__AP = mkiAP "dressed" ; --	AP
-lin empty__AP = mkiAP "empty" ; --	AP
-lin envelope__CN = mkiCN "envelope" ; --	CN
-lin espresso__CN = mkiCN "espresso" ; --	CN
-lin expect__VV = mkiVV "expect" ; --	VV
-lin fiancé__CNH = mkiCNH "fiancé" ; --	CNH
-lin fiancée__CNH = mkiCNH "fiancée" ; --	CNH
-lin film__CN = mkiCN "film" ; --	CN
-lin fine__AP = mkiAP "fine" ; --	AP
-lin flip__V2 = mkiV2 "flip" ; --	V2
-lin flush__V2 = mkiV2 "flush" ; --	V2
-lin fold__V2 = mkiV2 "fold" ; --	V2
-lin folder__CN = mkiCN "folder" ; --	CN
-lin glue__V2 = mkiV2 "glue" ; --	V2
-lin happen__V = mkV "happen" "happened" ; --	V
-lin hate__V2 = mkiV2 "hate" ; --	V2
-lin hear__V = I.hear_V ; --	V
-lin hike__V = mkiV "hike" ; --	V
-lin hold__V2 = mkV2 I.hold_V ; --	V2
-lin home__Adv = mkiAdv "home" ; --	Adv
-lin in__PrepP = S.in_Prep ; --	PrepP
-lin into__Prep = mkiPrep "into" ; --	Prep
-lin lead__CNM = mkiCNM "lead" ; --	CNM
-lin leave__V2 = mkV2 I.leave_V ; --	V2
-lin lens__CN = mkiCN "lens" ; --	CN
-lin lexicon__CN = mkiCN "lexicon" ; --	CN
-lin lie__V = I.lie_V ; -- lie down --	V
-lin like__V2 = mkiV2 "like" ; --	V2
-lin live__V = mkiV "live" ; --	V
-lin lose__V2 = mkV2 I.lose_V ; --	V2
-lin lost__AP = mkiAP "lost" ; --	AP
-lin lottery__CN = mkiCN "lottery" ; --	CN
-lin lower__V2 = mkV2 (mkV "lower" "lowered") ; --	V2
-lin make__V2 = mkV2 I.make_V ; --	V2
-lin match__CN = mkiCN "match" ; --	CN
-lin matter__V = mkV "matter" "mattered" ; --	V
-lin meadow__CNP = mkiCNP "meadow" "on" ; --	CNP
-lin metro__CNP = mkiCNP "metro" ; --	CNP
-lin mind__CN = mkiCN "mind" ; --	CN
-lin minute__CN = mkiCN "minute" ; --	CN
-lin mom__CNH = mkiCNH "mom" ; --	CNH
-lin mow__V2 = mkiV2 "mow" ; --	V2
-lin nail__CN = mkiCN "nail" ; --	CN
-lin nap__CN = mkiCN "nap" ; --	CN
-lin on__PrepP = S.on_Prep ; --	PrepP
-lin online__Adv = mkiAdv "online" ; --	Adv
-lin order__V2 = mkV2 (mkV "order" "ordered") ; --	V2
-lin over_there__AdvP = mkiAdvP "over there" ; --	AdvP
-lin page__CN = mkiCN "page" ; --	CN
-lin pass__V2 = mkV2 "pass" ; --	V2
-lin peace__CNP = mkiCNP "peace" ; --	CNP
-lin piece__CN = mkiCN "piece" ; --	CN
-lin please__Utt imp = mkiUtt ( ("please" ++ (mkUtt imp).s)) ; --	Imp -> Utt
-lin plumb__V2 = mkiV2 "plumb" ; --	V2
-lin programming__CNM = mkiCNM "programming" ; --	CNM
-lin push__V2 = mkiV2 "push" ; --	V2
-lin question__CN = mkiCN "question" ; --	CN
-lin quiet__AP = mkiAP "quiet" ; --	AP
-lin raise__V2 = mkiV2 "raise" ; --	V2
-lin receipt__CN = mkiCN "receipt" ; --	CN
-lin repeat__V = mkiV "repeat" ; --	V
-lin repeat__V2 = mkiV2 "repeat" ; --	V2
-lin respond__V2 = mkiV2 "respond" ; --	V2
-lin revel__V = mkiV "revel" ; --	V
-lin ride__V2 = mkV2 I.ride_V ; --	V2
-lin rinse__V2 = mkiV2 "rinse" ; --	V2
-lin rug__CN = mkiCN "rug" ; --	CN
-lin save__V2 = mkiV2 "save" ; --	V2
-lin seal__V2 = mkiV2 "seal" ; --	V2
-lin send__V2 = mkV2 I.send_V ; --	V2
-lin sensor__CN = mkiCN "sensor" ; --	CN
-lin shake__V = I.shake_V ; --	V
-lin shake__V2 = mkV2 I.shake_V ; --	V2
-lin show__V3 = mkV3 I.show_V ; --	V3
-lin side__CN = mkiCN "side" ; --	CN
-lin sit__V = I.sit_V ; --	V
-lin slower__Interj = mkiInterj "slower" ; --	Interj
-lin so__Adv = mkiAdv "so" ; --	Adv
-lin somewhere__AdvP = mkiAdvP "somewhere" ; --	AdvP
-lin speak__V = I.speak_V ; --	V
-lin spell__V2 = mkV2 "spell" ; --	V2
-lin start__V2 = mkiV2 "start" ; --	V2
-lin strike__V2 = mkV2 I.strike_V ; --	V2
-lin strip__V2 = mkiV2 "strip" ; --	V2
-lin swear__V = I.swear_V ; --	V
-lin symbol__CN = mkiCN "symbol" ; --	CN
-lin talk__V = mkiV "talk" ; --	V
-lin tap__CN = mkiCN "tap" ; --	CN
-lin time__CNM = mkiCNM "time" ; --	CNM
-lin trendy__AP = mkiAP "trendy" ; --	AP
-lin trousers__CNPL = mkiCNPL "trousers" ; --	CNPL
-lin truth__CNM = mkiCNM "truth" ; --	CNM
-lin try__VV = mkiVV "try" ; --	VV
-lin turn_round__V = partV (mkV "turn") "round" ; --	V
-lin unwrap__V2 = mkiV2 "unwrap" ; --	V2
-lin volume__CN = mkiCN "volume" ; --	CN
-lin walk__V = mkiV "walk" ; --	V
-lin weather__CNM = mkiCNM "weather" ; --	CNM
-lin weed__CNM = mkiCNM "weed" ; --	CNM
-lin wipe__V2 = mkiV2 "wipe" ; --	V2
-lin worthless__AP = mkiAP "worthless" ; --	AP
 
-lin timeAdvT t = S.mkAdv (mkPrep "at") t ; --	Time -> AdvT
-lin it_is_time_Cl t = mkCl it_NP t ; --	Time -> Cl
 
----	to decide: what times to include
-lin am1_Time = mkiNP "1:00 am" ; --	Time
-lin am2_Time = mkiNP "2:00 am" ; --	Time
-lin pm1_Time = mkiNP "1:00 pm" ; --	Time
-lin pm2_Time = mkiNP "2:00 pm" ; --	Time
--}
+----------------------------------------------------
+------------------- Anna's task BEGIN
+----------------------------------------------------
+-- 2016-10-23
+-- task for Anna Ehrlemark: work with the following:
+----------------------------------------------------
+
+----------------------------------------------------------------------------
+-- first, a set of guessed operations by Aarne, using Anna's smart paradigms. You can use them, but correct them if needed.
+
+--oper mkiAP  : S.A -> S.AP = \s -> S.PositA s ;
+oper mkgAP  : Str -> S.AP = \s -> S.PositA (mkA s (s+"ejši")) ; ----
+oper mkgAdv : Str -> S.Adv  = \s -> mkAdv s ;
+oper mkgAdvP : Str -> S.Adv  = \s -> mkAdv s ;
+
+
+--oper mkiCN  : N -> S.CN = \s -> S.UseN s ;
+oper mkgCN  : Str -> S.CN = \s -> S.UseN (mkN s) ;
+oper mkgCNH : Str -> S.CN = \s -> mkgCN s ;
+oper mkgCNM : Str -> S.CN = \s -> mkgCN s ;
+oper mkgCNP : Str -> CNP = \s -> mkiCNP (S.UseN (mkN s)) ;
+oper mkgCNPL : Str -> S.CN = \s -> mkgCN s ;
+oper mkgCNT : Str -> S.CN = \s -> mkgCN s ;
+
+oper mkgIAdv : Str -> S.IAdv = \s -> lin IAdv {s = s} ;
+
+oper mkgNP : Str -> S.NP = \s -> S.UsePN (mkPN (mkN s)) ;
+
+oper mkgV   : Str -> S.V  = \s -> mkV s (Predef.tk 2 s) ; ----
+oper mkgV0  : Str -> S.V  = \s -> mkgV s ; ----
+----oper mkgVA  : Str -> S.VA  = \s -> mkgV s ; ----
+oper mkgVS  : Str -> S.VS  = \s -> mkgV s ; ----
+oper mkAdjCN : (_,_:Str) -> S.CN = \adj,noun -> S.AdjCN (S.PositA (mkA adj nonExist)) (mkgCN noun) ;
+
+
+
+--------------------------------------------------------------------------
+-- then, the missing or uncertain linearizations. Remove the comment --AE when you are done with each line. To test the results in GF:
+
+--   i LexiconInlifeSlvAE.gf         -- to import the lexicon
+--   pg -missing | ? wc -w           -- to see how many functions are still missing
+--   pg -missing                     -- to see which functions are missing
+--   l -list National_day_0722_CNT   -- to get all the forms of a newly added functions
+---------------------------------------------------------------------------
+-- In the below rules, the comment "RGL" means that the function really belongs to the resource grammar and
+-- is therefore treated in SyntaxInliveSlv. However, you can add it here if you first add
+-- the required functions in current-slovenian/
+-- You can skip these RGL parts at the first round if you find them too time-consuming.
+-- But we will be happy to pay some more hours if you complete them, too,
+-- and those RGL additions will of course be included in the open-source GF release.
+--------------------------------------------------------------------------
+
+
+lin April_Fool's_Day_0033_NP = S.DetCN (S.DetQuant S.IndefArt S.NumSg)
+                                        (S.AdjCN (S.PositA (mkA "prvi" nonExist)) (S.UseN (mkN "april")) ) ; --AE --  0033
+lin CD_ROM_1485_CN = mkgCN "CD-ROM" ;	--AE   --	1485	
+lin CD_ROM_drive_1486_CN = mkgCN "CD-ROM pogon" ;	--AE   --	1486	
+lin CD_player_1366_CN = mkgCN "CD predvajalnik" ;	--	lin CD_player_1366_CN = mkiCN "CD-spelare" "CD-spelare" ;   --	1366	
+lin DSL_cable_1484_CN = mkgCN "DSL kabel" ;	--	lin DSL_cable_1484_CN = mkiCN "DSL-kabel" ;   --	1484	
+lin DVD_player_1374_CN = mkgCN "DVD predvajalnik" ;	--	lin DVD_player_1374_CN = mkiCN "DVD-spelare" "DVD-spelare" ;   --	1374	
+lin English_1308_AP = mkgAP "angleški" ;	--	lin English_1308_AP = mkiAP "engelsk" ;   --	1308	
+--lin ImpPl1 = variants {} ; -- RGL 	--	NO-SWE	NO-MITJA
+lin National_day_0722_CNT = mkAdjCN "državni" "praznik" ; --AE --  0722  
+lin a_dozen_0304_Det = adjDet "ducat" singular indefinite ; --AE --	0304	TODO: noun in genitive
+lin a_few_0371_Det = adjDet "nekateri" singular indefinite ; -- RGL 	--AE  --	0371	
+lin a_little_0372_DetM = adjDet "malo" singular indefinite ; -- RGL 	--AE  --	0372	TODO: noun in genitive.
+lin a_lot__Adv = mkAdv "veliko" ;	--AE TODO: noun in genitive. 
+lin about__Prep = mkPrep "o" locative ; ----AR, AE
+lin adjust__V2 = mkV2 (mkV "prilagoditi" "prilagodi") dative ; --	AE 
+--lin advice_0012_V2 = mkV2 (mkV "nasvetovati" "nasveti") dative ; --AE ona nasvetuje računalniku
+lin advice_0012_V2 = mkV2 (particleV dati_V "nasvet") dative ; --AE (see above for alternative) ona da nasvet računalniku  --	0012	) ?
+--lin afraid__Adv = mkiAdv "afraid" ; -- In slovenian "strah mi je" - rädsla är mig-dative. 
+lin again__AdvT = mkiAdv "spet" ; --	AdvT	--AE
+lin agree_0513_VP = S.SlashV2a (mkV2 (mkReflV (mkV "strinjati" "strinja") accusative) (mkPrep "z" instrumental))  ; --AE --REFLEXIV --	0513
+lin agree__V = particleV (mkV "strinjati" "strinja") "se" ; --REFLEXIV --AE 
+lin alive__Adv = mkiAdv "živ" ; --	Adv	--AE TODO: inflected by gender
+lin alone__Adv = mkiAdv "sam" ; --	Adv	--AE TODO: inflected by gender
+lin am1_Time = ss "ob 1.00" ; ----AR,AE 
+lin am2_Time = ss "ob 2:00" ; ----AR,AE 
+lin another__Det = adjDet "drugi" singular definite ; --	Det	 --AE ? Meaning (four options: "neki" "kaj", "kajkoli" "kdorkoli")
+--lin any__Quant = P.mkQuant "any" "any" ; --	Quant	--	lin any__Quant = M.mkQuant "någon" "något" "några" ; --	NO-MITJA ? Meaning (four options: "neki" "kaj", "kajkoli" "kdorkoli")
+lin anything__NP = S.DetCN (S.DetQuant S.IndefArt S.NumSg)
+                          (S.AdjCN (S.PositA (mkA "karkoli" nonExist)) (S.UseN (mkN [])) ) ; --AE This hack doesn't work. Missing a function for adjective as NP. 
+
+--The V3 overload paradigm doesnt work. dont know why. 
+--lin ask_0038_V3 = mkV3 (mkgV "vprašati") accusative (mkPrep "za" accusative) ; -- V3 --AE vprašati nekoga za nekaj fråga någon om något  --	0038	NO-MITJA
+
+lin ask__V2 = mkV2 (mkV "vprašati" "vpraša") ; --	V2	--AE Works for "ask someone" but not "ask something"
+lin at_what_time_1853_IAdv = mkgIAdv "kdaj" ;	-- AE  --	1853	
+
+--The V3 overload paradigm doesnt work. dont know why. 
+--lin attach__V3 = mkV3 (mkgV "priložiti") accusative (mkPrep "k" dative) ; --	V3	--AE -- priložiti nekaj k računalniku 
+
+lin basket_0880_CN = mkgCN "košara" ;	--AE  --	0880	
+lin be_afraid_0729_VP = S.UseV (mkReflV (mkV "bati" "boji" "bal") accusative) ; --AE  --REFLEXIVE --	0729	NO-MITJA 
+
+lin be_afraid_of_0729_VP np = S.ComplSlash (S.SlashV2a (mkV2 (mkReflV (mkV "bati" "boji" "bal") accusative) (mkPrep [] genitive) )) np ;--AE -- REFLEXIVE --0729	
+
+lin be_alive_0629_VP = S.UseComp (mkComp "živ") ; --AE --	0629	ona je živa
+lin be_bored_1582_VP = S.UseV (mkReflV (mkV "dolgočasiti" "dolgočasi") accusative) ; --AE --REFLEXIV -- 1582 ona se dolgočasi
+lin be_fine__VP = S.UseComp {s = \\agr => "v redu"} ; --AE "ona je v redu"
+--lin be_in_a_hurry_1309_VP = mkgVP "se" "mudi" ; REFLEXIV & DATIV--  mudi si njej , unpersonal construction, like "it hurries to her"   --	1309	
+lin be_lost__VP = S.UseComp (mkComp "izgubljen") ; --AE "ona je izgubljena"
+lin bed__CNP = mkgCNP "postelja" ; --AE
+--AE lin beg_pardon__V2 = mkV2 (partV (mkV "beg") "pardon") ; --	V2	--	No v2, "oprostite" = sorry
+lin behind_1908_CN = mkgCN "zadnjica" ;	--AE --	1908	
+lin better_0520_AP = mkgAP "boljše" ;	--AE   --	0520	
+lin bike__CN = S.UseN (mkN "kolo" "kolesa" neuter) ; --AE
+lin billiards__CNPL = mkgCNPL "biljard" ; --AE
+lin biscuit__CN = mkgCN "piškot" ; --AE
+lin blanket__CN = mkgCN "odeja" ; --	CN	--	lin blanket__CN = mkiCN "filt" ; --	NO-MITJA
+lin blow__V2 = mkV2 (mkgV "pihati") ; --	V2	--	AE
+lin blueberry_juice_0097_CNM = S.AdjCN (S.PositA (mkA "borovnični" nonExist)) (mkgCN "sok") ; --AE
+lin boiled_0099_AP = mkgAP "kuhan" ;	--AE  --	0099	
+lin bored__AP = mkgAP "dolgočasno" ; --	AE
+--lin both_0103_Det = adjDet "oba" dual indefinite; --	oba	--	Wrong! Oba is a special case because of dual.  
+lin bottle_of_wine_1415_CN = S.AdvCN (S.UseN (mkN "steklenica")) (S.PrepNP (mkPrep [] genitive) (mkgNP "vino") )  ;	--AE --	1415	
+lin boxers_1446_CNPL = mkgCNPL "boksarica" ;	--AE plurale tanum, faked singular.  --	1446	
+lin brain_0116_CN = mkgCN "možgan" ;	--AE  plurale tanum, faked singular. --	0116	
+lin bread_slice_0118_CN = S.AdvCN (S.UseN (mkN "rezina")) (S.PrepNP (mkPrep [] genitive) (mkgNP "kruh") ) ; --AE --	0118	
+--AE lin bring__V3 = mkV3 I.bring_V ; --	V3	--	lin bring__V3 = mkV3 (mkV "bringa") ; --	NO-MITJA
+lin broken_0125_AP = S.PositA (mkA "pokvarjen" nonExist) ;	--AE perhaps rather "zlomljen" --	0125	
+lin brown_1543_AP = mkgAP "rjav" ;	--	lin brown_1543_AP = mkAP brun_av_1_A ;   --	1543	
+lin bus_driver_0135_CNH = S.AdvCN (S.UseN (mkN "voznik")) (S.PrepNP (mkPrep [] genitive) (mkgNP "autobus") ) ;	--	lin bus_driver_0135_CNH = mkiCN busschauffoer_nn_1_1_N ;  --	0135	
+lin busy_0558_AP = mkgAP "zaposlen" ;	--AE "ona je zaposlena" --	0558	
+lin busy_1889_AP = mkgAP "zaseden" ;	--AE "zasedeno je"	--	1889	
+lin butter_0142_V2 = mkV2 (mkV "mazati" "maže" "mazal") ; --  ona maže maslo na računalnik	--AE this is a V3 verb: "spread butter on the bread"   --	0142	)
+lin butter_slice_of_bread_0142_VP det = S.ComplSlash (S.SlashV2a (mkV2 (mkV "namazati" "namaže" "namazal") (mkPrep [] genitive))) 
+                                                 (S.DetCN det (S.AdvCN (S.UseN (mkN "kos")) (S.PrepNP (mkPrep [] genitive) (mkgNP "kruh") ))) ; --AE
+
+lin button_up_0144_V2 = mkV2 (mkV "zapneti" "zapne"); --AE   --	0144	)
+lin camping__CNP = mkiCNP (mkN "kampiranje") (mkPrep "na" locative) ; --AE
+lin can_1717_CN = mkgCN "konzerva" ;	--AE  --	1717	
+lin candied_pie_0151_CN = mkAdjCN "kandiran" "torta" ;	--AE   --	0151	
+lin candle__CN = mkgCN "sveča" ; --AE
+lin candy__CN = mkgCN "sladkarija" ; --AE
+--AE lin care__S nph = S.UseCl (S.TTAnt S.TPres S.ASimul) S.PNeg 	--	lin care__S nph = mkS negativePol (mkCl nph (reflV (mkV "bry"))) ; --	NO-MITJA --AE "ni mi mar" 
+lin cell__CN = mkgCN "celica" ; --AE
+lin change_0168_V = mkV "spremeniti" "spremeni" ;	--AE Doesn't work well as a one-place verb.  --	0168	
+lin change__V2 = mkV2 (mkV "spremeniti" "spremeni")  ; --AE alt. "menjati" 
+lin channel__CN = mkgCN "kanal" ; --AE
+lin cheese_cracker_0175_CN = S.AdjCN (S.PositA (mkA "sirov" nonExist)) (mkgCN "kreker") ;	--AE   --	0175	
+lin chemistry_class_0179_CN = S.AdvCN (S.UseN (mkN "ura")) (S.PrepNP (mkPrep [] genitive) (mkgNP "kemija") ) ; 	--AE   --	0179	
+--AE lin cl_to_vp_0555_Cl np vp tovp = mkCl np (mkVP vp <lin Adv (mkSC tovp) : S.Adv>) ; --- should be in RGL --	komuniciram preko simbolov	--	lin cl_to_vp_0555_Cl np vp tovp = mkCl np ( mkVP vp < lin Adv ( mkSC tovp ) : S.Adv > ) ; --- should be in RGL   --	0555	NO-MITJA
+lin cleaning_0207_CN = mkgCN "čiščenje" ;	--AE   --	0207	
+--lin clear__V2 = mkiV2 "clear" ; --	V2	--	lin clear__V2 = mkiV2 "klar" ; --	NO-MITJA ??  Clear what? What verb is this?
+lin close_ones_eyes_0215_VP = S.ComplSlash (S.SlashV2a (mkV2 (mkV "zapreti" "zapre" "zaprl"))) 
+                                            (S.DetCN (S.DetQuant S.IndefArt S.NumPl)  (S.UseN (mkN "oko" "očesa" "očesu" "oko" "očesu" "očesom" "oči" "oči" "očem" "oči" "očeh" "očmi" "očesa" "očes" "očesom" "očesa" "očesih" "očesi" neuter)) ) ; --AE should be dual but can't make it work.  
+
+lin coffeemaker__CN = S.AdvCN (S.UseN (mkN "aparat")) (S.PrepNP (mkPrep "za" accusative) (mkgNP "kava") ) ; --AE
+lin color__CN = mkgCN "barva" ; --AE
+
+lin come_back_home_0234_VP = S.AdvVP (S.SlashV2a (mkV2 (mkReflV (mkV "vrniti" "vrne" "vrnil") accusative))) (mkiAdv "domov") ; --AE --  0234  
+lin communicate__V = mkgV "komunicirati"  ; --AE
+--AE lin complV2VV = variants {} ; -- RGL 	--	NO-SWE	NO-MITJA
+--AE lin complV3 = variants {} ; -- RGL 	--	NO-SWE	NO-MITJA
+--AE lin complVQ = variants {} ; -- RGL 	--	NO-SWE	NO-MITJA
+--AE lin complVS = variants {} ; -- RGL 	--	NO-SWE	NO-MITJA
+--AE lin complVVV = variants {} ; -- RGL 	--	NO-SWE	NO-MITJA
+lin connect__V2 = mkV2 (mkV "povezati" "poveže" "povezal") (mkPrep "na" accusative); --AE
+
+lin connect_to_internet_1892_VP = S.ComplSlash (S.SlashV2a (mkV2 (mkReflV (mkgV "priklopiti") accusative) (mkPrep "na" accusative))) 
+                                            (S.DetCN (S.DetQuant S.IndefArt S.NumSg)  (mkgCN "internet") ) ; --AE -- ona se priklopi na internet -- 1892  
+
+lin contact_lens_0879_CN = mkAdjCN "kontakten" "leča" ;	--AE   --	0879	
+lin correct__AP = S.PositA (mkA "pravilen" "pravilnejši") ; --AE
+lin country_music_0257_CNM = mkgCNM "country muzika" ;	--AE alt: "country glasba"   --	0257	
+lin cover__CN = mkgCN "deka" ; --AE
+lin cover__V2 = mkV2 (mkV "pokriti" "pokrije" "pokril") ; --AE
+lin cross__V = mkV "prečkati" "prečka" ; --AE This is a V2. prečkati ulico (cross the street)
+lin cut_ones_nails_0266_VP = S.ComplSlash (S.SlashV2a (mkV2 (mkV "ostriči" "ostriže" "ostrigel"))) 
+                                            (S.DetCN (S.DetQuant S.IndefArt S.NumPl) (mkgCN "noht") ) ; --AE  --  0266  NO-MITJA
+lin dad__CNH = S.UseN (mkN "oče" "očeta" masculine) ; --AE
+lin decorate__V2 = mkV2 (mkgV "okrasiti") ; --AE
+--AE lin det_ap_one_0520_NP det ap = mkNP det (mkCN ap (mkN "one")) ; --- should be in RGL --	rad bi boljše	--	lin det_ap_one_0520_NP det ap = mkNP det (E.AdjAsCN ap) ; --	0520	(singularDet DefArt) green_0443_AP
+--AE lin det_one_0568_NP det = mkNP det (mkN "one") ; --- should be in RGL --	želim tisto	--	lin det_one_0568_NP det = mkNP det ;   --	0568	(singularDet DefArt)
+lin diaper__CN = mkgCN "plenica" ; --AE
+lin dice__CN = mkgCN "kocka" ; --AE
+lin different__AP = S.PositA (mkA "različen" "različnejši"); --AE
+lin divorce_1616_V = mkgV "ločiti" ;	--AE how is this a one-place verb? --	1616	
+--lin dizzy__AP = mkiAP "dizzy" ; --	AP	Slo:Cl "vrti se mi" - it is spinning to me
+lin documentary_1560_CN = S.UseN (mkN "dokumentarec" "dokumentarca" masculine) ; --AE --	1560	
+--AE lin draw__V = I.draw_V ; --	V	--	lin draw__V = I.draga_V ; --	NO-MITJA | AE: Meaning?
+lin dressed__AP = mkgAP "oblečen" ; --AE
+lin dry_ones_face_0313_VP = S.ComplSlash (S.SlashV2a (mkV2 (mkReflV (mkV "brisati" "briše" "brisal") dative ))) 
+                                            (S.DetCN (S.DetQuant S.IndefArt S.NumSg) (S.UseN (mkN "obraz")) ) ; --AE  bounded version: "obrisati". 'Ona si brisi obraz'
+lin dry_ones_hands_0314_VP = S.ComplSlash (S.SlashV2a (mkV2 (mkReflV (mkV "brisati" "briše" "brisal") dative))) 
+                                            (S.DetCN (S.DetQuant S.IndefArt S.NumPl) (S.UseN (mkN "roka")) ) ; --AE  bounded version: "obrisati". 'ona si brise roke'
+lin dry_pants_0315_NP = S.DetCN (S.DetQuant S.IndefArt S.NumPl)
+                                (S.AdjCN (S.PositA (mkA "suh" "suhejši")) (mkgCN "hlača")) ; --AE  -- 0315
+lin economic_0320_AP = mkgAP "gospodarski" ; --AE
+lin electronics_store_1332_CNP = mkiCNP (S.AdvCN (S.UseN (mkN "trgovina")) (S.PrepNP (mkPrep "za" accusative) (mkgNP "elektronika"))) ;	--AE --	1332	
+lin empty__AP = mkgAP "prazen" ; --	AE
+lin end_of_the_sentence_0333_NP = S.DetCN (S.DetQuant S.IndefArt S.NumSg) (S.AdvCN (S.UseN (mkN "konec" "konca" masculine)) (S.PrepNP (mkPrep [] genitive) (S.UsePN (mkPN (mkN "stavek" "stavka" masculine))))) ; --AE --	0333	
+lin end_of_the_word_0334_NP = S.DetCN (S.DetQuant S.IndefArt S.NumSg) (S.AdvCN (S.UseN (mkN "konec" "konca" masculine)) (S.PrepNP (mkPrep [] genitive) (S.UsePN (mkPN (mkN "beseda"))))) ; --AE
+lin envelope__CN = mkgCN "ovojnica" ; --AE
+lin espresso__CN = S.UseN (mkN "espresso" masculine) ; --AE
+--lin expect__VV = mkiVV "expect" ; --	VV	--	lin expect__VV = mkiVV "vänta" ; --	NO-MITJA
+lin father's_day_0364_NP = S.DetCN (S.DetQuant S.IndefArt S.NumSg) (S.AdvCN (S.UseN (mkN "dan" "dneva" masculine)) (S.PrepNP (mkPrep [] genitive) (S.UsePN (mkPN (mkN "oče" "očeta" masculine) plural )))) ; --AE
+
+lin few_Det = adjDet "malo" singular indefinite ; -- RGL 	--AE --TODO: demands noun in genitive. 
+
+lin fiancé__CNH = S.UseN (mkN "zaročenec" "zaročenca" masculine) ; --	CNH	--AE
+lin fiancée__CNH = mkgCNH "zaročenka" ; --	CNH	--AE
+
+lin file_ones_nails_0376_VP = S.ComplSlash (S.SlashV2a (mkV2 (mkReflV (mkV "piliti" "pili") dative))) 
+                                            (S.DetCN (S.DetQuant S.IndefArt S.NumPl) (S.UseN (mkN "noht")) ) ; --AE --OBS: ona si pili nohte, pilim si nohte. Fixa reflexiv!
+
+lin film__CN = mkgCN "film" ; --AE
+lin fine__AP = mkgAP "fin" ; --AE
+lin first_1264_Adv = mkgAdv "prvi" ;	--AE --OBS, this is an adjective. But in third person singular it's 'prvi', so if you only use it for that it's ok. ;   --	1264	
+lin flip__V2 = mkV2 (mkV "zamenjati" "zamenja") ; --	V2	AE
+lin flowing_1240_CNM = mkAdjCN "tekoč" "voda" ; 	--AE --	1240	
+lin flush__V2 = mkV2 (mkV "izpirati" "izpira") ; --	V2	--AE
+lin fold__V2 = mkV2 (mkV "zložiti" "zloži") ; --	V2	--AE
+lin folder__CN = mkgCN "mapa" ; --	CN	--AE
+lin forward_1504_V2 = mkV2 (mkV "posredovati" "posreduje" "posredoval") ; --AE --	1504	)
+lin freezed_dinner_0399_CN = S.AdjCN (S.PositA (mkA "zmrznjen" nonExist)) (mkgCN "hrana") ; 	--AE  --	0399	
+
+lin full_time_1825_NPH det cn = S.DetCN (S.DetQuant S.DefArt S.NumSg) (S.AdjCN (S.ConjAP (mkConj [] singular) (S.BaseAP (S.PositA (mkA "poln" "polnejši"))(S.PositA (mkA "deloven" nonExist)))) (mkgCN "čas")) ; --AE --	1825
+lin get_dressed_0412_VP = S.UseV (mkReflV (mkV "oblečiti" "obleče" "oblekel") accusative) ; --AE REFLEXIV  -- 0412 ona se obleče
+lin give_way_to_0420_V2 = mkV2 (particleV dati_V "prednost") dative ; --AE --	0420	)
+lin glue__V2 = mkV2 (mkgV "lepiti") ; --	V2	--AE
+lin go_around_0426_V = particleV iti_V "naokoli" ;	--AE --	0426	
+lin go_away_0341_V2 = mkV2 (particleV iti_V "stran") (mkPrep "od" genitive) ; -- AE  --	0341	)
+lin go_away_0427_V = particleV iti_V "stran" ;	--AE   --	0427	
+lin go_camping_1877_V = mkgV "kampirati" ;	--AE  --	1877	
+lin go_fast_0428_V = particleV iti_V "hitro" ;	--AE;   --	0428	
+lin go_hiking_1878_V = particleV iti_V "na pohod" ;	--AE OBS This is not a V, but a VP. To make it a particle verb probably works so-so   --	1878	
+lin go_shopping_1354_V = particleV iti_V "po nakupe" ;	--AE OBS This is not a V, but a VP. To make it a particle verb probably works so-so --	1354	
+lin grated_apple_0441_CNM = mkAdjCN "nariban" "jabolka" ; --AE ;   --	0441	
+lin happen__V = mkgV "zgoditi" ; --	V	--AE
+--lin has_age_VP = variants {} ; -- RGL 	--	NO-SWE	NO-MITJA --AE ona ima 17 let (she has 17 year-gen-plural)
+lin hate__V2 = mkV2 (mkgV "sovražiti") ; --	V2	--AE
+--lin have_0530_VV = mkVV I.have_V ; --	moram zamenjati denar (valuto)	--	lin have_0530_VV = S.must_VV ;   --	0530	NO-MITJA 
+--lin have_name_Cl = variants {} ; -- RGL 	--	NO-SWE	NO-MITJA --AE moje ime je Anna (my name is Anna)
+lin hear__V = mkgV "slišati" ; --	V	--AE
+lin hearing_test_0469_CN = S.AdvCN (S.UseN (mkN "test")) (S.PrepNP (mkPrep [] genitive) (mkgNP "sluh") ) ;--AE   --	0469	
+lin hike__V = mkgV "pešačiti" ; --	V	--AE
+lin hold__V2 = mkV2 (mkgV "držiti") ; --	V2	--AE
+lin hold_hands_0485_VP = S.ComplSlash (S.SlashV2a (mkV2 (mkgV "držiti"))) 
+                                            (S.DetCN (S.DetQuant S.IndefArt S.NumPl) (S.UseN (mkN "roka")) ) ; --AE  -- 0485  
+lin home__Adv = mkiAdv "doma" ; --	Adv	--AE I think this adverb may need to be inflected by case. 
+lin hot_pepper_0498_CNM = mkAdjCN "pikanten" "poper" ; 	--AE  --	0498	
+--lin how_are_0501_QCl nph = mkQCl how_IAdv nph ; --	kako si?	--	lin how_are_0501_QCl nph = mkQCl how_IAdv (mkCl nph (mkV "må")) ;   --	0501	(usePron she_Pron)
+lin how_long_ago_1962_IAdv = mkgIAdv "koliko časa nazaj" ;	--AE   --	1962	
+--lin how_much_is_0502_QCl np = mkQCl S.how8much_IAdv np ; --	koliko je to? Koliko stane?	--	lin how_much_is_0502_QCl np = mkQCl S.how8much_IAdv np ;   --	0502	
+--lin how_old_QCl = variants {} ; -- RGL 	--	NO-SWE	NO-MITJA --AE koliko si star?
+--lin hungry_VP = variants {} ; -- RGL 	--	NO-SWE	NO-MITJA --AE Added to ConstructionsSlv.gf
+lin hurt_0511_AP = mkgAP "poškodovan" ;	--AE --	0511	
+lin hurt_1153_V = mkV "boleti" "boli" "bolel" ;	--AE  --	1153	
+lin i_am_dizzy_1662_Cl nph = S.PredVP nph (S.UseComp (mkComp "omotičen")) ; --AE Couldn't linearize. Prelude.!!: index too large
+lin i_have_nausea_1663_Cl nph = S.PredVP nph (S.AdvVP (S.UseV (particleV (mkgV "počutiti") "se")) (mkgIAdv "slabo") )  ; --AE Couldn't linearize. Prelude.!!: index too large --	1663	
+
+--Problem: Cant find the parameters for tense and polarity
+--lin i_won_0572_Utt nph = S.UttS (S.UseCl tense polarity (S.PredVP nph (S.UseV (mkV "zmagati" "zmagal") ) ) ) ;  --AE -- zmagal sem --
+
+lin included_0547_AP = mkgAP "vključen" ;	--AE  --	0547	
+lin instant_tea_0552_CNM = S.AdjCN (S.PositA (mkA "instanten" nonExist)) (mkgCN "čaj") ; --AE -- meaning? --	0552	
+lin interest_0553_V2 = mkV2 (mkReflV (mkgV "zanimati") accusative) (mkPrep "za" accusative) ; --AE --  0553  
+lin into__Prep = mkiPrep "v" ; --	Prep	--AE -- Possible "noter v", depends on the context. 
+lin iron_0556_CN = mkgCN "likalnik" ;	--AE  --	0556	
+--AE lin is_right_VP = variants {} ; -- RGL 	--	NO-SWE	NO-MITJA
+--AE lin is_wrong_VP = variants {} ; -- RGL 	--	NO-SWE	NO-MITJA
+--AE lin it_is_about_time_0563_Cl = mkCl (mkVP (S.mkAdv (mkPrep "about") (mkNP (mkN "time")))) ; --	je že čas…	--	lin it_is_about_time_0563_Cl = mkCl ( mkVP ( S.mkAdv on_Prep ( mkNP the_Det ( tid_nn_1_N ) ) ) ) ;   --	0563	
+lin it_is_sunny_1976_Cl = S.PredVP (S.UsePron it_Pron) (S.UseComp (mkComp "sončno")) ; --AE --  1976  
+--lin it_is_time_Cl t = mkCl it_NP t ; --	Time -> Cl	--	lin it_is_time_Cl t = mkCl it_NP t ; --	NO-MITJA
+--lin it_is_time_to_vp_0565_Cl vp = S.PredVP (S.UsePron it_Pron) (S.UseComp (mkComp "čas")) ; --AE Missing function VV and ComplVV ----	0565	make_bed_0655_VP
+lin labour_day_0587_NP = S.DetCN (S.DetQuant S.IndefArt S.NumSg)
+                                        (S.AdjCN (S.PositA (mkA "prvi" nonExist)) (S.UseN (mkN "maj")) ) ;	--AE   --	0587	
+lin land_0590_V = mkV "pristati" "pristane" "pristal" ;	--AE  --	0590	
+lin last_0592_AP = mkgAP "zadnji" ;	--AE  --	0592	
+lin laundry_soap_0596_CNM = S.AdjCN (S.PositA (mkA "pomivalen" nonExist)) (S.UseN (mkN "prašek" "praška" masculine)) ;	--AE   --	0596	
+lin lead__CNM = S.UseN (mkN "svinec" "svinca" masculine) ; --	CNM	--AE
+lin learn_0600_V = mkReflV (mkgV "naučiti") accusative ;	--AE --REFLEXIV   --	0600	
+lin learn_0600_V2 = mkV2 (mkReflV (mkgV "naučiti") accusative) ; --AE --REFLEXIV  --	0600	)
+lin leave__V2 = mkV2 (mkgV "pustiti") ; --	V2	--AE
+
+--lin leave_alone_0601_VP np = S.ComplSlash (S.SlashV2a (mkV2 (particleV (mkgV "pustiti") "pri miru"))) np  ; --AE No good particle verb, since "pri miru" should come after the objective. 
+
+lin legs_shaking_0714_Cl pron = S.PredVP (S.DetCN (S.DetQuant (S.PossPron pron) S.NumPl) (mkgCN "noga") ) (S.UseV (particleV (mkV "tresti" "trese" "tresil") "se")) ; --AE -- 0715  moje noge se tresejo
+lin lens__CN = mkgCN "leča" ; --	CN	--AE
+--lin less_0605_Det = mkiDet "manj" ; --	manj --AE This determiner is not inflected, it does however govern the case of the following noun to genitive. Not implemented.    --	0605	
+lin lexicon__CN = mkgCN "leksikon" ; --	CN	--AE
+lin lie__V = mkV "ležati" "leži" "legel" ; -- lie down --	V	--	lin lie__V = I.ligga_V ; -- lie down --	NO-MITJA
+--lin life_support_system_0616_CN = mkgCN "respirator" ;	--AE ? Dont know, cant find.  --	0616	
+lin light_0617_V2 = mkV2 (mkV "prižgati" "prižge" "prižgal") ; -- AE -- ona prižge računalnik --	0617	)
+lin light_0618_CN = mkgCN "svetloba" ;	--AE --	0618	
+--lin like_0532_Cl nph np = mkCl nph like__V2 np ; --	to mi je všeč	--	lin like_0532_Cl nph np = mkCl nph like__V2 np ;   --	0532	ona ima rada računalnik
+--lin like__V2 = mkiV2 "like" ; --	V2	--	Complicated in slovene. Either a subject-dative construction "računalnik mi je všeč" or a weirdly inflected particle(?) verb "imeti rad" (have like) inflected by gender, like "ona ima rada računalnik"
+lin listen_0624_V = mkgV "poslušati" ;	--AE  --	0624	
+lin listen_0624_V2 = mkV2 (mkgV "poslušati") ; --AE  -- ona posluša računalik --	0624
+--lin little_0372_DetM = variants {} ;	-- malo -- AE This determiner is not inflected, it does however govern the case of the following noun to genitive. Not implemented.    -- 0605    --	0372	NO-MITJA
+lin live__V = mkgV "živiti" ; --	V	--AE
+lin look_out_the_window_0635_VP = S.ComplSlash (S.SlashV2a (mkV2 (mkV "gledati" "gleda") (mkPrep "skozi" accusative))) (S.DetCN (S.DetQuant S.IndefArt S.NumSg) (S.UseN (mkN "okno"))); --AE -- ona gleda skozi okno -- 0635  
+lin lose__V2 = mkV2 (mkgV "zgubiti") ; --	V2	--AE 
+lin lost__AP = mkgAP "zgubljen" ; --	AP	--AE
+lin lottery__CN = mkgCN "loterija" ; --	CN	--AE
+lin love_0639_V2 = mkV2 (mkgV "ljubiti") ; -- AE --	0639
+lin lower__V2 = mkV2 (mkgV "spustiti") ; --	V2	--AE
+lin lunch_meat_0646_CNM = S.UseN (mkN "narezek" "narezka" masculine) ;	--AE  --	0646	
+lin lunch_time_0648_CN = mkgCN "malica" ;	--AE   --	0648	
+lin make__V2 = mkV2 (mkgV "narediti") ; --	V2	--AE
+lin make_a_mistake_0687_VP = S.ComplSlash (S.SlashV2a (mkV2 (mkgV "narediti"))) 
+                                            (S.DetCN (S.DetQuant S.IndefArt S.NumSg) (S.UseN (mkN "napaka")) ) ; --AE-- ona naredi napako
+lin make_peace_0658_VP = S.ComplSlash (S.SlashV2a (mkV2 (mkgV "narediti"))) 
+                                            (S.DetCN (S.DetQuant S.IndefArt S.NumSg) (S.UseN (mkN "mir")) ) ; --AE -- ona naredi mir 
+lin make_up_ones_face_0348_VP = S.SlashV2a (mkV2 (mkReflV  (mkgV "ličiti") accusative)) ; --AE  -- ona se liči  --	0348	
+lin mandarine_0768_CN = mkgCN "mandarina" ;	-- AE --	0768	
+--AE lin many_0662_Det = mkiDet "many" ; --	veliko	--AE:	This determiner is not inflected, it does however govern the case of the following noun to genitive. Not implemented.
+--AE lin many_Det = variants {} ; -- RGL 	--	NO-SWE	NO-MITJA
+--AE lin married_Cl = variants {} ; -- RGL 	--	NO-SWE	NO-MITJA
+lin match__CN = mkgCN "vžigalica" ; --	CN	--AE
+--AE lin matter__V = mkV "matter" "mattered" ; --	V	--	lin matter__V = mkV (mkV "spela") "roll" ; --	NO-MITJA
+--AE lin may_1759_VV = E.may_VV ; --	ali se lahko vsedem tukaj	--	lin may_1759_VV = S.can_VV | auxVV I.få_V ;   --	1759	NO-MITJA
+--AE lin meadow__CNP = mkiCNP "meadow" "on" ; --	CNP	--	lin meadow__CNP = mkiCNP "äng" "på" ; --	NO-MITJA
+lin measure_0671_CN = mkgCN "mera" ;	--AE   --	0671	
+lin meet_1618_V2 = mkV2 (mkgV "srečati") ; -- AE  --	1618	)
+lin meet_casually_1621_V2 = mkV2 (mkgV "srečati") ; --AE  ona sreča računalnik	--	1621	)
+lin men_wc_0679_CNP = mkiCNP (S.AdjCN (S.PositA (mkA "moški" nonExist)) (S.UseN (mkN "stranišče"))) ;  -- AE -- 0679  
+lin metro__CNP = mkiCNP (S.UseN (mkN "metro" "metroja" masculine)) ; --	CNP	--AE
+lin microwave_0862_CN = mkgCN "mikrovalovka" ;	--AE  --	0862	
+lin minute__CN = mkgCN "minuta" ; --	CN	--AE
+--AE lin misunderstand_1299_V = mkgV "narobe razumljeno" = wrongly understood;	--	lin misunderstand_1299_V = missfoerstaa_vb_1_1_V ;   --	1299	
+lin mom__CNH = mkgCNH "mama" ; --	CNH	--AE
+--AE lin more_0698_Det = mkiDet "more" ; --	bolj	--	lin more_0698_Det = mkiDet "fler" ;   --	0698	NO-MITJA
+--AE lin more_0698_DetM = variants {} ;	--	lin more_0698_DetM = mkiSgDet "mer" ;   --	0698	
+lin mousse_chocolate_0702_CNM = S.AdjCN (S.PositA (mkA "čokoladen" nonExist)) (mkgCN "pena") ; --AE  --	0702	
+lin mow__V2 = mkV2 (mkgV "kositi") ; --	V2	--AE
+--AE lin much_DetM = variants {} ; -- RGL 	--	NO-SWE	NO-MITJA
+--AE lin my_turn_0716_Utt pron = mkUtt (mkNP (S.mkQuant pron) (mkN "turn")) ; --	jaz sem na vrsti	--	lin my_turn_0716_Utt pron = mkUtt ( mkNP ( S.mkQuant pron ) ( tur_nn_1_N ) ) ;   --	0716	i_Pron
+--AE lin my_x_hurts_1664_Cl pron cn = mkCl (mkNP (S.mkQuant pron) cn) I.hurt_V ; --	me roka boli	--	lin my_x_hurts_1664_Cl pron cn = mkCl (mkNP pron) (mkVP (mkVP (mkV ha_V "ont")) (S.mkAdv in_Prep (mkNP the_Det cn))) ;   --	1664	i_Pron bread_slice_0118_CN
+--AE lin n_months_ago_1956_AdvT card = P.mkAdv ((mkUtt (mkNP card (mkN "month"))).s ++ "ago") ; --	to leto	--	lin n_months_ago_1956_AdvT card = P.mkAdv ("för" ++ ( mkUtt ( mkNP card ( mkN "månad" "månader" ) ) ).s ++ "sedan" ) ;   --	1956	(NumNumeral (num (pot2as3 (pot1as2 pot110))))	pred desetimi meseci
+lin nail__CN = mkgCN "nohta" ; --	CN	--AE
+lin nap__CN = mkgCN "dremež" ; --	CN	--AE
+lin need_0727_V2 = mkV2 (mkV "potrebovati" "potrebuje" "potreboval") ; --AE --	0727	)
+--AE lin need_0727_VV = mkiVV "need" ; --	potreba	--	lin need_0727_VV = mkVV behoeva_vb_1_1_V ;   --	0727	NO-MITJA
+lin new_age_music_0731_CNM = mkgCNM "new age glasba" ;	--AE (foreign modifier is not inflected)  --	0731	
+--AE lin no_Quant = variants {} ; -- RGL 	--	NO-SWE	NO-MITJA
+lin notebook_0750_CN = mkgCN "beležnica" ;	--AE
+lin number_0610_CN = mkgCN "številka" ;	--AE --	0610	
+--lin one_way_0759_CN = mkgAP "enosmerna" ;	--AE ADJECTIVE. Need adjective-as-noun function  --	0759	
+lin online_1857_AdvP = mkgAdvP "na spletu" ;	--AE ;   --	1857	
+lin online__Adv = mkgAdv "na spletu" ; --	Adv	--
+lin open_0761_V2 = mkV2 (mkV "odpirati" "odpre" "odprl") ; --AE --	0761	)
+lin open_folder_0760_VP det = S.ComplSlash (S.SlashV2a (mkV2 (mkV "odpirati" "odpre" "odprl"))) 
+                                            (S.DetCN det (S.UseN (mkN "mapa")) ) ; --AE  -- 0760
+lin open_lid_0762_VP det = S.ComplSlash (S.SlashV2a (mkV2 (mkV "odpirati" "odpre" "odprl"))) 
+                                            (S.DetCN det (S.UseN (mkN "pokrov")) ) ; --AE  -- 0762
+lin order__V2 = mkV2 (mkgV "naročiti") ; --	V2	--AE
+lin organised_0769_AP = mkgAP "urejeno" ;	--	--AE	0769	
+lin over_there__AdvP = mkgAdvP "tam" ; --	AdvP	--AE
+lin page__CN = mkiCN (iFem "stran"); --	CN	--AE
+lin panties_0775_CNPL = S.AdjCN (S.PositA (mkA "spodnji" nonExist)) (mkgCN "hlačka") ;	--AE Plurale tanum. -spodnje hlačke--	0775	
+lin pants_1463_CNPL = mkgCNPL "hlača" ;	--AE Plurale tanum  -hlače --	1463	
+lin part_time_1829_NPH det cn = S.DetCN (S.DetQuant S.DefArt S.NumSg) (S.AdjCN (S.ConjAP (mkConj [] singular) (S.BaseAP (S.UseComparA (mkA "kratek" "krajši"))(S.PositA (mkA "deloven" nonExist)))) (mkgCN "čas")) ; --AE  -- 1829
+lin pass__V2 = mkV2 iti_V (mkPrep "mimo" genitive)  ; --	V2	--AE
+lin past_0790_AP = mkgAP "nekdanji" ;	--AE   --	0790	
+--lin pay_attention_0792_V = S.UseComp (mkComp "pozoren");	--AE This is a VP -- "pozoren" agrees with the subject.   --	0792	
+--lin pay_attention_0792_V2 = mkV2 {s = R.copula ! ParamX.Pos ; p = "pozoren"} (mkPrep "na" accusative) ; --AE   ona je pozorna na računalnik ---- agreement of pozorna  --	0792	)
+lin peace__CNP = mkiCNP (mkN "mir" "miru" "miru" "mir" "miru" "miron" nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist nonExist masculine) ; --	CNP	--AE
+lin peanut_butter_0793_CNM = mkAdjCN "arašidovo" "maslo" ;--S.AdjCN (S.PositA (mkA "arašidovo" nonExist)) (mkgCN "maslo") ; --mkgCNM "arašidovo maslo" ;	--	lin peanut_butter_0793_CNM = mkiCN jordnoetssmoer_nn_1_1_N ;   --	0793	
+lin pen_0794_CN = S.UseN (mkN "kuli" "kulija" masculine) ;	--	lin pen_0794_CN = mkiCN "penna" ; --	0794	
+lin phone_0809_V = mkV "poklicati" "pokliče" "poklical" ;	--AE
+lin phone_0809_V2 = mkV2 (mkV "poklicati" "pokliče" "poklical") ; -- AE  --	0809	)
+lin piece__CN = mkgCN "kos" ; --	CN	--AE
+lin pita_bread_0816_CN = mkgCN "pita kruh" ;	--AE foreign modifier is uninflected, so this works.   --	0816	
+lin play_0829_CN = mkgCN "predstava" ;	--AE   --	0829	
+--lin please__Utt imp = mkiUtt ( ("prosim" ++ (mkUtt imp).s)) ; --	Imp -> Utt	--	lin please__Utt imp = mkiUtt ((mkUtt imp).s ++ "tack") ; --	NO-MITJA
+--lin plumb_0840_V = mkgV "plomba" ;	--	lin plumb_0840_V = laga_vb_1_V ; ---- Meaning?   --	0840	
+--AE lin plumb__V2 = mkiV2 "plumb" ; --	V2	--	lin plumb__V2 = mkiV2 "laga" ; ----	NO-MITJA
+lin pm1_Time = ss "ob 13:00" ; ----AR	--AE
+lin pm2_Time = ss "ob 14:00" ; ----AR	--AE
+--lin point_0555_V2 = mkgV2 "naslovi" ; --  ona naslovi računalnik	--	lin point_0555_V2 = mkV2 ( mkV "peka" ) on_Prep ;   --	0555	) AE: Meaning?
+lin potatoes_salad_0851_CNM = mkAdjCN "kropirjevo" "solata" ;--AE  --	0851	
+lin prefer_0856_V2 = mkV2 (particleV have_V2 "raje") ; -- AE --	0856	)
+--lin prefer_0856_V3 = mkV3 (mkgV "bolj ceniti") accusative (mkPrep "kot" accusative) ; --AE --	bolj ceniti	--	0856	NO-MITJA
+lin pregnant_woman_0857_CNH = mkgCNH "nosečnica" ;	--AE --	0857	
+lin present_1221_CN = mkgCN "darilo" ;	--AE --	1221	
+--AE lin price_ticket_0859_CN = mkgCN "? cenik" ;	--AE Dont know the word.	lin price_ticket_0859_CN = mkiCN prislapp_nn_1_N ;   --	0859	
+lin programming__CNM = mkgCNM "programiranje" ; --	CNM	--AE
+lin pull_out_0865_V2 = mkV2 (particleV (mkV "povleči" "povleče" "povlekel") "ven") ; -- AE --	0865	)
+lin push__V2 = mkV2 (mkV "pritisniti" "pritisne" "pritisnil") ; --	V2	--AE
+--lin put_after_shave_0869_VP = mkgVP "nanese" "vodo" "po" "britju" ; -- ona nanese vodo po britju 	--	lin put_after_shave_0869_VP = mkVP ( mkV2 (mkV ta_vb_1_V "på") ) ( mkNP rakvatten_nn_1_N ) ;   --	0869	ona nanese vodo po britju
+
+lin put_coat_on_0871_VP det = S.ComplSlash (S.SlashV2a (mkV2 (mkgV "oblečiti"))) 
+                                            (S.DetCN det (S.UseN (mkN "plašč")) ) ; --AE--	0871	NO-MITJA
+lin put_cork_on_0870_VP = S.ComplSlash (S.SlashV2a (mkV2 (mkV "natakniti" "natakne" "nataknil"))) 
+                                            (S.DetCN (S.DetQuant S.IndefArt S.NumSg) (S.UseN (mkN "zamašek")) ) ; --AE--  0870  NO-MITJA
+lin put_in_0872_V2 = mkV2 (particleV dati_V "notri") ; --  ona da notri računalnik	--AE --	0872	)
+
+--lin put_in_0873_VP np np = S.ComplSlash (S.Slash2V3 (mkV3 dati_V accusative (mkPrep "v" accusative) ) np ) np ; --AE -- ona da računalnik v računalnik   -- 0873  NO-MITJA
+                                            
+lin put_on_0877_V2 = mkV2 dati_V (mkPrep "na" accusative) ; --  ona da na računalnik	--AE --	0877	)
+lin put_on_0878_V2 = mkV2 (mkReflV (mkV "obleči" "obleče" "oblekel") accusative) ; --AE   --	0878	)
+lin put_together_0881_V2 = mkV2 (mkgV "sestaviti") ; --AE  ona sestavi računalnik --	0881	)
+--AE lin questWhichV2 = variants {} ; -- RGL 	--	NO-SWE	NO-MITJA
+lin question__CN = mkgCN "vprašanje" ; --	CN	--AE
+lin quiet__AP = mkgAP "tih" ; --	AP	--AE
+lin radio_alarm_clock_0883_CN = mkgCN "radio budilka" ;	--AE  --	0883	
+lin rain_0888_V0 = mkV "deževati" "dežuje" "deževalo" ;	--AE --	0888	
+lin raise__V2 = mkV2 (mkV "dvigniti" "dvigne" "dvignil") ; --	V2	--AE Meaning?
+lin rap_music_0893_CNM = mkgCNM "rap glasba" ;	--AE --	0893	
+--AE lin ready_to_v_0545_AP vp = mkAP (mkAP (mkA "ready")) (mkSC vp) ; --	sem pripravljen za delo	--	lin ready_to_v_0545_AP vp = mkAP ( mkAP ( mkA "beredd" ) ) ( mkSC vp ) ;   --	0545	make_bed_0655_VP
+lin receipt__CN = mkgCN "račun" ; --	CN	--AE --	NO-MITJA
+lin repeat__V = mkgV "ponavljati" ; --	V	--AE--	NO-MITJA
+lin repeat__V2 = mkV2 (mkgV "ponavljati") ; --	V2	--AE --	NO-MITJA
+lin reserved_0903_AP = mkgAP "zasedeno" ;	--AE   --	0903	
+lin respond__V2 = mkV2 (mkgV "odgovoriti") ; --	V2	--AE --	NO-MITJA
+lin retired_0905_AP = mkgAP "upokojen" ;	--AE  --	0905	
+lin retired_1832_CNH = mkgCNH "upokojenec" ;	--AE Male. Female: "upokojenka"   --	1832	
+lin return_to_0907_V2 = mkV2 (mkReflV (mkV "vrniti" "vrne" "vrnil") accusative) (mkPrep "k" dative) ;--AE -- REFLEXIVE  -- ona se vrne k računaliku --0907  
+lin revel__V = mkgV "uživati" ; --	V	--AE
+lin ride__V2 = mkV2 (mkgV "jahati") ; --	V2	--AE
+lin right_0912_AP = mkgAP "desno" ;	--AE --	0912	?
+lin ring_bell_0915_CN = mkgCN "zvonec" ;	--AE  --	0915	
+lin rinse__V2 = mkV2 (mkgV "izpirati") ; --	V2	--AE--	NO-MITJA
+lin rinse_mouth_0917_VP pron = S.ComplSlash (S.SlashV2a (mkV2 (mkV "izplakniti" "izplakne" "izplaknil"))) 
+                                            (S.DetCN (S.DetQuant (S.PossPron pron) S.NumSg) (mkgCN "usta") ) ; --AE  -- 0762
+lin rock_music_0921_CNM = mkgCNM "rock glasba" ;	--AE --	0921	
+lin roll_0924_V = mkgV "valjati" ;	--AE --	0924	
+lin roll_0924_V2 = mkV2 (mkgV "valjati") ; --AE --  ona valja računalnik	  --	0924	)
+lin roll_of_paper_0923_CN = S.AdvCN (S.UseN (mkN "zvitek")) (S.PrepNP (mkPrep [] genitive) (mkgNP "papirj") ) ;--AE (bad hack on "papir") --	0923	
+lin rug__CN = mkgCN "preproga" ; --	CN	--AE --	NO-MITJA
+lin run_away_0930_V = mkV "zbežati" "zbeži" ;	--AE This is more like "rymma" than "springa iväg" --	0930	
+lin run_away_from_0929_V2 = mkV2 (particleV (mkV "steči" "steče" "stekel") "stran") (mkPrep "od" genitive) ; --AE --  ona steče stran od računalnika   --	0929	)
+lin running_shoe_0931_CN = mkAdjCN "tekaška" "copata" ;--AE  --	0931	
+lin sachet_of_sugar_0932_CN = S.AdvCN (S.UseN (mkN "paket")) (S.PrepNP (mkPrep [] genitive) (mkgNP "sladkorj") ) ; --AR (bad hack on "sladkor") --  0932  
+lin save__V2 = mkV2 (mkgV "shraniti") ; --	V2	--AE --	NO-MITJA
+lin say_0943_VS = mkV "reči" "reče" "rekel" ;	--AE   --	0943	
+lin seal__V2 = mkV2 (mkV "zapečati" "zapečati" "zapečatil") ; --	V2	--AE --	NO-MITJA
+lin see_0558_VS = mkV "videti" "vidi" "videl" "videla" "vidi" ;	--AE   --	0558	
+lin send__V2 = mkV2 (mkV "poslati" "pošlje" "poslal" "pošlji") ; --	V2	--AE ;	NO-MITJA
+lin senior_0959_CNH = mkAdjCN "starejša" "oseba" ;	--AE  --	0959	
+lin sensor__CN = S.UseN (mkN "sensor" "sensorja" masculine) ; --	CN	--AE --	NO-MITJA
+lin sentimental_tv_movie_0960_CN = mkAdjCN "sentimentalni" "film" ;	--	AE   --	0960	
+--AE lin several_0963_Det = mkiDet "several" ; --	nekoliko, več	--Takes noun in genitive. Not implemented.  --	0963	NO-MITJA
+lin shake__V = mkV "tresti" "trese" "tresel" ; --	V	--	AE --	NO-MITJA
+lin shake__V2 = mkV2 (mkV "tresti" "trese" "tresel") ; --	V2	--AE	NO-MITJA
+lin shampoo_hair_0970_VP pron = S.ComplSlash (S.SlashV2a (mkV2 (mkgV "šamponirati"))) 
+                                            (S.DetCN (S.DetQuant (S.PossPron pron) S.NumPl) (S.UseN (mkN "las" "lasu" "lasje") )) ; --AE Come back here for correct inflection of las! 
+-- svoj should be simple. But it has to be ambigous when it comes to number and gender. 
+--AE lin shampoo_ones_hair_0970_VP = mkgVP "šamponira" "svoje" "lase" ; -- ona šamponira svoje lase 	--	lin shampoo_ones_hair_0970_VP = reflPossVP (mkV2 "tvätta") (mkN "hår" "hår") ; --	VP	shampoo lavare i capelli tvätta håret das Shampoo* šampon 	ona šamponira svoje lase
+lin shave_0971_V = particleV (mkV "briti" "brije" "bril") "se" ;	--AE --REFLEXIV  --	0971	
+lin shave_0971_V2 = mkV2 (mkV "briti" "brije" "bril") ; -- AE -- ona brije računalnik	--	0971	)
+lin show_0527_CN = mkgCN "predstava" ;	--AE   --	0527	
+--lin show__V3 = mkV3 (mkV "pokazati" "pokaže" "pokazal") accusative (mkPrep "za" accusative) ; --	V3	--AE
+lin shower_0987_VP = S.SlashV2a (mkV2 (particleV (mkgV "tuširati") "se")) ;--AE -- REFLEXIV-- ona se tušira   --	0987	
+lin side__CN = S.UseN (iFem "stran") ; --	CN	--AE --	NO-MITJA
+--AE lin sidewalk_border_0989_CNP = mkgCNP "pločnik" ;	--	lin sidewalk_border_0989_CNP = mkiCNP trottoarkant_nn_1_N on_Prep ;   --	0989	
+lin sit__V = mkV "sedeti" "sedi" "sedel" ; --	V	--AE ; --	NO-MITJA
+lin size__clothes__1469_CN = S.UseN (iFem "velikost") ;	--AE Check paradigm! --	1469	
+lin size__shoes__1470_CN = mkgCN "številka" ;	--AE   --	1470	
+lin slower__Interj = mkiInterj "bolj počasi" ; --	Interj	--AE ? počasneje ? ; --	NO-MITJA
+lin so__Adv = mkiAdv "torej" ; --	Adv	--AE --	Meaning ? -- NO-MITJA
+--AE lin something_to_v_0529_NP v2 = mkNP S.something_NP <lin Adv (mkUtt (mkVP <lin V v2 : S.V>)) : S.Adv> ; --- should be in RGL --	imam nekaj za povedati	--	lin something_to_v_0529_NP v2 = mkNP S.something_NP < lin Adv ( mkUtt ( mkVP < lin V v2 : S.V > ) ) : S.Adv > ; --- should be in RGL   --	0529	eat_0319_V2
+lin somewhere__AdvP = mkiAdvP "nekje" ; --	AdvP	--AE --	NO-MITJA
+lin soup_plate_1034_CN = mkAdjCN "jušni" "krožnik" ;	--	AE --	1034	
+lin speak__V = mkgV "govoriti" ; --	V	--AE  --	NO-MITJA
+lin spell__V2 = mkV2 (mkV "črkovati" "črkuje" "črkoval") ; --	V2	--AE --	NO-MITJA
+lin spicy_1037_AP = mkgAP "pekoče" ;	--AE   --	1037	
+lin start__V2 = mkV2 (mkV "začeti" "začne" "začel") ; --	V2	--AE --	NO-MITJA
+lin stay_1050_V = mkV "ostati" "ostane" "ostal" ;	--AE   --	1050	
+--lin stay_1050_VA = mkVA (mkV "ostati" "ostane" "ostal") ; --	bivanje	--AE --no VA function  --	1050	
+lin straight_1058_AP = mkgAP "raven" ;	--AE   --	1058	
+lin strike__V2 = mkV2 (mkgV "udariti") ; --	V2	--AE;	NO-MITJA
+lin strike_match_1062_VP det = S.ComplSlash (S.SlashV2a (mkV2 (mkV "vžgati" "vžge" "vžgal"))) 
+                                            (S.DetCN det (S.UseN (mkN "vžigalica")) ) ;  --AE -- ona vžge vžigalico --  1062  NO-MITJA
+--AE lin stringName = variants {} ; -- RGL 	--	NO-SWE	NO-MITJA
+lin strip__V2 = mkV2 (mkV "sleči" "sleče" "slekel") ; --	V2	--AE ?---- strip a bed	NO-MITJA
+lin strip_bed_1063_VP det = S.ComplSlash (S.SlashV2a (mkV2 (mkV "sleči" "sleče" "slekel"))) 
+                                            (S.DetCN det (S.UseN (mkN "postelja")) ) ; --AE -- ona sleče posteljo --  1063  NO-MITJA
+lin study_1066_V = mkgV "študirati" ;	--AE  --	1066	
+lin study_1066_V2 = mkV2 (mkgV "študirati") ; -- AE -- ona študira računalnik	 --	1066	)
+lin suburban_1347_CN = mkgCN "predmestje" ;	--AE  --	1347	
+lin such_1069_AP = mkgAP "takšen" ;	--AE --	1069	
+lin sure_1074_AP = mkgAP "sigurno" ;	--AE  --	1074	
+lin swear__V = mkgV "preklinjati" ; --	V	--AE Meaning? This is the bad swear, not promise. --	NO-MITJA
+lin symbol__CN = mkgCN "symbol" ; --	CN	--AE --	NO-MITJA
+lin take_1087_V2 = mkV2 (mkV "vzeti" "vzame" "vzel" "vzela" "vzemi") ; --  ona vzame računalnik	--AE --	1087	)
+lin take_a_bath_1706_VP = S.SlashV2a (mkV2 (mkReflV (mkgV "kopati") accusative)) ; --AE -- ona se kopa  --	1706	ona se kopa
+lin take_care_of_1090_V2 = mkV2 (mkV "skrbeti" "skrbi" "skrbel" "skrbela" "skrbi") (mkPrep "za" accusative) ; --AE  ona skrbi za računalnik	--	1090	)
+--lin take_off_1089_V2 = mkgV2 "vzame" ; Meaning? --  ona vzame računalnik proč ---- post-particle	--	lin take_off_1089_V2 = mkV2 ( mkV ta_vb_1_V "av") ; --- togliere , ta av   --	1089	)
+lin talk__V = mkgV "govoriti" ; --	V	--AE --	NO-MITJA
+lin tap__CN = mkgCN "pipa" ; --	CN	--AE--	NO-MITJA
+lin taxi_1101_CNP = mkgCNP "taksi" ;	--AE  --	1101	
+lin taxi_driver_1837_CNH = mkgCNH "taksist" ;	--AE  --	1837	
+lin teenager_1850_CNH = mkgCNH "najstnik" ;	--	AE   --	1850	
+--lin tell_1111_V3 = variants {} ;	--	lin tell_1111_V3 = mkV3 beraetta_vb_1_1_V for_Prep ;   --	1111	NO-MITJA
+lin tender_chicken_1144_CNM = S.AdjCN (S.PositA (mkA "piščančji" nonExist)) (S.UseN (mkN "file" "fileta" masculine)); --AE --	1144	
+--AE lin thirsty_VP = variants {} ; -- RGL 	thirsy sounds like an adjective to me? --	NO-SWE	NO-MITJA
+--AE lin thisWeekdayAdvT = variants {} ; -- RGL 	--	NO-SWE	NO-MITJA
+--lin throw_away_1131_V2 = mkV2 (particleV (mkV "vreči" "vrže" "vrgel") "proč") ; --  ona vrže računalnik proč ---- post-particle	--	lin throw_away_1131_V2 = mkV2 slaenga_vb_1_1_V ;   --	1131	)
+--lin throw_out_1132_V2 = mkV2 (particleV (mkV "vreči" "vrže" "vrgel") "proč") ; --  ona vrže računalnik proč ---- post-particle	--	lin throw_out_1132_V2 = mkV2 (mkV slaa_vb_1_1_V "ut") ;   --	1132	)
+--lin timeAdvT t = S.mkAdv (mkPrep "ob" locative) t ; --	Time -> AdvT	--	lin timeAdvT t = S.mkAdv (mkPrep "klockan") t ; --	NO-MITJA
+lin time__CNM = mkgCNM "čas" ; --	CNM	--AE Check inflection! (irregular) --	NO-MITJA
+lin tomato_pulp_0866_CNM = mkAdjCN "paradižnikov" "mezga" ;--AE  --	0866	
+lin tomato_sauce_1161_CNM = mkAdjCN "paradižnikova" "omaka" ;	--	AE --	1161	
+lin travel_1187_V = mkV "potovati" "potuje" "potoval" ;	--AE   --	1187	
+lin trendy__AP = mkgAP "trendovsko" ; --	AP	--AE--	NO-MITJA
+lin trousers__CNPL = mkgCNPL "hlača" ; --	CNPL	--AE plurale tanum --	NO-MITJA
+lin truth__CNM = mkgCNM "resnica" ; --	CNM	--	lin truth__CNM = mkiCN "sanning" ; --	NO-MITJA
+lin try_1190_V2 = mkV2 (mkV "poskusiti" "poskuši") ; --AE --  ona preiskusi računalnik?	--	lin try_1190_V2 = mkV2 foersoeka_vb_1_1_V ;   --	1190	)
+--lin try__VV = mkgVV "poskusiti" ; --	VV	--AE ; --	NO-MITJA
+lin turn_1173_V = mkV "vrteti" "vrti" "vrtel" "vrtela" "vrti" ;	--AE   --	1173	?
+lin turn_1200_CN = mkgCN "vrtenje" ;	--AE Meaning?	lin turn_1200_CN = mkiCN vaendning_nn_1_1_N ;   --	1200	
+lin turn_round_1172_V = mkV "zaviti" "zavije" "zavil" ;	--AE ;   --	1172	
+lin turn_round__V = mkReflV (mkV "obrniti" "obrne" "obrnil") accusative ; --	V	--AE
+lin underpants__male_female__1477_CNPL = mkAdjCN "spodnje" "hlača" ; --AE -- Plurale tanum! (here in singular) --	1477	
+--lin unemployed_1839_CNH = mkgCNH "brezposlen" ;	--AE Need Adjective as noun   --	1839	
+lin united_1217_AP = mkgAP "združeno" ;	--AE  --	1217	
+lin unwrap__V2 = mkV2 (mkV "odviti" "odvije" "odvil") ; --	V2	--AE
+lin volume__CN = mkgCN "obseg" ; --	CN	--AE
+
+lin vote_1283_CN = S.UseN (mkN "glas" "glasu" "glasu" "glas" "glasu" "glasom" "glasova" "glasov" "glasovoma" "glasova" "glasovih" "glasovoma" "glasovi" "glasov" "glasovom" "glasove" "glasovih" "glasovi" masculine) ;	--	   --	1283	
+lin walk_1048_CN = mkgCN "hoja" ;	--AE --	1048	
+lin walk__V = mkgV "hoditi" ; --	V	--AE
+lin want_1230_V2 = mkV2 (mkV "hoteti" "hoče" "hotel") ; --  ona hoče računalnik	--AE--	1230	)
+--AE lin want_1230_VV = mkiVV "want" ; --	hočem	--	lin want_1230_VV = S.want_VV ;   --	1230	NO-MITJA
+lin wash_ones_hands_1232_VP = S.ComplSlash (S.SlashV2a (mkV2 (mkgV "umivati"))) 
+                                            (S.DetCN (S.DetQuant S.IndefArt S.NumPl) (S.UseN (mkN "roka")) ) ; --AE  -- 1232  ona umiva roke
+lin weather__CNM = mkgCNM "vreme" ; --	CNM	--AE
+--AE lin weather_adjCl = variants {} ; -- RGL 	--	NO-SWE	NO-MITJA
+lin weed__CNM = mkgCNM "plevel" ; --	CNM	--AE --	NO-MITJA
+lin wet_pants_1254_CNPL = mkAdjCN "moker" "hlača" ;--AE --plurale tanum   --	1254	
+--AE lin what_name_QCl = variants {} ; -- RGL 	--	NO-SWE	NO-MITJA
+lin wipe__V2 = mkV2 (mkV "brisati" "briše" "brisal") ; --	V2	--AE --	NO-MITJA
+lin work_0545_V = mkgV "delati" ;	--AE  --	0545	
+lin world_map_0665_CN = S.AdvCN (S.UseN (mkN "zemljevid")) (S.PrepNP (mkPrep [] genitive) (mkgNP "svet") ) ;	--AE   --	0665	
+lin worthless__AP = mkgAP "ničvreden" ; --	AP	--AE
+
+
+
+---------------Anna's task END
+
 }

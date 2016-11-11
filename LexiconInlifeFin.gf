@@ -1,4 +1,4 @@
---# -path=.:alltensesw:lib/src/finnish:lib/src/finnish
+--# -path=.:alltenses:lib/src/finnish
 
 concrete LexiconInlifeFin of LexiconInlife = SyntaxInlifeFin **
   open

@@ -1,4 +1,6 @@
 --# -path=.:alltenses:lib/src/swedish
+-- --# -path=.:gf-release/lib/src/swedish:gf-release/lib/src/scandinavian
+---- the alternative path is for testing whether the code works with the standard release of GF
 
 concrete LexiconInlifeSwe of LexiconInlife = SyntaxInlifeSwe **
   open ParadigmsSwe, (P = ParadigmsSwe), (S = SyntaxSwe), SyntaxSwe, (M = MakeStructuralSwe), (I = IrregSwe), (E = ExtraSwe), DictSwe, (Pre = Prelude), (R = ResSwe), (C = CommonScand)
@@ -343,7 +345,7 @@ lin disgust_0289_CN = mkiCN (mkN "avsky" "avskyn" "avskyer" "avskyerna") ;   --	
 lin dishes_detersive_0290_CNM = mkiCN diskmedel_nn_1_N ;   --	0290
 lin dishwasher_0291_CN = mkiCN diskmaskin_nn_1_N ;   --	0291
 lin divorce_0292_CN = mkiCN skilsmaessa_nn_1_1_N ;   --	0292
-lin doctor_0293_CNH = mkiCN doktor_nn_1_N ;   --	0293
+lin doctor_0293_CNH = mkCN (mkN "läkare" "läkare") | mkiCN doktor_nn_1_N ;   --	0293
 lin dog_food_0295_CNM = mkiCN hundmat_nn_1_N ;   --	0295
 lin cross_VP_0296_VP = mkVP ( mkV I.gå_V "över" ) ;   --	0296
 lin donut_shop_bakery_0302_CNP = mkiCNP bageri_nn_1_N ;   --	0302

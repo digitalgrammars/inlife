@@ -22,6 +22,17 @@ test:
 clean-test:
 	runghc Test.hs clean
 
+sheet:
+	echo "pg -funs | wf -file=all-inlife-funs.txt" | gf LexiconInlifeEng.gf
+	runghc MkSheet.hs init
+	cat sheet.tsv extra-trees.tsv | sort >sheet-treebank.tsv
+	cut -f2 sheet-treebank.tsv >just-sheet.tmp
+	echo "rf -file=just-sheet.tmp -lines -tree | l -treebank"  | gf -run TestInlife.pgf > sheet.treebank 
+	runghc MkSheet.hs generate
+
+merge-sheet:
+	runghc MkSheet.hs merge
+
 
 
 

@@ -1,3 +1,8 @@
+-- -- # -path=.:gf-release/lib/src/english
+-- originally: no path needed, just alltenses, which is included by default
+---- the alternative path is for testing whether the code works with the standard release of GF
+
+
 -- synoptic view of English GF rules and the original DART word list
 -- after each rule, the word list entry that gave rise to that rule
 -- the word list is tab-separated from the GF rule and has its own tabs. Thus the lin rule lines have
@@ -1088,8 +1093,8 @@ lin sewing_machine_0964_CN = mkiCN "sewing machine" ; --	CN	0964	sewing machine	
 -- DERIVED 0967 VP shake one's hands scuoti le mani skaka händerna Hände schütteln rokovati se 
 -- DERIVED 0968 VP shake one's head scuotere la testa skaka på huvudet mit dem Kopf schütteln tresti z glavo 
 lin shame_0969_CNM = mkiCNM "shame" ; --	CNM	0969	shame	vergogna	skam	die Schande	sramota
-lin shampoo_ones_hair_0970_VP = reflPossVP (mkV2 "shampoo") (mkN "hair") ; --	VP	shampoo lavare i capelli tvätta håret das Shampoo* šampon 
-lin shampoo_hair_0970_VP pron = mkVP (mkV2 "shampoo") (mkNP (S.mkQuant pron) (mkN "hair")) ; --	Pron -> VP	shampoo lavare i capelli tvätta håret das Shampoo* šampon 
+lin shampoo_ones_hair_0970_VP = reflPossVP (mkV2 "shampoo") (mkN "hair") ; --	VP	0970	shampoo lavare i capelli tvätta håret das Shampoo* šampon 
+lin shampoo_hair_0970_VP pron = mkVP (mkV2 "shampoo") (mkNP (S.mkQuant pron) (mkN "hair")) ; --	Pron -> VP     0970	 	shampoo lavare i capelli tvätta håret das Shampoo* šampon 
 lin shave_0971_V = mkiV "shave" ; --	V	0971	shave	radere	raka sig	rasieren	(o) briti
 lin shave_0971_V2 = mkiV2 "shave" ; --	V2	0971	shave	radere	raka sig	rasieren	(o) briti
 lin shaving_cream_0972_CNM = mkiCNM "shaving cream" ; --	CNM	0972	shaving cream	schiuma da barba	raktvål	die Rasiercreme	pena za britje
